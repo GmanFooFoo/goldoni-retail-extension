@@ -93,10 +93,12 @@ Die Session schlägt Entscheidungen vor, du nickst oder überstimmst. Wenn du ü
 Wenn du "Feierabend", "Schluss", "das war's" oder ähnlich sagst, passiert automatisch:
 
 1. Letzter Commit + Push
-2. Session-Report in `docs/reports/YYYY-MM-DD-goldoni.md`
+2. Session-Report in `docs/reports/YYYY-MM-DD-goldoni.md`. Falls am selben Tag bereits ein Report existiert, wird der neue als `YYYY-MM-DD-goldoni-b.md` geschrieben, der dritte als `-c.md`, und so weiter (OMNIXIS-Konvention).
 3. `session-state.md` aktualisieren
 4. Offene Punkte in `SESSION-PROMPT-NEXT.md` für die nächste Session dokumentieren
-5. Optional: kurzer Abschluss-Kommentar (Song, Zitat, Gedankenstütze — italienisch inspiriert, wenn es passt)
+5. Leitsatz der Session: ein Satz, der das wichtigste Arbeits-Prinzip dieser Session festhält (siehe D-05, keine Easter Eggs).
+
+**Report-Template (Muss-Sektionen):** Kontext, Was erledigt wurde, Deliverables, Offene Fragen / Blockers, Lessons, **Commit Log** (Tabelle aller Session-Commits via `git log --oneline <session-start>..HEAD`), Nächste Schritte, Leitsatz.
 
 Du bekommst einen kurzen Abschluss-Absatz mit "heute erledigt / nächste Schritte / Blockers".
 

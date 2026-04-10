@@ -3,6 +3,17 @@
 **Aktuelles Datum:** 2026-04-11
 **Letzte aktive Session:** German + Claude (abgeschlossen 2026-04-11)
 **Status:** Bereit für Stufe 3 in neuer Session
+**Aktuelle Phase:** **A — aktiv** (siehe Lebenszyklus unten)
+
+## Lebenszyklus (D-08)
+
+Das Repo hat drei Phasen mit klar unterschiedlichem Aktivitäts-Niveau:
+
+- **Phase A — aktiv:** Arbeit an Business-Case, Reviews, Scope und Rollout, bis Silvio eine Entscheidung trifft (Ja / Nein / Später). Hoher Session-Takt erlaubt.
+- **Phase B — reduziert aktiv:** Nur bei Silvio-"Ja". Begleitung der Pilot-Phase bis der Verkauf stabil läuft. Sessions seltener, fokussiert auf konkrete Hindernisse.
+- **Phase C — niedrige Flamme:** Danach nur noch Kontext-Speicher. Keine Weiterentwicklung, kein Over-Engineering. Lesbar, aber inaktiv.
+
+Jede Maßnahme, die eine Session einführt, muss die Frage bestehen: *"Brauchen wir das in der aktuellen Phase?"* Wenn die Antwort "vielleicht später" lautet, fällt sie raus.
 
 ## Aktive Sessions
 
