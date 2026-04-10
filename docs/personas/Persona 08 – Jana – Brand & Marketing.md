@@ -1,4 +1,4 @@
-# Jana — Brand & Marketing
+# Jana — Brand & Marketing — Persona 08
 
 ## Hintergrund
 

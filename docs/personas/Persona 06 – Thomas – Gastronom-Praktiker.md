@@ -1,4 +1,4 @@
-# Thomas — Gastronom-Praktiker (Betrieb, Personal, Kollegen-Sicht, Skalierbarkeit)
+# Thomas — Gastronom-Praktiker — Persona 06
 
 ## Hintergrund
 

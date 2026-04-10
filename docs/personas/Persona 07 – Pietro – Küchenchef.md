@@ -1,4 +1,4 @@
-# Pietro — Küchenchef (Rezeptur, Prozess, Handwerk)
+# Pietro — Küchenchef — Persona 07
 
 ## Hintergrund
 

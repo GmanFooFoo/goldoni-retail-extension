@@ -1,4 +1,4 @@
-# Dr. Steiger — Lebensmittelrechtler (LMIV, HACCP, Betriebsstätten-Recht)
+# Dr. Steiger — Lebensmittelrechtler — Persona 02
 
 ## Hintergrund
 

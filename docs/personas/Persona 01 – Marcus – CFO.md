@@ -1,4 +1,4 @@
-# Marcus — CFO / Zahlen-Realist
+# Marcus — CFO / Zahlen-Realist — Persona 01
 
 ## Hintergrund
 

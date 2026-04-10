@@ -1,4 +1,4 @@
-# Frau Keller — Steuerberaterin (Gastronomie + Einzelhandel)
+# Frau Keller — Steuerberaterin — Persona 03
 
 ## Hintergrund
 

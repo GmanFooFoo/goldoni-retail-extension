@@ -1,4 +1,4 @@
-# Inspektor Vogel — adversariale Behördensicht
+# Inspektor Vogel — Behördenkontrolleur — Persona 04
 
 ## Hintergrund
 
