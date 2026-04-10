@@ -1,42 +1,61 @@
-# Goldoni Retail Extension — dein Vakuum-Projekt
+# Goldoni — die Idee mit den Gerichten zum Mitnehmen
 
 *Caro Silvio,*
 
-hier ist alles zu deiner Idee, aus der Goldoni-Küche heraus Lasagne, Sugo, Ragù und Parmigiana vakuumiert zum Mitnehmen anzubieten. Ich hab's zusammengestellt, damit wir beim nächsten Espresso nicht wieder bei Null anfangen müssen — und damit du alles in Ruhe anschauen kannst, wenn du Zeit und Lust hast.
+wir haben gestern Abend über die Idee gesprochen, deine Lasagne, den Sugo, das Ragù und die Parmigiana nicht nur im Restaurant zu servieren, sondern auch in kleinen Beuteln so zu verpacken, dass deine Stammgäste sie mit nach Hause nehmen können. Die Idee hat mich nicht losgelassen. Also habe ich mich hingesetzt und alles aufgeschrieben, was mir dazu eingefallen ist — damit du es in Ruhe lesen und prüfen kannst.
 
-Keine Eile, kein Druck. Wir machen das zusammen.
+Das hier ist **ein Vorschlag von einem Freund**, kein fertiger Plan. Wenn du nach dem Lesen sagst "ja, das probiere ich", freue ich mich. Wenn du sagst "nein, das passt nicht in mein Leben", ist das genauso in Ordnung. Keine Eile. Keine Verpflichtung.
 
 ---
 
-## Was ist die Idee?
+## Die Idee in einem Absatz
 
-Dein Restaurant ist Mi + Do–So von 17–22 Uhr offen. Drei Tage die Woche steht die Küche still. Viele deiner Stammgäste würden deine Lasagne auch **zuhause** essen — wenn sie sie mitnehmen oder abholen könnten.
+Dein Restaurant ist Mittwoch und Donnerstag bis Sonntag offen. Drei Tage in der Woche steht die Küche still. In dieser Zeit könntest du die gleichen Gerichte kochen, die du ohnehin machst, und sie in Beutel einschweißen. Die Beutel halten gekühlt eine Woche oder länger. Deine Stammgäste nehmen sie mit nach Hause und haben dort dein Essen — Goldoni aus dem Kühlschrank, aufgewärmt in zehn Minuten. Kein neues Restaurant, keine zweite Küche, keine Miete extra. Nur eine Verlängerung von dem, was du ohnehin kannst.
 
-Wir bauen aus deiner laufenden Küche eine **Verlängerung von Goldoni** in den Kühlschrank deiner Gäste. Keine neue Küche, keine zweite Marke, keine zusätzliche Miete. Einfach eine Möglichkeit, die stillen Tage sinnvoll zu nutzen.
+## Ein wichtiger Hinweis vorweg
 
-> **Phase 1 zuerst — Tiefkühl kommt später.** Der ursprüngliche Plan wollte Vakuum **und** Tiefkühl gleichzeitig starten. Das ist ein zu großer Happen. Wir fangen mit **nur Vakuum** an (gekühlt, +2°C bis +4°C). Das spart dir einen teuren Schockfroster und macht den Behörden-Antrag schneller. Tiefkühl bleibt für Phase 2 auf der Liste.
+Ich habe mir das so gedacht: **Wir fangen klein an.** Erstmal nur gekühlt, also Beutel im Kühlschrank mit einer Woche Haltbarkeit. Tiefgefroren wäre auch möglich, aber dafür brauchst du ein teures Gerät (einen Schockfroster), und das Amt will dann mehr Papiere sehen. Tiefkühl heben wir uns für später auf, wenn der gekühlte Teil gut läuft.
 
-## Wo finde ich was?
+## Was du auf dieser Seite findest
 
-| Bereich | Was du hier findest | Link |
+Diese Seite ist die Übersicht. Unten drunter liegen die Details. Du musst nicht alles lesen — schau dir das an, was dich interessiert.
+
+| Wo | Was steht dort | Link |
 |---|---|---|
-| **Business Case** | Die 19 Original-Dokumente der ersten Analyse | [`docs/business-case/`](docs/business-case/) |
-| **Glossar** | Fachbegriffe (HACCP, LMIV, MHD, Vakuum vs Schutzgas) in einfacher Sprache | [`docs/glossary.md`](docs/glossary.md) |
-| **Rollout-Plan** | Zeitstrahl bis zum Launch, Phasen, Abhängigkeiten | [`docs/plans/rollout-plan.md`](docs/plans/rollout-plan.md) |
-| **Offene Widersprüche** | Stellen, an denen sich zwei Dokumente widersprechen und wir noch klären müssen | [`docs/findings/inconsistencies.md`](docs/findings/inconsistencies.md) |
-| **Review-Team** | 9 Fachrollen, die den Business Case aus verschiedenen Perspektiven prüfen | [`docs/personas/`](docs/personas/) |
+| **Die Idee ausführlich** | Die ursprüngliche Analyse in 19 Dokumenten (Küche, Zahlen, Amt, Verpackung, Verkauf) | [`docs/business-case/`](docs/business-case/) |
+| **Fachwörter einfach erklärt** | Was ist HACCP? Was heißt LMIV? Was ist der Unterschied zwischen Vakuum und Schutzgas? | [`docs/glossary.md`](docs/glossary.md) |
+| **Wie wir das Schritt für Schritt angehen könnten** | Ein Plan mit Reihenfolge und ungefährem Zeitbedarf | [`docs/plans/rollout-plan.md`](docs/plans/rollout-plan.md) |
+| **Offene Fragen und Widersprüche** | Stellen, an denen die Analyse sich selbst widerspricht oder wo noch Zahlen fehlen | [`docs/findings/inconsistencies.md`](docs/findings/inconsistencies.md) |
 
-## Stand heute (11.04.2026)
+## Wie ich die Idee geprüft habe
 
-Wir sind gerade am Sortieren und Prüfen. Drei Sätze zur aktuellen Lage:
+Ich bin kein Gastronom. Ich kann dir nicht sagen, wie sich deine Lasagne nach sieben Tagen im Beutel anfühlt, oder wie die Béchamelsauce darauf reagiert. Dafür habe ich die Idee aus verschiedenen Blickwinkeln durchgeschaut — so, als würden neun Leute mit unterschiedlichem Hintergrund den Plan prüfen:
 
-1. **Die Grundidee trägt.** Das Konzept ist sinnvoll und betriebswirtschaftlich machbar — mit ein paar Korrekturen, die wir schon identifiziert haben.
-2. **Vieles steht noch als Schätzung da.** Wareneinsatz, Mengen, Nährwerte — das werden wir nach und nach mit echten Zahlen unterlegen.
-3. **Der Zeitplan war zu optimistisch.** 6 Wochen bis zum Launch sind unrealistisch. Wir reden eher über 10–12 Wochen — und das ist gut so, nicht schlecht.
+- ein Zahlenmensch (rechnet nach, ob es sich lohnt)
+- ein Lebensmittelrechts-Experte (schaut, was das Amt verlangt)
+- eine Steuerberaterin (prüft die Mehrwertsteuer-Frage)
+- ein alter Koch (sagt, was im Vakuum funktioniert und was nicht)
+- ein erfahrener Gastronom-Kollege (der das selbst schon mal gemacht hat)
+- eine Stammkundin (sagt, ob sie das kaufen würde)
+- jemand aus Marketing (achtet auf den guten Namen Goldoni)
+- ein Logistik-Mensch (denkt an Kühlkette und Lagerung)
+- ein strenger Amts-Kontrolleur (sucht nach Fehlern, bevor das Amt sie findet)
 
-## Wie halten wir das aktuell?
+Die Rollen liegen in [`docs/personas/`](docs/personas/). Das ist mein Arbeitsmaterial — du musst da nicht rein, außer es interessiert dich.
 
-Nach jedem Arbeitsblock kommt hier ein Update rein — neuer Stand, neue Erkenntnisse, was auch immer anliegt. Wenn du drüber schauen willst, schreib mir, ruf an, oder sag beim nächsten Mal im Restaurant Bescheid. Wir gehen das in Ruhe zusammen durch.
+## Wo wir stehen (Stand 11.04.2026)
+
+Ich bin in der Vorbereitung. Die Idee ist strukturiert, die ersten Prüfungen gemacht, die wichtigsten offenen Fragen sind aufgeschrieben. Drei Dinge möchte ich dir ehrlich sagen:
+
+1. **Die Idee trägt.** Sie ist nicht verrückt. Viele Restaurants machen so etwas, und es funktioniert. Auch bei dir kann es funktionieren.
+2. **Manche Zahlen sind noch geschätzt.** Wareneinsatz, Mengen, Nährwerte — das sind in der ersten Analyse grobe Annahmen. Bevor wir Geld in die Hand nehmen, müssen wir die auf echte Zahlen umstellen.
+3. **Zeitplan:** Die erste Analyse sagte "sechs Wochen bis zum Start". Das ist zu knapp. Ich denke eher an zehn bis zwölf Wochen, wenn wir es ruhig angehen. Das ist gut so — es gibt dir Zeit, jeden Schritt zu verstehen und selbst zu entscheiden.
+
+## Was jetzt dran wäre
+
+Nichts — außer, dass du das hier liest, wenn du Zeit hast. Danach können wir reden. Kein Druck, kein Fahrplan, kein fester Termin. Sag mir einfach: "Ich hab's gesehen, lass uns mal darüber sprechen", oder "Das ist mir gerade zu viel, lass uns warten". Beide Antworten sind okay.
+
+Und wenn dir beim Lesen etwas auffällt — etwas ist falsch, etwas habe ich nicht verstanden, etwas passt nicht zu deinem Restaurant — sag's mir. Das ist der wichtigste Teil. Du kennst dein Geschäft, ich nicht.
 
 ---
 
