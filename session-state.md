@@ -21,7 +21,7 @@ Nur **eine schreibende Session** gleichzeitig auf diesem Repo. Lese-Zugriff ist 
 | 1a | Git, CLAUDE.md, README, Backlog | ✅ Done | Marcello | Initial commit, GitHub-Repo angelegt, Labels gesetzt |
 | 1b | MkDocs Reader-Site | ❌ Rolled back | Marcello | MkDocs war Overkill. Alles entfernt, zurück zu plain markdown |
 | 1c | Vercel Deploy | ❌ Dropped | — | Entfällt komplett. Nur GitHub + lokale Verzeichnisse |
-| 2 | Persona-Refresh (9 Personas) | 🔲 Offen | Marcello | Nächster Block |
+| 2 | Persona-Refresh (9 Personas) + README für Silvio | ⚠️ In Progress | Marcello | 9 Personas geschrieben, Frontmatter-Cleanup + Dateiname-Rename der 19 Originale ausstehend |
 | 3 | Deep Review (5 Docs) | 🔲 Offen | Marcello | — |
 | 4 | Wrap-up + Next-Session-Prompt | 🔲 Offen | Marcello | — |
 

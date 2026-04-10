@@ -13,12 +13,10 @@
 | 3 | Labels anlegen: `feedback-silvio`, `quality-issue`, `new-info`, `decision-needed` | P1 | XS | Marcello | — | ✅ Done | Issue-Taxonomie |
 | 4 | ~~MkDocs Material Reader-Site (Stufe 1b)~~ | — | — | — | — | ❌ Dropped | MkDocs war Overkill; User will plain markdown |
 | 5 | ~~Vercel-Deploy `retail.restaurante-goldoni.de` (Stufe 1c)~~ | — | — | — | — | ❌ Dropped | Kein Hosting. Nur GitHub + lokal |
-| 6 | Persona-Refresh: 9 neue Personas schreiben (Stufe 2) | P1 | M | Marcello | — | Offen | Review-Basis für Stufe 3 |
-| 7 | Deep Review Doc 02 (Wirtschaftlichkeit) — Marcus + Frau Keller | P1 | S | Marcello | #6 | Offen | MwSt-Frage klären, Wareneinsatz-Quellen |
-| 8 | Deep Review Doc 04 (LMIV) — Dr. Steiger | P1 | S | Marcello | #6 | Offen | Juristisches Risiko Nährwerte |
-| 9 | Deep Review Doc 05 (HACCP) — Dr. Steiger | P1 | S | Marcello | #6 | Offen | CCP-Grenzwerte belegen |
-| 10 | Deep Review Doc 13 (Rollout-Plan) — Marcus + Dr. Steiger | P1 | S | Marcello | #6 | Offen | Timing-Widerspruch 6 vs 8 Wochen auflösen |
-| 11 | Deep Review Doc 17 (Wettbewerb) — Marcus | P1 | S | Marcello | #6 | Offen | "Kein Wettbewerb"-Claim validieren |
+| 6 | Persona-Refresh: 9 neue Personas schreiben (Stufe 2) + README-Rewrite für Silvio | P1 | M | Marcello | — | In Progress | Review-Basis für Stufe 3; README als Silvio-Landing |
+| 6b | Frontmatter-Cleanup aus allen MD-Dateien (Obsidian-Leftover) | P1 | XS | Marcello | #6 | Offen | Einheitliches, GitHub-optimiertes Markdown |
+| 6c | "Goldoni"-Präfix aus 19 Original-Dateinamen und H1 entfernen | P1 | S | Marcello | #6b | Offen | Lesbarere Navigation, Redundanz raus |
+| 7 | **Stufe 3 Scope-Erweiterung:** Deep Review aller **19 Docs** in Reihenfolge 01–19 (statt nur 5 kritische). User-Entscheidung 2026-04-10. | P1 | XL | Marcello | #6 | Offen | Vollständige Prüfung des Business Case |
 | 12 | Session-Report + Next-Session-Prompt (Stufe 4) | P1 | XS | Marcello | #7–#11 | Offen | Handoff für nächste Session |
 
 ## P2 — Nächste Session

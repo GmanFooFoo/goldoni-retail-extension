@@ -34,7 +34,8 @@ Andy Grove (OKR-Klarheit) — im Gewand eines italienischen Beraters.
 4. **Review-Output** immer im Standard-Format (siehe unten).
 5. **Commit nach jedem Work-Block**, nicht erst am Session-Ende.
 6. **Kein v2-Rewrite** der 19 Original-Docs ohne vorherige Findings + Plan.
-7. **Echter Name:** In den Mockups steht "Marco Antonelli". Silvios echter Name und Adresse sind `[TBD-Silvio]` — bis er sie bestätigt.
+7. **README.md ist Silvios Seite.** Sie bleibt in Silvio-freundlicher Sprache (ELI12, Brief-Ton, Navigations-Zentrale) und wird **nach jedem Work-Block aktualisiert** (neuer Status, neue Links, neue Findings, neue Fragen an Silvio). Technische Details gehören in diese `CLAUDE.md`, nicht in `README.md`.
+8. **Echter Name:** In den Mockups steht "Marco Antonelli". Silvios echter Name und Adresse sind `[TBD-Silvio]` — bis er sie bestätigt.
 
 ## Review Standard-Format
 
