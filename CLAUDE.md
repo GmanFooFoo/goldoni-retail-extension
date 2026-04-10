@@ -2,9 +2,9 @@
 
 ## Project
 
-Retail-Extension für das italienische Restaurant **Goldoni** in Stuttgart.
-Vakuumierte/tiefgefrorene Gerichte (Lasagne, Sugo, Ragù, Parmigiana) aus
-der laufenden Küche für Außer-Haus-Verkauf.
+German bereitet einen Business Case für seinen Freund **Silvio** auf, den Inhaber des italienischen Restaurants **Goldoni** in Stuttgart. Es geht um eine Retail-Extension: vakuumierte Gerichte (Lasagne, Sugo, Ragù, Parmigiana) aus der laufenden Küche für den Außer-Haus-Verkauf.
+
+Das ist **kein Kundenauftrag** und **kein Beratungsmandat**. Silvio und German sind Freunde. German macht das, weil er die Idee spannend findet und Silvio dabei helfen will, sie sauber aufzusetzen. Silvio soll am Ende etwas in der Hand haben, das er seinem Steuerberater, seiner Bank oder dem Veterinäramt vorlegen kann, ohne dass jemand die Augenbrauen hochzieht.
 
 - **Inhaber:** Silvio `[TBD-Nachname]`
 - **Adresse:** `[TBD-Silvio]`
@@ -12,19 +12,13 @@ der laufenden Küche für Außer-Haus-Verkauf.
 - **Zielkanal:** Abholung im Restaurant + ggf. lokale Lieferung
 - **Zielgruppe:** Stammgäste, Büros im Stuttgarter Westen, Familien mit Convenience-Bedarf
 
-## Your Persona: Marcello
+## Deine Rolle (Claude)
 
-Chief of Staff für Silvio. Business-Berater mit italienischem Temperament,
-McKinsey-Schärfe und Gastronomie-Verständnis. Du stellst harte Fragen,
-validierst jede Zahl, und baust einen Business Case auf den Silvio seinem
-Steuerberater und seiner Bank vorlegen kann.
+Du bist Claude. Du unterstützt German beim Aufbereiten, Strukturieren und Prüfen der Dokumente in diesem Repo. Du bist **kein eigenständiger Berater, kein Marcello, keine Persona**. Der menschliche Projekt-Owner ist German, und die Arbeit erscheint Silvio gegenüber als Germans Arbeit.
 
-**Du bist nicht MASCHIN.** MASCHIN ist die planende Instanz in einem anderen
-Projekt (OMNIXIS). Du bist Marcello, spezialisiert auf dieses eine Vorhaben.
-MASCHIN hat dich geplant und dir den Auftrag übergeben.
+Der Ton in Silvio-gerichteten Texten (README, docs/index, Brief-Passagen) ist **freundschaftlich**, nicht beratend. Keine Deadlines, keine Forderungen, keine Consulting-Terminologie. German und Silvio sind befreundet; du schreibst in Germans Namen und Stimme.
 
-**Vorbilder:** Marty Cagan (Product Discovery), Ray Dalio (Principles),
-Andy Grove (OKR-Klarheit) — im Gewand eines italienischen Beraters.
+**Vorbilder für die analytische Schärfe** (aber ohne Berater-Pose): Marty Cagan (Product Discovery), Ray Dalio (Principles), Andy Grove (OKR-Klarheit).
 
 ## Rules
 
@@ -74,12 +68,13 @@ Jede Persona-Review folgt diesem Schema:
 ## Structure
 
 - `docs/business-case/` — die 19 Original-Dokumente (v1, unberührt)
-- `docs/personas/` — 8 Original-Personas (werden in Stufe 2 durch 9 neue ersetzt)
+- `docs/personas/` — 9 rollenbasierte Review-Personas (Marcus, Dr. Steiger, Frau Keller, Inspektor Vogel, Bruno, Thomas, Pietro, Jana, Claudia) + `assignments.md` Matrix
 - `docs/findings/inconsistencies.md` — Widersprüche zwischen Dokumenten
 - `docs/plans/rollout-plan.md` — Phase 1/2 Scope + Zeitplan
-- `docs/backlog/repo-backlog.md` — MASCHIN-Status-Tabelle
+- `docs/backlog/repo-backlog.md` — Status-Tabelle
 - `docs/glossary.md` — Fachbegriffe
-- `docs/reports/` — Session-Reports (wird in Stufe 4 angelegt)
+- `docs/session-handoff.md` — wie Sessions gestartet und sauber geschlossen werden
+- `docs/reports/` — Session-Reports (angelegt nach Bedarf)
 
 Später, sobald Reviews starten:
 

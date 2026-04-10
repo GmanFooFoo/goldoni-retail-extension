@@ -1,14 +1,14 @@
 # Session State — Goldoni Retail Extension
 
-**Aktuelles Datum:** 2026-04-10
-**Aktive Session:** Marcello — Setup & Deep Review
+**Aktuelles Datum:** 2026-04-11
+**Aktive Session:** German + Claude (diese Session)
 **Status:** In Progress
 
 ## Aktive Sessions
 
-| # | Session | Persona | Repo | Branch | Seit | Was |
+| # | Session | Owner | Repo | Branch | Seit | Was |
 |---|---|---|---|---|---|---|
-| 1 | Marcello — Setup | Marcello | goldoni-retail-extension | main | 2026-04-10 | Stufe 2 vorbereitet (Persona-Refresh) |
+| 1 | German + Claude | German | goldoni-retail-extension | main | 2026-04-10 | Stufe 2 abgeschlossen, Ton-Korrektur im Gange |
 
 ## Repo-Ownership
 
@@ -16,14 +16,14 @@ Nur **eine schreibende Session** gleichzeitig auf diesem Repo. Lese-Zugriff ist 
 
 ## Stage-Fortschritt
 
-| # | Stufe | Status | Wer | Hinweis |
-|---|---|---|---|---|
-| 1a | Git, CLAUDE.md, README, Backlog | ✅ Done | Marcello | Initial commit, GitHub-Repo angelegt, Labels gesetzt |
-| 1b | MkDocs Reader-Site | ❌ Rolled back | Marcello | MkDocs war Overkill. Alles entfernt, zurück zu plain markdown |
-| 1c | Vercel Deploy | ❌ Dropped | — | Entfällt komplett. Nur GitHub + lokale Verzeichnisse |
-| 2 | Persona-Refresh (9 Personas) + README für Silvio | ⚠️ In Progress | Marcello | 9 Personas geschrieben, Frontmatter-Cleanup + Dateiname-Rename der 19 Originale ausstehend |
-| 3 | Deep Review (5 Docs) | 🔲 Offen | Marcello | — |
-| 4 | Wrap-up + Next-Session-Prompt | 🔲 Offen | Marcello | — |
+| # | Stufe | Status | Hinweis |
+|---|---|---|---|
+| 1a | Git, CLAUDE.md, README, Backlog | ✅ Done | Initial commit, GitHub-Repo angelegt, Labels gesetzt |
+| 1b | MkDocs Reader-Site | ❌ Rolled back | MkDocs war Overkill. Alles entfernt, zurück zu plain markdown |
+| 1c | Vercel Deploy | ❌ Dropped | Entfällt komplett. Nur GitHub + lokale Verzeichnisse |
+| 2 | 9 Personas + README für Silvio + Frontmatter-Cleanup + Goldoni-Präfix raus + Marcello-Persona abgeschafft | ✅ Done | Marcello-Figur gestrichen, README im freundschaftlichen Ton, alle Personas im Format "Persona NN – Name – Rolle" |
+| 3 | Deep Review aller 19 Docs (Scope erweitert von 5 kritischen) | 🔲 Offen | Wird eine eigene Session; XL-Aufwand |
+| 4 | Wrap-up + Next-Session-Prompt | 🔲 Offen | — |
 
 ## Substanz aus Stufe 1b (behalten)
 
