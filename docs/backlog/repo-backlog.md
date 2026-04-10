@@ -13,11 +13,12 @@
 | 3 | Labels anlegen: `feedback-silvio`, `quality-issue`, `new-info`, `decision-needed` | P1 | XS | German | — | ✅ Done | Issue-Taxonomie |
 | 4 | ~~MkDocs Material Reader-Site (Stufe 1b)~~ | — | — | — | — | ❌ Dropped | MkDocs war Overkill; User will plain markdown |
 | 5 | ~~Vercel-Deploy `retail.restaurante-goldoni.de` (Stufe 1c)~~ | — | — | — | — | ❌ Dropped | Kein Hosting. Nur GitHub + lokal |
-| 6 | Persona-Refresh: 9 neue Personas schreiben (Stufe 2) + README-Rewrite für Silvio | P1 | M | German | — | In Progress | Review-Basis für Stufe 3; README als Silvio-Landing |
-| 6b | Frontmatter-Cleanup aus allen MD-Dateien (Obsidian-Leftover) | P1 | XS | German | #6 | Offen | Einheitliches, GitHub-optimiertes Markdown |
-| 6c | "Goldoni"-Präfix aus 19 Original-Dateinamen und H1 entfernen | P1 | S | German | #6b | Offen | Lesbarere Navigation, Redundanz raus |
-| 7 | **Stufe 3 Scope-Erweiterung:** Deep Review aller **19 Docs** in Reihenfolge 01–19 (statt nur 5 kritische). User-Entscheidung 2026-04-10. | P1 | XL | German | #6 | Offen | Vollständige Prüfung des Business Case |
-| 12 | Session-Report + Next-Session-Prompt (Stufe 4) | P1 | XS | German | #7–#11 | Offen | Handoff für nächste Session |
+| 6 | Persona-Refresh: 9 Personas (mit Namen) + README-Rewrite + rollout-plan-Rewrite für Silvio + Ton-Reset (Marcello-Persona gestrichen) | P1 | L | German | — | ✅ Done | Silvio-facing Dokumente im Freundschafts-Ton, Personas bereit für Stufe 3 |
+| 6b | Frontmatter-Cleanup aus allen MD-Dateien (Obsidian-Leftover) | P1 | XS | German | #6 | ✅ Done | 19 Business-Case-Docs ohne Frontmatter |
+| 6c | "Goldoni"-Präfix aus 19 Original-Dateinamen entfernen (H1 bleibt original) | P1 | S | German | #6b | ✅ Done | Lesbarere Navigation |
+| 6d | Glossar-Admonitions auf GitHub-Blockquotes umstellen | P1 | XS | German | — | ✅ Done | Glossar rendert sauber auf GitHub |
+| 7 | **Stufe 3 — Deep Review der Business-Case-Dokumente** | P1 | XL | German | #6 | 🔲 Offen (neue Session) | Empfohlener Einstieg: Pilot an Doc 02. Siehe SESSION-PROMPT-NEXT.md |
+| 12 | Session-Report + Next-Session-Prompt (Stufe 4) | P1 | S | German | #6 | ✅ Done | Handoff für Stufe 3 liegt in SESSION-PROMPT-NEXT.md |
 
 ## P2 — Nächste Session
 

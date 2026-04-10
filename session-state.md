@@ -1,18 +1,16 @@
 # Session State — Goldoni Retail Extension
 
 **Aktuelles Datum:** 2026-04-11
-**Aktive Session:** German + Claude (diese Session)
-**Status:** In Progress
+**Letzte aktive Session:** German + Claude (abgeschlossen 2026-04-11)
+**Status:** Bereit für Stufe 3 in neuer Session
 
 ## Aktive Sessions
 
-| # | Session | Owner | Repo | Branch | Seit | Was |
-|---|---|---|---|---|---|---|
-| 1 | German + Claude | German | goldoni-retail-extension | main | 2026-04-10 | Stufe 2 abgeschlossen, Ton-Korrektur im Gange |
+Keine aktive Session. Letzte Session hat Stufe 1a, 2 und 4 abgeschlossen (sowie 1b/1c gedroppt).
 
 ## Repo-Ownership
 
-Nur **eine schreibende Session** gleichzeitig auf diesem Repo. Lese-Zugriff ist immer frei.
+Nur **eine schreibende Session** gleichzeitig auf diesem Repo. Lese-Zugriff ist immer frei. Die nächste Session sollte `SESSION-PROMPT-NEXT.md` als ersten Schritt lesen.
 
 ## Stage-Fortschritt
 
@@ -21,9 +19,9 @@ Nur **eine schreibende Session** gleichzeitig auf diesem Repo. Lese-Zugriff ist 
 | 1a | Git, CLAUDE.md, README, Backlog | ✅ Done | Initial commit, GitHub-Repo angelegt, Labels gesetzt |
 | 1b | MkDocs Reader-Site | ❌ Rolled back | MkDocs war Overkill. Alles entfernt, zurück zu plain markdown |
 | 1c | Vercel Deploy | ❌ Dropped | Entfällt komplett. Nur GitHub + lokale Verzeichnisse |
-| 2 | 9 Personas + README für Silvio + Frontmatter-Cleanup + Goldoni-Präfix raus + Marcello-Persona abgeschafft | ✅ Done | Marcello-Figur gestrichen, README im freundschaftlichen Ton, alle Personas im Format "Persona NN – Name – Rolle" |
-| 3 | Deep Review aller 19 Docs (Scope erweitert von 5 kritischen) | 🔲 Offen | Wird eine eigene Session; XL-Aufwand |
-| 4 | Wrap-up + Next-Session-Prompt | 🔲 Offen | — |
+| 2 | 9 Personas + README für Silvio + Frontmatter-Cleanup + Goldoni-Präfix raus + Marcello-Persona abgeschafft + Ton-Reset | ✅ Done | Alle Silvio-facing Dokumente im freundschaftlichen Ton, Personas im Format "Persona NN – Name – Rolle", Marcello-Figur komplett gestrichen |
+| 3 | Deep Review der Business-Case-Docs | 🔲 Offen — nächste Session | Siehe `SESSION-PROMPT-NEXT.md` für konkreten Einstieg (Option A/B/C) |
+| 4 | Wrap-up dieser Session | ✅ Done | Session-Report, Handoff, SESSION-PROMPT-NEXT geschrieben |
 
 ## Substanz aus Stufe 1b (behalten)
 

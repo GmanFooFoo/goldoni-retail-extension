@@ -9,13 +9,24 @@ cd ~/Developer/projects/goldoni-retail-extension
 claude
 ```
 
-Claude Code lädt automatisch die `CLAUDE.md` aus dem Repo-Root — damit ist der Projekt-Kontext (Rollen, Regeln, Struktur) sofort aktiv. Kein Extra-Prompt nötig.
+Claude Code lädt automatisch die `CLAUDE.md` aus dem Repo-Root — damit ist der Projekt-Kontext (Rollen, Regeln, Struktur) sofort aktiv. Außerdem werden automatisch die **Projekt-Memories** aus `~/.claude/projects/-Users-germanrauhut-com-Developer-projects-goldoni-retail-extension/memory/` geladen, in denen alle bisher gelernten Präferenzen, Entscheidungen und Konventionen stehen (Silvio-Profil, Ton-Regeln, kein Marcello, keine Hard-Wraps, Pushback-Erwartung etc.).
+
+**Session-Start-Checkliste (sollte die Session beim ersten Tool-Call automatisch abarbeiten):**
+
+1. **`MEMORY.md` lesen** und die referenzierten Memory-Dateien durchgehen — besonders `project_silvio_profile.md`, `project_no_marcello_persona.md`, `feedback_pushback_expected.md`, `feedback_no_hard_wraps.md`.
+2. **`session-state.md`** im Repo-Root lesen — der aktuelle Stage-Fortschritt steht dort.
+3. **`SESSION-PROMPT-NEXT.md`** lesen, falls sie existiert — das ist die konkrete Aufgabe für diese Session von der vorigen Session.
+4. **`docs/reports/`** — jüngsten Report überfliegen, um den letzten Stand zu verstehen.
+5. **`git log --oneline -10`** — die letzten Commits scannen.
+6. **`gh issue list --state open`** — offene GitHub Issues für Silvio-Feedback etc. prüfen.
+
+Wenn diese sechs Punkte abgehakt sind, hat die neue Session den vollen Kontext und kann loslegen.
 
 **Erste Nachricht in der neuen Session:** kurz und klar. Zum Beispiel:
 
 > "Hallo, ich hatte gestern Abend mit Silvio gesprochen. Drei neue Infos: (1) echter Nachname ist Bianchi, (2) Restaurant-Adresse ist Musterstraße 42, 70197 Stuttgart, (3) er hat schon einen Henkelman Jumbo 30 (nicht 42). Bitte die relevanten Dokumente updaten."
 
-Die Session liest dann den Kontext (`CLAUDE.md`, `session-state.md`, letzte Reports in `docs/reports/`, offene Issues auf GitHub) und schlägt einen Arbeitsblock vor.
+Die Session liest dann den Kontext wie oben beschrieben und schlägt einen Arbeitsblock vor.
 
 ## Die drei Interaktions-Modi
 

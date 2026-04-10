@@ -14,13 +14,13 @@ Das ist ein **Qualitätssicherungs-System für Lebensmittel**. Du schreibst auf:
 "An welchen Stellen in meinem Prozess kann etwas Gefährliches passieren? Und
 wie verhindere ich das?"
 
-!!! example "Beispiel aus deiner Küche"
-    Wenn du eine Lasagne kochst und dann abkühlen lässt: zwischen +60°C und
-    +10°C darf sie nicht zu lange stehen (da vermehren sich Bakterien gerne).
-    **Das ist ein CCP — ein kritischer Kontrollpunkt.** Dein HACCP-Dokument
-    sagt: "Ich kühle innerhalb von 90 Minuten auf unter +10°C runter, sonst
-    schmeiße ich es weg."
-
+> **Beispiel aus deiner Küche**
+>
+> Wenn du eine Lasagne kochst und dann abkühlen lässt: zwischen +60°C und
+> +10°C darf sie nicht zu lange stehen (da vermehren sich Bakterien gerne).
+> **Das ist ein CCP — ein kritischer Kontrollpunkt.** Dein HACCP-Dokument
+> sagt: "Ich kühle innerhalb von 90 Minuten auf unter +10°C runter, sonst
+> schmeiße ich es weg."
 Das Veterinäramt will so ein Dokument sehen, bevor du die ersten Produkte
 verkaufen darfst.
 
@@ -76,11 +76,11 @@ Das sind unter anderem:
 - **Name & Adresse des Herstellers**
 - **Herkunftsland** (bei manchen Zutaten vorgeschrieben)
 
-!!! warning "Juristisch heikel"
-    Wenn deine Nährwerte auf dem Etikett nicht stimmen, haftest du persönlich.
-    Die Werte müssen **aus einer Laboranalyse** kommen, nicht aus einer
-    geschätzten Tabelle. Dr. Steiger aus dem Review-Team kümmert sich darum.
-
+> **Juristisch heikel**
+>
+> Wenn deine Nährwerte auf dem Etikett nicht stimmen, haftest du persönlich.
+> Die Werte müssen **aus einer Laboranalyse** kommen, nicht aus einer
+> geschätzten Tabelle. Dr. Steiger aus dem Review-Team kümmert sich darum.
 ---
 
 ## Vakuum vs. Schutzgas
@@ -104,11 +104,11 @@ Form, weil da Druck im Beutel ist.
 - **Vorteil:** Produkt bleibt **optisch intakt**. Farbe und Textur bleiben besser.
 - **Nachteil:** Teurer, braucht spezielle Anlagen, kürzere Haltbarkeit als reines Vakuum.
 
-!!! tip "Für dein Projekt"
-    Eine harte Lasagne verträgt Vakuum gut. Eine weiche Parmigiana wahrscheinlich
-    eher Schutzgas oder eine feste Form. Das ist eine Entscheidung, die Pietro
-    (Küchenchef-Persona) im Review detailliert prüft.
-
+> **Für dein Projekt**
+>
+> Eine harte Lasagne verträgt Vakuum gut. Eine weiche Parmigiana wahrscheinlich
+> eher Schutzgas oder eine feste Form. Das ist eine Entscheidung, die Pietro
+> (Küchenchef-Persona) im Review detailliert prüft.
 ---
 
 ## Schockfroster
@@ -125,11 +125,11 @@ bleibt erhalten.
 Das ist ein **Investitions-Thema**. Ein professioneller Schockfroster kostet
 gebraucht etwa 2.000–5.000 EUR, neu deutlich mehr.
 
-!!! note "Schockfroster in Phase 2"
-    Für **Phase 1** (nur Vakuum, gekühlt) brauchst du **keinen** Schockfroster.
-    Er wird erst relevant, wenn du in Phase 2 Tiefkühl-Produkte dazunimmst.
-    Siehe [Rollout-Plan](plans/rollout-plan.md).
-
+> **Schockfroster in Phase 2**
+>
+> Für **Phase 1** (nur Vakuum, gekühlt) brauchst du **keinen** Schockfroster.
+> Er wird erst relevant, wenn du in Phase 2 Tiefkühl-Produkte dazunimmst.
+> Siehe [Rollout-Plan](plans/rollout-plan.md).
 ---
 
 ## Sugo, Ragù, Parmigiana, Lasagne
