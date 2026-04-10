@@ -26,6 +26,7 @@ Diese Seite ist die Übersicht. Unten drunter liegen die Details. Du musst nicht
 | **Fachwörter einfach erklärt** | Was ist HACCP? Was heißt LMIV? Was ist der Unterschied zwischen Vakuum und Schutzgas? | [`docs/glossary.md`](docs/glossary.md) |
 | **Wie wir das Schritt für Schritt angehen könnten** | Ein Plan mit Reihenfolge und ungefährem Zeitbedarf | [`docs/plans/rollout-plan.md`](docs/plans/rollout-plan.md) |
 | **Offene Fragen und Widersprüche** | Stellen, an denen die Analyse sich selbst widerspricht oder wo noch Zahlen fehlen | [`docs/findings/inconsistencies.md`](docs/findings/inconsistencies.md) |
+| **Entscheidungen** | Welche Grundentscheidungen ich für dieses Projekt schon getroffen habe, und warum | [`docs/findings/decisions.md`](docs/findings/decisions.md) |
 
 ## Wie ich die Idee geprüft habe
 
