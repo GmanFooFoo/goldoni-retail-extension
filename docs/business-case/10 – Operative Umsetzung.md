@@ -1,4 +1,4 @@
-# Goldoni – Operative Umsetzung
+# 10 – Operative Umsetzung
 
 ## Rahmenbedingungen
 
@@ -99,3 +99,7 @@ Produkte die 2 Tage vor MHD noch im Regal: als Tagesangebot ins Restaurant — k
 | 7–8 | Voller Launch: Instagram, WhatsApp, Google Business, Tischaufsteller |
 
 Woche 3 ist entscheidend: Prozess einmal komplett durchlaufen, Produkt nach 7 Tagen selbst verkosten, Dokumentation prüfen — bevor der erste echte Verkauf stattfindet.
+
+---
+
+[← Zurück zur Übersicht](../../README.md)

@@ -1,4 +1,4 @@
-# Goldoni – Risiken & Gegenmaßnahmen
+# 16 – Risiken & Gegenmaßnahmen
 
 ## Risikoübersicht
 
@@ -82,3 +82,7 @@ Gegenmaßnahmen:
 ## Goldene Regel
 
 Im Zweifel nicht verkaufen. Ein einziger Krankenheitsfall kostet mehr — finanziell und reputationsmäßig — als 100 weggeworfene Einheiten.
+
+---
+
+[← Zurück zur Übersicht](../../README.md)

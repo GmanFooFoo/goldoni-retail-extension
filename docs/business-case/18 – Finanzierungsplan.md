@@ -1,4 +1,4 @@
-# Goldoni – Finanzierungsplan
+# 18 – Finanzierungsplan
 
 ## Kapitalbedarf
 
@@ -64,3 +64,7 @@ Bei realistischem Szenario (DB 470 €/Woche):
 - Monat 4–5: Rücklage für Stufe 3 möglich
 
 Die Investitionen finanzieren sich aus dem laufenden Betrieb — externes Kapital ist optional, nicht zwingend.
+
+---
+
+[← Zurück zur Übersicht](../../README.md)

@@ -1,4 +1,4 @@
-# Goldoni – Wettbewerbsanalyse Stuttgart West
+# 17 – Wettbewerbsanalyse Stuttgart West
 
 ## Marktumfeld Stuttgart West
 
@@ -49,3 +49,7 @@ Die Differenzierung nicht über "günstiger" spielen, sondern über:
 1. Authentizität ("aus unserer Küche, mit denselben Zutaten wie im Restaurant")
 2. Herkunft ("Zutaten von Di Gennaro, Stuttgart")
 3. Convenience für Stammkunden ("Ihre Lieblingslasagne, wann immer Sie wollen")
+
+---
+
+[← Zurück zur Übersicht](../../README.md)

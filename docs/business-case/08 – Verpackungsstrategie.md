@@ -1,4 +1,4 @@
-# Goldoni – Verpackungsstrategie
+# 08 – Verpackungsstrategie
 
 ## Drei Ebenen
 
@@ -65,3 +65,7 @@ Bei 15 € Verkaufspreis: 6 % Packaging-Kosten — im Rahmen für Premium.
 3. Theke mit Hinweisschild — Minimalaufwand für den Start
 
 Empfehlung: Start mit Option 3, nach 4 Wochen Resonanz messen, dann entscheiden.
+
+---
+
+[← Zurück zur Übersicht](../../README.md)

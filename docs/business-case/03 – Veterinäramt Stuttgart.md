@@ -1,4 +1,4 @@
-# Goldoni – Veterinäramt Stuttgart
+# 03 – Veterinäramt Stuttgart
 
 ## Zuständige Behörde
 
@@ -45,3 +45,7 @@ Für Goldoni im Startszenario (Verkauf nur im Restaurant): Registrierung reicht.
 
 Vor Amt-Kontakt: IHK Stuttgart einschalten (kostenlose Erstberatung).
 IHK Stuttgart, Bereich Gastronomie & Lebensmittel: 0711 2005-0
+
+---
+
+[← Zurück zur Übersicht](../../README.md)

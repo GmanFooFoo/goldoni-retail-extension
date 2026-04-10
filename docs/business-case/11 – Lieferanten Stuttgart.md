@@ -1,4 +1,4 @@
-# Goldoni – Lieferanten Stuttgart
+# 11 – Lieferanten Stuttgart
 
 ## Übersicht
 
@@ -43,3 +43,7 @@ Mittwoch  → Produktion mit frischer Ware (09:00–13:00)
 ## Hinweis Rohwarentrennung
 
 Rohwaren für Vakuumproduktion separat vom Restaurantbedarf bestellen und lagern — verhindert Verwechslung und Schwund.
+
+---
+
+[← Zurück zur Übersicht](../../README.md)

@@ -1,4 +1,4 @@
-# Goldoni – Verkaufsstrategie
+# 09 – Verkaufsstrategie
 
 ## Grundprinzip
 
@@ -98,3 +98,7 @@ Abholung jeden ersten Samstag im Monat, Bezahlung per Überweisung oder bar.
 | 7 | Online-Bestellung | variiert |
 
 Erster Schritt: Kellner-Skript schreiben und diese Woche einführen.
+
+---
+
+[← Zurück zur Übersicht](../../README.md)

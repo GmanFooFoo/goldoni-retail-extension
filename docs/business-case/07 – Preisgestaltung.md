@@ -1,4 +1,4 @@
-# Goldoni – Preisgestaltung
+# 07 – Preisgestaltung
 
 ## Grundprinzip
 
@@ -44,3 +44,7 @@ Peaks: Weihnachten, Ostern, Ferragosto
 1. Preis darf und soll Premium sein — Goldoni-Kundschaft zahlt für Qualität
 2. "Zutaten von Di Gennaro" auf Etikett rechtfertigt den Preispunkt
 3. Synergien nutzen: gleiche Zutaten wie Restaurant, kein separater Einkauf nötig
+
+---
+
+[← Zurück zur Übersicht](../../README.md)

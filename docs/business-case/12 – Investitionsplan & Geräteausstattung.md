@@ -1,4 +1,4 @@
-# Goldoni – Investitionsplan & Geräteausstattung
+# 12 – Investitionsplan & Geräteausstattung
 
 ## Grundprinzip
 
@@ -72,3 +72,7 @@ Gesamtrahmen über 6 Monate: ca. 6.100–10.600 €
 2. Metro Weil im Dorf — Vakuumbeutel, kleinere Geräte
 3. Allfo.de — Vakuumbeutel online, beste Preise bei Mengenbestellung
 4. eBay Kleinanzeigen — gebrauchte Kühlvitrinen, oft sehr günstig
+
+---
+
+[← Zurück zur Übersicht](../../README.md)

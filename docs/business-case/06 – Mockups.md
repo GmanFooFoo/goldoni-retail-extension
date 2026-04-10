@@ -1,4 +1,4 @@
-# Goldoni – Mockups Etikett & HACCP-Dokument
+# 06 – Mockups
 
 ## Inhalt
 
@@ -30,3 +30,7 @@ Interaktives HTML-Dokument mit zwei Tabs:
 ## Datei
 
 Die HTML-Datei wurde als separater Download bereitgestellt.
+
+---
+
+[← Zurück zur Übersicht](../../README.md)

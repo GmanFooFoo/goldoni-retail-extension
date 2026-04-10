@@ -1,4 +1,4 @@
-# Goldoni – 6-Wochen-Rollout-Plan
+# 13 – 6-Wochen-Rollout-Plan
 
 Ziel: Erste Lasagne al Forno vakuumiert über den Ladentisch in Woche 6.
 
@@ -168,3 +168,7 @@ Die folgenden Punkte können den Launch verzögern — diese zuerst angehen:
 2. Vakuumiergerät-Lieferzeit → sofort in Woche 2 bestellen
 3. HACCP-Berater-Verfügbarkeit → sofort in Woche 2 beauftragen
 4. MwSt-Klärung → in Woche 1, vor erstem Verkauf zwingend
+
+---
+
+[← Zurück zur Übersicht](../../README.md)

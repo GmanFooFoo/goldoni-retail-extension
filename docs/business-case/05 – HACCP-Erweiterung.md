@@ -1,4 +1,4 @@
-# Goldoni – HACCP-Erweiterung Vakuumproduktion
+# 05 – HACCP-Erweiterung
 
 ## Prozesskette
 
@@ -69,3 +69,7 @@ Chargennummern-Schema: JJJJ-MM-NNN
 1. Kühltemperatur messen und protokollieren
 2. MHD aller Produkte prüfen — abgelaufene sofort entnehmen
 3. Vakuumbeutel visuell prüfen — geschwollene Beutel sofort entsorgen
+
+---
+
+[← Zurück zur Übersicht](../../README.md)

@@ -1,4 +1,4 @@
-# Goldoni – LMIV-Kennzeichnung
+# 04 – LMIV-Kennzeichnung
 
 Rechtsgrundlage: EU-Verordnung 1169/2011, gilt für alle vorverpackten Lebensmittel.
 
@@ -75,3 +75,7 @@ Nährwerte berechnen: fddb.info oder einmalig Labor beauftragen (~80–150 € p
 - Design: Canva für Gestaltung, Labeldrucker-Software für Ausgabe
 - Profidruck: lokale Druckerei, ~0,05–0,10 € pro Etikett ab 500er-Auflage
 - Mindestgröße: 80 × 120 mm empfohlen für alle Pflichtangaben + Design
+
+---
+
+[← Zurück zur Übersicht](../../README.md)

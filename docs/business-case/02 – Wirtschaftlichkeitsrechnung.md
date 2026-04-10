@@ -1,4 +1,4 @@
-# Goldoni – Wirtschaftlichkeitsrechnung
+# 02 – Wirtschaftlichkeitsrechnung
 
 ## Prämisse
 
@@ -75,3 +75,7 @@ Für 40 × Lasagne + 20 × Ragù:
 | Gesamt Rohware | | ca. 182–225 € |
 
 Rohwareneinsatz bei Vollverkauf: ~25 % — sehr gut.
+
+---
+
+[← Zurück zur Übersicht](../../README.md)

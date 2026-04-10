@@ -1,4 +1,4 @@
-# Goldoni – Produktsortiment-Erweiterung
+# 19 – Produktsortiment-Erweiterung
 
 ## Grundprinzip
 
@@ -63,3 +63,7 @@ Vor jedem neuen Produkt diese Fragen beantworten:
 5. Gibt es Nachfrage von Stammkunden?
 
 Wenn alle 5 mit Ja beantwortet: Produkt aufnehmen.
+
+---
+
+[← Zurück zur Übersicht](../../README.md)

@@ -1,4 +1,4 @@
-# Goldoni – Rechtliche Absicherung & Haftung
+# 14 – Rechtliche Absicherung & Haftung
 
 ## Grundprinzip
 
@@ -65,3 +65,7 @@ Regel: Wenn ein Zutat geändert wird, ist das Etikett sofort ungültig.
 | Rückverfolgbarkeit | VO (EG) 178/2002 | Bußgeld |
 | Kühlkette | TLMV | Bußgeld + Produktsperrung |
 | Produkthaftung | ProdHaftG | Schadensersatz unbegrenzt |
+
+---
+
+[← Zurück zur Übersicht](../../README.md)

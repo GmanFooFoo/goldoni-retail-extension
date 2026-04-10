@@ -1,4 +1,4 @@
-# Goldoni – Business Case Übersicht
+# 01 – Business Case Übersicht
 
 ## Ausgangssituation
 
@@ -34,13 +34,6 @@ Vorhaben: Selbst hergestellte Speisen vakuumverpackt und tiefgekühlt direkt an 
 
 Pilot mit Lasagne al Forno, 20–30 Einheiten/Woche, nur Stammkunden, nach 4 Wochen skalieren.
 
-## Verweise
-- [[02 – Goldoni Wirtschaftlichkeitsrechnung]]
-- [[03 – Goldoni Veterinäramt Stuttgart]]
-- [[04 – Goldoni LMIV-Kennzeichnung]]
-- [[05 – Goldoni HACCP-Erweiterung]]
-- [[07 – Goldoni Preisgestaltung]]
-- [[08 – Goldoni Verpackungsstrategie]]
-- [[09 – Goldoni Verkaufsstrategie]]
-- [[10 – Goldoni Operative Umsetzung]]
-- [[11 – Goldoni Lieferanten Stuttgart]]
+---
+
+[← Zurück zur Übersicht](../../README.md)

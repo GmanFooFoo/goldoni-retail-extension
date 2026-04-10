@@ -1,4 +1,4 @@
-# Goldoni – Steuerliche Behandlung
+# 15 – Steuerliche Behandlung
 
 ## Die entscheidende Frage: 7 % oder 19 % MwSt?
 
@@ -47,3 +47,7 @@ Vakuumiergerät und Etikettendrucker sind Wirtschaftsgüter — je nach Anschaff
 ## Hinweis
 
 Diese Einschätzung ersetzt keine Steuerberatung. Die MwSt-Einordnung von Lebensmitteln ist komplex und einzelfallabhängig. Steuerberater vor dem ersten Verkauf einbeziehen.
+
+---
+
+[← Zurück zur Übersicht](../../README.md)
