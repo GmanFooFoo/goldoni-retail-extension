@@ -1,12 +1,3 @@
----
-title: Goldoni – HACCP-Erweiterung Vakuumproduktion
-type: process
-status: draft
-created: 2026-04-10
-modified: 2026-04-10
-tags: [Goldoni, HACCP, Vakuum, Lebensmittelsicherheit, CCP]
----
-
 # Goldoni – HACCP-Erweiterung Vakuumproduktion
 
 ## Prozesskette

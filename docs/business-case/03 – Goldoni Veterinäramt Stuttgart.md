@@ -1,12 +1,3 @@
----
-title: Goldoni – Veterinäramt Stuttgart
-type: process
-status: draft
-created: 2026-04-10
-modified: 2026-04-10
-tags: [Goldoni, Veterinäramt, Lebensmittelrecht, Registrierung]
----
-
 # Goldoni – Veterinäramt Stuttgart
 
 ## Zuständige Behörde

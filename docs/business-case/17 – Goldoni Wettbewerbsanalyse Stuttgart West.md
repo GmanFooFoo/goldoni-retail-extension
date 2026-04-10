@@ -1,12 +1,3 @@
----
-title: Goldoni – Wettbewerbsanalyse Stuttgart West
-type: analysis
-status: draft
-created: 2026-04-10
-modified: 2026-04-10
-tags: [Goldoni, Wettbewerb, Stuttgart-West, Markt]
----
-
 # Goldoni – Wettbewerbsanalyse Stuttgart West
 
 ## Marktumfeld Stuttgart West

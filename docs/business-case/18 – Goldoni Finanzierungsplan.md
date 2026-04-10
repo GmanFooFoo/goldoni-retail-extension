@@ -1,12 +1,3 @@
----
-title: Goldoni – Finanzierungsplan
-type: analysis
-status: draft
-created: 2026-04-10
-modified: 2026-04-10
-tags: [Goldoni, Finanzierung, Förderung, Investition]
----
-
 # Goldoni – Finanzierungsplan
 
 ## Kapitalbedarf

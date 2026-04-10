@@ -1,12 +1,3 @@
----
-title: Goldoni – Produktsortiment-Erweiterung
-type: analysis
-status: draft
-created: 2026-04-10
-modified: 2026-04-10
-tags: [Goldoni, Sortiment, Produktstrategie, Roadmap]
----
-
 # Goldoni – Produktsortiment-Erweiterung
 
 ## Grundprinzip

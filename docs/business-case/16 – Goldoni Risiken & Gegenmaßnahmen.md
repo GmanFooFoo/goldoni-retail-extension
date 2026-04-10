@@ -1,12 +1,3 @@
----
-title: Goldoni – Risiken & Gegenmaßnahmen
-type: analysis
-status: draft
-created: 2026-04-10
-modified: 2026-04-10
-tags: [Goldoni, Risiken, Contingency, Qualität]
----
-
 # Goldoni – Risiken & Gegenmaßnahmen
 
 ## Risikoübersicht

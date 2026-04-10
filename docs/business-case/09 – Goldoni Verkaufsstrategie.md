@@ -1,12 +1,3 @@
----
-title: Goldoni – Verkaufsstrategie
-type: process
-status: draft
-created: 2026-04-10
-modified: 2026-04-10
-tags: [Goldoni, Verkauf, Marketing, Strategie]
----
-
 # Goldoni – Verkaufsstrategie
 
 ## Grundprinzip

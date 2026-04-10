@@ -1,12 +1,3 @@
----
-title: Goldoni – Verpackungsstrategie
-type: analysis
-status: draft
-created: 2026-04-10
-modified: 2026-04-10
-tags: [Goldoni, Verpackung, Packaging, Design]
----
-
 # Goldoni – Verpackungsstrategie
 
 ## Drei Ebenen

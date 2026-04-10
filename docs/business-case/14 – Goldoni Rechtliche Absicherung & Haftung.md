@@ -1,12 +1,3 @@
----
-title: Goldoni – Rechtliche Absicherung & Haftung
-type: reference
-status: draft
-created: 2026-04-10
-modified: 2026-04-10
-tags: [Goldoni, Recht, Haftung, Produkthaftpflicht, Rückruf]
----
-
 # Goldoni – Rechtliche Absicherung & Haftung
 
 ## Grundprinzip

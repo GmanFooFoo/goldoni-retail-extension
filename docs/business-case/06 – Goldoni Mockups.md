@@ -1,12 +1,3 @@
----
-title: Goldoni – Mockups Etikett & HACCP-Dokument
-type: reference
-status: draft
-created: 2026-04-10
-modified: 2026-04-10
-tags: [Goldoni, Mockup, Etikett, HACCP, Design]
----
-
 # Goldoni – Mockups Etikett & HACCP-Dokument
 
 ## Inhalt

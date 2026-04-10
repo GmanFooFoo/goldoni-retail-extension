@@ -1,12 +1,3 @@
----
-title: Goldoni – Investitionsplan & Geräteausstattung
-type: analysis
-status: draft
-created: 2026-04-10
-modified: 2026-04-10
-tags: [Goldoni, Investition, Geräte, Skalierung]
----
-
 # Goldoni – Investitionsplan & Geräteausstattung
 
 ## Grundprinzip

@@ -1,12 +1,3 @@
----
-title: Goldoni – 6-Wochen-Rollout-Plan
-type: process
-status: draft
-created: 2026-04-10
-modified: 2026-04-10
-tags: [Goldoni, Rollout, Planung, Launch]
----
-
 # Goldoni – 6-Wochen-Rollout-Plan
 
 Ziel: Erste Lasagne al Forno vakuumiert über den Ladentisch in Woche 6.

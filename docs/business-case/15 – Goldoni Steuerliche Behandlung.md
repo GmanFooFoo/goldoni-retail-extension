@@ -1,12 +1,3 @@
----
-title: Goldoni – Steuerliche Behandlung
-type: reference
-status: draft
-created: 2026-04-10
-modified: 2026-04-10
-tags: [Goldoni, Steuer, MwSt, Umsatzsteuer]
----
-
 # Goldoni – Steuerliche Behandlung
 
 ## Die entscheidende Frage: 7 % oder 19 % MwSt?

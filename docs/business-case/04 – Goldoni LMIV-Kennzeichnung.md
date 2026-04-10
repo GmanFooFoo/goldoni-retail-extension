@@ -1,12 +1,3 @@
----
-title: Goldoni – LMIV-Kennzeichnung
-type: process
-status: draft
-created: 2026-04-10
-modified: 2026-04-10
-tags: [Goldoni, LMIV, Etikettierung, Kennzeichnung, Allergene]
----
-
 # Goldoni – LMIV-Kennzeichnung
 
 Rechtsgrundlage: EU-Verordnung 1169/2011, gilt für alle vorverpackten Lebensmittel.

@@ -1,12 +1,3 @@
----
-title: Goldoni – Business Case Übersicht
-type: analysis
-status: draft
-created: 2026-04-10
-modified: 2026-04-10
-tags: [Goldoni, BusinessCase, Vakuum, Gastronomie]
----
-
 # Goldoni – Business Case Übersicht
 
 ## Ausgangssituation

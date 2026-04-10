@@ -1,12 +1,3 @@
----
-title: Goldoni – Wirtschaftlichkeitsrechnung
-type: analysis
-status: draft
-created: 2026-04-10
-modified: 2026-04-10
-tags: [Goldoni, Wirtschaftlichkeit, Kalkulation, Vakuum]
----
-
 # Goldoni – Wirtschaftlichkeitsrechnung
 
 ## Prämisse
