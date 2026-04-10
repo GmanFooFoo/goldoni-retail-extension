@@ -1,4 +1,4 @@
-# 09 – Verkaufsstrategie
+# Goldoni – Verkaufsstrategie
 
 ## Grundprinzip
 

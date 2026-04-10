@@ -1,4 +1,4 @@
-# 08 – Verpackungsstrategie
+# Goldoni – Verpackungsstrategie
 
 ## Drei Ebenen
 

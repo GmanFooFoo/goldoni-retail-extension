@@ -1,4 +1,4 @@
-# 04 – LMIV-Kennzeichnung
+# Goldoni – LMIV-Kennzeichnung
 
 Rechtsgrundlage: EU-Verordnung 1169/2011, gilt für alle vorverpackten Lebensmittel.
 

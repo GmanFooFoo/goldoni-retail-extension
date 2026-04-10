@@ -1,4 +1,4 @@
-# 07 – Preisgestaltung
+# Goldoni – Preisgestaltung
 
 ## Grundprinzip
 

@@ -1,4 +1,4 @@
-# 17 – Wettbewerbsanalyse Stuttgart West
+# Goldoni – Wettbewerbsanalyse Stuttgart West
 
 ## Marktumfeld Stuttgart West
 

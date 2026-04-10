@@ -1,4 +1,4 @@
-# 19 – Produktsortiment-Erweiterung
+# Goldoni – Produktsortiment-Erweiterung
 
 ## Grundprinzip
 

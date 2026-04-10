@@ -1,4 +1,4 @@
-# 12 – Investitionsplan & Geräteausstattung
+# Goldoni – Investitionsplan & Geräteausstattung
 
 ## Grundprinzip
 

@@ -1,4 +1,4 @@
-# 18 – Finanzierungsplan
+# Goldoni – Finanzierungsplan
 
 ## Kapitalbedarf
 

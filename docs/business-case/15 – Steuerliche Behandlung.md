@@ -1,4 +1,4 @@
-# 15 – Steuerliche Behandlung
+# Goldoni – Steuerliche Behandlung
 
 ## Die entscheidende Frage: 7 % oder 19 % MwSt?
 

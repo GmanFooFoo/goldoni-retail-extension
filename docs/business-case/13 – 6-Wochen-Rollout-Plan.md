@@ -1,4 +1,4 @@
-# 13 – 6-Wochen-Rollout-Plan
+# Goldoni – 6-Wochen-Rollout-Plan
 
 Ziel: Erste Lasagne al Forno vakuumiert über den Ladentisch in Woche 6.
 

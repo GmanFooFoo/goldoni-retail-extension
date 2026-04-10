@@ -1,4 +1,4 @@
-# 14 – Rechtliche Absicherung & Haftung
+# Goldoni – Rechtliche Absicherung & Haftung
 
 ## Grundprinzip
 
