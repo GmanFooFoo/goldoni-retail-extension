@@ -1,68 +1,55 @@
 # goldoni-retail-extension
 
-Business Case und Arbeitsrepo für die **Retail-Extension des Ristorante Goldoni** in Stuttgart:
-vakuumierte/tiefgefrorene Gerichte aus der laufenden Küche für Außer-Haus-Verkauf.
+Arbeitsrepo für die **Retail-Extension des Ristorante Goldoni** in Stuttgart:
+vakuumierte Gerichte aus der laufenden Küche für Außer-Haus-Verkauf
+(Phase 1 — Tiefkühl folgt in Phase 2).
 
-Dieses Repo ist die **Entwickler-Sicht**. Die Silvio-freundliche Lese-Version
-liegt auf der MkDocs-Reader-Site (siehe unten).
+Reines Markdown-Repo. Alles direkt auf GitHub lesbar. Kein Static-Site-Builder,
+kein Hosting.
 
 ## Struktur
 
 ```
 docs/
 ├── business-case/     # 19 Original-Dokumente (v1)
-├── personas/          # 9 Review-Personas
-├── reviews/           # Persona-Reviews pro Doc
-├── findings/          # konsolidierte Findings + inconsistencies.md
-├── plans/             # Revisionspläne, rollout-plan.md
-├── backlog/           # repo-backlog.md (Status-Tabelle)
-├── reports/           # Session-Reports
-├── glossary.md
-└── index.md           # Silvio-Einstieg (MkDocs)
+├── personas/          # 8 Original-Personas (werden in Stufe 2 ersetzt)
+├── findings/
+│   └── inconsistencies.md   # Widersprüche zwischen Dokumenten
+├── plans/
+│   └── rollout-plan.md      # Phase 1/2 Scope + Zeitplan
+├── backlog/
+│   └── repo-backlog.md      # MASCHIN-Status-Tabelle
+├── glossary.md              # HACCP, LMIV, CCP, Vakuum etc.
+└── how-to-use-marcello.md
 ```
-
-## Lokale Entwicklung
-
-```bash
-# Einmalig
-pip install mkdocs-material
-
-# Reader-Site lokal starten
-mkdocs serve
-# → http://127.0.0.1:8000
-
-# Build für Deploy
-mkdocs build
-# → site/
-```
-
-## Deploy
-
-Die Reader-Site wird via **Vercel** an `retail.restaurante-goldoni.de` deployed.
-Siehe `vercel.json`. DNS läuft bei DomainFactory (manuell konfiguriert).
 
 ## Workflow
 
-Dieses Repo folgt dem MASCHIN-Workflow (siehe `CLAUDE.md`):
+- **Jede Zahl** braucht Quelle oder `[TBD-*]`-Marker (siehe `CLAUDE.md`)
+- **Reviews** folgen dem Standard-Format in `CLAUDE.md`
+- **Status-Tracking** in `docs/backlog/repo-backlog.md`
+- **Commit nach jedem Work-Block**
 
-- **Jede Zahl** braucht Quelle oder `[TBD-*]`-Marker.
-- **Commit nach jedem Work-Block.**
-- **Reviews** folgen dem Standard-Format aus `CLAUDE.md`.
-- **Status-Tracking** in `docs/backlog/repo-backlog.md`.
+## Scope
 
-## Personas
+**Phase 1:** nur Vakuum-Produkte (gekühlt, +2°C bis +4°C)
+**Phase 2:** Tiefkühl-Erweiterung (später, nach stabilem Vakuum-Launch)
 
-9 Review-Personas decken die Kompetenzfelder ab:
+Details in [`docs/plans/rollout-plan.md`](docs/plans/rollout-plan.md).
+
+## Personas (geplant)
+
+Die 8 Original-Personas werden in Stufe 2 durch 9 neue Review-Personas ersetzt:
 
 1. **Marcus** — CFO / Zahlen-Realist
-2. **Dr. Steiger** — Lebensmittelrechtler (LMIV, HACCP)
-3. **Pietro** — Küchenchef (Rezeptur, Geschmack)
-4. **Thomas** — Gastronom-Praktiker (Betrieb, Kollegen-Sicht)
-5. **Claudia** — Stammgast (Kunden-Perspektive)
+2. **Dr. Steiger** — Lebensmittelrechtler
+3. **Pietro** — Küchenchef
+4. **Thomas** — Gastronom-Praktiker
+5. **Claudia** — Stammgast
 6. **Jana** — Brand & Marketing
 7. **Frau Keller** — Steuerberaterin
-8. **Bruno** — Logistiker (Kühlkette, Lager, Versand)
-9. **Inspektor Vogel** — adversariale Behördensicht (Veterinäramt)
+8. **Bruno** — Logistiker
+9. **Inspektor Vogel** — adversariale Behördensicht
 
 ## Lizenz
 

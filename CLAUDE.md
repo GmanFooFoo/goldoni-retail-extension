@@ -72,22 +72,26 @@ Jede Persona-Review folgt diesem Schema:
 
 ## Structure
 
-- `docs/business-case/` — die 19 Original-Dokumente (v1)
-- `docs/personas/` — 9 Review-Personas
+- `docs/business-case/` — die 19 Original-Dokumente (v1, unberührt)
+- `docs/personas/` — 8 Original-Personas (werden in Stufe 2 durch 9 neue ersetzt)
+- `docs/findings/inconsistencies.md` — Widersprüche zwischen Dokumenten
+- `docs/plans/rollout-plan.md` — Phase 1/2 Scope + Zeitplan
+- `docs/backlog/repo-backlog.md` — MASCHIN-Status-Tabelle
+- `docs/glossary.md` — Fachbegriffe
+- `docs/reports/` — Session-Reports (wird in Stufe 4 angelegt)
+
+Später, sobald Reviews starten:
+
 - `docs/reviews/` — Persona-Reviews pro Doc
-- `docs/findings/` — konsolidierte Findings + `inconsistencies.md`
-- `docs/plans/` — Revisionspläne pro Doc, `rollout-plan.md`
-- `docs/backlog/` — `repo-backlog.md` (Meta-Ebene, Status-Tabelle)
-- `docs/reports/` — Session-Reports
-- `docs/glossary.md` — Fachbegriffe für Silvio
-- `docs/index.md` — Silvio-Einstiegsseite (MkDocs)
-- `site/` — MkDocs Build-Output (gitignored)
+- `docs/findings/[doc-nummer]-findings.md` — konsolidierte Findings pro Doc
+- `docs/plans/[doc-nummer]-v2-plan.md` — Revisionspläne pro Doc
 
-## Reader-Site
+## Keine Reader-Site
 
-MkDocs Material, deployed via Vercel an `retail.restaurante-goldoni.de`
-(Silvios Domain, DNS bei DomainFactory). Passwortgeschützt. Silvio bekommt
-URL + Passwort, kein GitHub-Account nötig.
+Wir arbeiten direkt mit **GitHub + lokalen Verzeichnissen**. Kein MkDocs,
+kein Vercel, kein Static-Site-Builder. Alle Markdown-Dateien sind auf
+GitHub direkt lesbar. Falls später eine Silvio-freundliche Web-Ansicht
+gebraucht wird, entscheiden wir das neu.
 
 ## Session Discipline
 

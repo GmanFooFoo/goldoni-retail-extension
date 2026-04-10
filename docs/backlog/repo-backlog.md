@@ -8,11 +8,11 @@
 
 | # | Item | Prio | Effort | Wer | Blocker? | Status | Impact |
 |---|---|---|---|---|---|---|---|
-| 1 | Repo-Setup (Stufe 1a): .gitignore, CLAUDE.md, README, session-state, backlog, rollout-plan, initial commit | P1 | S | Marcello | — | In Progress | Arbeitsgrundlage für alle weiteren Stufen |
-| 2 | GitHub-Repo `GmanFooFoo/goldoni-retail-extension` privat anlegen + push | P1 | XS | Marcello | gh auth status | Offen | Remote-Backup + Vercel-Source |
-| 3 | Labels anlegen: `feedback-silvio`, `quality-issue`, `new-info`, `decision-needed` | P1 | XS | Marcello | #2 | Offen | Issue-Taxonomie |
-| 4 | MkDocs Material Reader-Site (Stufe 1b) | P1 | M | Marcello | #1 | Offen | Silvio-freundliche Lese-Oberfläche |
-| 5 | Vercel-Deploy `retail.restaurante-goldoni.de` (Stufe 1c) | P1 | S | Marcello + User | DNS DomainFactory | Offen | Silvio braucht URL für Review |
+| 1 | Repo-Setup (Stufe 1a): .gitignore, CLAUDE.md, README, session-state, backlog, rollout-plan, initial commit | P1 | S | Marcello | — | ✅ Done | Arbeitsgrundlage für alle weiteren Stufen |
+| 2 | GitHub-Repo `GmanFooFoo/goldoni-retail-extension` privat anlegen + push | P1 | XS | Marcello | — | ✅ Done | Remote-Backup |
+| 3 | Labels anlegen: `feedback-silvio`, `quality-issue`, `new-info`, `decision-needed` | P1 | XS | Marcello | — | ✅ Done | Issue-Taxonomie |
+| 4 | ~~MkDocs Material Reader-Site (Stufe 1b)~~ | — | — | — | — | ❌ Dropped | MkDocs war Overkill; User will plain markdown |
+| 5 | ~~Vercel-Deploy `retail.restaurante-goldoni.de` (Stufe 1c)~~ | — | — | — | — | ❌ Dropped | Kein Hosting. Nur GitHub + lokal |
 | 6 | Persona-Refresh: 9 neue Personas schreiben (Stufe 2) | P1 | M | Marcello | — | Offen | Review-Basis für Stufe 3 |
 | 7 | Deep Review Doc 02 (Wirtschaftlichkeit) — Marcus + Frau Keller | P1 | S | Marcello | #6 | Offen | MwSt-Frage klären, Wareneinsatz-Quellen |
 | 8 | Deep Review Doc 04 (LMIV) — Dr. Steiger | P1 | S | Marcello | #6 | Offen | Juristisches Risiko Nährwerte |
@@ -37,7 +37,7 @@
 | 31 | MwSt-Vorklärung mit Steuerberater: 7% oder 19%? | P3 | S | Silvio + Frau Keller | — | Offen | Kippt Wirtschaftlichkeit Doc 02 |
 | 32 | Vorgespräch mit Veterinäramt Stuttgart: welcher Antragspfad? | P3 | S | Silvio | — | Offen | Timing Rollout Doc 13 |
 | 33 | Metro-Angebote für Vakuumiergerät + Schockfroster (Lieferzeit?) | P3 | S | Silvio | — | Offen | Timing Rollout Doc 13 |
-| 34 | Domain-DNS bei DomainFactory: CNAME für `retail.restaurante-goldoni.de` | P3 | XS | User | Vercel-Projekt-URL | Offen | Reader-Site live |
+| 34 | ~~Domain-DNS bei DomainFactory: CNAME für `retail.restaurante-goldoni.de`~~ | — | — | — | — | ❌ Dropped | Hosting entfällt |
 
 ## Backlog
 
