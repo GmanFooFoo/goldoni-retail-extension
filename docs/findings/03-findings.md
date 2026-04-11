@@ -10,24 +10,24 @@ Konsolidierte Findings aus dem Lead-Review. Jedes Finding benennt den Auflösung
 
 | # | Finding | Prio | Effort | Wer | Blocker? | Status | Impact |
 |---|---|---|---|---|---|---|---|
-| 1 | Schriftlicher Rückruf-Prozess fehlt (Art. 19 VO 178/2002). Red Flag laut Persona, Stopp vor erstem Verkauf. | P1 | S | Lebensmittelrechtler (Lead) + Silvio (Benennung) | Pflicht vor Gate nach Schritt 2 | Offen | Blockiert Vetamt-Bescheid; ohne schriftlichen Rückruf gibt es keine Freigabe. |
-| 2 | HACCP-Beauftragter namentlich benennen (Art. 5 VO 852/2004). | P1 | XS | Silvio (Selbstbenennung) | — | Offen | Pflichtfeld in der Vetamt-Unterlage; trivial, aber muss vor Einreichung dokumentiert sein. |
+| 1 | Schriftlicher Rückruf-Prozess fehlt (Art. 19 VO 178/2002). Red Flag laut Persona, Stopp vor erstem Verkauf. | P1 | S | Lebensmittelrechtler (Lead) | Pflicht vor Gate nach Schritt 2 | Offen | Blockiert Vetamt-Bescheid; ohne schriftlichen Rückruf gibt es keine Freigabe. Schreibort-Entscheidung Doc 05 ↔ Doc 14 siehe 14-findings.md #6. |
+| 2 | HACCP-Beauftragter namentlich benennen (Art. 5 VO 852/2004). Selbstbenennung → Silvio-Paket SP-07. | P1 | XS | Lebensmittelrechtler (Dokumentation) | — | Offen | Pflichtfeld in der Vetamt-Unterlage; trivial, aber muss vor Einreichung dokumentiert sein. |
 | 3 | MHD-Validierung ungeklärt — "Fachliteratur oder eigene Tests" ist zu weich. Haftungs-Quelle nach § 58 LFGB. | P1 | L | Lebensmittelrechtler + [TBD-Recherche Labor oder Haltbarkeits-Test-Protokoll] | Ja, Gate Schritt 2 und Gate Schritt 4 (Etiketten) | Offen | Ohne validiertes MHD kein LMIV-konformes Etikett, kein Verkauf, persönliche Haftung. |
-| 4 | Timings fehlen (Erstkontakt → Bescheid). Realistischer Korridor: 3–8 Wochen. | P2 | XS | Silvio (Erstkontakt-Telefonat) | Ja, für Gate-Timing im Rollout-Plan | Offen | Ohne Timing ist der Rollout-Plan-Gate nach Schritt 2 nicht terminierbar. |
-| 5 | Kosten / Gebühren fehlen (Registrierung, Erstbegehung, Nachbegehung, Laboranalyse). | P2 | XS | Silvio (Erstkontakt-Telefonat) + Cross-Ref Doc 04 (Labor) | — | Offen | Unbekannte Sunk-Cost-Komponente im Worst-Case-Budget 2.500–3.000 €. |
+| 4 | Timings fehlen (Erstkontakt → Bescheid). Realistischer Korridor: 3–8 Wochen. Vetamt-Erstkontakt → Silvio-Paket SP-01. | P2 | XS | Lebensmittelrechtler (Doc-Ergänzung nach Rückmeldung) | Ja, für Gate-Timing im Rollout-Plan | Offen | Ohne Timing ist der Rollout-Plan-Gate nach Schritt 2 nicht terminierbar. |
+| 5 | Kosten / Gebühren fehlen (Registrierung, Erstbegehung, Nachbegehung, Laboranalyse). Vetamt-Erstkontakt → Silvio-Paket SP-01, Cross-Ref Doc 04 Labor. | P2 | XS | Lebensmittelrechtler (Doc-Ergänzung nach Rückmeldung) | — | Offen | Unbekannte Sunk-Cost-Komponente im Worst-Case-Budget 2.500–3.000 €. |
 | 6 | "Onlineversand Grauzone" ist sachlich falsch (LMIV Art. 14 Fernabsatz klärt das). | P2 | XS | Lebensmittelrechtler (Korrektur) | — | Offen | Faktische Falschaussage im Doc; entweder korrigieren oder Onlineversand als "nicht in Phase 1" markieren (konsistent mit Rollout-Plan). |
-| 7 | "ggf. über Luca-Portal" — Pflicht oder Option? | P2 | XS | Silvio (Erstkontakt) oder [TBD-Recherche] | — | Offen | Verfahrens-TBD; klärt sich mit Finding 4 im selben Telefonat. |
+| 7 | "ggf. über Luca-Portal" — Pflicht oder Option? Klärung im Vetamt-Telefonat → Silvio-Paket SP-01. | P2 | XS | Lebensmittelrechtler (Doc-Ergänzung nach Rückmeldung) | — | Offen | Verfahrens-TBD; klärt sich im selben Telefonat wie Findings 4 und 5. |
 | 8 | Rework-Szenario bei Erstbegehung fehlt (Nachbesserungs-Frist, Zweitbegehung, Kosten). | P2 | S | Lebensmittelrechtler + Co-Review Behördenkontrolleur | — | Offen | Rollout-Plan-Risiko unterschätzt; die Wahrscheinlichkeit einer Beanstandung bei Erstbegehung ist nicht null. |
 | 9 | Tagesprotokolle (Kühlkette, Reinigung, Produktion, Rückstellproben) nicht definiert. | P2 | M | Lebensmittelrechtler + Doc 05 HACCP (Cross-Ref) | — | Offen | Dokumentations-Pflicht nach LMHV § 5; Cross-Gate mit Doc 05. Wird im HACCP-Review (Schritt 3 der Sequenz) vertieft. |
 | 10 | Rechtsgrundlagen unvollständig aufgeführt (es fehlen VO 178/2002, LFGB, § 42 IfSG, LMHV §§ 3–5). | P3 | XS | Lebensmittelrechtler (Doc-Ergänzung) | — | Offen | Reife-Problem, kein Gate-Problem. Löst sich im v2-Rewrite. |
-| 11 | IHK-Erstberatung ist als "Empfehlung" weich formuliert; sollte Ablauf-Schritt 0 werden. | P3 | XS | Silvio (Termin buchen) | — | Offen | Billig, Risiko-Reduktion vor dem ersten Vetamt-Kontakt. |
+| 11 | IHK-Erstberatung ist als "Empfehlung" weich formuliert; sollte Ablauf-Schritt 0 werden. Termin-Buchung → Silvio-Paket SP-02. | P3 | XS | Lebensmittelrechtler (Doc-Ergänzung) | — | Offen | Billig, Risiko-Reduktion vor dem ersten Vetamt-Kontakt. |
 | 12 | D-01-Konformität (Phase 1 nur Vakuum, kein Tiefkühl) nicht explizit im Doc-Kopf. | P3 | XS | Lebensmittelrechtler (Doc-Ergänzung) | — | Offen | Konsistenz-Drift; verhindert Tiefkühl-Missverständnis bei Leser. |
 
 ## Auflösungs-Gruppen
 
 Die 12 Findings zerfallen in drei natürliche Gruppen, die unterschiedliche Arbeits-Stränge auslösen.
 
-**Gruppe A — Silvio-Aktionen (Erstkontakt-Telefonat):** Findings 4, 5, 7, 11. Ein Telefonat mit Stuttgart Vetamt plus eines mit der IHK Gastronomie-Erstberatung klärt vier von zwölf Findings auf. Empfehlung: Silvio macht beide Anrufe, bevor Session 5 Doc 15 (Steuer) reviewt.
+**Gruppe A — Aktionen im Silvio-Paket** (`docs/silvio-paket/offene-fragen.md`, Block 1): Findings 4/5/7 → SP-01 (Vetamt-Erstkontakt), 11 → SP-02 (IHK-Termin), 2 → SP-07 (HACCP-Beauftragter Selbstbenennung). Ein Vetamt-Telefonat plus ein IHK-Termin klärt zusammen fünf von zwölf Findings auf.
 
 **Gruppe B — Pflicht-Dokumente neu erstellen:** Findings 1, 2, 3, 9. Rückruf-Prozess, HACCP-Beauftragten-Benennung, MHD-Validierung, Tagesprotokolle. Diese gehören nicht in Doc 03, sondern in Doc 05 (HACCP) und Doc 14 (Recht). Doc 03 referenziert sie nur. MHD-Validierung hat den größten Aufwand (Labor-Test oder dokumentierter Haltbarkeits-Test mit mindestens drei Chargen über den geplanten MHD-Zeitraum) und wird zum eigenen Arbeits-Block.
 
