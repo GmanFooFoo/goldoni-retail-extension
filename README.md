@@ -1,64 +1,95 @@
-# Goldoni — die Idee mit den Gerichten zum Mitnehmen
+# Goldoni Retail Extension
 
-*Caro Silvio,*
+Arbeits-Repo für den Business Case **Retail-Extension für das Ristorante Goldoni Stuttgart** (Vakuumierte Gerichte aus der laufenden Küche für den Außer-Haus-Verkauf). Inhaber: Silvio `[TBD-Nachname]`. Freundschaftsprojekt, kein Beratungsmandat. Owner: German Rauhut.
 
-wir haben gestern Abend über die Idee gesprochen, deine Lasagne, den Sugo, das Ragù und die Parmigiana nicht nur im Restaurant zu servieren, sondern auch in kleinen Beuteln so zu verpacken, dass deine Stammgäste sie mit nach Hause nehmen können. Die Idee hat mich nicht losgelassen. Also habe ich mich hingesetzt und alles aufgeschrieben, was mir dazu eingefallen ist — damit du es in Ruhe lesen und prüfen kannst.
+Dieses README ist die Arbeits-Übersicht für German selbst. Nicht Silvio-facing. Silvio liest das Repo nicht direkt — Silvio-Ableitungen entstehen ad-hoc, wenn konkret gebraucht (D-06, Variante B).
 
-Das hier ist **ein Vorschlag von einem Freund**, kein fertiger Plan. Wenn du nach dem Lesen sagst "ja, das probiere ich", freue ich mich. Wenn du sagst "nein, das passt nicht in mein Leben", ist das genauso in Ordnung. Keine Eile. Keine Verpflichtung.
+## Phase
 
----
+**Phase A — aktiv** (D-08). Business-Case-Reviews, Scope-Schärfung, Rollout-Vorbereitung bis Silvio eine Entscheidung trifft (Ja / Nein / Später). Hoher Session-Takt zulässig.
 
-## Die Idee in einem Absatz
+Nach Silvios Entscheidung: Phase B (reduziert aktiv, Pilot-Begleitung) oder Phase C (Kontext-Speicher, keine Weiterentwicklung). Jede Maßnahme in diesem Repo muss die Frage bestehen: *"Brauchen wir das in der aktuellen Phase?"*
 
-Dein Restaurant ist Mittwoch und Donnerstag bis Sonntag offen. Drei Tage in der Woche steht die Küche still. In dieser Zeit könntest du die gleichen Gerichte kochen, die du ohnehin machst, und sie in Beutel einschweißen. Die Beutel halten gekühlt eine Woche oder länger. Deine Stammgäste nehmen sie mit nach Hause und haben dort dein Essen — Goldoni aus dem Kühlschrank, aufgewärmt in zehn Minuten. Kein neues Restaurant, keine zweite Küche, keine Miete extra. Nur eine Verlängerung von dem, was du ohnehin kannst.
+## Scope
 
-## Ein wichtiger Hinweis vorweg
+Phase 1 des Produkts: **nur Vakuum, gekühlt, eine Woche Haltbarkeit**. Keine Tiefkühlung, kein Schockfroster, keine MAP/Schutzgas, kein Versand. Tiefkühl steht als mögliche Phase 2 auf der Roadmap (D-02), ist aber bewusst nicht im Launch-Scope.
 
-Ich habe mir das so gedacht: **Wir fangen klein an.** Erstmal nur gekühlt, also Beutel im Kühlschrank mit einer Woche Haltbarkeit. Tiefgefroren wäre auch möglich, aber dafür brauchst du ein teures Gerät (einen Schockfroster), und das Amt will dann mehr Papiere sehen. Tiefkühl heben wir uns für später auf, wenn der gekühlte Teil gut läuft.
+Zielkanal: Abholung im Restaurant. Zielgruppe: Stammgäste, Büros im Stuttgarter Westen, Familien mit Convenience-Bedarf. Öffnungszeiten Goldoni: Mi + Do–So, 17–22 Uhr (zwei Küchen-Leerlauf-Tage Mo/Di als produktives Zeitfenster).
 
-## Was du auf dieser Seite findest
+## Repo-Map
 
-Diese Seite ist die Übersicht. Unten drunter liegen die Details. Du musst nicht alles lesen — schau dir das an, was dich interessiert.
+| Ordner / Datei | Inhalt |
+|---|---|
+| `docs/business-case/` | Die 19 Original-Dokumente (v1) — Küche, Zahlen, Recht, Verpackung, Verkauf, Logistik. Deep Review steht aus (Stufe 3, Backlog). |
+| `docs/personas/` | 9 rollenbasierte Review-Personas als Analyse-Linsen (CFO, Lebensmittelrecht, Steuer, Koch, Gastronom, Stammkundin, Marketing, Logistik, Amt). Nicht Silvio-facing — Arbeitsmaterial. |
+| `docs/personas/assignments.md` | Matrix: welche Persona reviewt welches Doc. |
+| `docs/findings/decisions.md` | Entscheidungs-Log D-01 bis D-08. Grundlegend für Scope- und Ton-Fragen. |
+| `docs/findings/inconsistencies.md` | 5 Widersprüche zwischen den 19 Original-Docs (aus MASCHIN-Voranalyse). |
+| `docs/plans/rollout-plan.md` | Phase-1-Scope und Rollout-Reihenfolge. Wird in dieser Session ebenfalls auf Germans Arbeits-Level gezogen (Stufe 6 / 2b). |
+| `docs/glossary.md` | Fachbegriffe (HACCP, LMIV, CCP, Vakuum vs. Schutzgas, Schockfroster, Vetamt). Primär als Silvio-Hilfe gedacht, auch für Germans Cross-Reference nützlich. |
+| `docs/beteiligung.md` | Gerüst für die Frage "wer darf in welcher Form mitmachen" (D-07, offene Beteiligung). Inhaltlich leer, vier offene Fragen an German. |
+| `docs/backlog/repo-backlog.md` | Status-Tabelle aller Arbeitspakete im MASCHIN-Format. |
+| `docs/session-handoff.md` | Wie Sessions gestartet und geschlossen werden, Feedback-Workflow über GitHub-Issues. |
+| `docs/reports/` | Session-Reports (chronologisch). |
+| `session-state.md` | Aktueller Stage-Fortschritt und Phase. |
+| `SESSION-PROMPT-NEXT.md` | Konkreter Auftrag für die nächste Session. |
 
-| Wo | Was steht dort | Link |
+## Entscheidungen
+
+Voller Log in [`docs/findings/decisions.md`](docs/findings/decisions.md). Tragend für aktuelle Arbeit:
+
+- **D-02** — Phase 1 nur Vakuum, Tiefkühl vertagt.
+- **D-03** — Keine Marcello-Persona. Das Repo ist Germans Arbeit an Silvios Case, kein Berater-Framing.
+- **D-05** — Keine Easter Eggs in Reports. Stattdessen "Leitsatz der Session".
+- **D-06** — Repo-Ton ist Germans Arbeits-Level. Silvio-facing Texte entstehen als explizite Ableitung, nicht als Default.
+- **D-07** — Offene Beteiligung: externe Personen können grundsätzlich beitragen, Form offen (siehe `docs/beteiligung.md`).
+- **D-08** — Phase A/B/C-Lebenszyklus.
+
+## Personas
+
+Analyse-Linsen, keine Narrative. Keine Namen — nur Rollen. Jede Persona hat eine eigene Datei in `docs/personas/` mit Haltung, Fokus-Fragen, Red-Flags-Katalog. Die 9 Rollen decken: Zahlen (CFO), Lebensmittelrecht, Steuern, Küche (traditionell), Gastronom (peer), Stammkundin, Marken-/Marketing, Logistik, Amt.
+
+Reviews folgen dem Standard-Format aus [`CLAUDE.md`](CLAUDE.md#review-standard-format). Deep Review der 19 Business-Case-Docs steht aus (Stufe 3, Backlog).
+
+## Stand
+
+| Stufe | Thema | Status |
 |---|---|---|
-| **Die Idee ausführlich** | Die ursprüngliche Analyse in 19 Dokumenten (Küche, Zahlen, Amt, Verpackung, Verkauf) | [`docs/business-case/`](docs/business-case/) |
-| **Fachwörter einfach erklärt** | Was ist HACCP? Was heißt LMIV? Was ist der Unterschied zwischen Vakuum und Schutzgas? | [`docs/glossary.md`](docs/glossary.md) |
-| **Wie wir das Schritt für Schritt angehen könnten** | Ein Plan mit Reihenfolge und ungefährem Zeitbedarf | [`docs/plans/rollout-plan.md`](docs/plans/rollout-plan.md) |
-| **Offene Fragen und Widersprüche** | Stellen, an denen die Analyse sich selbst widerspricht oder wo noch Zahlen fehlen | [`docs/findings/inconsistencies.md`](docs/findings/inconsistencies.md) |
-| **Entscheidungen** | Welche Grundentscheidungen ich für dieses Projekt schon getroffen habe, und warum | [`docs/findings/decisions.md`](docs/findings/decisions.md) |
+| 1 | Repo-Setup, plain markdown, GitHub | ✅ Done |
+| 2 | 9 Personas + Ton-Reset + Marcello-Streichung | ✅ Done |
+| 3 | Deep Review der 19 Business-Case-Docs | 🔲 Backlog |
+| 4 | Session-1-Wrap-up | ✅ Done |
+| 5 | MASCHIN-Review + Maßnahmen 1/3/4 | ✅ Done |
+| 6 | Repo-Zweck-Umschwung (Germans Arbeits-Level) | ⚠️ In Progress |
 
-## Wie ich die Idee geprüft habe
+Operative Blocker bei Silvio (nicht vom Repo lösbar):
 
-Ich bin kein Gastronom. Ich kann dir nicht sagen, wie sich deine Lasagne nach sieben Tagen im Beutel anfühlt, oder wie die Béchamelsauce darauf reagiert. Dafür habe ich die Idee aus verschiedenen Blickwinkeln durchgeschaut — so, als würden neun Leute mit unterschiedlichem Hintergrund den Plan prüfen:
+- MwSt-Einstufung durch Silvios Steuerberater.
+- Vetamt-Voranfrage Stuttgart.
+- Echter Nachname, Restaurant-Adresse, vorhandene Gerätebasis (Vakuumierer-Typ).
+- Großhandels-Konditionen (Metro / Di Gennaro).
 
-- ein Zahlenmensch (rechnet nach, ob es sich lohnt)
-- ein Lebensmittelrechts-Experte (schaut, was das Amt verlangt)
-- eine Steuerberaterin (prüft die Mehrwertsteuer-Frage)
-- ein alter Koch (sagt, was im Vakuum funktioniert und was nicht)
-- ein erfahrener Gastronom-Kollege (der das selbst schon mal gemacht hat)
-- eine Stammkundin (sagt, ob sie das kaufen würde)
-- jemand aus Marketing (achtet auf den guten Namen Goldoni)
-- ein Logistik-Mensch (denkt an Kühlkette und Lagerung)
-- ein strenger Amts-Kontrolleur (sucht nach Fehlern, bevor das Amt sie findet)
+Siehe `docs/session-handoff.md` für den GitHub-Issue-Workflow zur Einspeisung von Silvio-Feedback.
 
-Die Rollen liegen in [`docs/personas/`](docs/personas/). Das ist mein Arbeitsmaterial — du musst da nicht rein, außer es interessiert dich.
+## Working Rules
 
-## Wo wir stehen (Stand 11.04.2026)
+Siehe [`CLAUDE.md`](CLAUDE.md) für das vollständige Projekt-Regelwerk (Review-Format, Session-Disziplin, Commit-Rhythmus, Pushback-Erwartung, MASCHIN-Tabellenformat). Kernpunkte:
 
-Ich bin in der Vorbereitung. Die Idee ist strukturiert, die ersten Prüfungen gemacht, die wichtigsten offenen Fragen sind aufgeschrieben. Drei Dinge möchte ich dir ehrlich sagen:
+- Jede Zahl mit Quelle oder `[TBD-Silvio]` / `[TBD-Recherche]`-Marker.
+- Commit nach jedem Work-Block.
+- Plain Markdown, keine Static-Site-Builder, keine Hard-Wraps im Fließtext.
+- Review → Findings → Plan → v2. Nie v1 → v2 direkt.
+- Completion zweistufig: "in-review" ≠ "done".
 
-1. **Die Idee trägt.** Sie ist nicht verrückt. Viele Restaurants machen so etwas, und es funktioniert. Auch bei dir kann es funktionieren.
-2. **Manche Zahlen sind noch geschätzt.** Wareneinsatz, Mengen, Nährwerte — das sind in der ersten Analyse grobe Annahmen. Bevor wir Geld in die Hand nehmen, müssen wir die auf echte Zahlen umstellen.
-3. **Zeitplan:** Die erste Analyse sagte "sechs Wochen bis zum Start". Das ist zu knapp. Ich denke eher an zehn bis zwölf Wochen, wenn wir es ruhig angehen. Das ist gut so — es gibt dir Zeit, jeden Schritt zu verstehen und selbst zu entscheiden.
+## Nicht im Scope dieses Repos
 
-## Was jetzt dran wäre
+- Keine Real-World-Ausführung (Anrufe, Termine, E-Mails) — das macht German außerhalb des Repos.
+- Keine rechtliche oder steuerliche Zusicherung — Personas geben Einschätzungen, kein Gutachten. Vor Livegang echter Anwalt / Steuerberater.
+- Kein Code-Produkt. Docs-only. Kein Shop, keine App.
+- Keine Ersetzung von Silvios Entscheidungen (Preise, Mengen, Lieferanten, Termin).
 
-Nichts — außer, dass du das hier liest, wenn du Zeit hast. Danach können wir reden. Kein Druck, kein Fahrplan, kein fester Termin. Sag mir einfach: "Ich hab's gesehen, lass uns mal darüber sprechen", oder "Das ist mir gerade zu viel, lass uns warten". Beide Antworten sind okay.
+## Kontakt
 
-Und wenn dir beim Lesen etwas auffällt — etwas ist falsch, etwas habe ich nicht verstanden, etwas passt nicht zu deinem Restaurant — sag's mir. Das ist der wichtigste Teil. Du kennst dein Geschäft, ich nicht.
-
----
-
-*A presto,*
-**German**
+- Projekt-Owner: German Rauhut (GmanFooFoo).
+- Zielperson: Silvio `[TBD-Nachname]`, Inhaber Ristorante Goldoni Stuttgart. Freund, kein Kunde.
+- Planning-Instanz außerhalb dieses Repos: MASCHIN in `~/Developer/projects/OMNIXIS-planning/` — nur für strukturelle Fragen, nicht für Tagesarbeit.
