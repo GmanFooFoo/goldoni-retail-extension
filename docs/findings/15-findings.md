@@ -2,7 +2,9 @@
 
 **Quelle:** [Lead-Review Steuerberaterin](../reviews/15-steuer-steuerberaterin.md)
 **Datum:** 2026-04-11
-**Status:** In Klärung — Co-Review durch CFO offen. CFO-Blick lohnt erst, wenn Silvios Steuerberater die Einordnung schriftlich bestätigt hat, weil der CFO auf der MwSt-Hypothese die Marge aufbaut.
+**Status:** In Klärung — Co-Review durch CFO offen. Findings 1 und 9 wurden nach Bekanntwerden des Steueränderungsgesetzes 2025 (7 % auf Speisen in Gastronomie seit 1.1.2026) auf "aufgelöst — Silvio-Verifikation offen" umgestellt. Die Nebenpunkte bleiben unverändert gültig.
+
+> **Nachtrag 2026-04-11:** Seit 1. Januar 2026 gilt laut Steueränderungsgesetz 2025 ein dauerhafter 7 %-Umsatzsteuersatz auf Speisen in der Gastronomie (Bundestag 04.12.2025). Das löst die MwSt-Kernfrage aus Finding 1 und die Quantifizierungs-Frage aus Finding 9 auf. Die beiden Einträge stehen weiter in der Tabelle, sind aber als "aufgelöst, Silvio-Verifikation beim Steuerberater-Kontakt" markiert, damit die Historie nachvollziehbar bleibt. Die übrigen Findings (Gewerbeanzeige, KassenSichV, Kontenrahmen, Abschreibung, Verderb-Buchung, Vorsteuer, Cross-Refs) sind nicht betroffen.
 
 Konsolidierte Findings aus dem Lead-Review. Format und Struktur analog `03-findings.md`. Jedes Finding benennt Auflösungs-Pfad, Owner und Impact. Findings sind die Grundlage für den späteren v2-Plan (`docs/plans/15-v2-plan.md`, noch nicht geschrieben) und für Cross-Drift-Einträge in `inconsistencies.md`.
 
@@ -10,7 +12,7 @@ Konsolidierte Findings aus dem Lead-Review. Format und Struktur analog `03-findi
 
 | # | Finding | Prio | Effort | Wer | Blocker? | Status | Impact |
 |---|---|---|---|---|---|---|---|
-| 1 | MwSt-Einordnung (7 % vs. 19 %) ist nicht prüfungsfest. Pfad zur verbindlichen Auskunft nach § 89 Abs. 2 AO fehlt. | P1 | M | Silvio + Steuerberater, ggf. Finanzamt | Gate nach Rollout-Schritt 1 | Offen | Ohne Klarheit hängt die gesamte Preis- und Margen-Logik. Bei Umstufung auf 19 % frisst die Nachzahlung die Marge. |
+| 1 | ~~MwSt-Einordnung (7 % vs. 19 %) ist nicht prüfungsfest. Pfad zur verbindlichen Auskunft nach § 89 Abs. 2 AO fehlt.~~ **Aufgelöst durch Steueränderungsgesetz 2025 — 7 % auf Speisen in Gastronomie seit 1.1.2026, gilt auch für Retail-Mitnahme.** | P1 → ✅ | — | Silvio-Verifikation beim nächsten Steuerberater-Kontakt | — | Aufgelöst, Silvio-Verifikation offen | Der größte Gate-Blocker nach Rollout-Schritt 1 ist weg. |
 | 2 | Doc 02 (Wirtschaftlichkeit) und Doc 07 (Preisgestaltung) erwähnen MwSt nicht. Netto/Brutto ist nirgends fixiert. | P1 | S | Steuerberaterin + CFO (Cross-Review) | Ja, Voraussetzung für belastbare Margen-Rechnung | Offen | Jede Margen-Aussage im Business-Case ist ohne diese Klarheit unbelastbar. |
 | 3 | Gewerbeanzeige nach § 14 GewO nicht adressiert. Retail ist Einzelhandel mit Lebensmitteln, nicht Gaststättenerlaubnis. | P1 | XS | Silvio (Gewerbeamt Stuttgart) | Pflicht vor erstem Verkauf | Offen | Ohne Erweiterung läuft der Retail-Umsatz ordnungsrechtlich nicht sauber; Risiko Bußgeld und Umsatzsperre. |
 | 4 | KassenSichV / TSE-Pflicht nicht geprüft. Kann Silvios Kasse zwei Steuersätze nebeneinander und ist sie TSE-zertifiziert? | P1 | XS | Silvio (Kassenhersteller oder Handbuch) | Ja, bei "Nein" Stopp bis System-Update | Offen | Bei Kassen-Nachschau hart geprüft; fehlende TSE ist Bußgeld-bewehrt. |
@@ -18,7 +20,7 @@ Konsolidierte Findings aus dem Lead-Review. Format und Struktur analog `03-findi
 | 6 | Tiefkühl-Lasagne-Zeile in der Einordnungstabelle widerspricht D-01 (Phase 1 nur Vakuum gekühlt). | P2 | XS | Steuerberaterin (Doc-Korrektur) | — | Offen | Drift zu D-01; verleitet Leser, Tiefkühl als Phase-1-Option zu lesen. |
 | 7 | Briefing-Text an den Steuerberater ist zu kurz. Vier Kern-Fragen fehlen (Kombi-Beleg, Aufwärm-Empfehlung, verbindliche Auskunft, Gewerbeanzeige-Pflicht). | P2 | S | Steuerberaterin (Ausformulierung) | — | Offen | Voraussetzung für Finding 1. Ohne vollständiges Briefing läuft der Steuerberater-Kontakt nicht in einem Zug. |
 | 8 | Abschreibung Vakuumierer nicht konkret durchgerechnet. Anschaffungswert, Vorsteuer, AfA-Nutzungsdauer, jährliche AfA fehlen. | P2 | XS | Steuerberaterin (Rechenbeispiel) | — | Offen | Vorsteuer aus Vakuumierer-Kauf (285–665 €) ist Liquidität, die im Rollout-Plan-Budget nicht gegengerechnet ist. |
-| 9 | Quantifizierung des MwSt-Risikos fehlt. Was bedeutet eine rückwirkende Umstufung auf 19 % für die Marge? | P2 | S | Steuerberaterin + CFO (Cross) | — | Offen | Risiko wird qualitativ benannt, aber nicht dimensioniert. Entscheidungs-Schwelle unklar. |
+| 9 | ~~Quantifizierung des MwSt-Risikos fehlt. Was bedeutet eine rückwirkende Umstufung auf 19 % für die Marge?~~ **Entfällt — keine rückwirkende Umstufung auf 19 % mehr möglich, weil es keinen 19 %-Satz für Speisen mehr gibt.** | P2 → ✅ | — | — | — | Aufgelöst | — |
 | 10 | Vorsteuer-Zuordnung für Retail-spezifische Einkäufe (Beutel, Etiketten, Labor, Schulung) nicht operationalisiert. | P3 | XS | Steuerberater (Konten-Anker) | — | Offen | Mit Finding 5 zusammen lösbar. Praktisch relevant bei der ersten Umsatzsteuer-Voranmeldung. |
 | 11 | Umgang mit Verderb / Entsorgung abgelaufener Ware fehlt als Standard-Prozess (Warenvernichtungsprotokoll, Buchungssatz, USt-Effekt). | P3 | XS | Steuerberaterin (Standard-Prozess beschreiben) | — | Offen | Bei 5–10 % Verderb laufender Buchungsvorgang. Klärt sich mit Finding 5 im selben Konten-Konzept. |
 | 12 | Cross-Refs zu Doc 14 (Recht, § 58 LFGB) und Doc 03 (Vetamt, § 42/43 IfSG-Belehrung) fehlen. | P3 | XS | Steuerberaterin (Doc-Ergänzung) | — | Offen | Reife-Problem, kein Gate-Problem. Verhindert Doppel-Aufbau von Doku-Pflichten. |

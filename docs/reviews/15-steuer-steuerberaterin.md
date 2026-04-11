@@ -5,6 +5,8 @@
 **Doc-Version:** v1
 **Co-Review geplant:** CFO (Persona 01), offen — wird angesetzt, wenn der Lead-Review die MwSt-Einordnung so weit gestützt hat, dass die Margen-Logik ein belastbares Fundament bekommt.
 
+> **Nachtrag 2026-04-11 (nach Lead-Review ergänzt):** Seit 1. Januar 2026 gilt in Deutschland laut Steueränderungsgesetz 2025 ein **dauerhafter 7 %-Umsatzsteuersatz auf Speisen in der Gastronomie** (Bundestag-Beschluss 04.12.2025). Getränke bleiben bei 19 %. Die Kern-Frage "7 % oder 19 % auf die Vakuum-Lasagne?" ist damit **gesetzlich aufgelöst** — 7 % gilt sowohl für den Restaurant-Verzehr als auch für die Retail-Mitnahme. Die verbindliche Auskunft nach § 89 Abs. 2 AO ist **nicht mehr erforderlich**, die rückwirkende Umstufung auf 19 % ist ausgeschlossen, weil es kein 19 %-Ziel für Speisen mehr gibt. Die betroffenen Findings 1 und 9 aus der Tabelle unten sind hinfällig. Die Nebenpunkte des Reviews (KassenSichV/TSE, Gewerbeanzeige, Kontenrahmen, Abschreibung, Verderb) bleiben gültig. [TBD-Silvio] Silvio bestätigt beim nächsten Steuerberater-Kontakt, dass die 7 %-Regelung so auf seinen Retail-Fall angewandt wird — als Arbeits-Annahme nehmen wir es bis dahin.
+
 ## Kurzurteil (1 Satz)
 
 Doc 15 stellt die richtige Kernfrage (7 % vs. 19 %) und gibt die plausible Arbeitshypothese, aber es ist als Gate-Grundlage nach Rollout-Schritt 1 zu dünn — es fehlt die verbindliche Auskunft als Pfad, die Trennung Kassensystem/Erlöskonten ist nicht operationalisiert, Gewerbeanzeige und IfSG-Nebenpflichten fehlen vollständig, und vor allem: weder Doc 02 (Wirtschaftlichkeit) noch Doc 07 (Preisgestaltung) erwähnen MwSt überhaupt — damit hängt die Kalkulation an einer nirgends dokumentierten Netto/Brutto-Annahme.
