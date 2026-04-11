@@ -24,11 +24,17 @@ Ergebnis des Deep-Dive: sechs strukturelle Findings in `docs/findings/session-8-
 
 ## Session-9-Auftrag — drei Haupt-Blöcke plus Vor-Block
 
-### Vor-Block — XS, in jeder Variante vorweg
+### Vor-Block — XS/S, in jeder Variante vorweg
 
-1. **Rollout-Plan-Präzisierung** — Vormittags-Fenster (zwischen ~9 und ~14 Uhr) als Produktions-Zeit-Annahme einbauen, einfacher Koch statt zweiter Chef als Personalkosten-Basis markieren. Kleiner Textblock in der Schritte-Sektion plus Anmerkung in den Kosten-Annahmen. Findings 4 und 5 aus `session-8-persona-deep-dive-findings.md` sind die Basis.
-2. **Persona 00 Silvio Red-Flags ergänzen** — zwei neue Punkte: (a) Behörden-Kontrolle als Image-Bedrohung vor Gästen, nicht als Strafe-Angst; (b) Silvio ist am Projekt-Start im Chance-Modus, Sorgen sind bei German entstanden und dürfen nicht als Silvios Ängste formuliert werden. Findings 1 und 3 aus dem Deep-Dive.
-3. **Session 8 Commit-Log-Ergänzung** im Session-8-Report, falls beim Session-8-Close-Commit nochmal Korrekturen anfallen.
+1. **Persona 11 neu anlegen — "Personal-Markt & Arbeitsrecht Retail"** (Arbeitstitel, schärferer Name in Session 9 erlaubt). Neue Fach-Review-Linse mit hartem Scope: (a) Arbeitsmarkt Stuttgart für einfache Köche und Hilfen vormittags (Stundenlöhne, Minijob-Grenze, Teilzeit-Verfügbarkeit), (b) rechtliche Einordnung (Minijob vs. SV-Pflicht, Ehegatten-Arbeitsvertrag, Scheinselbständigkeit bei mithelfenden Familienmitgliedern), (c) Ausfall-Risiko und Redundanz bei Ein-Personen-Abhängigkeit. **Explizite Non-Goals hart festhalten:** prüft nicht, ob Silvios Ehefrau die Rolle *will* (Silvios Revier), prüft nicht emotionale Familien-Belastung, prüft nicht Team-Dynamik (bleibt Thomas), prüft nicht Küchen-Handwerk (bleibt Pietro), ersetzt nicht Keller bei SV/Steuer-Detail. Struktur analog Persona 07 Pietro. Plan-Referenz: `~/.claude/plans/serialized-spinning-biscuit.md`.
+2. **Doc 20 neu anlegen — `docs/business-case/20-personal-setup-retail.md`** (Doc-Ort zu verifizieren; Alternative `docs/plans/personal-setup-retail.md`, falls die Business-Case-Serie aus guten Gründen auf die 19 Original-Docs begrenzt bleibt). Drei Szenarien A/B/C als Tabelle mit Spalten "Wer produziert vormittags", "Kosten-Rahmen", "Rechtliche Form", "Ausfall-Risiko": (A) Silvios Ehefrau, (B) externer einfacher Koch-Gehilfe, (C) Silvio selbst vormittags. Kurze Prosa pro Szenario, `[TBD-Recherche]`-Marker für Stundenlöhne und Markt-Daten. Das Doc bleibt auf Szenario-Ebene, ohne Vorgabe welches "richtig" ist.
+3. **`docs/personas/assignments.md` erweitern** — Persona 11 eintragen: Lead für Doc 20, Co-Reviewer für Doc 02 (Wirtschaftlichkeit), Doc 10 (Organisation), Doc 13 (Rollout), ggf. Doc 15 (Steuer). Hand-off-Regel: SV/Steuer-Details triggern Persona 03 Keller als Co-Reviewer, Team-Dynamik bleibt Persona 06 Thomas, Küchen-Handwerk bleibt Persona 07 Pietro.
+4. **Rollout-Plan-Präzisierung** — Vormittags-Fenster (zwischen ~9 und ~14 Uhr) als Produktions-Zeit-Annahme einbauen, einfacher Koch statt zweiter Chef als Personalkosten-Basis markieren, Doc 20 als Referenz verlinken. Kleiner Textblock in der Schritte-Sektion plus Anmerkung in den Kosten-Annahmen. Findings 4 und 5 aus `session-8-persona-deep-dive-findings.md` sind die Basis.
+5. **Persona 00 Silvio Red-Flags ergänzen** — zwei neue Punkte: (a) Behörden-Kontrolle als Image-Bedrohung vor Gästen, nicht als Strafe-Angst; (b) Silvio ist am Projekt-Start im Chance-Modus, Sorgen sind bei German entstanden und dürfen nicht als Silvios Ängste formuliert werden. Findings 1 und 3 aus dem Deep-Dive.
+6. **CLAUDE.md Structure-Sektion** — Persona 11 in der Personas-Liste nachtragen.
+7. **Session 8 Commit-Log-Ergänzung** im Session-8-Report, falls beim Session-8-Close-Commit nochmal Korrekturen anfallen.
+
+**Effort Gesamt-Vor-Block:** S–M. Persona 11 ist XS (Struktur-Copy mit hartem Scope-Edit), Doc 20 ist S (Tabelle plus drei kurze Prosa-Blöcke mit TBD-Markern, Details kommen später), assignments.md und CLAUDE.md sind XS, Rollout-Plan und Persona 00 sind XS.
 
 ### Variante A — Rework der Session-8-Artefakte unter Chance-Modus-Leitfaden (Recommended)
 
@@ -91,9 +97,10 @@ Weiter offen aus Session 7. Dr. Maldini hatte bei Doc-03- und Doc-05-Reviews noc
 
 | # | Punkt | Wann |
 |---|---|---|
-| 1 | Rollout-Plan-Präzisierung (Vormittags-Fenster, einfacher Koch) | Session 9 Vor-Block |
-| 2 | Persona 00 Red-Flags ergänzen (Image-Bedrohung, Chance-Modus) | Session 9 Vor-Block |
-| 3 | Artefakt-Rework unter Chance-Modus-Leitfaden | Session 9 Variante A |
+| 1 | Persona 11 neu anlegen (Personal-Markt & Arbeitsrecht Retail) + Doc 20 Personal-Setup Retail | Session 9 Vor-Block |
+| 2 | Rollout-Plan-Präzisierung (Vormittags-Fenster, einfacher Koch, Doc-20-Verweis) | Session 9 Vor-Block |
+| 3 | Persona 00 Red-Flags ergänzen (Image-Bedrohung, Chance-Modus) | Session 9 Vor-Block |
+| 3b | Artefakt-Rework unter Chance-Modus-Leitfaden | Session 9 Variante A |
 | 4 | Fördermittel-Strang anlegen | Session 9 Variante B oder Session 10 |
 | 5 | Rule-9-Nachzug auf Doc 03 und Doc 05 | Variante C, spätestens vor v2-Rewrite |
 | 6 | Co-Reviews Doc 04 und Doc 14 (Behördenkontrolleur, CFO, Steuerberaterin, Küchenchef) | nach Gate-Sequenz, flexibel |

@@ -32,10 +32,11 @@ Analog zu den bestehenden Findings-Dateien (`03-findings.md` etc.):
 
 ## Folge-Aktionen, priorisiert
 
-1. **[Session 9 Start]** Rollout-Plan um Vormittags-Fenster-Annahme und einfachen-Koch-Annahme präzisieren. XS-Arbeitsblock.
-2. **[Session 9]** Session-8-Artefakte (Briefing-Notiz + 3 Hand-Outs) neu kalibrieren unter dem Chance-Modus-Leitfaden. M-Arbeitsblock.
-3. **[Session 9 oder 10]** Fördermittel-Recherche starten und als neues Doc anlegen. M-Arbeitsblock mit WebSearch-Komponente.
-4. **[Später]** Wenn Repo durchgefräst ist (Co-Reviews, v2-Rewrites), Slide-Erstellung über Claude-PowerPoint-Skill. L-Arbeitsblock, voraussichtlich mehrere Sessions.
+1. **[Session 9 Vor-Block]** **Persona 11 "Personal-Markt & Arbeitsrecht Retail"** neu anlegen (Fach-Linse mit hartem Scope: Arbeitsmarkt, Arbeitsrecht, Ausfall-Risiko — explizit **nicht** zuständig für Silvios Familien-Revier) **plus neues Doc `docs/business-case/20-personal-setup-retail.md`** mit drei Szenarien A/B/C (Ehefrau / externer Gehilfe / Silvio selbst). Schließt die Zuständigkeits-Lücke für Findings 4 und 5. Detaillierter Plan in `~/.claude/plans/serialized-spinning-biscuit.md`. Effort: S–M (Persona XS, Doc-Skelett S).
+2. **[Session 9 Vor-Block]** Rollout-Plan um Vormittags-Fenster-Annahme und einfachen-Koch-Annahme präzisieren, mit Verweis auf das neue Doc 20. XS-Arbeitsblock.
+3. **[Session 9]** Session-8-Artefakte (Briefing-Notiz + 3 Hand-Outs) neu kalibrieren unter dem Chance-Modus-Leitfaden, mit Referenz auf Doc 20 statt diffuser "vielleicht ein zweiter Koch"-Formulierung. M-Arbeitsblock.
+4. **[Session 9 oder 10]** Fördermittel-Recherche starten und als neues Doc anlegen. M-Arbeitsblock mit WebSearch-Komponente.
+5. **[Später]** Wenn Repo durchgefräst ist (Co-Reviews, v2-Rewrites), Slide-Erstellung über Claude-PowerPoint-Skill. L-Arbeitsblock, voraussichtlich mehrere Sessions.
 
 ## Was dieser Deep-Dive **nicht** geklärt hat (offene Punkte)
 
