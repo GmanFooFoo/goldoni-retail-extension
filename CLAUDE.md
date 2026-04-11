@@ -30,6 +30,7 @@ Der Ton in Silvio-gerichteten Texten (README, docs/index, Brief-Passagen) ist **
 6. **Kein v2-Rewrite** der 19 Original-Docs ohne vorherige Findings + Plan.
 7. **README.md ist Silvios Seite.** Sie bleibt in Silvio-freundlicher Sprache (ELI12, Brief-Ton, Navigations-Zentrale) und wird **nach jedem Work-Block aktualisiert** (neuer Status, neue Links, neue Findings, neue Fragen an Silvio). Technische Details gehören in diese `CLAUDE.md`, nicht in `README.md`.
 8. **Echter Name:** In den Mockups steht "Marco Antonelli". Silvios echter Name und Adresse sind `[TBD-Silvio]` — bis er sie bestätigt.
+9. **Regulatorik-Aktualität vor jedem Legal/Tax/Tech-Review (Dr. Maldini, Persona 10).** Bevor ein Lead-Review eines Docs mit Rechts-, Steuer-, KassenSichV-, DSGVO- oder Fernabsatz-Bezug geschrieben wird (mindestens Doc 02, 03, 04, 05, 06, 07, 13, 14, 15, 18), läuft eine aktive WebSearch auf den aktuellen Stand der betroffenen Rechtsgebiete. Das Ergebnis wird als **Regulatorik-Nachtrag** im Kopf des Reviews festgehalten, im Template aus `docs/personas/Persona 10 – Dr. Maldini – Fachanwalt Gastro Food Tech.md`. Begründung: Claudes Wissens-Cutoff ist vor dem aktuellen Jahr; ohne aktive Suche wird eine seit dem Cutoff geänderte Norm übersehen. Der 7%-USt-Fall 2026 in Doc 15 ist die Lehre, aus der die Regel entstanden ist.
 
 ## Review Standard-Format
 
@@ -68,7 +69,7 @@ Jede Persona-Review folgt diesem Schema:
 ## Structure
 
 - `docs/business-case/` — die 19 Original-Dokumente (v1, unberührt)
-- `docs/personas/` — 9 rollenbasierte Review-Personas (Marcus, Dr. Steiger, Frau Keller, Inspektor Vogel, Bruno, Thomas, Pietro, Jana, Claudia) + `assignments.md` Matrix
+- `docs/personas/` — 11 rollenbasierte Review-Personas: Persona 00 Silvio (Übersetzungs-Schicht, horizontal), 01 Marcus CFO, 02 Dr. Steiger Lebensmittelrechtler, 03 Frau Keller Steuerberaterin, 04 Inspektor Vogel Behördenkontrolleur, 05 Bruno Logistiker, 06 Thomas Gastronom-Praktiker, 07 Pietro Küchenchef, 08 Jana Brand & Marketing, 09 Claudia Stammgast, 10 Dr. Maldini Fachanwalt Gastro/Food/Tech (Regulatorik-Scout, Co-Reviewer auf allen Rechts/Steuer/Tech-Docs) + `assignments.md` Matrix
 - `docs/findings/inconsistencies.md` — Widersprüche zwischen Dokumenten
 - `docs/plans/rollout-plan.md` — Phase 1/2 Scope + Zeitplan
 - `docs/backlog/repo-backlog.md` — Status-Tabelle

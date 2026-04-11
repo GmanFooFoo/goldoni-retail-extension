@@ -38,6 +38,10 @@ besitzen.
 
 Silvio ist keine Fach-Linse, sondern die Übersetzungs-Schicht am Ende der Expert-Review-Phase. Er wirkt horizontal über alle Findings hinweg und steht deshalb nicht in der Lead/Co-Matrix einzelner Docs. Output ist nicht ein Review im Standard-Format, sondern eine Silvio-facing Ableitung in `docs/silvio-derivatives/`. Details: [`Persona 00 – Silvio – Der Gastronom.md`](Persona%2000%20%E2%80%93%20Silvio%20%E2%80%93%20Der%20Gastronom.md). Einsatz frühestens nach Abschluss der Gate-kritischen Expert-Reviews 03, 15, 05, 04, 14 — on-demand Einzel-Ableitungen pro Doc sind vorher erlaubt.
 
+## Persona 10 — Dr. Maldini — horizontaler Regulatorik-Scout
+
+Dr. Maldini ist Fachanwalt für Gastronomie, Lebensmittel und Technologie. Anders als die Tiefen-Spezialisten (Dr. Steiger Lebensmittelrecht, Frau Keller Steuer) ist er **Breiten-Scanner mit Aktualitäts-Fokus**. Sein Beitrag ist ein **Regulatorik-Nachtrag** im Kopf jedes Lead-Reviews mit Rechts-, Steuer- oder Technologie-Bezug — mindestens auf Docs 02, 03, 04, 05, 06, 07, 13, 14, 15, 18. Er übernimmt in der Regel keinen Lead. Details: [`Persona 10 – Dr. Maldini – Fachanwalt Gastro Food Tech.md`](Persona%2010%20%E2%80%93%20Dr.%20Maldini%20%E2%80%93%20Fachanwalt%20Gastro%20Food%20Tech.md). Die begleitende Prozess-Regel steht in `CLAUDE.md` Rule 9: vor jedem solchen Lead-Review läuft eine aktive WebSearch auf den aktuellen Stand der betroffenen Rechtsgebiete.
+
 ## Die 9 Fach-Personas (Reihenfolge = Stufe-3-Relevanz)
 
 | # | Persona | Rolle | Datei |
