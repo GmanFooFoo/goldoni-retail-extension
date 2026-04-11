@@ -1,8 +1,8 @@
 # Session State — Goldoni Retail Extension
 
 **Aktuelles Datum:** 2026-04-11
-**Letzte aktive Session:** German + Claude (abgeschlossen 2026-04-11)
-**Status:** Bereit für Stufe 3 in neuer Session
+**Letzte aktive Session:** Session 2b (German + Claude, abgeschlossen 2026-04-11 abends)
+**Status:** Bereit für Session 3 — Maßnahme 2 (Repo-Zweck-Umschwung)
 **Aktuelle Phase:** **A — aktiv** (siehe Lebenszyklus unten)
 
 ## Lebenszyklus (D-08)
@@ -17,7 +17,7 @@ Jede Maßnahme, die eine Session einführt, muss die Frage bestehen: *"Brauchen 
 
 ## Aktive Sessions
 
-Keine aktive Session. Letzte Session hat Stufe 1a, 2 und 4 abgeschlossen (sowie 1b/1c gedroppt).
+Keine aktive Session. Session 2b (2026-04-11 abends) hat drei von vier MASCHIN-Review-Maßnahmen abgeschlossen: decisions.md (D-01 bis D-08), Phase A/B/C + Prozess-Fixes, beteiligung.md-Gerüst. Maßnahme 2 (Repo-Zweck-Umschwung) bewusst auf Session 3 verschoben.
 
 ## Repo-Ownership
 
@@ -31,8 +31,10 @@ Nur **eine schreibende Session** gleichzeitig auf diesem Repo. Lese-Zugriff ist 
 | 1b | MkDocs Reader-Site | ❌ Rolled back | MkDocs war Overkill. Alles entfernt, zurück zu plain markdown |
 | 1c | Vercel Deploy | ❌ Dropped | Entfällt komplett. Nur GitHub + lokale Verzeichnisse |
 | 2 | 9 Personas + README für Silvio + Frontmatter-Cleanup + Goldoni-Präfix raus + Marcello-Persona abgeschafft + Ton-Reset | ✅ Done | Alle Silvio-facing Dokumente im freundschaftlichen Ton, Personas im Format "Persona NN – Name – Rolle", Marcello-Figur komplett gestrichen |
-| 3 | Deep Review der Business-Case-Docs | 🔲 Offen — nächste Session | Siehe `SESSION-PROMPT-NEXT.md` für konkreten Einstieg (Option A/B/C) |
-| 4 | Wrap-up dieser Session | ✅ Done | Session-Report, Handoff, SESSION-PROMPT-NEXT geschrieben |
+| 3 | Deep Review der Business-Case-Docs | 🔲 Backlog | Rückt nach Maßnahme 2 nach. Siehe `docs/reports/2026-04-11-goldoni.md` für Options-Diskussion (A/B/C) |
+| 4 | Wrap-up Session 1 | ✅ Done | Session-Report, Handoff, SESSION-PROMPT-NEXT geschrieben |
+| 5 | MASCHIN-Review + Maßnahmen 1/3/4 (Session 2b) | ✅ Done | decisions.md, Phase A/B/C, beteiligung.md-Gerüst, Prozess-Fixes |
+| 6 | Maßnahme 2 — Repo-Zweck-Umschwung | 🔲 Offen — nächste Session | README + rollout-plan auf Germans Arbeits-Level heben, evtl. `docs/silvio-derivatives/` |
 
 ## Substanz aus Stufe 1b (behalten)
 
@@ -50,3 +52,6 @@ markdown im Repo:
 - 2026-04-10 — Initial commit + GitHub-Repo `GmanFooFoo/goldoni-retail-extension` angelegt
 - 2026-04-10 — Stufe 1b (MkDocs) probiert, vom User als Overkill verworfen, komplett rausgeschmissen
 - 2026-04-10 — Vercel/Reader-Site entfällt komplett — nur GitHub + lokale Verzeichnisse
+- 2026-04-11 — Session 1 Close: Stufe 2 + 4 done, SESSION-PROMPT-NEXT für Stufe 3 geschrieben
+- 2026-04-11 — MASCHIN-Review im OMNIXIS-planning Repo korrigiert vier Grundannahmen (Leser = German, offene Beteiligung, Phase A/B/C, lean-Prinzip)
+- 2026-04-11 — Session 2b: decisions.md (D-01 bis D-08), Phase-A/B/C-Absatz, beteiligung.md-Gerüst, Prozess-Fixes in handoff. Maßnahme 2 auf Session 3 verschoben.

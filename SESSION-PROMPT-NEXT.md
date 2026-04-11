@@ -1,97 +1,107 @@
-# Session-Prompt für die nächste Goldoni-Session
+# Session-Prompt für Session 3 — Goldoni Retail Extension
 
-> Diese Datei ist der Handoff von der vorigen Session (2026-04-11) an die kommende. Wenn du (Claude) in einer frischen Session dieses Repo öffnest, lies zuerst diese Datei und erledige die Session-Start-Checkliste aus `docs/session-handoff.md`.
+> Handoff von Session 2b (2026-04-11 abends) an Session 3. Wenn du (Claude) in einer frischen Session dieses Repo öffnest, lies zuerst diese Datei und erledige dann die Session-Start-Checkliste aus `docs/session-handoff.md`.
 
 ## Kurzstand
 
-Stand Ende der Session 2026-04-11:
+Nach Session 2b sind drei von vier MASCHIN-Review-Maßnahmen erledigt:
 
-- **Stufe 1a** (Setup, Repo, GitHub) — ✅ Done
-- **Stufe 1b** (MkDocs Reader-Site) — ❌ Gedroppt (war Overkill)
-- **Stufe 1c** (Vercel Deploy) — ❌ Gedroppt (kein Hosting)
-- **Stufe 2** (9 Personas + README + rollout-plan in Silvio-Ton) — ✅ Done
-- **Stufe 3** (Deep Review aller 19 Docs) — 🔲 **Das ist die Aufgabe für dich**
-- **Stufe 4** (Wrap-up dieser Session) — ✅ Done (daher diese Datei)
+- ✅ **Maßnahme 1:** `docs/findings/decisions.md` mit D-01 bis D-08 angelegt.
+- ✅ **Maßnahme 4:** Phase A/B/C in `session-state.md`, Multi-Session-Suffix und Commit-Log-Pflicht in `docs/session-handoff.md`.
+- ✅ **Maßnahme 3:** `docs/beteiligung.md` Gerüst angelegt, inhaltliche Sektionen bewusst leer, vier offene Fragen an German formuliert.
+- 🔲 **Maßnahme 2:** Repo-Zweck-Umschwung — **das ist Session 3.**
+
+Die **Stufe-3 Deep-Review-Arbeit** (19 Business-Case-Docs) ist in den Backlog gewandert. Sie kommt nach Maßnahme 2, weil der Tonlage-Umschwung die Grundlage für alle weiteren internen Arbeits-Dokumente ist — und es wäre Verschwendung, Reviews in einem Ton zu schreiben, der in Session 3 ohnehin umgedreht wird.
 
 ## Kontext-Reset — lies diese Dateien zuerst
 
-Bevor du mit Stufe 3 anfängst, stelle sicher, dass du folgendes gelesen hast (Reihenfolge beachten, oberes zuerst):
+1. `~/.claude/projects/-Users-germanrauhut-com-Developer-projects-goldoni-retail-extension/memory/MEMORY.md` — Projekt-Memories. Wichtig:
+   - `project_silvio_profile.md`
+   - `project_no_marcello_persona.md`
+   - `feedback_pushback_expected.md`
+   - `feedback_no_hard_wraps.md`
+   - `feedback_readme_is_customer_facing.md` — **Achtung, diese Memory ist jetzt teilweise überholt:** D-06 hat festgelegt, dass das Repo für Germans Arbeits-Ebene geschrieben wird. README bleibt Silvio-facing *als Ableitung* oder wird in eine Arbeits-Version + eine Silvio-Ableitung gesplittet. Die Memory sollte in dieser Session aktualisiert oder ergänzt werden.
+2. `docs/findings/decisions.md` — D-01 bis D-08, besonders D-06 (Germans Arbeits-Level), D-07 (offene Beteiligung), D-08 (Phase A/B/C).
+3. `CLAUDE.md` im Repo-Root — Projekt-Grundregeln.
+4. `session-state.md` — aktueller Stand.
+5. `docs/reports/2026-04-11-goldoni.md` — Session 1 Close.
+6. `docs/reports/2026-04-11-goldoni-b.md` — Session 2b Close (dieser Plan wurde aus der Fortsetzung dieses Reports generiert).
+7. `docs/plans/rollout-plan.md` und `README.md` — die beiden Silvio-facing Dokumente, die in dieser Session auf Germans Level gehoben werden.
+8. `docs/beteiligung.md` — das Gerüst, falls German Dimensionen 1–4 füllen will (separater Block, siehe unten).
 
-1. `~/.claude/projects/-Users-germanrauhut-com-Developer-projects-goldoni-retail-extension/memory/MEMORY.md` — Index aller Projekt-Memories. Die wichtigsten:
-   - `project_silvio_profile.md` — **Pflichtlektüre.** Wer ist Silvio, wie reden wir mit ihm, was braucht er, um "ja" zu sagen.
-   - `project_no_marcello_persona.md` — keine Berater-Rolle, German ist der Owner
-   - `project_scope_phase1_vakuum_only.md` — Phase 1 = nur gekühlte Vakuum-Produkte
-   - `feedback_pushback_expected.md` — German erwartet Widerspruch und eigenes Urteil
-   - `feedback_no_hard_wraps.md` — ein Paragraph = eine Zeile
-   - `feedback_askuserquestion_preferred.md` — bei Wahlmöglichkeiten AskUserQuestion benutzen
-   - `feedback_readme_is_customer_facing.md` — README = Silvios Seite
-2. `CLAUDE.md` im Repo-Root — Projekt-Grundregeln, Review-Standard-Format, Structure
-3. `session-state.md` im Repo-Root — Stage-Fortschritt, aktuell
-4. `docs/personas/assignments.md` — wer reviewt was
-5. Der Session-Report `docs/reports/2026-04-11-goldoni.md` — was in der letzten Session passiert ist
-6. `docs/plans/rollout-plan.md` und `README.md` — Beispiele für den Silvio-Ton, zur Orientierung
+## Session-3-Auftrag: Maßnahme 2 — Repo-Zweck-Umschwung
 
-## Was in dieser Session gemacht werden soll
+**Grund:** Session 1 hat das komplette Repo auf Silvio-facing Ton gedreht. Der MASCHIN-Review hat gezeigt, dass Silvio das Repo vermutlich nie selbst öffnet. Damit ist der Silvio-Ton in den internen Arbeits-Docs Ballast, der echte Tiefe verhindert (D-06).
 
-**Stufe 3 — Deep Review der Business-Case-Dokumente.**
+**Scope (alle Punkte stehen an, aber nicht alle müssen in einer Session):**
 
-German hat die ursprüngliche Aufgabe erweitert: nicht nur 5 kritische Docs, sondern **alle 19**. Aber das ist XL-Aufwand, und in einer einzelnen Session wahrscheinlich zu viel. Sprich dich mit German am Anfang der Session ab, ob wir:
+### 2a — README auf Germans Level umschreiben (Pflicht)
 
-| # | Option | Was passiert | Wann sinnvoll |
+Aktuell: freundschaftlicher Vorschlag an Silvio ("Caro Silvio, …"). Das wird zum **Arbeits-README** für German selbst: was ist in diesem Repo, wo steht was, welche Entscheidungen sind gefallen, in welcher Phase ist das Projekt, welche Personas gibt es, Stand der Business-Case-Reviews.
+
+Ton: präzise, direkt, kein Verkaufs-Ton, keine italienischen Grüße, keine Marketing-Formulierungen.
+
+### 2b — `rollout-plan.md` — Variante A oder B entscheiden (Pflicht)
+
+Zwei Optionen:
+
+- **Variante A (empfohlen im Review-Plan):** Eine interne Arbeits-Version `docs/plans/rollout-plan.md` auf Germans Level (mit echten Risiken, Alternativen, Open Questions), und eine abgeleitete Silvio-Version `docs/silvio-derivatives/rollout-vorschlag.md` für den Fall, dass Silvio es lesen soll.
+- **Variante B:** Nur die interne Version. Silvio-Version entsteht ad-hoc wenn gebraucht.
+
+**Empfehlung an German:** Variante B starten, weil weniger Parallelarbeit. Ableitung erst erzeugen, wenn sie konkret gebraucht wird. Das bleibt lean.
+
+**Entscheidung via `AskUserQuestion`** am Anfang des Blocks.
+
+### 2c — Neuer Ordner `docs/silvio-derivatives/` (nur bei Variante A)
+
+Falls Variante A gewählt wird: Ordner anlegen, README darin mit dem Leitsatz *"nicht überreden, nicht verkaufen, nicht drängen"* als Tone-Anker.
+
+### 2d — Business-Case-Docs (19 Stück) — Spot-Check, kein Rewrite (Optional)
+
+Die 19 Original-Docs waren bereits arbeits-nah strukturiert. Review, ob in einzelnen Passagen Silvio-Empfindlichkeits-Rücksicht dazu geführt hat, dass Substanz verloren ging. Falls ja: nachziehen. Falls nein: nichts tun. Kein flächendeckender Rewrite.
+
+**Zeitbudget:** Höchstens 30 Minuten. Wenn mehr nötig wäre, als Einzel-Task flaggen, nicht in dieser Session mit rein.
+
+### 2e — Persona-Files Spot-Check (Optional)
+
+Die 9 Review-Personas sind Analyse-Linsen, keine Silvio-facing Texte — sollten bereits auf Germans Level sein. Spot-Check erwartet: keine Überarbeitung.
+
+### 2f — Memory `feedback_readme_is_customer_facing.md` aktualisieren (Pflicht)
+
+Die Memory muss den neuen Stand widerspiegeln: README ist standardmäßig Germans Arbeits-README. Silvio-Version entsteht als explizite Ableitung, wenn gebraucht. Die alte Memory-Formulierung "README = Silvios Seite" wird ersetzt oder ergänzt.
+
+## Start-Frage an German
+
+Am Anfang der Session via `AskUserQuestion`:
+
+- *Variante A (zwei Versionen) oder B (nur interne Version)?*
+- *Willst du in dieser Session auch `docs/beteiligung.md` Dimensionen befüllen, oder bleibt das ein eigener Block?*
+
+## Offene Punkte aus Session 2b (keine Blocker)
+
+| # | Punkt | Owner | Wann |
 |---|---|---|---|
-| A | **Alle 19 Docs** in dieser Session | ~40 Review-Dateien, 19 Findings-Dateien, 19 v2-Pläne. Braucht voraussichtlich mehrere lange Sessions. | Nur wenn German explizit "wir machen alles" sagt. |
-| B | **Priorisierte Teilmenge (5–8 Docs)** in dieser Session, Rest in Folge-Sessions | Fokus auf die Docs, die Silvio als erstes sehen sollen. Empfohlener Einstieg: Doc 01, 02, 05, 13, 17 (plus ggf. 04 LMIV und 07 Preisgestaltung). | Default, wenn German kein anderes Signal gibt. |
-| C | **Einzelnes Doc im Tiefreview** als Pilot | Wir machen ein vollständiges Review (alle zuständigen Personas) für ein einziges Doc, z.B. Doc 02 (Wirtschaftlichkeit). Danach bewerten wir den Aufwand und entscheiden über die Fortsetzung. | Wenn German erstmal den Prozess testen will. |
+| 1 | `docs/beteiligung.md` Dimensionen 1–4 und vier Vor-Fragen | German | Eigener ruhiger Arbeits-Block, nicht unter Zeitdruck |
+| 2 | Maßnahme 2 — diese Session | German + Claude | Jetzt |
+| 3 | Stufe-3 Deep Review der 19 Docs | Nach Maßnahme 2 | Backlog |
 
-**Empfehlung:** Option C — ein Pilot-Review für Doc 02. Das ist das finanziell wichtigste Dokument, wird von Marcus (Lead) und Frau Keller (Co) geprüft, und das Ergebnis zeigt German, wie gründlich oder knapp die Reviews ausfallen. Danach gemeinsam den Plan für die restlichen 18 schärfen.
+Operative Silvio-Blocker (MwSt, Vetamt, Nachname, Metro) bleiben unverändert offen bei Silvio.
 
-**Frage als Session-Start an German:** via `AskUserQuestion`, A/B/C auswählen lassen, bevor du losarbeitest.
+## Wichtige Präferenzen von German (aus Memories + Session 2b)
 
-## Stage-3 Workflow (sobald die Option gewählt ist)
-
-Für jedes Dokument, das reviewt wird:
-
-1. **Original-Doc lesen** (`docs/business-case/NN – XYZ.md`)
-2. **`docs/personas/assignments.md`** öffnen — welche Personas sind Lead und Co für dieses Doc?
-3. **Pro zuständiger Persona ein Review schreiben** in `docs/reviews/[persona]-NN.md`, nach dem Review-Standard-Format aus `CLAUDE.md` (Kurzurteil, Scoring 1–5 auf 4 Dimensionen, Red Flags, Kritikpunkte, Was fehlt, Empfehlung)
-4. **Eine konsolidierte Findings-Datei** `docs/findings/NN-findings.md` — dedupliziert aus den Persona-Reviews, priorisiert nach Schwere (Stopp / Qualität / Nice-to-have)
-5. **Ein Revisionsplan** `docs/plans/NN-v2-plan.md` — was muss geändert werden, welche Infos fehlen, wer muss was liefern
-6. **Commit nach jedem Doc**, nicht Sammel-Commit
-7. **`docs/findings/inconsistencies.md`** aktualisieren, wenn während des Reviews neue Widersprüche auffallen
-
-## Besondere Hinweise für Stufe 3
-
-- **Phase 1 = nur Vakuum.** Jede Persona bewertet mit diesem Scope im Kopf. Tiefkühl-spezifische Kritik wird als "Phase 2" markiert, nicht im Hauptteil.
-- **Wo Persona XY Lead ist**, schreibt sie die konsolidierte Einschätzung. Wo sie nur Co ist, liefert sie nur ihren Fachbeitrag.
-- **Keine Berater-Pose.** Die Personas sind Analyse-Brillen. Der Output darf kritisch und pointiert sein, aber das Dokument **für Silvio** (die Findings) muss wieder in einfacher Sprache geschrieben werden — Silvio soll am Ende verstehen, was wir gefunden haben, ohne BWL-Studium.
-- **Silvio-Fragen als GitHub Issues.** Wenn beim Review eine Frage auftaucht, die nur Silvio beantworten kann, direkt ein Issue anlegen (`gh issue create --label feedback-silvio --title "..."`), nicht nur im Review notieren.
-
-## Offene Punkte aus der vorigen Session (FYI, kein Action-Item für dich)
-
-- **MwSt-Klärung (7% oder 19%)**: Silvio sollte mit seinem Steuerberater reden. Ohne Klarheit kippen alle Wirtschaftlichkeitsrechnungen.
-- **Silvios echter Nachname, Adresse, Steuernummer**: aktuell `[TBD-Silvio]` überall. Bleibt bis Silvio die Infos liefert.
-- **Vetamt-Vorgespräch**: sollte Silvio selbst machen, sobald er die Idee weitertreiben will.
-- **Metro-Angebote für Vakuumiergerät**: Lieferzeit und Modell-Vergleich.
-- **README + rollout-plan**: Silvio hat die noch nicht gesehen. German entscheidet, wann er sie ihm zeigt.
-
-## Wichtige Präferenzen von German (aus den Memories)
-
-- **Ton für Silvio-facing Texte**: einfache Sätze, keine Anglizismen, kein Fachjargon ohne Erklärung, tentativ ("wenn du willst"), warm, Freundschaft statt Kunde. Siehe `project_silvio_profile.md`.
-- **Ton für interne Arbeits-Dokumente** (Reviews, Findings-Arbeitsdokumente, CLAUDE.md): präzise, direkt, pointiert, kein Consulting-Geschwurbel aber auch keine Überförmlichkeit. Normal-professionell.
-- **Pushback**: German erwartet, dass du widersprichst wenn etwas nicht passt. "Ich mach einfach alles was er sagt" ist der falsche Modus. Siehe `feedback_pushback_expected.md`.
-- **Tabellen**: Status- und To-Do-Tabellen im MASCHIN-Format (`# | Item | Prio | Effort | Wer | Blocker? | Status | Impact`), nicht vereinfacht.
-- **Markdown**: ein Paragraph = eine Zeile im Source (keine Hard-Wraps auf 72/80 Zeichen). Tabellen/Listen/Code natürlich ausgenommen.
-- **AskUserQuestion**: bei 2+ Optionen immer die strukturierte Variante benutzen, nicht nummerierte Chat-Listen.
-- **Keine Marcello-Persona**: du bist Claude, du hilfst German, du bist kein Berater. Silvio-facing Texte sind in Germans Stimme signiert.
-- **Keine Easter Eggs am Session-Ende**, stattdessen ein **Leitsatz der Session** im Report. Siehe `project_no_easter_eggs.md`.
+- **Ton für interne Arbeits-Dokumente (Default nach D-06):** präzise, direkt, pointiert. Fach-Sprache erlaubt. Keine Consulting-Pose, keine Überförmlichkeit. Echte Risiko-Analyse ohne Silvio-Empfindlichkeits-Rücksicht.
+- **Ton für Silvio-Ableitungen (wenn sie entstehen):** einfache Sätze, keine Anglizismen, kein Jargon ohne Erklärung, tentativ, warm, Freundschaft statt Kunde. Leitsatz: "nicht überreden, nicht verkaufen, nicht drängen."
+- **Pushback bleibt Pflicht.** Session 2b hat z.B. vom Review-Plan abgewichen, wo das bestehende decisions.md-Schema in `session-handoff.md` sinnvoller war. Das ist richtig so.
+- **Tabellen:** MASCHIN-Format (`# | Item | Prio | Effort | Wer | Blocker? | Status | Impact`).
+- **Markdown:** keine Hard-Wraps im Fließtext.
+- **AskUserQuestion** bei 2+ Optionen.
+- **Keine Marcello-Persona** (D-03), keine Easter Eggs (D-05).
 
 ## Start-Nachricht Template
 
-So könnte deine erste Antwort in der neuen Session aussehen, nach dem Lesen der oben genannten Dateien:
+Nach Lesen der Kontext-Dateien:
 
-> "Kontext geladen. Letzte Session war 2026-04-11, Stufe 2 ist abgeschlossen (9 Personas, README und rollout-plan im Silvio-Ton, alles gepusht). Für heute steht Stufe 3 an: Deep Review der Business-Case-Dokumente.
->
-> Ich habe drei Vorschläge, wie wir den Scope handhaben: (a) alle 19 Docs in mehreren Sessions, (b) eine priorisierte Teilmenge von 5–8 Docs heute, (c) ein einzelnes Doc als Pilot-Review, um den Prozess zu kalibrieren. Ich empfehle (c) — Pilot an Doc 02 (Wirtschaftlichkeit). Wie möchtest du vorgehen?"
+> "Kontext geladen. Session 2b hat drei Review-Maßnahmen abgeschlossen (decisions.md D-01 bis D-08, Phase A/B/C + Prozess-Fixes, beteiligung.md-Gerüst). Session 3 startet mit Maßnahme 2 — Repo-Zweck-Umschwung. Zwei Entscheidungen bevor ich anfange: (a) rollout-plan als Variante A (zwei Versionen) oder B (nur interne Version)? Ich empfehle B. (b) Soll `docs/beteiligung.md` heute mit befüllt werden, oder bleibt das ein eigener Block?"
 
 Dann warte auf Germans Antwort und fang entsprechend an.
 
