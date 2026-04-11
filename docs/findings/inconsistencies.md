@@ -15,6 +15,7 @@ Werden in Stufe 3 (Deep Review) von den jeweiligen Rollen validiert. Einträge 1
 | 4 | **Name:** "Marco Antonelli" (Mockup) vs Silvio (echt) | Doc 06 | alle anderen | Silvio (echter Name + Adresse) |
 | 5 | **MwSt:** 7 % oder 19 %? | Doc 02 (implizit 7 %) | Doc 15 (offen) | Steuer-Rolle + Silvios Steuerberater |
 | 6 | **Pilot-Pflicht:** neuer Plan verlangt Pilot als Gate vor Launch; Doc 13 sieht keinen expliziten Gate-Pilot, sondern "Soft-Launch" in Woche 5 parallel zur Launch-Vorbereitung | Doc 13 | `docs/plans/rollout-plan.md` (Schritt 6 als Pflicht-Gate) | Gastronom-Rolle + CFO |
+| 7 | **MHD-Validierung:** Doc 03 sagt "Fachliteratur oder eigene Tests" — ohne Protokoll. Doc 04 (LMIV) und Doc 05 (HACCP) setzen validierte MHDs implizit voraus, ohne den Validierungs-Pfad zu benennen. Haftungs-Quelle nach § 58 LFGB. | Doc 03, 04, 05 | Persona-Red-Flag Lebensmittelrechtler, [Finding 3 Doc 03](03-findings.md#findings-tabelle) | Lebensmittelrechtler + Küche (Test-Protokoll) oder Labor |
 
 ## Format pro Eintrag
 
