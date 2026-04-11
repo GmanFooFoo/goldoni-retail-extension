@@ -1,8 +1,8 @@
 # Session State — Goldoni Retail Extension
 
 **Aktuelles Datum:** 2026-04-11
-**Letzte aktive Session:** Session 3 (German + Claude, abgeschlossen 2026-04-11 abends)
-**Status:** Maßnahme 2 abgeschlossen — Repo ist auf Germans Arbeits-Level. Bereit für Session 4 (Stufe 3 Deep Review oder `beteiligung.md`).
+**Letzte aktive Session:** Session 4 (German + Claude, 2026-04-11 Nacht)
+**Status:** Stufe 3 Deep Review läuft. Doc 03 Vetamt (erstes Doc der Gate-kritischen Sequenz) ist Lead-reviewt, Findings konsolidiert, v2-Plan skizziert. Co-Review durch Behördenkontrolleur ausstehend.
 **Aktuelle Phase:** **A — aktiv** (siehe Lebenszyklus unten)
 
 ## Lebenszyklus (D-08)
@@ -17,7 +17,7 @@ Jede Maßnahme, die eine Session einführt, muss die Frage bestehen: *"Brauchen 
 
 ## Aktive Sessions
 
-Keine aktive Session. Session 3 (2026-04-11 abends) hat Maßnahme 2 (Repo-Zweck-Umschwung) abgeschlossen: README und `docs/plans/rollout-plan.md` auf Germans Arbeits-Level gezogen, Memory `feedback_readme_is_customer_facing.md` auf D-06 aktualisiert, Spot-Check der 19 Business-Case-Docs und 9 Personas (kein Rewrite nötig, neue Konsistenz-Findings in `inconsistencies.md`).
+Keine aktive Session. Session 4 (2026-04-11 Nacht) hat den Stufe-3 Deep Review gestartet: Gate-kritische Sequenz 03 → 15 → 05 → 04 → 14 fixiert, Doc 03 Vetamt durch den Lebensmittelrechtler Lead-reviewt, 12 Findings konsolidiert in `docs/findings/03-findings.md`, v2-Plan-Skizze in `docs/plans/03-v2-plan.md`, Cross-Drift #7 MHD-Validierung in `inconsistencies.md` nachgezogen.
 
 ## Repo-Ownership
 
@@ -31,7 +31,7 @@ Nur **eine schreibende Session** gleichzeitig auf diesem Repo. Lese-Zugriff ist 
 | 1b | MkDocs Reader-Site | ❌ Rolled back | MkDocs war Overkill. Alles entfernt, zurück zu plain markdown |
 | 1c | Vercel Deploy | ❌ Dropped | Entfällt komplett. Nur GitHub + lokale Verzeichnisse |
 | 2 | 9 Personas + README für Silvio + Frontmatter-Cleanup + Goldoni-Präfix raus + Marcello-Persona abgeschafft + Ton-Reset | ✅ Done | Alle Silvio-facing Dokumente im freundschaftlichen Ton, Personas im Format "Persona NN – Name – Rolle", Marcello-Figur komplett gestrichen |
-| 3 | Deep Review der Business-Case-Docs | 🔲 Backlog | Rückt nach Maßnahme 2 nach. Siehe `docs/reports/2026-04-11-goldoni.md` für Options-Diskussion (A/B/C) |
+| 3 | Deep Review der Business-Case-Docs | ⚠️ In Progress | Gestartet in Session 4. Sequenz: 03 → 15 → 05 → 04 → 14 (Gate-kritisch zuerst). Doc 03 Lead-reviewt, Findings + v2-Plan-Skizze vorhanden. Co-Review Vetamt und nächste vier Docs ausstehend. |
 | 4 | Wrap-up Session 1 | ✅ Done | Session-Report, Handoff, SESSION-PROMPT-NEXT geschrieben |
 | 5 | MASCHIN-Review + Maßnahmen 1/3/4 (Session 2b) | ✅ Done | decisions.md, Phase A/B/C, beteiligung.md-Gerüst, Prozess-Fixes |
 | 6 | Maßnahme 2 — Repo-Zweck-Umschwung | ✅ Done | README und rollout-plan auf Germans Arbeits-Level. Variante B gewählt (keine parallele Silvio-Version). Memory aktualisiert. Spot-Check 2d/2e ohne Rewrite-Bedarf. |
@@ -56,3 +56,4 @@ markdown im Repo:
 - 2026-04-11 — MASCHIN-Review im OMNIXIS-planning Repo korrigiert vier Grundannahmen (Leser = German, offene Beteiligung, Phase A/B/C, lean-Prinzip)
 - 2026-04-11 — Session 2b: decisions.md (D-01 bis D-08), Phase-A/B/C-Absatz, beteiligung.md-Gerüst, Prozess-Fixes in handoff. Maßnahme 2 auf Session 3 verschoben.
 - 2026-04-11 — Session 3: Maßnahme 2 abgeschlossen. README und rollout-plan auf Arbeits-Level (Variante B). Memory-Update. Spot-Checks ohne Rewrite. Konsistenz-Findings 1/3/6 in `inconsistencies.md` präzisiert. Commits: e5a415e, 68d4493, 49f1b0a.
+- 2026-04-11 — Session 4: Stufe 3 Deep Review gestartet. Gate-kritische Sequenz 03 → 15 → 05 → 04 → 14. Doc 03 Vetamt Lead-Review durch Lebensmittelrechtler. Findings + v2-Plan-Skizze. inconsistencies #7 neu (MHD-Validierung). Commits: 563d64b, 5a02643, 717e64b.

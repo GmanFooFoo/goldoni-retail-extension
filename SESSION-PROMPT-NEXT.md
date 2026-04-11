@@ -1,98 +1,104 @@
-# Session-Prompt für Session 4 — Goldoni Retail Extension
+# Session-Prompt für Session 5 — Goldoni Retail Extension
 
-> Handoff von Session 3 (2026-04-11 abends) an Session 4. Wenn du (Claude) in einer frischen Session dieses Repo öffnest, lies zuerst diese Datei und erledige dann die Session-Start-Checkliste aus `docs/session-handoff.md`.
+> Handoff von Session 4 (2026-04-11 Nacht) an Session 5. Wenn du (Claude) in einer frischen Session dieses Repo öffnest, lies zuerst diese Datei und erledige dann die Session-Start-Checkliste aus `docs/session-handoff.md`.
 
 ## Kurzstand
 
-Session 3 hat **Maßnahme 2 (Repo-Zweck-Umschwung) abgeschlossen**. Das Repo ist jetzt auf Germans Arbeits-Level, nicht Silvio-facing:
+Session 4 hat den **Stufe-3 Deep Review gestartet**. Gate-kritische Sequenz fixiert: 03 → 15 → 05 → 04 → 14. Doc 03 Vetamt ist Lead-reviewt durch den Lebensmittelrechtler, 12 Findings konsolidiert in drei Auflösungs-Gruppen, v2-Plan-Skizze geschrieben, Cross-Drift #7 (MHD-Validierung) in `inconsistencies.md` nachgezogen.
 
-- README: reiner Arbeits-Index (Phase, Scope, Repo-Map, Decisions, Stand, Working Rules).
-- `docs/plans/rollout-plan.md`: Gate-basiert, 10–12 Wochen, Dependency-Tabelle mit Fail-Bedingungen, explizite TBD-Marker, harte Go/No-Go-Gates.
-- Memory `feedback_readme_is_customer_facing.md` auf D-06 umgestellt. Silvio-Ableitungen entstehen nur ad-hoc.
-- Spot-Check 2d/2e hat ergeben: 19 Business-Case-Docs und 9 Personas sind bereits auf Arbeits-Level — kein Rewrite. Aber es gibt **Substanz-Drift** (D-02 vs. v1-Scope), die in `docs/findings/inconsistencies.md` präzisiert wurde (Einträge 1, 3, 6).
+**Doc 03 Urteil:** Rework erforderlich. Drei Pflicht-Bausteine fehlen (Rückruf-Prozess, HACCP-Beauftragter-Benennung, Tagesprotokolle), Timings und Gebühren nicht belastbar, Rework-Szenario bei Erstbegehung fehlt. Keine Stopp-Bedingung — die Grundrichtung stimmt.
 
-Commits Session 3: `e5a415e`, `68d4493`, `49f1b0a`.
+**Commits Session 4:** `563d64b`, `5a02643`, `717e64b`, plus Session-Close-Commit.
 
-**Session 4** ist damit offen für den nächsten Hauptblock — den **Stufe-3 Deep Review** der 19 Business-Case-Docs. Alternativ kann German einen ruhigen Arbeits-Block für `docs/beteiligung.md` einschieben.
+**Offen außerhalb des Repos:** Gruppe-A-Aktionen für Silvio — zwei Telefonate (Vetamt Stuttgart + IHK Gastronomie-Erstberatung). Billig, schnell, klären vier Findings auf einen Schlag. Ergebnisse können asynchron als [TBD-Silvio]-Nachträge im v2-Plan landen, ohne eine Session zu binden.
 
 ## Kontext-Reset — lies diese Dateien zuerst
 
-1. `~/.claude/projects/-Users-germanrauhut-com-Developer-projects-goldoni-retail-extension/memory/MEMORY.md` — besonders `feedback_readme_is_customer_facing.md` (neu), `project_silvio_profile.md`, `feedback_personas_role_only.md`, `feedback_pushback_expected.md`.
-2. `docs/findings/decisions.md` — D-01 bis D-08, besonders D-02 (Scope), D-06 (Arbeits-Level), D-08 (Phasen).
-3. `docs/findings/inconsistencies.md` — 6 Einträge, Hauptdrift: v1-Docs vs. D-02 und neuer Rollout-Plan.
-4. `docs/plans/rollout-plan.md` — aktuelle Gate-Logik und Risiko-Bewertung. Ist der Maßstab, gegen den die v1-Docs reviewt werden.
-5. `README.md` — neuer Arbeits-Index.
-6. `session-state.md` — aktueller Stand.
-7. `docs/reports/2026-04-11-goldoni-c.md` — Session 3 Close.
-8. `docs/personas/assignments.md` — Matrix wer welches Doc reviewt.
-9. `CLAUDE.md` im Repo-Root — Review-Standard-Format und Grundregeln.
+1. `docs/reports/2026-04-11-goldoni-d.md` — Session 4 Close mit Lessons und Commit-Log.
+2. `docs/reviews/03-vetamt-lebensmittelrechtler.md` — der Lead-Review. Ist der Maßstab, gegen den der Co-Review (Variante A) gelesen wird.
+3. `docs/findings/03-findings.md` — 12 Findings in drei Gruppen. Grundlage für jede weitere Doc-03-Arbeit.
+4. `docs/plans/03-v2-plan.md` — v2-Plan-Skizze. Zeigt, welche Strukturänderungen in Doc 03 v2 eingebaut werden, sobald Silvios Anrufe durch sind.
+5. `docs/findings/inconsistencies.md` — jetzt sieben Einträge, #7 MHD-Validierung neu.
+6. `docs/findings/decisions.md` — D-01 bis D-08, besonders D-01 (Phase 1 Vakuum), D-06 (Arbeits-Level), D-08 (Phasen).
+7. `docs/plans/rollout-plan.md` — der Gate-Maßstab.
+8. `docs/personas/assignments.md` — Lead/Co-Matrix. Co für Doc 03: Behördenkontrolleur. Lead für Doc 15: Steuerberaterin (Co: CFO).
+9. `CLAUDE.md` — Review-Standard-Format.
+10. `session-state.md` — Stand nach Session 4.
 
-## Session-4-Auftrag — zwei Varianten, German entscheidet via AskUserQuestion
+## Session-5-Auftrag — drei Varianten, German entscheidet via AskUserQuestion
 
-### Variante A — Stufe 3 Deep Review starten (Empfohlen)
+### Variante A — Co-Review Doc 03 durch Behördenkontrolleur
 
-Der Deep Review ist die Kernarbeit dieser Phase. Ohne ihn bleibt der Business-Case nicht reif für die Silvio-Entscheidung. Er zerfällt in Teilschritte:
+Parallel-Review zum Lead-Review aus Session 4. Der Behördenkontrolleur ist in `assignments.md` als Co hinterlegt und hat eine adversariale Perspektive (Persona 04 — "Behördenkontrolleur adversarial"). Er fragt: *Was würde ein Inspektor bei der Erstbegehung als erstes beanstanden?* Findet typischerweise andere Schwachstellen als der Jurist — operative Lücken statt rechtliche. Ergebnis: `docs/reviews/03-vetamt-behoerdenkontrolleur.md` im Standard-Format. Anschließend ggf. `03-findings.md` um Co-Findings erweitern.
 
-**A1 — Priorisierungs-Entscheidung** (XS, 10 Minuten): In welcher Reihenfolge werden die 19 Docs reviewt? Zwei Pfade:
+**Effort:** S–M (1 Stunde bis halber Tag je nach Tiefe).
 
-- **Pfad Gate-kritisch zuerst:** 03 Vetamt → 15 Steuer → 05 HACCP → 04 LMIV → 14 Recht. Rationale: Diese Gates entscheiden, ob das Projekt überhaupt starten kann. Zahlen sind nachrangig, solange der regulatorische Rahmen unklar ist.
-- **Pfad Zahlen-kritisch zuerst:** 02 Wirtschaftlichkeit → 07 Preis → 18 Finanzierung → 12 Invest → 16 Risiken. Rationale: Ohne tragfähige Unit Economics lohnt sich keine Vetamt-Klärung.
+**Stop-Punkt:** Nach Co-Review committed. Keine weitere Arbeit an Doc 03 in Session 5.
 
-Empfehlung Session 4: **Pfad Gate-kritisch zuerst**, weil der neue Rollout-Plan die MwSt- und Vetamt-Klärung als harte Blocker vor jeder Investition gesetzt hat (Gate nach Schritt 1 und 2). Zahlen werden belastbar erst, wenn die MwSt-Frage geklärt ist.
+### Variante B — Doc 15 Steuerliche Behandlung Lead-Review
 
-**A2 — Erstes Doc reviewen** (M, 1–2 Stunden): Das erste Doc aus der gewählten Sequenz (bei Empfehlung: Doc 03 — Veterinäramt Stuttgart) durch die zugeordnete Persona reviewen. Persona-Assignments in `docs/personas/assignments.md` prüfen. Review im Standard-Format in `docs/reviews/03-vetamt-[rolle].md` ablegen.
+Nächster Schritt in der Gate-kritischen Sequenz. Lead: Steuerberaterin (Persona 03). Co: CFO. Ausgangslage: Die MwSt-Frage (7 % oder 19 %) ist in `inconsistencies.md` als Eintrag #5 offen und gleichzeitig als Gate nach Rollout-Schritt 1 im `rollout-plan.md` definiert — also ein echter Pfad-Blocker für die Preis-Kalkulation. Ergebnis: `docs/reviews/15-steuer-steuerberaterin.md` plus `docs/findings/15-findings.md`, gleiche Struktur wie Doc 03.
 
-**A3 — Findings konsolidieren** (S, 30 Min): Kritische Punkte aus dem Review in ein `docs/findings/03-findings.md` herausziehen — das ist die Basis für den späteren v2-Plan.
+**Effort:** M (halber Tag), wenn mit der gleichen Tiefe wie Doc 03.
 
-**A4 — v2-Plan skizzieren (optional in Session 4)** (S, 30 Min): Erste Skizze eines `docs/plans/03-v2-plan.md` — was muss das Doc v2 anders machen, welche TBDs müssen beantwortet sein. Kein Rewrite, nur Plan.
+**Stop-Punkt:** Nach Findings committed. v2-Plan-Skizze optional.
 
-**Stop-Punkt Session 4:** Nach A3 oder A4, je nach Kontext-Budget. Der Deep Review ist ein XL-Paket über mehrere Sessions.
+### Variante C — Silvio-Aktionen auslösen statt reviewen
 
-### Variante B — `docs/beteiligung.md` Dimensionen 1–4 befüllen
+Kein Review, sondern die Gruppe-A-Aktionen konkret auslösen: Briefing-Notiz für Silvio schreiben, was er bei den beiden Telefonaten (Vetamt + IHK) abfragen soll, in Form einer kurzen Sprech-Hilfe in `docs/silvio-derivatives/03-vetamt-briefing.md` (der Ordner wird bei dieser Gelegenheit angelegt). Erste echte Silvio-Ableitung seit D-06, folgt damit dem Leitsatz *"nicht überreden, nicht verkaufen, nicht drängen"*. Silvio-freundlicher Ton, einfache Sätze, keine Anglizismen.
 
-Ruhiger, reflektierter Block. Kein Review, keine technische Arbeit — eine Denk-Übung zu D-07. Die vier offenen Fragen im Gerüst liegen schon bereit. Passt, wenn German sich nicht in die Deep-Review-Mechanik stürzen will oder wenn der Tag sowieso schon ausgelastet ist.
+**Effort:** S (1–2 Stunden), weil die Inhalte aus `03-findings.md` Gruppe A direkt übernehmbar sind.
 
-Ergebnis: `docs/beteiligung.md` bekommt Inhalt in den vier Dimensionen, die Fragen werden beantwortet oder präzisiert.
+**Stop-Punkt:** Briefing fertig, committet, an German übergeben.
+
+## Empfehlung für Session 5
+
+**Variante B (Doc 15 Steuer Lead-Review)**, aus drei Gründen:
+
+1. Die MwSt-Frage ist der härteste offene Gate-Blocker im Rollout-Plan (Schritt 1). Sie blockt alle Wirtschaftlichkeits-Arbeit dahinter — ohne Klarheit bleibt jede Preis-Kalkulation und Marge-Rechnung wackelig.
+2. Der Co-Review Doc 03 (Variante A) bringt Inkrement, aber keinen neuen Gate-Fortschritt. Ein Co-Review rechtfertigt sich erst, wenn der Lead-Review ambivalent war — bei Doc 03 ist das Urteil klar (Rework). Zweite Perspektive ist wertvoll, aber nicht eilig.
+3. Variante C ist ideal asynchron (nicht-Session), weil die Silvio-Anrufe von Silvio gemacht werden, nicht von Claude. German kann die Briefing-Notiz selbst in 30 Minuten schreiben, ohne eine Session dafür zu binden — oder in eine Session einbauen, wenn Doc 15 schneller fertig ist als erwartet.
+
+**Wenn Gruppe A aber dringlich wird (Silvio fragt nach), dann Variante C priorisieren.** Sie ist die einzige, die das Projekt *außerhalb* des Repos voranbringt.
 
 ## Start-Frage an German
 
 Via `AskUserQuestion` am Anfang der Session:
 
-- *Variante A (Deep Review starten, empfohlen) oder Variante B (`beteiligung.md` befüllen)?*
+- *Variante A (Co-Review Doc 03), Variante B (Doc 15 Steuer Lead-Review, Empfehlung) oder Variante C (Silvio-Briefing für Gruppe-A-Anrufe)?*
 
-Falls Variante A: zweite Frage:
-
-- *Pfad Gate-kritisch zuerst (empfohlen) oder Pfad Zahlen-kritisch zuerst?*
-
-## Offene Punkte aus Session 3 — kein Blocker, aber im Kopf behalten
+## Offene Punkte aus Session 4 und früher — kein Blocker, aber im Kopf behalten
 
 | # | Punkt | Wann |
 |---|---|---|
-| 1 | Personas tragen noch Namen im Filename und Body ("Marcus", "Claudia" etc.). Memory sagt: nur Rollen. Drift aus früherer Session. | Eigener XS-Task vor oder während Deep Review — Rename der Dateien und Body-Anpassung. Gehört nicht mehr in einen Session-Close. |
-| 2 | Doc 01 Ausgangssituation widerspricht D-02 (nennt Tiefkühl in Phase 1). Kleiner Einzel-Fix vor dem Deep Review möglich, oder im Zuge des Deep Reviews von Doc 01. | Optional im Warmup von Session 4 |
-| 3 | `docs/silvio-derivatives/` Ordner existiert noch nicht. Wird erst bei erstem konkreten Silvio-Gesprächs-Bedarf angelegt. | On-demand |
-| 4 | Deep Review Stufe 3 ist XL (mehrere Sessions). Erwartungsmanagement in Session 4: ein Doc pro Session ist realistisch, kein Zwang zum Durchrauschen. | Dauerthema |
+| 1 | Personas tragen noch Namen im Filename und Body. Memory: nur Rollen. | Eigener XS-Task. Kann in einen beliebigen Review-Warmup eingebaut werden. |
+| 2 | Doc 01 nennt Tiefkühl in Phase 1 (widerspricht D-01). | Beim Doc-01-Review oder als XS-Einzel-Fix. |
+| 3 | `docs/silvio-derivatives/` existiert nicht. Wird in Variante C angelegt, sonst bei erster Silvio-Ableitung. | On-demand |
+| 4 | Gruppe-A-Silvio-Anrufe (Vetamt + IHK) ausstehend. Asynchron. | Kein Session-Block, eher Variante C als Briefing-Vorbereitung. |
+| 5 | Co-Review Doc 03 (Behördenkontrolleur) ausstehend. | Variante A in Session 5 oder später. |
+| 6 | Gruppe-B-Pflicht-Dokumente (Rückruf, HACCP-Beauftragter, Tagesprotokolle, Rückstellproben) entstehen im HACCP- und Recht-Review. | Session mit Doc 05 und Doc 14. |
+| 7 | Deep Review Stufe 3 bleibt XL. Realistisch: ein Lead-Review pro Session plus Findings. | Dauerthema |
 
 ## Wichtige Präferenzen von German (Erinnerung)
 
-- **Ton interne Arbeits-Docs (D-06):** präzise, direkt, Fach-Sprache erlaubt, keine Consulting-Pose.
-- **Ton Silvio-Ableitungen:** einfache Sätze, keine Anglizismen, tentativ, warm, Leitsatz *"nicht überreden, nicht verkaufen, nicht drängen"*.
-- **Pushback Pflicht.** Eigene Recommendation vertreten, nicht blind ausführen.
-- **Review-Standard-Format** aus `CLAUDE.md` — keine freie Struktur.
+- **Ton interne Arbeits-Docs (D-06):** präzise, direkt, Fach-Sprache erlaubt.
+- **Ton Silvio-Ableitungen (Variante C):** einfache Sätze, keine Anglizismen, tentativ, warm, *"nicht überreden, nicht verkaufen, nicht drängen"*.
+- **Pushback Pflicht.**
+- **Review-Standard-Format** aus `CLAUDE.md`.
 - **Tabellen:** MASCHIN-Format (`# | Item | Prio | Effort | Wer | Blocker? | Status | Impact`).
 - **Markdown:** keine Hard-Wraps im Fließtext.
 - **AskUserQuestion** bei 2+ Optionen.
-- **Personas als Rollen**, keine Namen — *aber vorhandene Files tragen noch Namen*, das ist offene Drift.
-- **Keine Marcello-Persona** (D-03), keine Easter Eggs (D-05), Leitsatz der Session im Report.
-- **Commit nach jedem Work-Block**, nicht am Session-Ende gebündelt.
+- **Personas als Rollen** (Files noch mit Namen, das ist offene Drift).
+- **Commit nach jedem Work-Block.**
+- **Plan-Mode** hat sich in Session 4 bewährt — bei neuen XL-Blöcken wieder sinnvoll.
 
 ## Start-Nachricht Template
 
 Nach Lesen der Kontext-Dateien:
 
-> "Kontext geladen. Session 3 hat Maßnahme 2 abgeschlossen — Repo ist auf Germans Arbeits-Level, README und rollout-plan überarbeitet, Memory angepasst, Spot-Checks ohne Rewrite. Session 4 hat zwei Pfade: (A) Stufe 3 Deep Review starten — empfohlen, Pfad Gate-kritisch zuerst (Doc 03 Vetamt als erstes). (B) `beteiligung.md` Dimensionen befüllen. Welcher Pfad?"
+> "Kontext geladen. Session 4 hat den Stufe-3 Deep Review gestartet. Doc 03 Vetamt: Lead-Review fertig (Rework erforderlich), 12 Findings in drei Gruppen, v2-Plan-Skizze da, Cross-Drift #7 MHD nachgezogen. Session 5 hat drei Varianten: (A) Co-Review Doc 03 durch Behördenkontrolleur. (B) Doc 15 Steuer Lead-Review — empfohlen, weil MwSt-Gate den Pfad hinter Rollout-Schritt 1 blockt. (C) Silvio-Briefing Gruppe A als erste Silvio-Ableitung. Welcher Pfad?"
 
-Dann warte auf Germans Antwort und fang entsprechend an.
+Dann auf Germans Antwort warten und entsprechend starten.
 
 ---
 
