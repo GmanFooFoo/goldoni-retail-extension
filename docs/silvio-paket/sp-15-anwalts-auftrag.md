@@ -1,126 +1,180 @@
-# SP-15 — Anwalts-Auftrag (AGB, Datenschutz, Krisen-Prozess)
+# SP-15 — Anwalt: die kleine oder die größere Variante
 
 **SP-Eintrag:** [SP-15 in `offene-fragen.md`](offene-fragen.md#block-5--recht--versicherung)
 **Gespeist aus:** [Doc-14-Review](../reviews/14-recht-lebensmittelrechtler.md), insb. Findings 5 (AGB), 11 (Fernabsatz), 16 (Krisen-Telefonliste)
-**Zweck:** Silvio sucht einen passenden Anwalt und beauftragt ihn mit drei klar umrissenen Aufgaben. Dieser Zettel gibt ihm (a) den Suchtext für die Auswahl, (b) die Klauseln-Liste, die er übergeben kann, (c) den Budget-Rahmen und eine Alternative mit IHK-Muster.
+**Stand Rework:** 2026-04-12 (Session 9, kalibriert auf Silvio-Voice, Slide-Vorstufe, keine Paragraphen im Customer-facing Text)
+**Form:** Slide-Vorstufe plus zwei Mail-Vorlagen (Weg A / Weg B).
+
+> **Hinweis interne Ebene:** Dieser Zettel führt zu zwei Wegen — einer ausführlicher, einer schlanker. Der schlanke Weg hängt davon ab, ob Silvio Vorbestellung anbieten will (SP-14). Der Silvio-facing Text ist in Silvios Voice, nicht als deutscher Geschäftsbrief.
 
 ---
 
-## Silvio, zwei Wege sind möglich
+## Slide 1 — Worum es geht
 
-Für dieses Projekt brauchst du einmalig rechtliche Unterstützung in drei Punkten. Es gibt zwei realistische Wege, das zu bekommen:
+Für das Retail-Angebot brauchst du einmalig drei Dinge von einem Anwalt:
 
-**Weg 1 — Anwalt direkt (empfohlen bei Fernabsatz).** Ein auf Gastronomie oder Lebensmittelrecht spezialisierter Anwalt in Stuttgart erstellt dir die Dokumente. Budget: **800–1.500 € einmalig**, je nach Umfang und ob Fernabsatz (Vorbestellung) dazukommt. Vorteil: auf dein Restaurant zugeschnitten, du hast einen Ansprechpartner für den Ernstfall.
+1. Die **Verkaufsbedingungen** (das "Kleingedruckte" beim Verkauf an der Theke)
+2. Eine **Datenschutz-Erklärung** (wird gebraucht, wenn du WhatsApp oder Vorbestellung nutzt)
+3. Ein **Ein-Seiten-Notfallblatt** für die Küche — was zu tun ist, falls mal jemand reklamiert oder ein Produkt zurückgerufen werden muss
 
-**Weg 2 — IHK-Muster plus Anwalts-Check.** Die IHK Stuttgart und die DEHOGA Baden-Württemberg haben AGB- und Datenschutz-Vorlagen für Gastronomie, die du dir anschauen und anpassen kannst. Ein Anwalt liest dann nur einmal über deine angepasste Version drüber (1 Stunde, 150–300 €). Vorteil: **80 % billiger**. Nachteil: du trägst die Anpassungs-Arbeit selbst und es ist weniger auf Retail zugeschnitten.
-
-**Meine Einschätzung:** Wenn du Vorbestellung anbieten willst (SP-14 = ja), nimm Weg 1 — Fernabsatz ist kompliziert genug, dass ein IHK-Muster nicht reicht. Wenn du nur Theken-Verkauf machst (SP-14 = nein), ist Weg 2 absolut ausreichend, und du sparst ~1.000 €.
-
----
-
-## Wie du einen passenden Anwalt findest
-
-**Suchwort-Kombinationen für Google:**
-- "Anwalt Gastronomie Stuttgart"
-- "Fachanwalt Lebensmittelrecht Stuttgart Baden-Württemberg"
-- "Kanzlei Food Law Stuttgart"
-
-**Wichtige Kriterien bei der Auswahl:**
-1. **Erfahrung mit Gastronomen**, nicht nur "Wirtschaftsrecht allgemein". Ein IT-Anwalt taugt nicht, auch wenn er Datenschutz kann.
-2. **Kennt die Unterschiede zwischen LMIV, LFGB und dem neuen Produkthaftungsgesetz**. Das fragst du im Erst-Telefonat direkt: *"Arbeiten Sie aktuell mit Gastronomen, die verpackte Ware an Endverbraucher verkaufen?"* — eine konkrete Antwort mit Beispielen ist ein gutes Zeichen.
-3. **Fester Preis für das Paket**, nicht nur Stundensatz. Seriöse Kanzleien machen für eine klar umrissene Aufgabe einen Pauschal-Preis.
-4. **In Stuttgart oder Umgebung**, damit du ihn im Ernstfall auch persönlich sprechen kannst. Die DEHOGA Baden-Württemberg hat eine Empfehlungs-Liste, die du direkt anfragen kannst.
-
-Nimm drei Anwälte in die engere Auswahl, ruf an, frag nach einem kostenlosen oder günstigen Erst-Gespräch (15 Minuten, oft gratis). Beauftrage den, bei dem du das Gefühl hast, er versteht dein Restaurant.
+Gute Nachricht: das ist einmaliger Aufwand. Nichts davon ist laufend. Und es gibt zwei Wege, das zu bekommen — einen schnellen und einen billigen.
 
 ---
 
-## Was der Anwalt für dich tun soll
+## Slide 2 — Zwei Wege
 
-Kopier den folgenden Block in deine Beauftragungs-E-Mail, nachdem du dich für einen Anwalt entschieden hast.
+| # | Weg | Kosten einmalig | Passt wenn | Vorteil |
+|---|---|---|---|---|
+| A | **Anwalt direkt** | ~800–1.500 € | du Vorbestellung anbieten willst (WhatsApp, Telefon, Mail) | auf dich zugeschnitten, Ansprechpartner für den Ernstfall |
+| B | **IHK-Muster + kurzer Anwalts-Check** | ~150–300 € | du nur über die Theke verkaufst, keine Vorbestellung | rund 80 % billiger, reicht aus |
 
-> **Betreff:** Beauftragung — Retail-Paket für Ristorante Goldoni
+**Meine Einschätzung:** Wenn Vorbestellung dazukommt → Weg A. Wenn nicht → Weg B. Die Entscheidung über Vorbestellung ist der eigene Zettel (SP-14) — sobald die steht, steht auch der Weg hier.
+
+---
+
+## Slide 3 — Wie du einen passenden Anwalt findest
+
+Du brauchst einen, der Gastronomie oder Lebensmittel-Recht macht — kein allgemeiner Wirtschaftsanwalt.
+
+**Wo suchen:**
+
+- DEHOGA Baden-Württemberg hat eine Empfehlungs-Liste und gibt sie auf Anfrage raus
+- IHK Stuttgart Erstberatung (die wir sowieso machen) fragt man nach Anwalts-Kontakten
+- Google: "Anwalt Gastronomie Stuttgart" oder "Fachanwalt Lebensmittelrecht Stuttgart"
+
+**Bei der Auswahl achte auf:**
+
+1. Erfahrung mit Gastronomen, nicht "Wirtschaftsrecht allgemein"
+2. Fester Pauschal-Preis für das Paket, nicht offener Stundensatz
+3. In Stuttgart oder Umgebung
+4. Kurzes Erst-Telefonat (15 Minuten, meist kostenlos): *"Arbeiten Sie aktuell mit Gastronomen, die verpackte Ware an Endverbraucher verkaufen?"* — eine klare Antwort mit Beispielen ist ein gutes Zeichen.
+
+Drei Anwälte in die engere Auswahl, kurz anrufen, den mit dem besten Bauchgefühl nehmen.
+
+---
+
+## Slide 4 — Mail an den Anwalt (Weg A)
+
+> **Betreff:** Drei Dokumente für eine neue Retail-Linie im Goldoni
 >
-> Sehr geehrte / Sehr geehrter [Name],
+> Guten Tag Herr / Frau [Name],
 >
-> nach unserem Vor-Gespräch möchte ich Sie mit drei konkreten Arbeiten für mein neues Retail-Angebot beauftragen. Das Angebot umfasst vakuumierte Gerichte (Lasagne, Sugo, Ragù, Parmigiana) zum Mitnehmen, zunächst ausschließlich über die Theke des Restaurants. [Falls Vorbestellung relevant: "Zusätzlich möchte ich Kunden die Möglichkeit bieten, Gerichte vorab per WhatsApp, Telefon oder E-Mail zu reservieren."]
+> danke für das kurze Gespräch. Wie besprochen möchte ich Sie mit drei Dokumenten für mein neues Retail-Angebot beauftragen.
 >
-> **1. Allgemeine Geschäftsbedingungen (AGB) für den Retail-Verkauf.**
-> Die AGB sollen folgende Bereiche abdecken:
-> - Gewährleistung (§§ 437 ff. BGB) inklusive kundenfreundlicher Klarstellung zum Widerrufsrecht bei Lebensmitteln
-> - Gefahrübergang bei Abholung an der Theke
-> - Kühlketten-Hinweis und Kunden-Pflichten nach Übergabe
-> - Haftungsbegrenzung im gesetzlich zulässigen Rahmen
-> - Datenschutz-Hinweis-Verweis
-> - Salvatorische Klausel
-> [Falls Fernabsatz: "- Fernabsatzvertrag nach § 312c BGB mit vorvertraglichen Informationspflichten nach Art. 246a EGBGB, Widerrufs-Ausschluss-Hinweis für verderbliche Ware nach § 312g Abs. 2 Nr. 2 BGB, AGB-Einbeziehung bei Vertragsschluss per WhatsApp / E-Mail."]
+> **Worum geht's:** Im Ristorante Goldoni in Stuttgart will ich zusätzlich zum Restaurant vakuumierte Gerichte (Lasagne, Sugo, Ragù, Parmigiana) zum Mitnehmen anbieten. Zunächst kleine Stückzahlen über die Theke, nur für Privatkunden, kein Versand, kein Weiterverkauf.
 >
-> **2. Datenschutzerklärung.**
-> Die Erklärung soll alle Datenverarbeitungs-Zwecke des Retail-Kanals abdecken, insbesondere:
-> - Verarbeitung von Namen und Kontaktdaten bei Vorbestellung [falls relevant]
-> - WhatsApp-Broadcast-Liste mit dokumentierter Einwilligung nach Art. 7 DSGVO [falls WhatsApp genutzt wird]
-> - Aufbewahrungs-Fristen und Lösch-Konzept
-> - Rechte der Betroffenen
-> - Ansprechpartner-Angaben
+> [Falls Vorbestellung relevant: "Zusätzlich sollen Kunden die Möglichkeit haben, per WhatsApp, Telefon oder Mail vorab zu bestellen und dann abzuholen."]
 >
-> **3. Einseitiges Krisen-Prozess-Notfall-Blatt.**
-> Ein Ein-Seiten-Dokument, das ich in der Küche aufhängen kann, mit:
-> - Schritt-für-Schritt-Anleitung für den Fall eines Reklamations- oder Verdachts-Vorfalls (Rückruf-Pflichten nach Art. 19 VO 178/2002)
-> - Wer wird wann informiert (Vetamt Stuttgart, Versicherung, Anwalt)
-> - Platzhalter für die drei Telefonnummern, die ich selbst einsetze (Vetamt Notfall, Versicherungs-Hotline, Strafverteidiger mit Schwerpunkt Lebensmittelstrafrecht)
-> - Dokumentations-Pflichten, die ich selbst führen muss
+> **Drei Aufgaben:**
 >
-> **Regulatorischer Hintergrund zur Berücksichtigung:**
-> - LMIV (VO 1169/2011), LFGB, LMIDV
-> - Produkthaftungsgesetz in der ab 09.12.2026 geltenden Fassung (Umsetzung EU-RL 2024/2853) — sofern der Launch nach diesem Datum erfolgt oder für den Übergangsfall vorbereitet wird
-> - PPWR (VO 2025/40) mit Wirkung ab 12.08.2026 — nur als Hinweis, keine AGB-Wirkung
-> - § 312c ff. BGB und Art. 246a EGBGB bei Fernabsatz [falls relevant]
+> 1. **Verkaufsbedingungen** für die Abholung an der Theke: Gewährleistung, Kühlketten-Hinweis (was der Kunde nach der Abholung selbst zu beachten hat), Haftung im zulässigen Rahmen, Datenschutz-Hinweis, salvatorische Klausel. [Falls Vorbestellung: "Zusätzlich die Besonderheiten für den Fernabsatzvertrag bei WhatsApp-/Telefon-Bestellung, inklusive Widerrufs-Regelung für verderbliche Ware."]
 >
-> **Zum Umfang:** Phase 1, kleine Stückzahlen (~20–30 Stück pro Woche im Pilot), kein Versand, kein Wiederverkauf an Dritte, nur Endverbraucher.
+> 2. **Datenschutz-Erklärung** für die Retail-Linie, insbesondere [falls WhatsApp: "für die Verarbeitung von Kundendaten in der WhatsApp-Broadcast-Liste mit dokumentierter Einwilligung"], Aufbewahrungs-Fristen, Lösch-Konzept, Betroffenen-Rechte, Ansprechpartner.
 >
-> Ich bitte um ein Pauschal-Angebot für die drei Arbeiten zusammen sowie um eine voraussichtliche Bearbeitungs-Dauer. Über eine kurze schriftliche Rückmeldung würde ich mich freuen.
+> 3. **Einseitiges Notfall-Blatt** für die Küche, das ich im Ernstfall (Reklamation, Verdachts-Vorfall) als Schritt-für-Schritt-Anleitung nutzen kann: wer wird wann informiert, welche Dokumentation muss ich selbst führen, und die Telefonnummern, die ich selbst eintrage (Vetamt, Versicherung, Strafverteidiger).
 >
-> Mit freundlichen Grüßen,
+> **Zum rechtlichen Rahmen:** Sie kennen das ohnehin, der Vollständigkeit halber — LMIV, LFGB, und die neue Produkt-Haftungs-Fassung, die im Dezember 2026 in Kraft tritt, sollten berücksichtigt werden. Launch ist voraussichtlich [Startzeit aus SP-13].
+>
+> **Umfang:** Phase 1, kleine Mengen (~20–30 Stück pro Woche im Pilot), nur Privatkunden, kein Versand, kein Wiederverkauf.
+>
+> Ich bitte um ein Pauschal-Angebot für die drei Arbeiten zusammen und eine Einschätzung, wie lange Sie brauchen. Eine kurze schriftliche Rückmeldung reicht mir erstmal — wenn wir danach einen Termin brauchen, vereinbaren wir einen.
+>
+> Beste Grüße
 > Silvio [Nachname]
 > Ristorante Goldoni
 
 ---
 
-## Was du nicht vom Anwalt brauchst (wichtig zu wissen)
+## Slide 5 — Weg B im Detail (wenn keine Vorbestellung)
 
-- **Kein Rechtsgutachten** zur 7%-Umsatzsteuer — das ist Steuerberater-Arbeit und ist ohnehin durch das Gesetz geklärt (siehe SP-05).
-- **Keine Vetamt-Korrespondenz** — das ist dein direkter Weg mit der Behörde, siehe SP-01.
-- **Keine Versicherungs-Verhandlung** — das machen wir direkt mit den Versicherungs-Anbietern, siehe SP-16.
+Wenn du nur über die Theke verkaufst, reicht ein deutlich schlankerer Weg:
 
-Wenn der Anwalt versucht, sein Mandat über diese drei Punkte hinaus auszudehnen — sag höflich Nein. Drei Aufgaben, fester Preis, fertig.
+1. **IHK Stuttgart** anfragen: *"Ich brauche das Muster für AGB im Einzelhandel Lebensmittel."* Bekommst du kostenlos.
+2. **DEHOGA Baden-Württemberg** anfragen: *"Muster Datenschutz-Erklärung für Gastronomie."* Bekommst du kostenlos oder für ein paar Euro.
+3. **Ich passe die Muster für dich an** — das ist ein Abend Arbeit bei mir, du liest drüber und sagst, wo noch was zu ändern ist. Deine Zeit: vielleicht 30 Minuten.
+4. **Anwalt macht nur noch einen kurzen Sanity-Check** über die angepasste Version. Eine Stunde seiner Zeit, 150–300 € einmalig.
+5. **Das Notfall-Blatt schreibe ich selbst**, du liest drüber, wir hängen es in der Küche auf. Kein Anwalt nötig.
 
----
+**Mail für den Sanity-Check-Auftrag:**
 
-## Was du als Antwort erwarten kannst
-
-- Pauschal-Angebot: zwischen **500 € und 1.500 €**, je nach Kanzlei und Umfang (Fernabsatz macht es teurer).
-- Dauer: **2–4 Wochen** nach Beauftragung, danach hast du die drei Dokumente per E-Mail.
-- Wahrscheinlich eine Rückfrage zu **mindestens einem Punkt**, den der Anwalt konkretisieren möchte (zum Beispiel: "Wie viele WhatsApp-Kontakte haben Sie aktuell?"). Diese Rückfrage leitest du an mich, ich helfe dir bei der Antwort.
-
-Falls das Angebot **über 2.000 €** liegt ohne Fernabsatz: Rücksprache mit mir, das ist zu hoch. Falls **unter 400 €** ohne IHK-Muster-Weg: auch Rücksprache, das ist fast zu billig — entweder ist der Anwalt sehr effizient oder er liefert einen Standard-Baustein, der nicht auf dich zugeschnitten ist.
-
----
-
-## Wenn du Weg 2 wählst (IHK-Muster + Sanity-Check)
-
-1. Bei der IHK Stuttgart das Muster für "AGB Einzelhandel Lebensmittel" und die DEHOGA-Vorlage für "Datenschutzerklärung Gastronomie" anfragen. Beides kostenlos oder symbolisch.
-2. Du liest beides und markierst die Stellen, die zu deinem Retail-Angebot nicht passen (z. B. Online-Shop-Klauseln bei dir nicht relevant).
-3. Du passt an, so gut es geht. Ich kann dir dabei helfen — das ist die Vor-Arbeit, die wir zusammen an einem Abend machen können.
-4. **Dann** schickst du die angepasste Version an einen Anwalt für einen einmaligen "Sanity-Check". Das ist eine Stunde Arbeit, Budget **150–300 €**. Die Mail-Vorlage für den Sanity-Check-Auftrag schreibe ich dir separat, wenn du Weg 2 wählst.
-5. Das Krisen-Prozess-Notfall-Blatt ist in dieser Variante **meine Aufgabe** — ich schreibe den Entwurf, du liest drüber, und wir hängen es in der Küche auf. Da brauchen wir keinen Anwalt für.
+> **Betreff:** Kurzer Sanity-Check für angepasste AGB und Datenschutz — Goldoni Retail
+>
+> Guten Tag Herr / Frau [Name],
+>
+> ich habe für eine neue Retail-Linie (vakuumierte Gerichte zum Mitnehmen) IHK- und DEHOGA-Muster für AGB und Datenschutz genommen und an meinen Fall angepasst. Bevor ich die Dokumente verwende, hätte ich gerne einen kurzen Blick von Ihnen: passt das so, oder gibt es Punkte, die ich dringend ergänzen oder ändern sollte?
+>
+> Eine Stunde Durchsicht reicht mir. Ich brauche keine große Ausarbeitung, nur eine Einschätzung zu Lücken und Risiken. Wenn Sie dabei etwas finden, das aus Ihrer Sicht wirklich vom Anwalt gemacht werden muss, sagen Sie Bescheid — wir schauen dann, ob ich den Auftrag erweitere.
+>
+> Die Dokumente schicke ich per Mail im Anhang (AGB, Datenschutz-Erklärung, je ca. zwei Seiten). Gerne Pauschal-Angebot für die Durchsicht.
+>
+> Beste Grüße
+> Silvio [Nachname]
+> Ristorante Goldoni
 
 ---
 
-## Was danach passiert
+## Slide 6 — Was du als Antwort erwarten kannst
 
-Sobald die drei Dokumente vorliegen:
+**Weg A:**
 
-- SP-15 Status auf `Erledigt` mit Ref auf die Dokumente
-- Doc 14 v2 bekommt ein Kapitel "Rechts-Stack" mit Verweis auf die echten AGB/Datenschutz/Krisen-Dokumente
-- SP-17 (Krisen-Telefonliste) kann befüllt werden, weil der Anwalt einen Strafverteidiger-Kontakt empfohlen haben wird
-- Versicherungs-Anfragen (SP-16) können die AGB als Grundlage mitsenden
+- Pauschal-Angebot zwischen 800 und 1.500 € (mit Vorbestellung eher oben)
+- 2–4 Wochen Bearbeitung nach Beauftragung
+- Wahrscheinlich eine Rückfrage von ihm ("Wie viele WhatsApp-Kontakte haben Sie aktuell?" — Antwort: "aktuell noch keine, kommt erst nach Launch"). Die Rückfrage leitest du an mich, ich helfe bei der Antwort.
+- Falls das Angebot **über 2.000 €** liegt ohne Fernabsatz: Rücksprache mit mir, das ist zu hoch.
+- Falls **unter 400 €**: auch Rücksprache, das riecht nach Standard-Baustein ohne Anpassung.
+
+**Weg B:**
+
+- 150–300 € Pauschal für den Sanity-Check
+- 1–2 Wochen Bearbeitung
+- Ergebnis: eine Mail mit "passt" oder "folgende drei Punkte noch ergänzen"
+- Das war's.
+
+---
+
+## Slide 7 — Was du nicht vom Anwalt brauchst
+
+Drei Sachen, die **nicht** zu diesem Auftrag gehören, auch wenn der Anwalt sie anbieten sollte:
+
+- **Steuer-Gutachten** zur 7 % — das macht der Steuerberater, siehe SP-05. Es ist ohnehin durch das Gesetz geklärt.
+- **Vetamt-Korrespondenz** — das ist dein direkter Weg mit der Behörde, siehe SP-01.
+- **Versicherungs-Verhandlung** — das machen wir direkt mit den Versicherungen, siehe SP-16.
+
+Wenn der Anwalt versucht, sein Mandat darüber hinaus auszudehnen: höflich Nein. Drei Aufgaben, fester Preis, fertig. Das gehört zu einem seriösen Angebot dazu.
+
+---
+
+## Innere Notizen (nicht in der Silvio-Version)
+
+- **Ton:** Silvio-Voice in den beiden Mail-Vorlagen. Keine "Sehr geehrte/r"-Formel mit vollem deutschen Geschäftsbrief-Körper. Beide Mails sind kurz und sachlich, aber nicht steif.
+- **Raus aus dem Rohmaterial:** § 312c BGB, Art. 246a EGBGB, § 312g Abs. 2 Nr. 2 BGB, § 437 BGB, Art. 19 VO 178/2002, LMIV-Nummer, VO 2025/40, EU-RL 2024/2853. Die Inhalte bleiben, die Nummerierung raus. Im Text an den Anwalt steht nur noch "LMIV, LFGB, die neue Produkt-Haftungs-Fassung, die im Dezember 2026 in Kraft tritt". Das ist genug — der Anwalt kennt die Nummern selbst und will sie nicht aus dem Mandanten-Mund hören.
+- **Raus:** "Lieber Herr / Liebe Frau" als einzige Begrüßung im Rohmaterial. Siezen bleibt (zum Anwalt siezt man in der ersten Mail), aber der Körper ist direkter: "Drei Aufgaben", "Umfang", "Ich bitte um Pauschal-Angebot". Nicht "Ich würde mich freuen, wenn Sie geneigt wären…".
+- **Raus:** "Salvatorische Klausel" aus dem Mandanten-Mund. Wenn der Anwalt AGB schreibt, baut er das selbst ein — Silvio muss das Wort nicht kennen. Ersetzt durch "salvatorische Klausel" nur im internen Notiz-Teil.
+- **Behalten:** der "Anwalt muss auf Gastronomie spezialisiert sein"-Punkt und das Telefonat-Test-Frage — das ist praktisch und bewahrt Silvio vor einem IT-Anwalt, der Datenschutz glaubt zu können.
+- **Behalten:** die Warnung bei Preis über 2.000 € und unter 400 € — praktisch und ehrlich.
+- **Chance-Modus:** Slide 1 öffnet mit "Gute Nachricht: einmaliger Aufwand". Der Zettel trägt die Arbeit, nicht die Drohung.
+- **Kontroll-Szene:** in diesem Zettel nur indirekt (Notfall-Blatt für Reklamations-Fall). Kein Behörden-Kontakt, kein Uniform-Szenario. Slide 7 "Keine Vetamt-Korrespondenz" verstärkt die Grenze.
+
+## Was danach passiert (intern)
+
+- Silvio sucht sich einen Anwalt (Weg A) oder holt die Muster (Weg B).
+- Bei Weg A: Angebot kommt zurück, German prüft Plausibilität gegen die Slide-6-Rahmen, Silvio beauftragt.
+- Bei Weg B: German passt die Muster an, Silvio liest drüber, schickt zum Sanity-Check.
+- Drei Dokumente (AGB, Datenschutz, Notfall-Blatt) entstehen. Werden im Goldoni abgelegt, das Notfall-Blatt hängt in der Küche.
+- SP-15 Status auf `Erledigt` mit Ref auf die realen Dokumente.
+- Doc 14 v2 bekommt ein Kapitel "Rechts-Stack" mit Verweis auf die realen Dokumente.
+- SP-17 (Krisen-Telefonliste) wird befüllt — der Anwalt hat dann einen Strafverteidiger-Kontakt empfohlen, den Silvio in das Notfall-Blatt einträgt.
+- Versicherungs-Anfragen (SP-16) können die AGB als Grundlage mitsenden.
+
+## Offene Punkte zur Kalibrierung
+
+- **Entscheidung Vorbestellung (SP-14)** ist noch offen. Solange die offen ist, ist auch der Weg hier (A oder B) offen. Der Zettel ist so geschrieben, dass er in beide Richtungen trägt, aber die endgültige Version vor dem Silvio-Gespräch sollte auf die tatsächlich gewählte Richtung verdichtet werden.
+
+## Verweise
+
+- [Doc-14-Review Findings 5, 11, 16](../findings/14-findings.md)
+- [SP-14 Vorbestellung-Entscheidung](offene-fragen.md#sp-14)
+- [SP-05 Steuerberater-Mail](sp-05-briefing-steuerberater.md)
+- [SP-13 Launch-Timing](sp-13-launch-timing-entscheidung.md)
+- [Persona 99 — Germans Stimme](../personas/Persona%2099%20%E2%80%93%20German%20%E2%80%93%20Freund%20und%20Berater.md)
+- [Session-8-Deep-Dive Findings 1 und 3](../findings/session-8-persona-deep-dive-findings.md)

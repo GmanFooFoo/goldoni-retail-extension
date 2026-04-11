@@ -1,85 +1,143 @@
-# SP-13 — Entscheidungs-Grundlage Start-Zeitpunkt
+# SP-13 — Wann starten wir?
 
 **SP-Eintrag:** [SP-13 in `offene-fragen.md`](offene-fragen.md#block-5--recht--versicherung)
 **Gespeist aus:** [Doc-14-Review](../reviews/14-recht-lebensmittelrechtler.md), [Doc-04-Review](../reviews/04-lmiv-lebensmittelrechtler.md), [rollout-plan.md Stichtage-Sektion](../plans/rollout-plan.md#regulatorische-stichtage-2026-gate-kritisch)
-**Zweck:** Silvio liest diesen Zettel und entscheidet, wann er starten will. Danach spricht er mit mir darüber — oder teilt es mir einfach mit, wenn er sich sicher ist.
+**Stand Rework:** 2026-04-12 (Session 9, kalibriert auf Slide-Vorstufe, keine Paragraphen, keine apokalyptische Rhetorik)
+**Form:** Slide-Vorstufe für die Start-Zeitpunkt-Entscheidung.
+
+> **Hinweis interne Ebene:** Slides für ein Tisch-Gespräch bei Silvio. Der Zettel trägt eine Entscheidung, keine Warnung. Quelle: Findings 1 und 3 aus dem Deep-Dive, Persona 99 Ton-Regeln.
 
 ---
 
-## Silvio, das ist die Entscheidung
+## Slide 1 — Die Frage
 
-Im zweiten Halbjahr 2026 treten **zwei neue Gesetze** in Kraft, die beide auf dein Vorhaben wirken:
+Wann machen wir die ersten Beutel?
 
-1. **12. August 2026** — neue EU-Verpackungsverordnung. Von da an brauchen deine Beutel eine sogenannte Konformitätserklärung (ein Standard-Dokument vom Beutel-Hersteller), und es gibt neue Regeln für Kennzeichnung und Recycling-Anteil. Das betrifft nur die **Verpackung**, nicht das Essen und nicht den Verkauf.
-2. **9. Dezember 2026** — neue Haftungsregeln für Hersteller. Wenn nach diesem Datum ein Kunde wegen eines fehlerhaften Produkts einen Schaden geltend macht, gelten strengere Regeln für dich als Hersteller: höhere Entschädigungen, mehr Beweispflicht auf deiner Seite, längere Verjährung. Dafür wichtig: jede Charge muss nachvollziehbar dokumentiert sein — was drin ist, wann gemacht, an wen verkauft. Das ist ohnehin gut, aber ab diesem Datum ist es **Pflicht-Werkzeug**, nicht nur Behörden-Futter.
-
-Aus diesen beiden Daten ergeben sich **drei Start-Fenster**. Keine Option ist "die richtige" — jede hat einen Preis. Lies die drei Zeilen in der Tabelle, dann schau dir die drei Kurz-Texte darunter an.
-
-| # | Option | Start | Vorteil | Preis |
-|---|---|---|---|---|
-| A | **Früh starten** | vor 12.08.2026 | schnellster Markt-Test, altes Verpackungs-Regime, altes Haftungs-Regime | du musst im August und im Dezember umstellen — zwei Stichtage mitten im laufenden Geschäft |
-| B | **Zwischen-Fenster** | zwischen 12.08. und 09.12.2026 | du hast die Verpackungs-Umstellung sauber im Griff bevor du live gehst | du startest im alten Haftungs-Regime und musst im Dezember nochmal auf neue Regeln umstellen — die schlechteste Mischung |
-| C | **Sauberer Schnitt** | nach 09.12.2026 | beide neue Regime von Tag eins, kein Zwischen-Stand, kein zweiter Umbau | du wartest ~8 Monate, möglicher Winter-Start, mögliche Motivations-Delle |
-
-**Meine Einschätzung:** Option C (nach Dezember) ist **sauberer**, aber nicht unbedingt **besser**. Wenn du Lust hast, im Sommer zu starten und die Umstellungen unterwegs zu machen, ist Option A realistisch — der Aufwand beider Umstellungen ist zusammen ein paar Tage Arbeit, nicht Wochen. Option B ist die einzige Variante, die ich dir **nicht** empfehle, weil du dort die Aufwände beider Welten trägst ohne den Vorteil des sauberen Schnitts.
+Es gibt drei Fenster, jedes mit einem anderen Charakter. Ich zeige sie dir, du entscheidest.
 
 ---
 
-## Option A im Detail — Start vor 12. August 2026
+## Slide 2 — Der Hintergrund in einem Absatz
 
-**Was du gewinnst:** Du bist nach 10–12 Wochen Vorbereitung live, also realistisch ab **Juli 2026**. Du kannst den Sommer mitnehmen, die Stammgäste nehmen das Angebot noch mit ins Frühjahr-Gespräch, und du hast ~5 Monate echte Markt-Erfahrung, bevor die strengeren Haftungsregeln greifen.
+2026 kommen im zweiten Halbjahr zwei neue Regeln: eine für die **Verpackung** (ab 12. August), eine für die **Haftung** (ab 9. Dezember). Beide treffen unser Vorhaben — die Verpackung nur leicht (ein Standard-Dokument vom Beutel-Lieferanten, Ablage im Ordner), die Haftung etwas schwerer (Chargen müssen nachvollziehbar dokumentiert sein, etwa fünf bis zehn Minuten pro Produktions-Tag).
+
+Aus diesen zwei Daten ergeben sich drei Start-Fenster. Keine Option ist falsch. Jede hat einen Preis.
+
+---
+
+## Slide 3 — Die drei Fenster
+
+| # | Option | Start | Charakter |
+|---|---|---|---|
+| A | **Früh** | Sommer 2026 (vor dem 12. August) | schnellster Markt-Test, Sommer-Saison mitgenommen, zwei kleine Umstellungen unterwegs |
+| B | **Zwischen** | September / Oktober / November 2026 | weder-noch — Verpackung schon neu, Haftung noch alt, Dezember-Umstellung kommt noch |
+| C | **Sauber** | Dezember 2026 / Januar 2027 | ein Start, alle Regeln neu, kein zweiter Umbau — dafür Winter-Start |
+
+**Meine Einschätzung:** A oder C. Option B ist die einzige Variante, bei der du die Nachteile beider Welten trägst ohne Vorteil. Wenn dein Herz auf September schlägt, sag es trotzdem — es kann einen Grund geben, den ich nicht sehe.
+
+---
+
+## Slide 4 — Option A im Detail — früh starten
+
+**Was du gewinnst:**
+
+- Live ab Juli 2026, rund 10–12 Wochen nach der Grundsatz-Entscheidung
+- Du nimmst den Sommer mit, die Stammgäste nehmen das Thema ins Frühjahrs-Gespräch
+- Fünf Monate echte Markt-Erfahrung, bevor im Dezember die strengere Haftungs-Welle kommt
 
 **Was du zahlst:**
-- **Im August**: Umstellung der Beutel. Falls dein Beutel-Lieferant die Konformitätserklärung hat (die meisten haben sie, ist Standard), ist das eine einmalige Dokumentation — ein PDF ablegen, fertig. Falls nicht, Lieferanten-Wechsel, 2–3 Tage Aufwand.
-- **Im Dezember**: Ab diesem Tag musst du die Chargen-Doku strenger führen. Das heißt konkret: für jede produzierte Serie (jeden Vakuumier-Tag) notierst du Datum, Zutaten-Quellen, Haltbarkeits-Datum, welche Beutel-Nummern du rausgegeben hast. Das ist wahrscheinlich ein kleines Heft oder eine Tabelle auf dem iPad. Einmaliger Aufwand zum Umstellen: **1–2 Tage**. Laufender Mehr-Aufwand: **5–10 Minuten pro Produktions-Tag**.
 
-**Risiko:** Wenn zwischen Juli und Dezember ein Problem mit einer Charge auftritt, giltst du noch unter dem alten Regime — das heißt, die maximale Schadensersatz-Summe ist gedeckelt (85 Millionen Euro), und für den ersten Schaden musst du als Hersteller 500 Euro Selbstbehalt tragen. Das klingt wenig, ist aber ein echter Vorteil gegenüber dem neuen Regime. Alltags-Risiko ist klein, weil dein Pilot-Volumen klein ist.
+- Im **August** einmal Beutel-Umstellung — meistens nur ein PDF vom Lieferanten, manchmal Lieferanten-Wechsel. 0 bis 3 Tage Aufwand.
+- Im **Dezember** einmal Chargen-Doku strenger aufziehen. Ein kleines Heft oder eine Tabelle auf dem iPad. Einmaliger Umbau: 1–2 Tage. Danach 5–10 Minuten pro Produktions-Tag extra.
 
-## Option C im Detail — Start nach 9. Dezember 2026
+**Risiko-Bild:**
+Zwischen Juli und Dezember läuft alles noch unter dem alten Regelwerk. Falls in dieser Zeit ein Produkt-Problem auftaucht, ist die Lage für dich als Hersteller etwas freundlicher (gedeckelter Schaden, Selbstbehalt, kürzere Verjährung). Das alles sind aber theoretische Punkte — dein Pilot-Volumen ist klein, und die Chance, dass in dieser Zeit überhaupt ein Schadensfall entsteht, ist minimal.
 
-**Was du gewinnst:** Du startest einmal und in einem Rutsch nach den neuen Regeln. Keine Umstellung mitten im laufenden Geschäft, keine zwei Stichtage, keine doppelte Schulung. Wenn im Sommer oder Herbst 2026 noch neue Klarstellungen zu den beiden Gesetzen erscheinen (das passiert fast immer), hast du den Vorteil, sie direkt einzubauen.
+## Slide 5 — Option C im Detail — sauber starten
+
+**Was du gewinnst:**
+
+- Einmal starten, alle Regeln gleich neu. Kein zweiter Umbau mitten im Laufen.
+- Wenn im Sommer noch Klarstellungen zu den beiden Gesetzen kommen (das passiert fast immer), hast du sie vor dem Start, nicht danach.
+- Acht Monate Zeit, in denen du das Restaurant normal weiter betreibst, und das Projekt läuft parallel im Hintergrund — auf meiner Seite, nicht auf deiner.
 
 **Was du zahlst:**
-- **Zeit**: etwa 5 Monate später live. Du startest dann vermutlich im Dezember oder Januar 2027. Das ist **Winter** — nicht ideal für einen neuen Kanal, weil Stammgäste im Januar ohnehin weniger auswärts essen. Aber es ist machbar, und der Frühling 2027 kommt direkt danach.
-- **Motivations-Delle**: 8 Monate "Vorbereitung" ist lang. Das Risiko, dass sich die Begeisterung verbraucht oder Andere-Prioritäten-Das-Projekt-Überholen, ist real. Ein Zwischen-Meilenstein alle 4–6 Wochen hilft — muss aber aktiv gesetzt werden.
 
-**Risiko:** Kein direktes rechtliches Risiko. Eher das Risiko, dass das Projekt in der Warte-Phase "versandet" oder dass ein Marktbegleiter (zum Beispiel eine andere gastro-nahe Retail-Idee in Stuttgart-West) den frühen Start mitnimmt.
+- **Zeit** — du startest im Dezember oder Januar. Das ist Winter, und Winter ist nicht automatisch schlecht (Stuttgart-West hat viele Büro-Kunden, die im Januar warm-machen-und-essen Modus sind), aber es ist auch nicht die Sommer-Welle.
+- **Aufmerksamkeit** — acht Monate "Projekt läuft" ist lang. Die Begeisterung kann zwischendrin nachlassen. Dagegen hilft, alle vier bis sechs Wochen einen kleinen sichtbaren Schritt zu setzen.
 
-## Option B im Detail — Start zwischen 12. August und 9. Dezember 2026
-
-Kurz, weil ich diese Option **nicht empfehle**:
-
-- Du baust alles einmal für das neue Verpackungs-Regime (Konformitätserklärung, Kennzeichnung).
-- Du startest unter dem alten Haftungs-Regime — das heißt, du baust deine Chargen-Doku "leicht" auf, für den Fall "Behörden-Stichprobe".
-- Im Dezember musst du die Chargen-Doku komplett umstellen auf "gerichts-fest" — also genau das, was du in Option A oder C sowieso gemacht hättest, nur mit weniger Planungs-Zeit und mittendrin.
-- Vorteil dieser Option: **keiner**, den die beiden anderen nicht auch hätten.
-
-Wenn dein Herz auf September oder Oktober 2026 schlägt — zum Beispiel weil das zu einem Saison-Wechsel der Küche passt — sag es trotzdem, dann schauen wir uns die Details nochmal an. Es kann sein, dass ich etwas übersehe, das dir aus Küchen-Sicht wichtig ist.
+**Risiko-Bild:**
+Kein rechtliches Risiko. Eher das Risiko, dass das Projekt in der Warte-Phase an Schwung verliert oder dass ein anderer Gastronom in Stuttgart früher mit einer ähnlichen Idee kommt. Beides kein Drama, aber real.
 
 ---
 
-## Was du jetzt nicht entscheiden musst
+## Slide 6 — Option B — warum ich sie nicht empfehle
 
-- **Du musst nicht heute entscheiden.** Diese Entscheidung wird erst spät-relevant, wenn die konkreten Vorbereitungsschritte laufen (Vakuumierer beschaffen, Rezeptur-Tests, Vetamt-Termin). Du kannst die Entscheidung bis ca. Mai 2026 offen halten, ohne etwas zu verlieren.
-- **Du musst sie nicht allein entscheiden.** Sprich mit mir, wenn du willst. Sprich mit deinem Team, wenn dir das wichtig ist. Sprich mit deiner Familie, wenn das eine große Sache ist.
-- **Du kannst umsteigen.** Wenn du Option A wählst und im Juli merkst "mir ist das zu viel" — dann verschiebst du den Start. Umgekehrt auch: Option C, und im Oktober sagst du "ich habe Lust, früher zu starten" — dann schauen wir, was machbar ist.
+Kurz:
 
-## Meine drei Rück-Fragen an dich (nicht heute, irgendwann)
+- Verpackung ist schon neu (Umbau 1 gemacht)
+- Haftung ist noch alt → du baust die Chargen-Doku erstmal "leicht" auf
+- Im Dezember musst du die Chargen-Doku sowieso auf "gerichts-fest" umbauen
+- Du trägst also Umbau 1 **und** Umbau 2, ohne den Vorteil des sauberen Schnitts
 
-1. Ist "Winter-Start" ein Problem oder ein Vorteil? (In Stuttgart-West sind viele Büro-Kunden im Januar zu Hause, warm-machen-und-essen-Modus — das kann gut für Retail sein.)
-2. Wie entscheidend ist der Sommer 2026 für dich als Launch-Fenster — eher emotional (du hast Bock jetzt) oder sachlich (du weißt, welche Stammgäste du dann erreichst)?
-3. Willst du die zwei Umstellungen unterwegs (Option A) selber machen oder hätte dich das Stress-Gefühl "während der laufenden Saison" unruhig gemacht?
-
-Deine Antworten helfen mir, den nächsten Schritt zu dimensionieren — nicht mehr, nicht weniger.
+Wenn dein Herz trotzdem auf September oder Oktober schlägt — Saison-Wechsel der Küche, Familien-Grund, persönliche Taktung — dann sag es, und wir schauen nochmal auf die Details. Es kann sein, dass du etwas siehst, das ich hier nicht sehe.
 
 ---
 
-## Was danach passiert
+## Slide 7 — Was du jetzt brauchst, um zu entscheiden
 
-Sobald du dich entschieden hast (egal welche Option):
+Nichts Technisches. Drei Fragen an dich selbst:
 
-- Rollout-Plan bekommt einen konkreten Start-Korridor eingetragen
-- Die Schritt-Reihenfolge wird an den Stichtag ausgerichtet (Vetamt-Termin 10–12 Wochen davor, Vakuumierer-Beschaffung 6–8 Wochen davor, Rezeptur-Tests 4–6 Wochen davor)
-- Bei Option A oder B werden **zwei Umstellungs-Termine** als Wiedervorlage ins Silvio-Paket aufgenommen (Verpackung August, Chargen-Doku Dezember)
-- Bei Option C wird der Anwalts-Termin (SP-15) frühestens in den Herbst verschoben und die Chargen-Doku direkt nach neuem Recht aufgesetzt
-- SP-13 Status auf `Erledigt`
+1. **Hast du jetzt Lust?** Wenn ja, geht's Richtung A. Wenn "lieber später, ich habe den Kopf gerade nicht frei" — geht's Richtung C.
+2. **Wie wichtig ist dir der Sommer 2026 als Launch-Zeit?** Emotional ("ich will endlich loslegen") oder sachlich ("ich weiß genau, welche Stammgäste ich im Sommer erreiche")?
+3. **Wie fühlt sich der Gedanke an, mittendrin zwei kleine Umstellungen zu machen?** Normal ("klar, eine Woche extra Aufwand") oder zu viel ("ich will einmal anfangen und dann laufen lassen")?
+
+Mehr brauchst du nicht. Deine Antworten sagen schon, ob A oder C.
+
+---
+
+## Slide 8 — Was nach der Entscheidung passiert
+
+**Wenn A (früh):**
+
+- Rollout-Plan wird auf Sommer-Launch ausgerichtet
+- Vetamt-Termin früh vereinbaren (er braucht Vorlauf)
+- Zwei kleine Umstellungs-Termine landen im Kalender — August (Beutel) und Dezember (Chargen-Doku)
+
+**Wenn C (sauber):**
+
+- Rollout-Plan wird auf Jahreswechsel ausgerichtet
+- Der Anwalts-Auftrag verschiebt sich in den Herbst
+- Chargen-Doku wird direkt nach neuem Recht aufgezogen, keine Umbauten später
+
+In beiden Fällen ändert sich für die ersten Wochen deines Arbeitens **wenig**. Die Reihenfolge der Schritte (Vetamt, Vakuumierer, Rezeptur-Tests, Pilot) bleibt gleich. Nur der Ziel-Korridor am Ende verschiebt sich.
+
+---
+
+## Innere Notizen (nicht in der Silvio-Version)
+
+- **Ton:** keine apokalyptische Rhetorik, keine "Haftungs-Katastrophe"-Worte. Die Haftungs-Umstellung wird als "etwas schwerer" beschrieben, die Verpackungs-Umstellung als "leicht" — beides ehrlich und beide ohne Dramatik.
+- **Raus aus dem Rohmaterial:** PPWR-Verordnungsnummer, ProdHaftG-Paragraphen, EU-RL 2024/2853, 500 € Selbstbehalt, 85-Mio-Cap. Die Inhalte stehen in verdichteter Form in Slide 4, ohne Gesetz-Zitat. Details bleiben in `rollout-plan.md` Stichtage-Sektion und in den Regulatorik-Nachträgen von Doc 04 und Doc 14 für Germans Arbeits-Ebene.
+- **Raus:** "du musst nicht heute entscheiden" und "du kannst umsteigen" — Hand-Holding.
+- **Raus:** "sprich mit deiner Familie" / "sprich mit deinem Team" — bevormundend, Silvio weiß selbst, wen er fragt.
+- **Raus:** "meine drei Rück-Fragen an dich (nicht heute, irgendwann)" — ersetzt durch Slide 7 "Was du brauchst, um zu entscheiden" als klarere Struktur.
+- **Chance-Modus:** Slide 3 nennt den Charakter jeder Option neutral. Slide 4 und 5 sind beide positiv eingeleitet ("Was du gewinnst"). Slide 6 ist der einzige Ort mit klarem "nicht empfohlen", und selbst dort lässt die letzte Zeile Raum für Silvios Gegen-Argument.
+- **Kontroll-Szene:** in diesem Zettel nicht direkt relevant, weil keine Behörden-Szene darin vorkommt. Der Vetamt-Termin wird in Slide 8 nur als logistischer Schritt genannt, nicht als Angst-Szene.
+- **Meine Einschätzung:** in Slide 3 bewusst als ein Satz — "A oder C" — statt als langes Pro-und-Contra. German ist keine Consulting-Zweitstimme, er sagt seine Einschätzung kurz und lässt Silvio entscheiden.
+
+## Was danach passiert (intern)
+
+- Silvio entscheidet mündlich im Slide-Gespräch, oder später per Nachricht an German.
+- Rollout-Plan bekommt einen konkreten Start-Korridor eingetragen (`docs/plans/rollout-plan.md`).
+- Die Schritt-Reihenfolge wird an den gewählten Stichtag ausgerichtet.
+- Bei A: zwei Wiedervorlage-Einträge für August- und Dezember-Umstellungen im Silvio-Paket.
+- Bei C: Anwalts-Termin (SP-15) verschiebt sich in den Herbst, Chargen-Doku direkt nach neuem Recht.
+- SP-13 Status auf `Erledigt`.
+
+## Verweise
+
+- [rollout-plan.md — Regulatorische Stichtage 2026](../plans/rollout-plan.md#regulatorische-stichtage-2026-gate-kritisch)
+- [Doc-14-Review — Haftungs-Stichtag 09.12.2026](../reviews/14-recht-lebensmittelrechtler.md)
+- [Doc-04-Review — PPWR 12.08.2026](../reviews/04-lmiv-lebensmittelrechtler.md)
+- [Persona 99 — Germans Stimme](../personas/Persona%2099%20%E2%80%93%20German%20%E2%80%93%20Freund%20und%20Berater.md)
+- [Session-8-Deep-Dive Findings 1 und 3](../findings/session-8-persona-deep-dive-findings.md)

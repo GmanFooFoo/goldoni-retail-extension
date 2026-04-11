@@ -1,110 +1,156 @@
-# Silvio-Paket 1 — Anrufe, Termine, Entscheidungen
+# Silvio-Paket 1 — Wer macht was
 
 **Von:** German
 **Für:** Silvio
-**Datum:** 2026-04-11
-**Gespeist aus:** Reviews zu Doc 03 (Vetamt), 04 (Etikett), 05 (Hygiene), 14 (Recht), 15 (Steuern) — im Repo unter [`docs/reviews/`](../reviews/) und [`docs/findings/`](../findings/). Zentral-Liste: [`docs/silvio-paket/offene-fragen.md`](../silvio-paket/offene-fragen.md).
+**Form:** Slide-Vorstufe für ein Gespräch bei dir im Goldoni, Ruhetag oder Mittwoch-Nachmittag.
+**Stand Rework:** 2026-04-12 (Session 9, kalibriert auf Chance-Modus und Rollen-Aufteilung)
 
-## Lieber Silvio,
+> **Hinweis interne Ebene:** Diese Datei ist Rohstoff für Slides, nicht ein Dokument, das Silvio allein liest. Jede Zeile ist so geschrieben, dass sie auf eine Folie passt. Stimme ist Germans Stimme aus Persona 99 — peer-to-peer, kein Hand-Holding, keine Entschuldigung für den Umfang, keine "kein Vertrag"-Disclaimer. Quelle: Findings 1 und 3 aus `docs/findings/session-8-persona-deep-dive-findings.md`.
 
-ich habe die letzten Wochen das, was wir beim Wein besprochen haben, mit ein paar Fachleuten durchgehen lassen — auf dem Papier, in meinem Kopf, nicht live. Einen Lebensmittelrechtler, einen Steuerberater, eine Behörden-Sicht, eine Küchen-Sicht, eine Logistik-Sicht. Neun Linsen insgesamt. Das klingt nach viel, ich weiß — aber am Ende geht es einfach. Wirklich. Ich schreibe dir hier auf, was davon bei dir landet und was ich für dich weiter aufbereite.
+---
 
-Wenn dir irgendetwas zu viel, zu schnell oder zu ambitioniert wird: sag es. Das ist dein Restaurant, dein Entscheid, deine Geschwindigkeit. Ich mache hier nur die Vorarbeit.
+## Slide 1 — Worum es geht
 
-## Eine gute Nachricht vorweg
+Ich habe die Idee mit den Vakuum-Gerichten die letzten Wochen durchgedacht.
 
-Die **Mehrwertsteuer-Frage ist vom Tisch.** Es gab lange Unklarheit, ob du auf die Vakuum-Gerichte 7 % oder 19 % aufschlagen musst. Seit Januar 2026 steht das im Gesetz: **7 % — dauerhaft, auch auf Außer-Haus**. Dein Steuerberater muss das für dein Restaurant nur kurz bestätigen, aber es ist kein Stopp-Punkt mehr. Ein Haken weniger auf der Liste, und zwar der größte.
+Kurzfassung: Es geht, es ist kleiner, als es auf den ersten Blick aussieht, und das Meiste lege ich dir vor — du musst nicht selbst ackern.
 
-## So habe ich deinen Fahrplan sortiert
+Heute zeige ich dir, was ich gesehen habe, und wie wir die Arbeit aufteilen.
 
-Statt einer langen Liste mit 18 Dingen — das wäre zu viel für einen Abend — habe ich alles in **fünf Gruppen** geteilt. Jede Gruppe passt in einen Vormittag oder einen Abend. Du musst nicht alles auf einmal machen. Du musst auch nicht in der Reihenfolge vorgehen, in der ich sie aufschreibe. Du kannst dir aussuchen, womit du anfangen willst.
+---
 
-| # | Gruppe | Was ist das | Dein Aufwand | Was brauche ich von dir vorher |
-|---|---|---|---|---|
-| 1 | Drei kurze Anrufe | Ämter und ein Kassen-Anruf, je unter zehn Minuten | ein Vormittag, zusammen ~30 Min. | nichts — ich gebe dir Nummer und den einen Satz zum Reinkommen |
-| 2 | Drei kleine Formal-Sachen | Gewerbeamt-Anzeige, Adresse bestätigen, HACCP-Zettel schreiben | ein ruhiger Abend, zusammen ~45 Min. | deine echte Adresse fürs Etikett |
-| 3 | Drei Termine vereinbaren | IHK-Erstberatung, Gesundheitsamt (Personal-Belehrung), Labor (Nährwerte) | zwei Anrufe + ein Formular, 20 Min. | nichts |
-| 4 | Drei E-Mails — mit fertigem Text von mir | Steuerberater, Anwalt, Versicherung (dazu Lieferanten und Beutel-Fragen) | kopieren, absenden, fertig, je 5 Min. | dein OK, dass ich die Texte für dich aufsetze |
-| 5 | Drei Entscheidungen nur von dir | Wann starten, Vorbestellung ja/nein, Rechtsform | ein Nachmittag zum Durchdenken | dazu bekommst du von mir drei einzelne Zettel |
+## Slide 2 — Die gute Nachricht zuerst
 
-Das ist der ganze Berg. Zusammen etwa **einen Arbeitstag real gearbeitete Zeit**, über zwei oder drei Wochen verteilt. Nicht mehr.
+Die **Steuer-Frage ist vom Tisch**.
 
-## Gruppe 1 — Drei kurze Anrufe
+Seit Januar 2026 steht im Gesetz: 7 % auf Speisen, dauerhaft, auch auf das, was der Gast mitnimmt.
 
-Das ist die niedrigste Schwelle. Wenn du an einem ruhigen Vormittag Lust hast, machst du alle drei hintereinander, und danach hast du drei Haken gesetzt.
+Dein Steuerberater bestätigt das nur noch kurz. Der größte Stein ist weg, bevor wir angefangen haben.
 
-1. **Veterinäramt Stuttgart** — du sagst: *"Guten Tag, ich betreibe das Ristorante Goldoni und möchte zusätzlich zum Restaurant vakuumierte Gerichte für Kunden zum Mitnehmen anbieten. Was brauche ich von Ihnen und wie lange dauert das?"* Sie sagen dir, wie lange die Genehmigung dauert, was kostet, und ob du etwas Schriftliches einreichen musst. Ergebnis zurück an mich, ich mache den Rest. Zehn Minuten.
+---
 
-2. **Dein Kassenhersteller** (oder ins Handbuch schauen) — zwei Fragen: *"Ist meine Kasse zertifiziert nach dem neuen Gesetz?"* und *"Kann sie zwei Steuersätze nebeneinander, also 7 % und 19 %?"*. Beides ja → alles gut. Ein Nein → sag mir Bescheid, dann klären wir, wie viel Aufwand ein Update wäre. Zehn Minuten.
+## Slide 3 — Vielleicht sogar Fördergeld
 
-3. **Deinen Schädlingsbekämpfer** — eine einzige Frage: *"Mein Vertrag mit euch deckt das Restaurant. Wenn ich zusätzlich verpackte Ware für den Verkauf produziere, ist das mit abgedeckt oder brauche ich einen Nachtrag?"*. Wenn Nachtrag: Preis erfragen, zurück an mich. Fünf Minuten.
+Für Projekte wie dieses — ein Gastronom, der etwas Neues aufbaut — gibt es staatliche Zuschüsse und günstige Kredite. Landesbank, KfW, IHK-Beratungsförderung.
 
-Dieser Block klärt fünf Punkte auf meiner Expertenliste, ohne dass du einen einzigen Paragraphen lesen musst.
+Ich schaue mir das in den nächsten Tagen an und sage dir, was konkret zu uns passt. Kann sein, dass das Projekt am Ende weniger aus deiner Tasche kostet, als es im ersten Moment aussieht.
 
-## Gruppe 2 — Drei kleine Formal-Sachen
+---
 
-Diese drei Dinge kann niemand außer dir erledigen, aber sie sind klein.
+## Slide 4 — Die Arbeit ist aufgeteilt
 
-1. **Gewerbeanzeige ergänzen.** Dein Restaurant hat eine Gaststättenerlaubnis — das ist der Tisch-Verkauf. Was du vorhast, ist zusätzlich ein kleiner Einzelhandel (verpackte Ware über die Theke). Das meldet man einmal beim Gewerbeamt Stuttgart an, kostet zwischen 15 und 60 Euro, ein Formular, in der Regel wenige Tage. Das ist kein Drama, aber es muss vor dem ersten Verkauf passieren. Link und Formular besorge ich dir, sobald du loslegen willst.
+Ich habe das, was zu tun ist, in drei Spalten sortiert.
 
-2. **Deine echte Adresse fürs Etikett bestätigen.** Auf jedem Vakuum-Beutel muss die vollständige Anschrift des Herstellers stehen — Straße, Hausnummer, Postleitzahl, Stadt. In den Entwürfen steht noch ein Platzhaltername ("Marco Antonelli"). Schreib mir deine echten Daten kurz in eine Nachricht. Zwei Minuten.
+| Was | Wer macht's | Warum |
+|---|---|---|
+| Drei kurze Anrufe (Vetamt, Kasse, Schädlingsbekämpfer) | **Du** | Die Leute reden nur mit dem Inhaber |
+| Personal-Belehrung beim Gesundheitsamt | **Du** (und wer sonst in der Küche steht) | Jeder persönlich, niemand kann das abnehmen |
+| Drei Mails verschicken (Steuerberater, Anwalt, Versicherung) | **Du** | Du bist der Absender. **Den Text schreibe ich.** |
+| Zwei kleine Lieferanten-Fragen (Herkunft Hartweizen, Tomaten, Fleisch, Käse + Beutel-Konformität) | **Du** | Das sind deine Kontakte, nicht meine |
+| HACCP-Verantwortlichen benennen (Zettel, dein Name, Datum, Unterschrift) | **Du** | Zwei Minuten, Vorlage kommt von mir |
+| Fördergeld-Recherche | **Ich** | Formulare und Programm-Vergleiche, nicht deine Zeit |
+| Etikett-Design | **Ich** (über einen Nachbarn, der auch zu dir kommt) | Ich koordiniere, du sagst am Ende ja oder nein |
+| Drei Mail-Texte vorbereiten | **Ich** | Du kopierst, schickst, fertig |
+| Labor für die Nährwert-Analyse aussuchen | **Ich** | Drei Angebote holen, das billigste zeigen |
+| IHK-Erstberatung | **Gemeinsam** | Ich vereinbare den Termin, ich komme mit |
+| Gewerbeanzeige (kleiner Einzelhandel zusätzlich zur Gaststätte) | **Gemeinsam** | Ich hole das Formular, wir machen's zusammen |
 
-3. **HACCP-Beauftragten benennen.** Das klingt größer, als es ist. Du schreibst auf einen Zettel oder in ein Dokument: *"Verantwortlich für die Lebensmittelsicherheit im Vakuum-Prozess: Silvio [Nachname], Ristorante Goldoni, Datum, Unterschrift."* Fertig. Es geht nur darum, dass eine namentliche Person eingetragen ist. Dein Steuerberater heißt Steuerberater, dein Hygiene-Verantwortlicher heißt HACCP-Beauftragter. Rolle, nicht Ausbildung. Fünf Minuten.
+Die "Du"-Liste ist kürzer, als du erwartest. Alles, was ich abnehmen kann, nehme ich ab.
 
-## Gruppe 3 — Drei Termine vereinbaren
+---
 
-Diese brauchen ein bisschen Vorlauf, weil andere Leute Kalender haben. Also: früh anfragen, damit der Termin rechtzeitig liegt.
+## Slide 5 — Deine Liste in einer Zeile pro Punkt
 
-1. **IHK Stuttgart — Erstberatung Gastronomie.** Die IHK bietet kostenlos ein Gespräch an, in dem ein Fachmann dir die häufigsten Stolpersteine beim Einstieg in Retail erklärt. Das ist die billigste und ehrlichste Risiko-Reduktion vor dem Veterinäramt. Termin online buchen, ein Gespräch, eine Stunde, kostet nichts. Empfehlung: **vor dem ersten echten Veterinäramt-Besuch**.
+1. **Vetamt anrufen.** *"Guten Tag, ich betreibe das Goldoni und will zusätzlich vakuumierte Gerichte zum Mitnehmen anbieten. Was brauche ich von Ihnen und wie lange dauert das?"* Zehn Minuten, Termin vereinbaren sie mit dir — angemeldet, im Vormittagsfenster, nicht während des Service. Keine Uniform im Lokal.
+2. **Kasse anrufen** (oder ins Handbuch schauen): Ist die Kasse zertifiziert, und kann sie 7 % und 19 % nebeneinander? Zwei Fragen, zehn Minuten.
+3. **Schädlingsbekämpfer anrufen.** Eine Frage: Deckt der aktuelle Vertrag auch verpackte Ware für den Verkauf, oder braucht's einen Nachtrag? Fünf Minuten.
+4. **Drei Mails verschicken.** Steuerberater, Anwalt, Versicherung. Text kommt fertig von mir — je zwei bis vier Sätze, zum Kopieren und Absenden.
+5. **Zwei Lieferanten-Nachrichten.** Deine Stamm-Lieferanten: woher kommt der Hartweizen, die Tomaten, das Rindfleisch, der Käse? Eine Nachricht an jeden. Dein Beutel-Lieferant: kurze Mail, Standard-Dokument (Konformitätserklärung) schicken lassen.
+6. **Personal-Belehrung Gesundheitsamt.** Für jeden in der Küche einmalig eine kurze Belehrung, dann einmal im Jahr Auffrischung intern. Kurzes Online-Video in den meisten Ämtern, halbe Stunde pro Person.
+7. **HACCP-Zettel.** Ein Blatt: *"Verantwortlich für die Lebensmittelsicherheit im Vakuum-Prozess: Silvio [Nachname], Goldoni, [Datum], [Unterschrift]."* Das war's. Rolle, kein Zertifikat.
 
-2. **Gesundheitsamt — Belehrung für das Personal.** Jede Person, die mit dem Vakuum-Prozess zu tun hat, braucht einmal eine sogenannte Erstbelehrung (nach Infektionsschutzgesetz § 43). Das ist ein kurzes Online-Video oder ein Termin, je nach Amt in Stuttgart. Dauert pro Person etwa eine halbe Stunde. Danach jährliche Kurz-Auffrischung, die du im Betrieb selbst dokumentierst. Ich besorge dir die aktuellen Links, sobald du soweit bist.
+Summe deiner Zeit: etwa **ein halber Arbeitstag, über zwei bis drei Wochen verteilt**. Nicht am Stück, nicht unter Druck.
 
-3. **Labor für Nährwertanalyse.** Damit das Etikett prüfungsfest ist, wird für jedes deiner vier Gerichte (Lasagne, Sugo, Ragù, Parmigiana) einmalig ein kleines Laborergebnis gebraucht — Kalorien, Eiweiß, Fett, Salz, Zucker. Ein Labor macht das für ca. 80–150 € pro Gericht. Bei vier Gerichten also grob **400–600 €**. Einmalig, bei Rezept-Fixierung. Drei Labore anschreiben, Angebot einholen, günstigstes auswählen. Ich liste dir drei gute Labore aus Baden-Württemberg, sobald es soweit ist.
+---
 
-## Gruppe 4 — Drei E-Mails (ich schreibe dir den Text)
+## Slide 6 — Meine Liste (du musst nichts davon selbst machen)
 
-Bei diesen dreien ist wichtig, dass du nichts formulieren musst. Ich bereite dir jeweils einen Text vor, du kopierst ihn, schickst ihn an den richtigen Empfänger, fertig. Das sind die Hand-Outs, die in den nächsten Tagen zu dir kommen.
+- Fördermittel-Recherche und -Vergleich
+- Drei Mail-Texte vorbereiten
+- Labor-Vorauswahl für die Nährwert-Analyse (drei Angebote, ~400–600 € einmalig)
+- Etikett-Design koordinieren (ein Nachbar von mir macht das grafisch, kommt auch zu dir)
+- Vetamt-Termin vorbereiten (Fragen und Unterlagen sortieren, damit der Termin kurz und sauber läuft)
+- Entscheidungs-Zettel für die drei Punkte auf Slide 8
 
-1. **Mail an deinen Steuerberater** (→ Hand-Out kommt separat, siehe [`sp-05-briefing-steuerberater.md`](../silvio-paket/sp-05-briefing-steuerberater.md)). Vier Fragen, die er beantworten soll: die 7 %-Bestätigung, die Abschreibung des neuen Vakuumierers, getrennte Buchung des Restaurant- und Retail-Umsatzes, und wie Verderb verbucht wird. Eine Antwort von ihm → ich bau das im Hintergrund in den Plan ein.
+Diese Liste läuft bei mir im Hintergrund. Du siehst davon nichts, bis es zu einer Frage für dich wird.
 
-2. **Anfrage an einen Anwalt** (→ Hand-Out kommt separat, siehe [`sp-15-anwalts-auftrag.md`](../silvio-paket/sp-15-anwalts-auftrag.md)). Du brauchst einmalig einen kleinen Rechtsbeistand für drei Dinge: die Geschäftsbedingungen fürs Mitnehmen (das ist der "Kleingedruckte"-Text beim Verkauf), eine Datenschutz-Erklärung (wenn du über WhatsApp arbeitest), und ein einseitiges Notfall-Blatt für den Fall, dass mal was passieren sollte. Grob **800–1.500 € einmalig**. Wichtig: Anwalt muss Gastronomie oder Lebensmittel machen, nicht ein allgemeiner.
+---
 
-3. **Zwei Versicherungs-Anfragen parallel**. Dein aktueller Makler plus ein zweiter, der auf Lebensmittelverkauf spezialisiert ist. Beide bekommen dieselbe Anfrage — Deckungssumme, Rückruf-Baustein, Rechtsschutz. Das Anforderungsprofil schreibe ich dir, du verschickst es zweimal. In zwei Wochen hast du Zahlen zum Vergleichen.
+## Slide 7 — Gemeinsam
 
-Zusätzlich sind in dieser Gruppe noch zwei **kleine Erkundigungen**, die aber in einer Nachricht erledigt sind:
+Zwei Termine, bei denen ich mitkomme:
 
-- Deine **Stamm-Lieferanten**, woher ihre Hauptzutaten kommen (Hartweizen für die Nudeln, Tomaten, Rindfleisch, Auberginen, Käse). Ein Satz an jeden, du fragst nach dem Ursprungsland. Ich brauche das für die Etiketten. Dauer: zehn Minuten.
-- Dein **Beutel-Lieferant** soll dir eine sogenannte Konformitätserklärung schicken. Das ist ein Standard-Dokument, das jeder seriöse Beutel-Hersteller auf Anfrage herausgibt — einfach eine Mail, Antwort kommt zurück. Dauer: fünf Minuten.
+- **IHK-Erstberatung Stuttgart.** Kostenlos, eine Stunde, ein Fachmann für Gastronomie-Diversifikation. Ich buche den Termin, ich komme mit, wir gehen gemeinsam rein. Timing: **vor** dem Vetamt-Termin, damit wir beim Vetamt schon wissen, worauf es ankommt.
+- **Gewerbeanzeige Stuttgart.** Dein Restaurant ist als Gaststätte angemeldet, der Retail-Teil ist ein zusätzlicher kleiner Einzelhandel — einmal ein Formular, 15–60 € Gebühr, wenige Tage Bearbeitung. Ich hole das Formular, wir füllen es zusammen aus, du unterschreibst.
 
-## Gruppe 5 — Drei Entscheidungen, die nur du treffen kannst
+Beides ist angemeldet, terminiert, diskret, außerhalb der Service-Zeit. Kein Überfall, kein Uniformierter bei Tisch.
 
-Bei diesen drei Punkten kann ich dir keine Empfehlung in einer Zeile geben. Sie haben echte Trade-offs, und du musst entscheiden, wie du das Risiko und den Aufwand verteilen willst. Für jede dieser drei bekommst du einen eigenen kurzen Zettel, maximal zwei Seiten, mit **Wenn-A-dann-X / Wenn-B-dann-Y** daneben. Du liest ihn, du entscheidest in deinem Tempo, ich baue darauf auf.
+---
 
-1. **Wann starten wir?** Es gibt zwei Stichtage im zweiten Halbjahr 2026, an denen neue Regeln für Verpackung und Haftung in Kraft treten (12. August und 9. Dezember). Vor, dazwischen oder danach — drei Optionen, jede mit Vor- und Nachteilen. Der Zettel dazu: [`sp-13-launch-timing-entscheidung.md`](../silvio-paket/sp-13-launch-timing-entscheidung.md).
+## Slide 8 — Drei Entscheidungen, die nur du treffen kannst
 
-2. **Bietest du Vorbestellung an?** Also: dürfen Kunden per WhatsApp, Telefon oder E-Mail sagen *"Silvio, leg mir bitte zwei Lasagnen für Freitag zurück"* — oder verkaufst du nur, was an der Theke da ist? Das klingt wie eine kleine Frage, ist aber strukturell groß, weil mit Vorbestellung ein ganzer Rechts-Stack dranhängt. Beide Varianten sind machbar, die eine ist einfach, die andere ist flexibler. Der Zettel dazu kommt im nächsten Schritt.
+Bei diesen drei Punkten kann ich dir keine Empfehlung in einer Zeile geben. Für jeden kommt in den nächsten Tagen ein kurzer Zettel — eine Seite, *"wenn A dann X, wenn B dann Y"*, damit du in deinem Tempo entscheiden kannst.
 
-3. **Rechtsform.** Bleibst du Einzelunternehmer (so wie jetzt) oder wandelt dein Steuerberater irgendwann in eine Gesellschaft (GmbH oder UG) um, damit im Ernstfall dein Privatvermögen besser geschützt ist? Das ist **keine sofortige Entscheidung** — das besprichst du mit deinem Steuerberater, wenn du die Antwort aus Gruppe 4 Punkt 1 hast. Ich mache für diesen Punkt keinen eigenen Zettel; die Entscheidungs-Grundlage kommt in der Steuerberater-Runde.
+1. **Wann starten wir?** Es gibt zwei Stichtage im zweiten Halbjahr 2026, ab denen neue Regeln für Verpackung und Haftung gelten. Vor, zwischen oder nach den Stichtagen — drei Wege, drei Charaktere. Zettel: `sp-13-launch-timing-entscheidung.md`.
+2. **Vorbestellung ja oder nein?** Also: dürfen Kunden per WhatsApp oder Telefon bestellen, oder verkaufst du nur, was an der Theke steht? Die eine Variante ist einfacher, die andere flexibler. Zettel kommt.
+3. **Rechtsform.** Bleibst du Einzelunternehmer, oder legst du mit deinem Steuerberater irgendwann eine kleine Gesellschaft darüber, damit dein Privatvermögen im Ernstfall getrennt bleibt? **Keine sofortige Entscheidung** — das besprichst du in Ruhe mit deinem Steuerberater, wenn seine Antwort auf meine Mail da ist. Kein eigener Zettel.
 
-## Wenn du heute oder morgen nur eine Sache machen willst
+---
 
-Einen der drei Anrufe aus **Gruppe 1** — egal welchen. Am einfachsten ist dein Kassenhersteller, weil du die Nummer wahrscheinlich schon hast und weil die Antwort *ja* oder *nein* ist. Das ist der kleinstmögliche erste Schritt. Er macht noch kein Projekt draus — aber er setzt den ersten Haken, und du merkst, wie wenig dran hängt.
+## Slide 9 — Was als Nächstes passiert
 
-## Was von meiner Seite als Nächstes passiert
+**Von mir in den nächsten Tagen zu dir:**
 
-In den nächsten Tagen bekommst du von mir **drei kleine Zettel**:
+- Mail-Text für den Steuerberater
+- Entscheidungs-Zettel Start-Zeitpunkt
+- Mail-Text für den Anwalt
+- Kurzer Überblick Fördermittel (was konkret in Frage kommt)
 
-1. Den Text für die Mail an den Steuerberater (Gruppe 4 Punkt 1).
-2. Den Entscheidungs-Zettel zum Start-Zeitpunkt (Gruppe 5 Punkt 1).
-3. Die Klauseln-Liste für den Anwalt (Gruppe 4 Punkt 2).
+**Von dir in den nächsten Wochen zu mir:**
 
-Alles andere baue ich dann Schritt für Schritt auf, im Tempo deiner Antworten. Du musst nichts vorproduzieren und nichts in ein System eintragen. Schreib mir einfach zurück — eine Sprachnachricht reicht, wenn dir das leichter fällt. Ich übersetze das dann in die Ecken, wo es hingehört.
+- Antworten aus den drei Anrufen
+- Antwort vom Steuerberater
+- Deine Entscheidung zum Start-Zeitpunkt
+- Deine echte Adresse fürs Etikett (die echte, nicht der Platzhalter aus den Entwürfen)
 
-## Was diese Notiz nicht ist
+Ab da bauen wir Schritt für Schritt weiter. Kein Zeitdruck, kein Plan mit Meilensteinen, die irgendwer abhaken muss. Wir gehen in deinem Tempo — aber **mit meiner Liste**, damit dein Tempo nicht durch meine Liste ausgebremst wird.
 
-Das hier ist **kein Vertrag und keine Rechnung**. Das ist die Arbeit zwischen uns beiden als Freunde, und sie ist so langsam, wie du willst. Wenn du an einem Punkt sagst *"German, lass uns ein halbes Jahr warten"* oder *"ich will das so nicht"* — beides ist in Ordnung. Wir haben noch nichts bestellt, noch niemand angerufen, noch nichts unterschrieben. Alles kann weg, wenn du das entscheidest, und alles ist noch reversibel.
+---
 
-Die einzige Arbeit, die bisher passiert ist, steht in meinem Repo, und die bleibt meine Arbeit, egal was du entscheidest.
+## Innere Notizen für die Slide-Erstellung (nicht in Silvio-Version)
 
-Grüße, bis bald,
-German
+- **Ton:** peer-to-peer durchgängig. Kein "lieber Silvio", kein "bitte", kein "danke für dein Vertrauen".
+- **Bild-Sprache:** wenn Slides gebaut werden, jede Slide mit **einer** Idee. Nicht zwei. Wenn eine Idee zwei Slides braucht, lieber zwei Slides.
+- **Chance-Ton:** Slide 2 und 3 müssen vor Slide 4 stehen. Die gute Nachricht zuerst, die Arbeitsverteilung danach, die Details zuletzt.
+- **Kontroll-Szene-Gegenteil-Garantie:** Slide 5 Punkt 1 und Slide 7 tragen den Unterton "angemeldet, terminiert, diskret" explizit. Das ist Finding 3 aus dem Deep-Dive.
+- **Was raus ist:** der Satz "das hier ist kein Vertrag und keine Rechnung" aus dem Vor-Rework. Peer-to-peer heißt, man entschuldigt sich nicht für die Arbeit.
+- **Was raus ist:** "Wenn du heute nur eine Sache machen willst". Hand-Holding, nicht nötig. Silvio weiß selbst, wann er anfängt.
+- **Was raus ist:** Paragraphen-Referenzen ("§ 43", "Art. 19 BasisVO"). Inhalt bleibt, Nummerierung raus.
+- **Fördermittel:** erster Eintrag an prominenter Stelle (Slide 3). Auch wenn die Recherche erst noch läuft — die Chance-Dimension gehört vor die Arbeitsverteilung, nicht als Fußnote hinten.
+- **Germans operative Aufteilung:** Slide 6 ist neu gegenüber dem Rohmaterial. Dort steht explizit, was German abnimmt, damit Silvios Liste ehrlich kurz wirkt.
+
+## Nicht in der Silvio-Version
+
+- **Keine Regulatorik-Liste.** Keine Nennung von ProdHaftG, PPWR, LMIV, § 43 IfSG, Art. 19 BasisVO. Die Stichtage werden in Slide 8 Punkt 1 als "zwei Stichtage im zweiten Halbjahr 2026" geführt und erst im Entscheidungs-Zettel SP-13 im Detail aufgeschlüsselt — und auch dort nicht mit Paragraphen.
+- **Keine Bußgeld-Zahlen, keine Haftungs-Szenarien.** Das gehört nicht in die erste Vorstellung. Wenn Silvio in der Slide-Session nachfragt, kommt es mündlich.
+- **Kein Berater-Framing.** Keine "Empfehlung aus meiner Beratung". Die Stimme ist die eines Freundes, der die Arbeit vorbereitet hat, nicht die eines Consultants.
+
+## Verweise
+
+- Finding 1, 3 aus `docs/findings/session-8-persona-deep-dive-findings.md`
+- `docs/personas/Persona 99 – German – Freund und Berater.md`
+- `docs/personas/Persona 00 – Silvio – Der Gastronom.md` (Red-Flags-Sektion, in Session 9 ergänzt)
+- `docs/silvio-paket/offene-fragen.md` (Ausgang an Silvio)
+- `docs/silvio-paket/sp-05-briefing-steuerberater.md` (Rework in Session 9)
+- `docs/silvio-paket/sp-13-launch-timing-entscheidung.md` (Rework in Session 9)
+- `docs/silvio-paket/sp-15-anwalts-auftrag.md` (Rework in Session 9)

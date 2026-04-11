@@ -1,57 +1,126 @@
-# SP-05 — Briefing Steuerberater
+# SP-05 — Mail an den Steuerberater
 
 **SP-Eintrag:** [SP-05 in `offene-fragen.md`](offene-fragen.md#block-2--steuerberater--kasse)
 **Gespeist aus:** [Doc-15-Findings](../findings/15-findings.md) F1, F5, F8, F10, F11
-**Zweck:** Silvio schickt diese E-Mail an seinen Steuerberater. Vier Antworten reichen aus, damit der Steuer- und Buchführungs-Teil des Projekts für Phase 1 durchgeplant ist.
+**Stand Rework:** 2026-04-12 (Session 9, kalibriert auf Silvio-Voice, peer-to-peer, keine Paragraphen)
+**Form:** Slide-Vorstufe plus Mail-Vorlage zum Kopieren.
+
+> **Hinweis interne Ebene:** Dieser Zettel liegt im Silvio-Paket, ist aber Rohstoff für die Slide-Session. Die Mail-Vorlage ist in Silvios Tonlage geschrieben, nicht als deutscher Geschäftsbrief. Quelle: Findings 1 aus `docs/findings/session-8-persona-deep-dive-findings.md` (Silvio im Chance-Modus) und Persona 99 Ton-Regeln. Die Steuerberater-Beziehung (Name, Sprache, Duzen/Siezen, Nähe) ist im Repo offen — siehe offene Punkte am Ende.
 
 ---
 
-## Silvio, so geht das
+## Slide 1 — Worum es geht
 
-1. Kopier den Text unten in eine neue E-Mail an deinen Steuerberater.
-2. Füll die drei Klammern aus (Gerätepreis, Team-Größe, Startmonat). Wenn du einen Wert noch nicht hast, schreib einfach "folgt".
-3. Schick sie ab. Fertig.
-4. Die Antwort leitest du mir weiter (oder liest sie mir vor) — ich baue sie dann in den Plan ein.
+Dein Steuerberater muss vier Punkte kurz bestätigen, bevor du loslegst. Zwei Sätze pro Punkt reichen ihm. Danach ist der Steuer-Teil des Projekts geklärt.
 
-Was er dir in der Antwort voraussichtlich sagt: dass die 7 % in Ordnung sind, welchen Zeitraum er für die Abschreibung nimmt (wahrscheinlich 7 Jahre), wo er den neuen Umsatz in deiner Buchhaltung ablegen möchte, und wie er den Verderb verbucht. Wenn er eine **verbindliche Auskunft** vom Finanzamt empfiehlt (Frage 5), sag mir Bescheid — ich erkläre dir dann, was das kostet und ob es sich lohnt.
+Ich habe dir einen kurzen Mail-Text vorbereitet. Du kopierst, setzt den Namen ein, schickst, fertig.
 
 ---
 
-## E-Mail-Text zum Kopieren
+## Slide 2 — Die vier Punkte (kurze Version für dich)
 
-> **Betreff:** Retail-Erweiterung Goldoni — vier Fragen zur steuerlichen Einordnung
+1. **7 % auf Vakuum-Ware bestätigen.** Die 7 % stehen seit Januar 2026 im Gesetz, auch für das, was der Gast mitnimmt. Dein Steuerberater sagt dir nur noch, ob es für dich in der Form auch gilt.
+2. **Neuer Vakuumierer, wie abschreiben?** Er sagt dir, über wie viele Jahre das Gerät steuerlich verteilt wird und ob du die Mehrwertsteuer aus der Rechnung direkt zurückholen kannst.
+3. **Zweite Umsatz-Linie sauber trennen.** Damit in der Buchhaltung klar ist, was Restaurant-Umsatz und was Vakuum-Umsatz ist. Er sagt dir, wie das in deinem System angelegt wird.
+4. **Chargen, die entsorgt werden, wie buchen?** Bei den Haltbarkeits-Tests und später im Betrieb wird mal eine Charge nicht verkauft. Dafür gibt es eine saubere Buchung, er kennt die.
+
+---
+
+## Slide 3 — Die Mail zum Kopieren
+
+Die Mail ist kurz. Vier Fragen, vier Antworten zurück. Kein Termin nötig, kein Formular.
+
+**Variante A — Du duzt deinen Steuerberater:**
+
+> **Betreff:** Vier kurze Fragen — ich will ab Herbst Vakuum-Ware zum Mitnehmen anbieten
 >
-> Lieber Herr / Liebe Frau [Name],
+> Ciao [Vorname],
 >
-> ich plane, im Ristorante Goldoni zusätzlich zum Restaurant-Betrieb vakuumierte Gerichte (Lasagne, Sugo, Ragù, Parmigiana) in kleiner Menge für den Verkauf über die Theke herzustellen. Das Restaurant bleibt wie gehabt, der Retail-Verkauf wird eine zusätzliche Umsatz-Quelle. Bevor ich loslege, möchte ich vier Punkte mit dir klären, damit ich die Buchhaltung und die Kasse von Anfang an sauber aufsetze.
+> ich mache im Goldoni eine kleine Neuerung: zusätzlich zum Restaurant will ich vier Gerichte — Lasagne, Sugo, Ragù, Parmigiana — vakuumiert über die Theke verkaufen. Kleine Mengen, nur Abholung, kein Versand. Start voraussichtlich Herbst 2026.
 >
-> **Frage 1 — Umsatzsteuersatz.** Nach dem Steueränderungsgesetz 2025 gilt ab 01.01.2026 der ermäßigte Steuersatz von 7 % dauerhaft auf Speisen in der Gastronomie, einschließlich Außer-Haus-Verkauf. Trifft das auch für mein Vorhaben (verpackte Vakuum-Ware zur Mitnahme) zu, oder siehst du eine Einordnung, die eher Einzelhandel und damit 19 % wäre? Ich gehe nach dem Gesetzestext von 7 % aus, möchte aber deine Bestätigung, bevor ich die Preise kalkuliere.
+> Vier Dinge will ich mit dir kurz klären, bevor ich loslege:
 >
-> **Frage 2 — Abschreibung Vakuumiergerät.** Ich beschaffe einen Profi-Vakuumierer, voraussichtlicher Anschaffungswert [Gerätepreis einsetzen, z. B. 2.500 € netto]. Welche Nutzungsdauer und welche jährliche Abschreibung setzt du dafür an? Kann ich die Vorsteuer aus der Rechnung direkt ziehen?
+> 1. 7 % Mehrwertsteuer auf die Vakuum-Ware — passt das so, wie das neue Gesetz es seit Januar sagt?
+> 2. Profi-Vakuumierer um die [Gerätepreis] € netto — wie schreibst du das ab, und ziehe ich die Vorsteuer direkt?
+> 3. Retail-Umsatz in der Buchhaltung getrennt vom Restaurant-Umsatz — wie legen wir das sauber an?
+> 4. Wenn mal eine Charge nicht verkauft wird und weg muss — wie buche ich den Verderb sauber?
 >
-> **Frage 3 — Trennung der Erlöskonten.** Ich möchte den Restaurant-Umsatz (Tisch-Verkauf) und den Retail-Umsatz (Vakuum-Ware über die Theke) in der Buchhaltung sauber trennen, auch wenn beide mit 7 % laufen. Welche Konten im SKR 03 oder SKR 04 schlägst du dafür vor? Reicht die Trennung innerhalb der Erlöskonten, oder empfiehlst du eine separate Kostenstelle?
+> Kurze Antwort per Mail reicht mir. Falls einer der Punkte nach einem Termin aussieht, sag Bescheid.
 >
-> **Frage 4 — Buchung von Verderb und Entsorgung.** Bei Haltbarkeits-Tests und im späteren Betrieb wird es Chargen geben, die nicht verkauft werden und entsorgt werden müssen. Wie buche ich diesen Verderb korrekt — als Wareneinsatz mit Entsorgungs-Nachweis, als außerplanmäßige Abschreibung oder anders? Muss ich dafür eine eigene Dokumentation führen?
+> Grüße
+> Silvio
+
+**Variante B — Du siezt deinen Steuerberater:**
+
+> **Betreff:** Vier kurze Fragen — Retail-Erweiterung Goldoni
 >
-> **Frage 5 — Verbindliche Auskunft nach § 89 Abs. 2 AO.** Hältst du für einen der vier Punkte — besonders für Frage 1 — eine verbindliche Auskunft beim Finanzamt für sinnvoll, oder reichen deine Einschätzung und die Gesetzeslage aus?
+> Guten Tag Herr / Frau [Name],
 >
-> **Zum Hintergrund:** Das Projekt ist Phase 1, nur gekühlt, 7 Tage Haltbarkeit, Verkauf ausschließlich im Restaurant. Team ist mein bestehendes [Team-Größe einsetzen, z. B. Küchen-Team plus ich selbst]. Start voraussichtlich [Startmonat einsetzen, z. B. Herbst 2026]. Ich kalkuliere mit 20–30 Stück pro Woche im Pilot, also kein Massen-Geschäft.
+> ich plane eine kleine Erweiterung im Goldoni: zusätzlich zum Restaurant will ich vakuumierte Gerichte (Lasagne, Sugo, Ragù, Parmigiana) über die Theke anbieten. Kleine Stückzahlen, nur Abholung, kein Versand. Start voraussichtlich Herbst 2026.
 >
-> Über eine kurze schriftliche Rückmeldung zu den vier Fragen würde ich mich freuen — damit ich deine Antworten als Grundlage für die Planung verwenden kann. Ein Termin in den nächsten Wochen wäre zusätzlich hilfreich, wenn du Kapazität hast.
+> Vier Punkte will ich mit Ihnen kurz klären:
 >
-> Vielen Dank und beste Grüße,
+> 1. 7 % Mehrwertsteuer auf die Vakuum-Ware — passt das so, wie das neue Gesetz es seit Januar vorsieht?
+> 2. Profi-Vakuumierer um die [Gerätepreis] € netto — welche Abschreibungsdauer setzen Sie an, und kann ich die Vorsteuer direkt ziehen?
+> 3. Retail-Umsatz in der Buchhaltung getrennt vom Restaurant-Umsatz — wie legen wir das sauber an?
+> 4. Wenn eine Charge nicht verkauft wird und entsorgt werden muss — wie buche ich den Verderb korrekt?
+>
+> Eine kurze Antwort per Mail reicht mir. Falls einer der Punkte einen Termin braucht, sagen Sie einfach Bescheid.
+>
+> Beste Grüße
 > Silvio [Nachname]
-> Ristorante Goldoni
+
+Nimm die Variante, die zu deiner Steuerberater-Beziehung passt. Wenn ihr seit 15 Jahren duzt, ist Variante A richtig. Wenn nicht, Variante B.
 
 ---
 
-## Was danach passiert
+## Slide 4 — Was du vor dem Absenden ausfüllst
 
-Sobald die Antwort da ist, zieht die nächste Session die Ergebnisse in folgende Stellen:
+Zwei Platzhalter in der Mail:
 
-- Doc 15 v2 (Steuer-Doc) — 7 %-Bestätigung, AfA-Rechnung, Kontenrahmen-Anker, Verderb-Buchung
-- Rollout-Plan Schritt 1 — MwSt-Verifikation als erledigt markieren
-- SP-05 Status auf `Erledigt` mit Commit-Ref
-- Bei Bedarf neue Findings oder Decisions, falls der Steuerberater einen Punkt anders bewertet
+- **[Gerätepreis]** — der Netto-Preis des Vakuumierers. Wenn du ihn noch nicht weißt, schreib ungefähr 2.500 € oder "noch offen, kommt nach der Beschaffung".
+- **[Vorname]** oder **[Name]** — wie du ihn / sie normalerweise ansprichst.
 
-Falls der Steuerberater eine verbindliche Auskunft empfiehlt, wird das als separater Arbeits-Block mit Kosten-Nutzen-Abwägung aufgesetzt (Gebühr ~300–500 €, Dauer 3–6 Monate).
+Mehr nicht. Der Rest steht.
+
+---
+
+## Slide 5 — Was du danach erwarten kannst
+
+- Antwort in **1–2 Wochen**, je nachdem wie voll sein Schreibtisch ist.
+- Er wird dir sagen: ja, 7 % passt. Abschreibung vermutlich über 7 Jahre. Erlös-Konten getrennt als Unterkonten. Verderb als Wareneinsatz mit Notiz.
+- Wenn er für Punkt 1 eine **verbindliche Auskunft beim Finanzamt** empfiehlt (das ist ein offizielles Papier vom Amt, das schwarz auf weiß sagt, was gilt): sag mir Bescheid. Kostet ~300–500 €, dauert ein paar Monate, und du musst abwägen, ob sich das für dein Volumen lohnt.
+
+Die Antwort leitest du mir einfach weiter — ich baue sie im Hintergrund in den Plan ein.
+
+---
+
+## Innere Notizen (nicht in der Silvio-Version)
+
+- **Ton:** Silvio-Voice, kurz, freundlich, zwei Varianten (Duzen/Siezen) weil die Steuerberater-Beziehung im Repo offen ist. Deep-Dive-Lücke: Steuerberater-Beziehung (Name, Sprache, Nähe, Frequenz) nicht geklärt.
+- **Raus aus dem Rohmaterial:** § 89 Abs. 2 AO als Zitat. Inhalt (verbindliche Auskunft) bleibt in Slide 5, aber als normale Worte.
+- **Raus:** SKR 03 / SKR 04. Das ist Steuerberater-Sprech. Silvio muss den Unterschied nicht kennen. Der Steuerberater legt es an, wie es in seinem System passt.
+- **Raus:** die "Lieber Herr / Liebe Frau" Formel im Rohmaterial, weil German sie im Pushback explizit als "deutscher Geschäftsbrief" kritisiert hat. Stattdessen beide Varianten parallel.
+- **Raus:** "ich kalkuliere mit 20–30 Stück pro Woche im Pilot" — das ist interne Business-Case-Zahl, gehört nicht in Silvios Steuerberater-Mail. Der Steuerberater muss die Stückzahl für die vier Fragen nicht wissen.
+- **Was behalten wurde:** die vier Sachfragen. Die sind richtig und stehen ohnehin so im Doc-15-Findings.
+- **Chance-Modus:** Die Mail-Eröffnung ist "ich mache eine kleine Neuerung" — nicht "ich muss bevor ich starte vier rechtliche Punkte klären". Die Fragen folgen der Absicht, nicht der Angst.
+
+## Was danach passiert (intern)
+
+- Antwort vom Steuerberater kommt zurück an Silvio, Silvio leitet an German.
+- German zieht die Antworten in `docs/findings/15-findings.md` und markiert F1/F5/F8/F10 als aufgelöst.
+- Doc 15 v2-Plan wird um den Kontenrahmen-Vorschlag ergänzt.
+- Rollout-Plan Schritt 1 MwSt-Teil wird von "noch zu verifizieren" auf "bestätigt" gezogen.
+- SP-05 Status im Silvio-Paket auf `Erledigt` mit Commit-Ref.
+- Falls der Steuerberater eine verbindliche Auskunft empfiehlt: eigener SP-Eintrag mit Kosten-Nutzen-Einschätzung, keine automatische Umsetzung.
+
+## Offene Punkte zur Kalibrierung
+
+- **Steuerberater-Beziehung** ist noch nicht erfragt. Duzen oder siezen? Deutsch oder italienisch? Wie oft hat Silvio Kontakt mit ihm/ihr? Das beeinflusst, ob Variante A oder B richtig ist, oder ob eine dritte Variante auf Italienisch gebraucht wird. → bei nächster Silvio-Rück-Runde klären (Deep-Dive-Lücke 1).
+
+## Verweise
+
+- [Doc-15-Findings F1, F5, F8, F10, F11](../findings/15-findings.md)
+- [Persona 99 — Germans Stimme](../personas/Persona%2099%20%E2%80%93%20German%20%E2%80%93%20Freund%20und%20Berater.md)
+- [Persona 00 Silvio — Red-Flags](../personas/Persona%2000%20%E2%80%93%20Silvio%20%E2%80%93%20Der%20Gastronom.md) (Session-9-Ergänzung)
+- [Session-8-Deep-Dive Finding 1](../findings/session-8-persona-deep-dive-findings.md) — Informations-Asymmetrie
