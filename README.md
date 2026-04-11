@@ -24,9 +24,9 @@ Zielkanal: Abholung im Restaurant. Zielgruppe: Stammgäste, Büros im Stuttgarte
 | `docs/personas/` | 9 rollenbasierte Review-Personas als Analyse-Linsen (CFO, Lebensmittelrecht, Steuer, Koch, Gastronom, Stammkundin, Marketing, Logistik, Amt). Nicht Silvio-facing — Arbeitsmaterial. |
 | `docs/personas/assignments.md` | Matrix: welche Persona reviewt welches Doc. |
 | `docs/findings/decisions.md` | Entscheidungs-Log D-01 bis D-08. Grundlegend für Scope- und Ton-Fragen. |
-| `docs/findings/inconsistencies.md` | 8 Widersprüche zwischen den 19 Original-Docs, inkl. #7 MHD-Validierung und #8 Netto/Brutto aus dem Deep Review. |
-| `docs/reviews/` | Persona-Reviews im Standard-Format. Aktuell: Doc 03 (Lebensmittelrechtler), Doc 15 (Steuerberaterin). |
-| `docs/findings/03-findings.md`, `15-findings.md` | Konsolidierte Findings pro Doc, mit Auflösungs-Gruppen A/B/C. |
+| `docs/findings/inconsistencies.md` | 8 Widersprüche zwischen den 19 Original-Docs, inkl. #7 MHD-Validierung und #8 Netto/Brutto aus dem Deep Review. Einträge #3 und #7 nach Doc-05-Review präzisiert. |
+| `docs/reviews/` | Persona-Reviews im Standard-Format. Aktuell: Doc 03 (Lebensmittelrechtler), Doc 15 (Steuerberaterin), Doc 05 (Lebensmittelrechtler HACCP). |
+| `docs/findings/03-findings.md`, `15-findings.md`, `05-findings.md` | Konsolidierte Findings pro Doc, mit Auflösungs-Gruppen A/B/C. |
 | `docs/plans/03-v2-plan.md` | v2-Plan-Skizze Doc 03. Doc 15 v2-Plan folgt nach Silvio-Steuerberater-Ergebnis. |
 | `docs/plans/rollout-plan.md` | Phase-1-Scope und Rollout-Reihenfolge. Wird in dieser Session ebenfalls auf Germans Arbeits-Level gezogen (Stufe 6 / 2b). |
 | `docs/glossary.md` | Fachbegriffe (HACCP, LMIV, CCP, Vakuum vs. Schutzgas, Schockfroster, Vetamt). Primär als Silvio-Hilfe gedacht, auch für Germans Cross-Reference nützlich. |
@@ -60,7 +60,7 @@ Reviews folgen dem Standard-Format aus [`CLAUDE.md`](CLAUDE.md#review-standard-f
 |---|---|---|
 | 1 | Repo-Setup, plain markdown, GitHub | ✅ Done |
 | 2 | 9 Personas + Ton-Reset + Marcello-Streichung | ✅ Done |
-| 3 | Deep Review der 19 Business-Case-Docs | ⚠️ In Progress (Doc 03 + 15 lead-reviewt) |
+| 3 | Deep Review der 19 Business-Case-Docs | ⚠️ In Progress (Doc 03 + 15 + 05 lead-reviewt) |
 | 4 | Session-1-Wrap-up | ✅ Done |
 | 5 | MASCHIN-Review + Maßnahmen 1/3/4 | ✅ Done |
 | 6 | Repo-Zweck-Umschwung (Germans Arbeits-Level) | ⚠️ In Progress |
@@ -69,6 +69,7 @@ Operative Blocker bei Silvio (nicht vom Repo lösbar, nach Doc-03- und Doc-15-Re
 
 - **Silvio-Paket 1 — Vetamt/IHK** (Doc 03 Gruppe A): Erstkontakt Stuttgart Vetamt (Timing, Gebühren, Luca-Portal-Pflicht), IHK-Erstberatung als Schritt 0.
 - **Silvio-Paket 2 — Steuerberater/Kasse/Gewerbeamt** (Doc 15 Gruppe A): E-Mail an Steuerberater mit vollständigem Fragenkatalog (Satz, Kombi-Beleg, Aufwärm-Empfehlung, Gewerbeanzeige), ggf. verbindliche Auskunft nach § 89 AO. Kassensystem TSE/Zwei-Steuersatz-Check. Gewerbeanzeige-Erweiterung § 14 GewO beim Gewerbeamt Stuttgart.
+- **Silvio-Paket 3 — IfSG/Schädlinge/HACCP-Benennung** (Doc 05 Gruppe A): Termin Gesundheitsamt für § 43 IfSG-Erstbelehrung (für Silvio und das Personal, das am Vakuum arbeitet). Bestand Schädlingsbekämpfungsvertrag klären und ggf. um Retail-Erweiterung erweitern. Schriftliche Selbstbenennung als HACCP-Beauftragter.
 - Echter Nachname, Restaurant-Adresse, vorhandene Gerätebasis (Vakuumierer-Typ).
 - Großhandels-Konditionen (Metro / Di Gennaro).
 

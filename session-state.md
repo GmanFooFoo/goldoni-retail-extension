@@ -2,7 +2,7 @@
 
 **Aktuelles Datum:** 2026-04-11
 **Letzte aktive Session:** Session 5 (German + Claude, 2026-04-11)
-**Status:** Stufe 3 Deep Review läuft. Doc 03 Vetamt und Doc 15 Steuer sind Lead-reviewt, beide mit Rework-Urteil. 12 + 13 Findings in je drei Gruppen konsolidiert. inconsistencies.md um #7 (MHD) und #8 (Netto/Brutto Doc 02/07) erweitert, #5 (MwSt) präzisiert. Gate-Blocker nach Rollout-Schritt 1 klarer: Silvio-Briefing an Steuerberater plus ggf. verbindliche Auskunft nach § 89 AO.
+**Status:** Stufe 3 Deep Review läuft. Doc 03 Vetamt, Doc 15 Steuer und Doc 05 HACCP sind Lead-reviewt, alle drei mit Rework-Urteil. 12 + 13 + 17 Findings in je drei Gruppen konsolidiert. inconsistencies.md um #7 (MHD) und #8 (Netto/Brutto Doc 02/07) erweitert, #3 und #7 präzisiert. Silvio-Paket wächst auf drei Bündel (Vetamt/IHK, Steuer/Kasse/Gewerbeamt, IfSG/Schädlinge/HACCP-Benennung). Nächstes in der Sequenz: Doc 04 LMIV.
 **Aktuelle Phase:** **A — aktiv** (siehe Lebenszyklus unten)
 
 ## Lebenszyklus (D-08)
@@ -17,7 +17,7 @@ Jede Maßnahme, die eine Session einführt, muss die Frage bestehen: *"Brauchen 
 
 ## Aktive Sessions
 
-Session 5 läuft (German + Claude, 2026-04-11). Doc 15 Steuer durch die Steuerberaterin Lead-reviewt, 13 Findings konsolidiert in `docs/findings/15-findings.md`, inconsistencies #5 präzisiert und #8 neu (Netto/Brutto Doc 02/07). Doc 15 v2-Plan-Skizze noch nicht geschrieben — sinnvoll erst nach Silvio-Steuerberater-Ergebnis.
+Session 5 läuft (German + Claude, 2026-04-11). Doc 15 Steuer und Doc 05 HACCP durch den jeweiligen Lead-Reviewer bearbeitet. 13 + 17 Findings konsolidiert, inconsistencies #3, #5, #7 präzisiert, #8 neu. v2-Plan-Skizzen noch nicht geschrieben — sinnvoll erst nach Silvio-Aktionen bzw. Doc-14-Klärung (Rückruf-Schreibort).
 
 ## Repo-Ownership
 
@@ -31,7 +31,7 @@ Nur **eine schreibende Session** gleichzeitig auf diesem Repo. Lese-Zugriff ist 
 | 1b | MkDocs Reader-Site | ❌ Rolled back | MkDocs war Overkill. Alles entfernt, zurück zu plain markdown |
 | 1c | Vercel Deploy | ❌ Dropped | Entfällt komplett. Nur GitHub + lokale Verzeichnisse |
 | 2 | 9 Personas + README für Silvio + Frontmatter-Cleanup + Goldoni-Präfix raus + Marcello-Persona abgeschafft + Ton-Reset | ✅ Done | Alle Silvio-facing Dokumente im freundschaftlichen Ton, Personas im Format "Persona NN – Name – Rolle", Marcello-Figur komplett gestrichen |
-| 3 | Deep Review der Business-Case-Docs | ⚠️ In Progress | Sequenz: 03 → 15 → 05 → 04 → 14 (Gate-kritisch zuerst). Doc 03 und Doc 15 Lead-reviewt, beide mit Rework-Urteil. Findings konsolidiert. Co-Reviews (Behördenkontrolleur auf 03, CFO auf 15) ausstehend. Docs 05, 04, 14 ausstehend. |
+| 3 | Deep Review der Business-Case-Docs | ⚠️ In Progress | Sequenz: 03 → 15 → 05 → 04 → 14. Doc 03, 15, 05 Lead-reviewt, alle mit Rework-Urteil. Findings konsolidiert (42 gesamt). Co-Reviews (Behördenkontrolleur 03, CFO 15, Küche/Logistik/Behörde 05) ausstehend. Docs 04 und 14 ausstehend. |
 | 4 | Wrap-up Session 1 | ✅ Done | Session-Report, Handoff, SESSION-PROMPT-NEXT geschrieben |
 | 5 | MASCHIN-Review + Maßnahmen 1/3/4 (Session 2b) | ✅ Done | decisions.md, Phase A/B/C, beteiligung.md-Gerüst, Prozess-Fixes |
 | 6 | Maßnahme 2 — Repo-Zweck-Umschwung | ✅ Done | README und rollout-plan auf Germans Arbeits-Level. Variante B gewählt (keine parallele Silvio-Version). Memory aktualisiert. Spot-Check 2d/2e ohne Rewrite-Bedarf. |
@@ -58,3 +58,4 @@ markdown im Repo:
 - 2026-04-11 — Session 3: Maßnahme 2 abgeschlossen. README und rollout-plan auf Arbeits-Level (Variante B). Memory-Update. Spot-Checks ohne Rewrite. Konsistenz-Findings 1/3/6 in `inconsistencies.md` präzisiert. Commits: e5a415e, 68d4493, 49f1b0a.
 - 2026-04-11 — Session 4: Stufe 3 Deep Review gestartet. Gate-kritische Sequenz 03 → 15 → 05 → 04 → 14. Doc 03 Vetamt Lead-Review durch Lebensmittelrechtler. Findings + v2-Plan-Skizze. inconsistencies #7 neu (MHD-Validierung). Commits: 563d64b, 5a02643, 717e64b.
 - 2026-04-11 — Session 5: Doc 15 Steuer Lead-Review durch Steuerberaterin. 13 Findings in drei Gruppen. inconsistencies #5 präzisiert (Pfad: Silvio-Briefing + § 89 AO), #8 neu (Doc 02/07 erwähnen MwSt gar nicht). Commits: 096e571, 8e79394, 5bf4db7.
+- 2026-04-11 — Session 5 (Fortsetzung): Doc 05 HACCP Lead-Review durch Lebensmittelrechtler. 17 Findings in drei Gruppen. Gefahrenanalyse, Rohware-Eingang, Rückstellproben, Reinigungsplan, Rückruf-Prozess, MHD-Validierung fehlen. inconsistencies #3 und #7 präzisiert. Silvio-Paket wächst auf drei Bündel. Commits: 7d0ced9, 7f97add.
