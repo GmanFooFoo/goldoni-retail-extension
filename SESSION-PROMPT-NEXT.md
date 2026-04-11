@@ -1,137 +1,123 @@
-# Session-Prompt für Session 8 — Goldoni Retail Extension
+# Session-Prompt für Session 9 — Goldoni Retail Extension
 
-> Handoff von Session 7 (2026-04-11) an Session 8. Wenn du (Claude) in einer frischen Session dieses Repo öffnest, lies zuerst diese Datei und erledige dann die Session-Start-Checkliste aus `docs/session-handoff.md`.
+> Handoff von Session 8 (2026-04-11 bis 2026-04-12) an Session 9. Wenn du (Claude) in einer frischen Session dieses Repo öffnest, lies zuerst diese Datei und erledige dann die Session-Start-Checkliste aus `docs/session-handoff.md`.
 
 ## Kurzstand
 
-Session 7 hat **Doc 14 Rechtliche Absicherung & Haftung lead-reviewt** mit Rule 9 als zweitem Praxistest (nach Doc 04 in Session 6). Haupt-Trophäe: **ProdHaftG-Novelle zum 9. Dezember 2026** (EU-RL 2024/2853, BR-Drs. 775/25) mit Wegfall des 500 €-Selbstbehalts, Wegfall der 85-Mio-Cap, Beweiserleichterung bei technisch-wissenschaftlicher Komplexität, 25-Jahres-Höchstverjährung. Das ist der **zweite harte Rechts-Stichtag im zweiten Halbjahr 2026** neben PPWR 12.8.2026 — mit direkter Wirkung auf Silvios Launch-Timing-Entscheidung und auf die Chargen-Doku-Anforderungen (ab Stichtag als Zivilprozess-Beweismittel, nicht nur Behörden-Futter).
+Session 8 hat sich in zwei Hälften zerlegt. **Erste Hälfte:** Variante A aus SESSION-PROMPT-NEXT-Session-7 durchgezogen — Silvio-Paket-1-Briefing-Notiz und drei Hand-Outs (SP-05 Steuerberater, SP-13 Launch-Timing, SP-15 Anwalt) im Persona-00-Stil geschrieben. Vor-Block: Rollout-Plan-Stichtage (PPWR 12.08.2026, ProdHaftG 09.12.2026 parallel erfasst), CLAUDE.md Rule 10 (Silvio ist kein Reviewer), Konsistenz-Cleanup in inconsistencies.md.
 
-Vier P1-Findings gesamt: (1) ProdHaftG-Datums-Split, (2) § 58 LFGB Strafbarkeit (bis 5 Jahre Haft) komplett übersehen, (3) Fernabsatzvertrag bei Click-and-Collect und WhatsApp-Bestellung (§ 312c BGB) nicht erkannt, (4) LMIV Art. 14 Fernabsatz-Pflichtinformationen. 22 Findings in A/B/C. Doc 14 ist mit 72 Zeilen strukturell unterdimensioniert für sieben Rechtsgebiete; v2 wird realistisch 3–4 × so lang.
+**Zweite Hälfte:** Substanzieller Pushback von German auf die vier Artefakte. Ton zu naiv-paternalistisch, Steuerberater-Mail als deutscher Geschäftsbrief statt im Silvio-Stil, Gesetzestext-Referenzen falsch, Silvio-Profil unvollständig. Als Folge: drei neue Projekt-Rules in CLAUDE.md (Rule 11 AskUserQuestion bei 2+ Optionen, Rule 12 eine Frage pro Nachricht adaptiv), zwei neue Memory-Einträge, ein **Persona-Deep-Dive** als Korrektur-Runde. Sechs adaptive Fragen zwischen German und Claude über Silvio, die zentrale Korrekturen geliefert haben — darunter die wichtigste: **Silvio ist im Chance-Modus, die Sorgen sind Germans** (Informations-Asymmetrie als zentraler Ton-Leitfaden für alle künftigen Silvio-facing Artefakte).
 
-**Sequenz-Status: 03 ✓ 15 ✓ 05 ✓ 04 ✓ 14 ✓.** Die Gate-kritische Expert-Sequenz ist damit **abgeschlossen**. Fünf Lead-Reviews, fünf Findings-Dateien, 82 Findings insgesamt (davon 3 aufgelöst). Die nächste Phase hat eine andere Charakteristik — Co-Reviews, Rule-9-Nachzug, v2-Rewrites, Silvio-Paket-Konsolidierung, Sekundär-Reviews auf Doc 06–19.
-
-## Struktur-Pushback in Session 7 — wichtige Änderung
-
-Mitten in Session 7 hat German einen Strukturfehler aufgedeckt, der seit Session 4 unbemerkt mitlief: **Silvio war systematisch in die `Wer`-Spalte der Findings-Tabellen geschrieben worden, obwohl Silvio kein Reviewer ist**. Das Silvio-Paket existierte nur als Prosa, nicht als Artefakt. Korrektur:
-
-1. **`docs/silvio-paket/offene-fragen.md`** neu angelegt als zentrales Artefakt mit 18 Einträgen (SP-01 bis SP-18) in fünf Blöcken. **Das ist jetzt der einzige Ort, an dem Silvio-Aktionen stehen.**
-2. **Wer-Spalten-Cleanup** in `03/04/05/14/15-findings.md` und `inconsistencies.md`: Silvio raus, `→ Silvio-Paket SP-XX`-Verweise rein.
-3. **Memory-Eintrag** `feedback_silvio_not_reviewer.md`. Session 8 sollte das beim Start aus `MEMORY.md` mitnehmen.
-4. **Workflow:** Ausgang (Claude → German → Silvio) über das Silvio-Paket; Eingang (Silvio → German → Repo) über GitHub-Issues mit Label `feedback-silvio`.
-5. **Offen für Session 8:** CLAUDE.md Rule 10 "Silvio ist kein Reviewer — Silvio-Paket als Artefakt" ist noch nicht in der Projekt-`CLAUDE.md` eingetragen. German muss entscheiden, ob das jetzt als Projekt-Rule neben Rule 9 rein soll — Memory-Eintrag allein ist weniger robust als eine Projekt-Rule.
+Ergebnis des Deep-Dive: sechs strukturelle Findings in `docs/findings/session-8-persona-deep-dive-findings.md`, Persona 99 (German selbst) neu angelegt und zweimal korrigiert, `project_silvio_profile.md` Memory erheblich erweitert. Die vier Session-8-Artefakte sind damit als **Rohmaterial** deklariert und müssen in Session 9 neu kalibriert werden.
 
 ## Kontext-Reset — lies diese Dateien zuerst
 
-1. `docs/reports/2026-04-11-goldoni-g.md` — Session 7 Close mit Rule-9-Auswertung, Pushback-Block und Commit-Log.
-2. `docs/silvio-paket/offene-fragen.md` — **neu**, das zentrale Silvio-Artefakt. Wird ab jetzt bei jeder neuen Lead-Review-Aktion erweitert.
-3. `CLAUDE.md` — Rule 9 steht, Rule 10 (Silvio-Paket) noch offen.
-4. `docs/reviews/14-recht-lebensmittelrechtler.md` — 127 Zeilen, Regulatorik-Nachtrag Dr. Maldini als Muster für zukünftige breite Rechts-Docs.
-5. `docs/findings/14-findings.md` — 22 Findings in A/B/C.
-6. `docs/findings/inconsistencies.md` — 14 Einträge, davon #11 (Schreibort Rückruf-Prozess) aufgelöst, #12/13/14 neu aus Session 7.
-7. `docs/personas/Persona 00 – Silvio – Übersetzungs-Schicht.md` — wenn Variante A in Session 8 gewählt wird, ist das die operative Grundlage.
-8. `docs/plans/rollout-plan.md` — **braucht einen Datums-Marker für 9.12.2026 ProdHaftG-Novelle** parallel zum PPWR-12.8.2026-Marker. Kleiner Arbeits-Block, der in jeder Variante von Session 8 vorgezogen werden sollte.
-9. `docs/findings/decisions.md` — D-01 bis D-08 unverändert. Ggf. D-09 "Schreibort Rückruf-Prozess" und D-10 "Silvio-Paket als Artefakt" als Decisions aus Session 7 nachtragen (German entscheidet).
-10. `session-state.md` — Stand nach Session 7.
+1. `docs/reports/2026-04-12-goldoni.md` — Session-8-Close mit vollem Ablauf, Pushback-Chronik und Lessons.
+2. `docs/findings/session-8-persona-deep-dive-findings.md` — **die sechs neuen Findings aus dem Deep-Dive**. Die wichtigste Datei für Session 9, weil sie die Folge-Aktionen priorisiert.
+3. `docs/personas/Persona 99 – German – Freund und Berater.md` — Germans eigene Persona mit Leitsatz *"Rocket Science jetzt, damit es später einfach wird"*, Ton-Regeln, Beziehung zu Silvio im Graubereich, operative Teilprojektleiter-Rolle für Nicht-Küchen-Themen.
+4. `docs/personas/Persona 00 – Silvio – Der Gastronom.md` — sollte in Session 9 um Red-Flag-Punkte aus dem Deep-Dive ergänzt werden (Image-Bedrohung statt Strafe-Angst, Chance-Modus respektieren). XS-Arbeit vor dem Artefakt-Rework.
+5. `CLAUDE.md` — Rules 10, 11, 12 sind neu. Rule 12 (eine Frage pro Nachricht, adaptiv) ist besonders scharf und verändert den Stil interaktiver Klärungs-Runden.
+6. `docs/silvio-derivatives/silvio-paket-1-anrufe-und-termine.md` + `docs/silvio-paket/sp-05-briefing-steuerberater.md` + `docs/silvio-paket/sp-13-launch-timing-entscheidung.md` + `docs/silvio-paket/sp-15-anwalts-auftrag.md` — die **Rohmaterial-Artefakte** aus Session 8, die in Session 9 neu kalibriert werden. Beim Lesen den Persona-Pushback im Kopf behalten: naiv-paternalistisch, Consulting-Prosa, Gesetzestext-Referenzen, Silvio im Sorge-Modus statt Chance-Modus.
+7. `docs/plans/rollout-plan.md` — Stichtage-Sektion 2026 steht. Fehlt: Vormittags-Fenster-Annahme und einfacher Koch statt zweiter Chef. Kleiner XS-Block in Session 9.
+8. Memory: `project_silvio_profile.md` (stark erweitert), `feedback_persona_00_not_paternalistic.md` (neu), `feedback_one_question_at_a_time.md` (neu), `feedback_askuserquestion_preferred.md` (bestehend, jetzt als Rule 11 auch im Projekt).
+9. `session-state.md` — Stand nach Session 8.
 
-## Session-8-Auftrag — drei Varianten, German entscheidet via AskUserQuestion
+## Session-9-Auftrag — drei Haupt-Blöcke plus Vor-Block
 
-### Variante A — Silvio-Paket 1 Konsolidierung über Persona 00 (Recommended)
+### Vor-Block — XS, in jeder Variante vorweg
 
-Das Silvio-Paket steht jetzt als strukturiertes Artefakt mit 18 Einträgen in fünf Blöcken. Persona 00 Silvio (Übersetzungs-Schicht) übersetzt es in eine **Silvio-facing Briefing-Notiz** in `docs/silvio-derivatives/silvio-paket-1-anrufe-und-termine.md` (der Ordner existiert noch nicht und wird dabei angelegt).
+1. **Rollout-Plan-Präzisierung** — Vormittags-Fenster (zwischen ~9 und ~14 Uhr) als Produktions-Zeit-Annahme einbauen, einfacher Koch statt zweiter Chef als Personalkosten-Basis markieren. Kleiner Textblock in der Schritte-Sektion plus Anmerkung in den Kosten-Annahmen. Findings 4 und 5 aus `session-8-persona-deep-dive-findings.md` sind die Basis.
+2. **Persona 00 Silvio Red-Flags ergänzen** — zwei neue Punkte: (a) Behörden-Kontrolle als Image-Bedrohung vor Gästen, nicht als Strafe-Angst; (b) Silvio ist am Projekt-Start im Chance-Modus, Sorgen sind bei German entstanden und dürfen nicht als Silvios Ängste formuliert werden. Findings 1 und 3 aus dem Deep-Dive.
+3. **Session 8 Commit-Log-Ergänzung** im Session-8-Report, falls beim Session-8-Close-Commit nochmal Korrekturen anfallen.
 
-Aufgaben als Block-Kette:
+### Variante A — Rework der Session-8-Artefakte unter Chance-Modus-Leitfaden (Recommended)
 
-1. **Silvio-Paket lesen** und die 18 Einträge in eine **nach Zeit- und Energie-Aufwand priorisierte Reihenfolge** bringen. Nicht nach P1/P2/P3, sondern nach "was kann Silvio in einem Vormittag erledigen" — Cluster nach: (a) Telefonate unter 10 min (Vetamt, IHK, Kassenhersteller, Gewerbeamt, Gesundheitsamt), (b) E-Mails mit Vorlauf (Steuerberater-Briefing, Anwalts-Auftrag, Versicherungs-Angebote, Beutel-Lieferant), (c) eigene Entscheidungen ohne Gesprächspartner (Launch-Timing, Scope Vorbestellung, Rechtsform, HACCP-Beauftragter, Hersteller-Anschrift, Schädlingsbekämpfungsvertrag), (d) Termine mit Vorlauf (Gesundheitsamt § 43 IfSG, Labor-Auftrag, Lieferanten-Gespräche).
-2. **Silvio-facing Text** in Persona-00-Stil (einfache Sätze, keine Anglizismen, freundschaftlich, "nicht überreden, nicht verkaufen, nicht drängen"). Kein Paragraphen-Dumping, sondern "am Ende geht's einfach". Er soll die 18 Aktionen nicht als Pflicht-Liste erleben, sondern als Fahrplan, den er in seinem Tempo abarbeitet.
-3. **Hand-Outs** für die drei komplexesten Einträge vorbereiten:
-   - `SP-05-briefing-steuerberater.md` — strukturierter E-Mail-Text mit vier Kern-Fragen (7 % USt-Verifikation, Abschreibung Vakuumierer, Erlöskonten-Trennung, Verderb-Buchung), fertig zum Kopieren.
-   - `SP-13-launch-timing-entscheidung.md` — Entscheidungs-Grundlage zwischen drei Optionen (vor 12.8.2026 PPWR / nach 9.12.2026 ProdHaftG / dazwischen), mit Pro/Contra je Option.
-   - `SP-15-anwalts-auftrag.md` — Klauseln-Liste für AGB + Datenschutzerklärung + Krisen-Prozess-Blatt, Budget-Rahmen, zwei Umsetzungs-Optionen (Anwalt vs. IHK-Muster).
-4. **Commit pro Block.**
+Der Kern-Auftrag für Session 9. Die vier Rohmaterial-Artefakte unter dem neuen Leitfaden neu schreiben. Leitfaden:
 
-**Effort:** M (halber bis ganzer Tag). Persona-00-Ton ist ungewohnt und muss in der ersten Anwendung sorgfältig kalibriert werden. Die drei Hand-Outs sind je S.
+- **Ton:** peer-to-peer, nicht hand-holding. Silvio ist 25+ Jahre Profi, kein Anfänger.
+- **Stimme:** Germans Stimme aus Persona 99 — warmer 17-Jahre-Freund mit Kopf für Strukturen, nicht Consultant, nicht bester Freund, nicht IT-Typ.
+- **Chance-Modus respektieren:** Sorgen nicht stapeln, nicht alle auf einmal entfalten. Unterricht-ohne-Belehrung. *"Ich habe was gesehen, was du noch nicht siehst — hier ist, wie klein es wirklich ist, wenn man es kennt."*
+- **Kontroll-Szene respektieren:** jeder Behörden-Kontakt trägt explizit die Gegenteil-Garantie (angemeldet, terminiert, diskret, außerhalb des Service).
+- **Keine Gesetzestexte, keine Paragraphen** im Silvio-facing Text. Mündlich-verständliche Wiedergabe.
+- **Slides als Ziel-Format im Kopf behalten:** kurze Sätze, tragende Stichpunkte, nicht Prosa-Absätze. Die Rework-Artefakte sind **Slide-Vorstufen**, noch nicht Slides selbst — aber jede Zeile sollte slide-tauglich sein.
+- **Germans operatives Angebot einbauen:** mehrere SP-Einträge verschieben sich aus Silvios Liste in Germans Liste (IHK-Termin, Gewerbeummeldung, Fördermittel-Recherche, Label-Design über den Nachbarn). Die Briefing-Notiz muss das zeigen: die Silvio-Liste ist erheblich kürzer, als Session 8 es vermutet hat.
 
-**Stop-Punkt:** Silvio-Briefing-Notiz und drei Hand-Outs committet.
+**Aufgaben:**
 
-**Vorteil:** Erster echter Silvio-facing Ausgang aus dem Repo. Erster Praxis-Test für Persona 00. Sichtbarer Wertbeitrag an Silvio, den German tatsächlich weitergeben kann.
+1. `docs/silvio-derivatives/silvio-paket-1-anrufe-und-termine.md` neu schreiben. Kürzer, peer-to-peer, fünf Gruppen mit klaren "Silvio macht" vs. "German macht" vs. "gemeinsam" Spalten. Eingang max. drei Sätze, keine Entschuldigung für den Umfang.
+2. `docs/silvio-paket/sp-05-briefing-steuerberater.md` neu schreiben. Die E-Mail-Vorlage in Silvios Tonlage: kurz, duzend (wenn Steuerberater-Beziehung es erlaubt — im Zweifelsfall Silvio fragen), 4–8 Sätze, keine "Sehr geehrte/r"-Floskel, keine nummerierten Paragraphen-Fragen. Vorlage: *"Ciao [Vorname], ich will ab Herbst Lasagne vakuumieren. Vier Fragen: …"*
+3. `docs/silvio-paket/sp-13-launch-timing-entscheidung.md` neu schreiben. Drei Optionen bleiben, aber ohne "Gesetzestext"-Referenzen, ohne apokalyptisches Register, in Slide-Vorstufe-Format. Kein Rücken-freihalte-Schlusswort ("du kannst umsteigen"), keine Hand-Holding-Rhetorik.
+4. `docs/silvio-paket/sp-15-anwalts-auftrag.md` neu schreiben. Wege A/B beibehalten (Anwalt direkt vs. IHK-Muster + Sanity-Check), aber in der Silvio-Voice. Die Beauftragungs-E-Mail gehört zu Weg A und ist von Silvio an einen Anwalt — nicht deutsch-formell, sondern direkt und klar, mit klarer Paket-Beschreibung.
 
-### Variante B — Rückwirkender Regulatorik-Scan Dr. Maldini auf Doc 03 und Doc 05
+**Effort:** M (halber bis ganzer Tag). Ton ist der schwierigste Teil; nach dem ersten neu geschriebenen Artefakt sollte German gegenlesen und die Kalibrierung bestätigen, bevor die anderen drei folgen.
 
-Dr. Maldini existierte bei den Doc-03- und Doc-05-Reviews (Sessions 4 und 5) noch nicht. Beide Reviews sind damit aus Rule-9-Sicht "unbeschrieben". Variante B schließt diese Lücke, bevor v2-Rewrites beginnen.
+**Stop-Punkt:** vier neu kalibrierte Artefakte committet, German-Check nach dem ersten, Memory-Ergänzungen falls neue Kalibrierungs-Details auffallen.
 
-Ablauf:
+### Variante B — Fördermittel-Strang anlegen
 
-1. WebSearch für Doc 03 Vetamt: laufende Änderungen an VO 852/2004, aktuelle LMHV-Novellen, § 4 LMHV Schulungs-Anforderungen, IfSG § 42/43 Änderungen 2025/2026, Stuttgart-spezifische Verwaltungs-Anpassungen, aktuelle Vetamt-Adressdaten Hauptstätter Straße 58.
-2. WebSearch für Doc 05 HACCP: aktuelle HACCP-Leitlinien-Updates, Codex-Alimentarius-Änderungen, Listerien-Risiko-Empfehlungen BfR/EFSA, aktuelle Urteile zu § 58 LFGB bei MHD.
-3. Regulatorik-Nachträge in beide Review-Dateien einfügen, analog Template aus Doc-04- und Doc-14-Review. Bei aufgelösten Findings Strike-through setzen.
-4. Neue Findings in die bestehenden Findings-Dateien nachziehen, nicht parallel neue anlegen.
+Finding 6 aus dem Deep-Dive. Aktuell keine Spur im Repo.
+
+**Aufgaben:**
+
+1. WebSearch auf staatliche Fördermittel für Gastronomie-Diversifikation in Baden-Württemberg: L-Bank, KfW, IHK-Förderberatung, Zuschüsse für Beratungskosten (Beratungshilfe Gastronomie), Innovations-Gutscheine BW, Digitalisierungs-Förderung, bonitäts-schonende Kredite.
+2. Neues Doc anlegen: `docs/business-case/20-foerdermittel.md` (nummeriert um +1 nach der 19er-Serie) oder als Kapitel in Doc 02. Struktur: Programm-Name, Zuständigkeit, Voraussetzungen, Förderhöhe, Aufwand der Antragsstellung, Zeithorizont, Realismus für Silvios Fall.
+3. Backlog-Eintrag in `docs/backlog/repo-backlog.md` eröffnen und schließen.
+4. Optional: einen Eintrag ins Silvio-Paket, falls eine Aktion für Silvio entsteht (Bank-Gespräch, Antragsvorbereitung).
+
+**Effort:** M (halber Tag mit WebSearch-Schwerpunkt).
+
+**Stop-Punkt:** Fördermittel-Doc committet, in Rollout-Plan und/oder Doc 02 als Chance-Dimension referenziert.
+
+### Variante C — Rückwirkender Rule-9-Scan Doc 03 und Doc 05
+
+Weiter offen aus Session 7. Dr. Maldini hatte bei Doc-03- und Doc-05-Reviews noch nicht existiert, die beiden Reviews sind aus Rule-9-Sicht "unbeschrieben". Vor v2-Rewrites nötig.
+
+**Aufgaben:**
+
+1. WebSearch für Doc 03 Vetamt: VO 852/2004, LMHV-Novellen, § 4 LMHV, IfSG § 42/43, Stuttgart-spezifische Vetamt-Verwaltungs-Anpassungen.
+2. WebSearch für Doc 05 HACCP: HACCP-Leitlinien-Updates, Codex-Alimentarius, Listerien-Risiko BfR/EFSA, aktuelle § 58 LFGB Urteile zu MHD.
+3. Regulatorik-Nachträge in beide Review-Dateien einfügen, Template analog Doc 04 und Doc 14.
+4. Neue Findings in bestehende Findings-Dateien nachziehen.
 
 **Effort:** M (halber Tag).
 
-**Stop-Punkt:** Nachträge committed.
+**Stop-Punkt:** Nachträge committet.
 
-**Vorteil:** Hygiene vor v2. Alle fünf Gate-Docs haben dann den gleichen Rule-9-Stand.
+## Empfehlung für Session 9
 
-### Variante C — Doc 14 Gruppe B Arbeits-Blöcke beginnen
+**Vor-Block unbedingt zuerst**, dann **Variante A (Artefakt-Rework)** als Kern-Arbeit. Variante B und C sind wichtig, aber nicht dringlich — A ist der Weg, der den Session-8-Pushback in sichtbaren Fortschritt übersetzt. Wenn A in einer Session nicht komplett durchläuft (was realistisch ist, weil der Ton jede Zeile kostet), dann die ersten beiden Artefakte (Briefing-Notiz + SP-05) fertig machen und SP-13 und SP-15 auf Session 10 schieben.
 
-Der Lead-Review ist geschrieben, die Findings stehen. Variante C startet direkt mit der Repo-Arbeit aus Gruppe B: **Rückruf-Prozess-Kapitel** als erstes (jetzt ist der Schreibort zwischen Doc 14 und Doc 05 geklärt), danach **ProdHaftG-Datums-Split-Kapitel** mit Rollout-Plan-Marker, danach **Versicherungs-Deckungs-Kapitel**.
-
-Ablauf:
-
-1. Rückruf-Prozess-Kapitel als strukturierte Tabelle (Schritt / Zeitfenster / Verantwortlich / Werkzeug / Dokumentation) mit Kommunikations-Vorlagen für Kunde/Vetamt/Presse. Schreibort Doc 14, Cross-Ref an Doc 05.
-2. ProdHaftG-Datums-Split-Kapitel mit Wirkungsanalyse auf Chargen-Doku-Anforderungen. Anschließend Rollout-Plan um den 9.12.2026-Marker ergänzen, parallel zum PPWR-12.8.2026-Marker.
-3. Versicherungs-Deckungs-Kapitel mit Anforderungs-Profil (mind. 2,5 Mio. € pauschal, Rückrufkosten-Baustein, Rechtsschutz, Obliegenheiten). Das ist gleichzeitig die Grundlage für Silvios Angebots-Einholung (SP-16).
-
-**Effort:** L (ganzer Tag). Drei große Text-Blöcke.
-
-**Stop-Punkt:** Drei Kapitel committed, Rollout-Plan-Marker gesetzt.
-
-**Vorteil:** Sichtbarer Repo-Fortschritt, Kopplung zum Silvio-Paket bleibt intakt (Kapitel liefern Input für SP-13/15/16/17). **Nachteil:** Kein Silvio-facing Ausgang, kein Rule-9-Nachzug. Kapitel-Arbeit kann auch in Session 9 gemacht werden, ohne dass etwas blockiert.
-
-## Empfehlung für Session 8
-
-**Variante A (Silvio-Paket 1 Konsolidierung über Persona 00)**, aus drei Gründen:
-
-1. Die Gate-kritische Expert-Sequenz ist durch. Der natürliche nächste Schritt ist der **erste Silvio-facing Ausgang**, der zeigt, dass die ganze Review-Arbeit eine Stimme an Silvio haben kann. Persona 00 ist dafür geschaffen und wartet seit Session 5 auf ihren ersten Einsatz.
-2. Das Silvio-Paket steht als Artefakt jetzt robust — es ist nicht mehr Prosa, sondern strukturiert mit Status-Flow. Persona 00 hat eine klare Datengrundlage für die Übersetzung.
-3. Variante B bleibt wichtig, ist aber nicht dringlich. Der Rückzug kann in Session 9 laufen. Variante C ist Repo-interne Arbeit, die jederzeit gemacht werden kann.
-
-**Wenn aber der Rule-9-Nachzug aus Hygiene-Gründen dringlich wird (z. B. wenn v2-Rewrites direkt anstehen), Variante B priorisieren.**
-
-## Vor-Block für jede Variante
-
-Egal welche Variante gewählt wird, ein **XS-Vor-Block** sollte in allen drei Fällen vorweg laufen:
-
-1. **Rollout-Plan-Marker 9.12.2026 ProdHaftG setzen** — parallel zum PPWR-12.8.2026-Marker. Ist in Varianten A und B unabhängig vom Haupt-Block, in Variante C Teil des Blocks.
-2. **CLAUDE.md Rule 10 Entscheidung** — German fragen, ob die "Silvio ist kein Reviewer"-Regel als Projekt-Rule 10 in `CLAUDE.md` rein soll (analog Rule 9). Memory-Eintrag existiert bereits.
-3. **Konsistenz-Check Findings-Format** — kurzer Scan über alle fünf Findings-Dateien, ob nach dem Wer-Spalten-Cleanup noch Drift-Stellen versteckt sind.
-
-## Offene Punkte aus Session 7 — kein Blocker, aber im Kopf behalten
+## Offene Punkte aus Session 8 — kein Blocker, aber im Kopf behalten
 
 | # | Punkt | Wann |
 |---|---|---|
-| 1 | CLAUDE.md Rule 10 einbauen (Silvio ist kein Reviewer) | Session 8 Vor-Block |
-| 2 | Rollout-Plan-Marker 9.12.2026 ProdHaftG-Novelle | Session 8 Vor-Block |
-| 3 | Co-Reviews Doc 14 (Behördenkontrolleur, Steuerberaterin) | Nach Gate-Sequenz, flexibel |
-| 4 | Rückwirkender Rule-9-Scan Doc 03 und Doc 05 | Variante B, spätestens vor v2-Rewrite |
-| 5 | v2-Rewrites der fünf Gate-Docs | Nach Co-Reviews und Silvio-Rückmeldungen |
-| 6 | Sekundär-Reviews Doc 02, 06, 07, 08, 09, 10, 11, 12, 13, 16, 17, 18, 19 | Nach v2-Rewrites Gate-Sequenz |
-| 7 | D-09 und D-10 als neue Decisions dokumentieren (Schreibort Rückruf, Silvio-Paket) | Bei nächstem Decisions-Log-Update |
-| 8 | Deep Review Stufe 3 bleibt XL. Realistisch: ein Lead-Review pro Session | Dauerthema |
-| 9 | Silvio-Rückmeldungen über GitHub-Issues `feedback-silvio` | Dauerthema |
-| 10 | `docs/silvio-derivatives/` Ordner wird in Variante A angelegt | Variante A |
+| 1 | Rollout-Plan-Präzisierung (Vormittags-Fenster, einfacher Koch) | Session 9 Vor-Block |
+| 2 | Persona 00 Red-Flags ergänzen (Image-Bedrohung, Chance-Modus) | Session 9 Vor-Block |
+| 3 | Artefakt-Rework unter Chance-Modus-Leitfaden | Session 9 Variante A |
+| 4 | Fördermittel-Strang anlegen | Session 9 Variante B oder Session 10 |
+| 5 | Rule-9-Nachzug auf Doc 03 und Doc 05 | Variante C, spätestens vor v2-Rewrite |
+| 6 | Co-Reviews Doc 04 und Doc 14 (Behördenkontrolleur, CFO, Steuerberaterin, Küchenchef) | nach Gate-Sequenz, flexibel |
+| 7 | v2-Rewrites der fünf Gate-Docs | nach Co-Reviews und Silvio-Rückmeldungen |
+| 8 | Sekundär-Reviews Doc 02, 06, 07, 08, 09, 10, 11, 12, 13, 16, 17, 18, 19 | nach v2-Rewrites |
+| 9 | Silvio-Profil-Lücken: Steuerberater, Anwalt, Versicherung, Digital-Grad, Invest-Bereitschaft | wenn für konkrete Artefakt-Arbeit nötig |
+| 10 | Slides-Erstellung über Claude-PowerPoint-Skill | später, wenn Repo durchgefräst ist |
+| 11 | Deep Review Stufe 3 bleibt XL — Realistisch: ein Lead-Review pro Session | Dauerthema |
+| 12 | Silvio-Rückmeldungen über GitHub-Issues `feedback-silvio` | Dauerthema |
 
-## Wichtige Präferenzen von German (Erinnerung)
+## Wichtige Präferenzen von German (Erinnerung — ergänzt aus Session 8)
 
-- **Silvio ist kein Reviewer** (neu Session 7). `Wer`-Spalte in Findings nur Review-Personas. Silvio-Aktionen in `docs/silvio-paket/offene-fragen.md`. Rückmeldungen via GitHub-Issue `feedback-silvio`.
-- **Ton interne Arbeits-Docs (D-06):** präzise, direkt, Fach-Sprache erlaubt.
-- **Ton Silvio-Ableitungen:** einfache Sätze, keine Anglizismen, tentativ, warm, *"nicht überreden, nicht verkaufen, nicht drängen"*.
-- **Pushback Pflicht.** Session 7 hat gezeigt: ein Pushback hätte drei Sessions früher kommen können, wäre der Konsistenz-Check regelmäßig gelaufen.
-- **Review-Standard-Format** aus `CLAUDE.md`.
+- **Silvio ist im Chance-Modus, die Sorgen sind Germans (neu Session 8).** Informations-Asymmetrie respektieren. Unterricht-ohne-Belehrung, nicht Angst-Reduzierung.
+- **Ton Silvio-facing:** peer-to-peer, kein Hand-Holding, keine Consulting-Prosa, keine "Sehr geehrte/r"-Mails in Silvios Namen, keine Gesetzestext-Referenzen. Warm, respektvoll, direkt.
+- **Slides als Ziel-Format.** Silvio-facing Texte sind Slide-Vorstufen, nicht Lese-Dokumente.
+- **Eine Frage nach der anderen, adaptiv (neu Session 8, Rule 12).** Bei interaktiven Klärungs-Runden keine vorgeplanten Fragen-Listen.
+- **AskUserQuestion bei 2+ Optionen Pflicht (neu Session 8, Rule 11).**
+- **Graubereiche respektieren (neu Session 8).** Nicht schwarz-weiß vereinfachen. Beziehungen, Rollen und Haltungen haben Nuancen — die müssen im Text sichtbar sein.
+- **Silvio ist kein Reviewer (Session 7, Rule 10).** Silvio-Paket als Artefakt. Nie in Wer-Spalten.
 - **Rule 9 Regulatorik-Scan** für Legal/Tax/Tech-Docs Pflicht.
+- **Pushback erwartet.** Claude widerspricht, wenn etwas nicht stimmt, und korrigiert eigene Arbeit nach Pushback sichtbar.
+- **Review-Standard-Format** aus `CLAUDE.md`.
 - **Tabellen:** MASCHIN-Format (`# | Item | Prio | Effort | Wer | Blocker? | Status | Impact`).
 - **Markdown:** keine Hard-Wraps im Fließtext.
-- **AskUserQuestion** bei 2+ Optionen.
 - **Commit nach jedem Work-Block.**
 - **Session-Session-Regel:** Genau ein Schreibender pro Repo gleichzeitig. Vor Session-Start `session-state.md` prüfen.
 - **Strike-through statt Löschen** bei aufgelösten Findings und Inconsistencies.
@@ -140,4 +126,4 @@ Egal welche Variante gewählt wird, ein **XS-Vor-Block** sollte in allen drei F�
 
 Nach Lesen der Kontext-Dateien:
 
-> "Kontext geladen. Session 7 hat Doc 14 Recht lead-reviewt mit Rule 9 als zweitem Praxistest. Haupt-Trophäe: ProdHaftG-Novelle 9.12.2026 als zweiter Rechts-Stichtag neben PPWR 12.8.2026. Vier P1-Findings (ProdHaftG-Datums-Split, § 58 LFGB Strafbarkeit, Fernabsatzvertrag, LMIV Art. 14). 22 Findings A/B/C. **Sequenz-Ende erreicht: 03/15/05/04/14 alle lead-reviewt.** Session 7 hat zusätzlich einen Strukturfehler bereinigt — Silvio war systematisch in die Wer-Spalte der Findings geschrieben, obwohl er kein Reviewer ist. Korrektur: Silvio-Paket als zentrales Artefakt in `docs/silvio-paket/offene-fragen.md`, 18 Einträge in fünf Blöcken. Vor dem Haupt-Block schlage ich einen XS-Vor-Block vor: Rollout-Plan-Marker 9.12.2026 setzen, CLAUDE.md Rule 10 Entscheidung, Findings-Format-Konsistenz-Check. Danach drei Varianten für den Haupt-Block: (A) Silvio-Paket 1 Konsolidierung über Persona 00 — erster Silvio-facing Ausgang, Empfehlung. (B) Rückwirkender Rule-9-Scan Doc 03 und Doc 05 vor v2-Rewrites. (C) Doc 14 Gruppe B Arbeits-Blöcke (Rückruf-Kapitel, ProdHaftG-Datums-Split, Versicherungs-Deckung). Welcher Pfad?"
+> "Kontext geladen. Session 8 hat Variante A (Silvio-Paket-1-Konsolidierung) durchgezogen, aber unter Germans Pushback die vier entstandenen Artefakte als Rohmaterial deklariert. Haupt-Substanz-Block war ein Persona-Deep-Dive mit sechs adaptiven Fragen. Wichtigster Fund: **Silvio ist im Chance-Modus, die Sorgen sind Germans** (Informations-Asymmetrie als zentraler Ton-Leitfaden). Sechs strukturelle Findings liegen in `docs/findings/session-8-persona-deep-dive-findings.md`. Persona 99 (German) neu, Persona 00 Red-Flags sollten noch ergänzt werden. Rollout-Plan braucht Vormittags-Fenster-Annahme. Drei neue CLAUDE.md-Rules (10/11/12). Vorschlag Session 9: Vor-Block (Rollout-Präzisierung + Persona-00-Red-Flags, XS), dann Variante A (Artefakt-Rework unter Chance-Modus-Leitfaden, M). Variante B (Fördermittel) und Variante C (Rule-9-Nachzug) als Alternativen. Welcher Pfad?"
