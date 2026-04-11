@@ -23,6 +23,8 @@ Zwei harte Rechts-Stichtage im zweiten Halbjahr 2026 beeinflussen Launch-Timing,
 
 Sieben Schritte, teilweise parallelisierbar. Reihenfolge folgt technischen und prozessualen Abhängigkeiten, nicht der Wunsch-Chronologie.
 
+**Produktions-Zeitfenster:** Alle produzierenden Schritte (Rezeptur-Tests, Pilot-Verkauf, Regelbetrieb) laufen **vormittags zwischen ~9 und ~14 Uhr**, vor dem Service-Fenster des Restaurants (Mi + Do–So 17–22 Uhr). Das Fenster ist Produktions-Zeit-Annahme, nicht Verhandlungs-Ergebnis, und folgt der Küchen-Tagesablauf-Logik aus den Doc-05-Findings. Wer in diesem Fenster produziert — Silvios Ehefrau, eine externe Kraft, oder Silvio selbst — ist **nicht** in diesem Plan entschieden, sondern wird in [`docs/plans/20-personal-setup-retail.md`](20-personal-setup-retail.md) (Szenarien A/B/C) aufgeschlagen und von Persona 11 reviewed. Die drei Szenarien unterscheiden sich in Kosten, rechtlicher Form und Ausfall-Risiko; die Entscheidung fällt Silvio, nicht dieser Plan.
+
 | # | Schritt | Dauer | Abhängt von | Kann parallel zu | Fail-Bedingung |
 |---|---|---|---|---|---|
 | 1 | Silvio-Entscheidung. MwSt-Teil dieses Schritts ist durch Steueränderungsgesetz 2025 aufgelöst (7 % auf Speisen seit 01.01.2026); Silvio-Verifikation beim Steuerberater bleibt als Routine-Check. | 1–2 Wochen | — | — | MwSt-Frage nicht mehr als Stopp-Grund; Silvio-Nein zur Gesamt-Idee bleibt Stopp |
@@ -46,6 +48,8 @@ Schritt 2 startet **sofort nach Schritt 1**, weil er der längste kritische Pfad
 | **Summe einmalig** | **2.350 – 5.500 €** | |
 
 Laufende Kosten (Rohware, Beutel, Etiketten) sind variabel mit dem Absatz und nicht im Launch-Kapital enthalten.
+
+**Personalkosten-Annahme für die laufenden Kosten:** Die Personal-Basis für die Vormittags-Produktion ist **ein einfacher Koch oder eine Küchenhilfe**, nicht ein zweiter Gesellen-/Chef-Koch. Diese Annahme trägt alle Kosten-Rechnungen, die sich auf die Retail-Produktionsstunde beziehen (Doc 02 Wirtschaftlichkeitsrechnung, Doc 07 Preisgestaltung). Der Stundenlohn-Rahmen, die rechtliche Form (Minijob vs. SV-pflichtige Teilzeit) und die konkreten Szenarien (Ehefrau / externe Kraft / Silvio selbst) sind in [`docs/plans/20-personal-setup-retail.md`](20-personal-setup-retail.md) mit `[TBD-Recherche]`-Markern dokumentiert und werden von Persona 11 gefüllt. Die Annahme "einfacher Koch statt zweiter Chef" folgt den Findings 4 und 5 aus `docs/findings/session-8-persona-deep-dive-findings.md`.
 
 Risiko-Kapital-Bewertung: Obergrenze 5.500 €. Bei Abbruch nach Schritt 6 ist der Vakuumierer auf dem Gebrauchtmarkt mit 50–70 % Restwert liquidierbar. Max. versunkener Betrag ≈ 2.500–3.000 €. Das ist ein überschaubarer Lernverlust — aber es ist **echter Verlust**, und das muss Silvio klar sein, bevor Schritt 3 ausgelöst wird.
 

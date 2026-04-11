@@ -15,7 +15,7 @@ besitzen.
 | # | Dokument | Lead | Co-Reviewer |
 |---|---|---|---|
 | 01 | Business Case Übersicht | Thomas | Jana, Marcus |
-| 02 | Wirtschaftlichkeitsrechnung | Marcus | Frau Keller |
+| 02 | Wirtschaftlichkeitsrechnung | Marcus | Frau Keller, Persona 11 |
 | 03 | Veterinäramt Stuttgart | Dr. Steiger | Inspektor Vogel |
 | 04 | LMIV-Kennzeichnung | Dr. Steiger | Inspektor Vogel, Pietro |
 | 05 | HACCP-Erweiterung | Dr. Steiger | Pietro, Bruno, Inspektor Vogel |
@@ -23,12 +23,12 @@ besitzen.
 | 07 | Preisgestaltung | Marcus | Claudia, Jana |
 | 08 | Verpackungsstrategie | Jana | Pietro, Claudia, Bruno |
 | 09 | Verkaufsstrategie | Jana | Thomas, Claudia |
-| 10 | Operative Umsetzung | Thomas | Dr. Steiger, Pietro, Bruno |
+| 10 | Operative Umsetzung | Thomas | Dr. Steiger, Pietro, Bruno, Persona 11 |
 | 11 | Lieferanten Stuttgart | Thomas | Bruno, Pietro |
 | 12 | Investitionsplan & Geräteausstattung | Marcus | Bruno |
-| 13 | 6-Wochen-Rollout-Plan | Marcus | Dr. Steiger, Thomas, Bruno |
+| 13 | 6-Wochen-Rollout-Plan | Marcus | Dr. Steiger, Thomas, Bruno, Persona 11 |
 | 14 | Rechtliche Absicherung & Haftung | Dr. Steiger | Inspektor Vogel, Frau Keller |
-| 15 | Steuerliche Behandlung | Frau Keller | Marcus |
+| 15 | Steuerliche Behandlung | Frau Keller | Marcus, Persona 11 (ggf.) |
 | 16 | Risiken & Gegenmaßnahmen | Marcus | Thomas, Bruno, Inspektor Vogel |
 | 17 | Wettbewerbsanalyse Stuttgart West | Marcus | Jana |
 | 18 | Finanzierungsplan | Marcus | Frau Keller |
@@ -42,7 +42,19 @@ Silvio ist keine Fach-Linse, sondern die Übersetzungs-Schicht am Ende der Exper
 
 Dr. Maldini ist Fachanwalt für Gastronomie, Lebensmittel und Technologie. Anders als die Tiefen-Spezialisten (Dr. Steiger Lebensmittelrecht, Frau Keller Steuer) ist er **Breiten-Scanner mit Aktualitäts-Fokus**. Sein Beitrag ist ein **Regulatorik-Nachtrag** im Kopf jedes Lead-Reviews mit Rechts-, Steuer- oder Technologie-Bezug — mindestens auf Docs 02, 03, 04, 05, 06, 07, 13, 14, 15, 18. Er übernimmt in der Regel keinen Lead. Details: [`Persona 10 – Dr. Maldini – Fachanwalt Gastro Food Tech.md`](Persona%2010%20%E2%80%93%20Dr.%20Maldini%20%E2%80%93%20Fachanwalt%20Gastro%20Food%20Tech.md). Die begleitende Prozess-Regel steht in `CLAUDE.md` Rule 9: vor jedem solchen Lead-Review läuft eine aktive WebSearch auf den aktuellen Stand der betroffenen Rechtsgebiete.
 
-## Die 9 Fach-Personas (Reihenfolge = Stufe-3-Relevanz)
+## Persona 11 — Personal-Markt & Arbeitsrecht Retail
+
+Fach-Linse für den Personal-Setup des Retail-Strangs: Arbeitsmarkt Stuttgart (einfache Köche, Küchenhilfen, Vormittags-Verfügbarkeit), rechtliche Form (Minijob, SV-pflichtige Teilzeit, Ehegatten-Arbeitsvertrag, Scheinselbständigkeit), Ausfall-Risiko und Redundanz. **Lead** auf `docs/plans/20-personal-setup-retail.md` (Doc 20, Szenarien A/B/C). **Co-Reviewer** auf Doc 02 Wirtschaftlichkeitsrechnung (Personalkosten-Block), Doc 10 Operative Umsetzung (Tagesablauf und Rollen), Doc 13 6-Wochen-Rollout-Plan (Personal-Meilensteine), ggf. Doc 15 Steuer (wenn SV-Beiträge und Lohnsteuer im Detail zu rechnen sind). Details: [`Persona 11 – Personal-Markt & Arbeitsrecht Retail.md`](Persona%2011%20%E2%80%93%20Personal-Markt%20%26%20Arbeitsrecht%20Retail.md). Hand-off-Regeln: SV/Steuer-Details triggern Persona 03 Frau Keller als Co-Reviewer, Team-Dynamik bleibt Persona 06 Thomas, Küchen-Handwerks-Eignung einer konkreten Person bleibt Persona 07 Pietro. Die Persona prüft **nicht**, ob Silvios Ehefrau eine Rolle übernehmen *will* — das ist Silvios Revier und kein Review-Gegenstand.
+
+## Doc 20 — eigener Plan-Doc außerhalb der 19er-Serie
+
+Doc 20 (`docs/plans/20-personal-setup-retail.md`) ist kein Business-Case-Original-Doc, sondern ein in Session 9 neu angelegter Plan-Doc. Die Matrix oben bleibt auf die 19 Original-Docs begrenzt; Doc 20 steht hier als eigener Eintrag, weil Persona 11 darauf Lead ist:
+
+| Dokument | Lead | Co-Reviewer |
+|---|---|---|
+| Doc 20 — Personal-Setup Retail (Szenarien A/B/C) | Persona 11 | Marcus (Kosten), Thomas (Organisations-Realität), Frau Keller (SV/Steuer-Details bei Bedarf) |
+
+## Die 10 Fach-Personas (Reihenfolge = Stufe-3-Relevanz)
 
 | # | Persona | Rolle | Datei |
 |---|---|---|---|
@@ -55,6 +67,7 @@ Dr. Maldini ist Fachanwalt für Gastronomie, Lebensmittel und Technologie. Ander
 | **07** | Pietro | Küchenchef | [`Persona 07 – Pietro – Küchenchef.md`](Persona%2007%20%E2%80%93%20Pietro%20%E2%80%93%20K%C3%BCchenchef.md) |
 | **08** | Jana | Brand & Marketing | [`Persona 08 – Jana – Brand & Marketing.md`](Persona%2008%20%E2%80%93%20Jana%20%E2%80%93%20Brand%20%26%20Marketing.md) |
 | **09** | Claudia | Stammgast | [`Persona 09 – Claudia – Stammgast.md`](Persona%2009%20%E2%80%93%20Claudia%20%E2%80%93%20Stammgast.md) |
+| **11** | *(rollenbasiert, kein Name)* | Personal-Markt & Arbeitsrecht Retail | [`Persona 11 – Personal-Markt & Arbeitsrecht Retail.md`](Persona%2011%20%E2%80%93%20Personal-Markt%20%26%20Arbeitsrecht%20Retail.md) |
 
 **Referenzen im Text:** Du kannst eine Persona entweder per Name ("Marcus sagt…"), per Nummer ("Persona 01 sagt…") oder per Rolle ("der CFO sagt…") ansprechen — alle drei sind äquivalent.
 
@@ -73,6 +86,7 @@ Für jede Persona: welche Dokumente sie in welcher Rolle prüft.
 | 07 | **Pietro** (Küchenchef) | — | 04, 05, 08, 10, 11, 19 |
 | 08 | **Jana** (Brand & Marketing) | 06, 08, 09, 19 | 01, 07, 17 |
 | 09 | **Claudia** (Stammgast) | — | 06, 07, 08, 09, 19 |
+| 11 | **Personal-Markt & Arbeitsrecht Retail** | Doc 20 (Plan) | 02, 10, 13, 15 (ggf.) |
 
 ## Hinweise
 

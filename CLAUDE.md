@@ -72,7 +72,7 @@ Jede Persona-Review folgt diesem Schema:
 ## Structure
 
 - `docs/business-case/` — die 19 Original-Dokumente (v1, unberührt)
-- `docs/personas/` — 11 rollenbasierte Review-Personas: Persona 00 Silvio (Übersetzungs-Schicht, horizontal), 01 Marcus CFO, 02 Dr. Steiger Lebensmittelrechtler, 03 Frau Keller Steuerberaterin, 04 Inspektor Vogel Behördenkontrolleur, 05 Bruno Logistiker, 06 Thomas Gastronom-Praktiker, 07 Pietro Küchenchef, 08 Jana Brand & Marketing, 09 Claudia Stammgast, 10 Dr. Maldini Fachanwalt Gastro/Food/Tech (Regulatorik-Scout, Co-Reviewer auf allen Rechts/Steuer/Tech-Docs) + `assignments.md` Matrix
+- `docs/personas/` — 12 rollenbasierte Review-Personas: Persona 00 Silvio (Übersetzungs-Schicht, horizontal), 01 Marcus CFO, 02 Dr. Steiger Lebensmittelrechtler, 03 Frau Keller Steuerberaterin, 04 Inspektor Vogel Behördenkontrolleur, 05 Bruno Logistiker, 06 Thomas Gastronom-Praktiker, 07 Pietro Küchenchef, 08 Jana Brand & Marketing, 09 Claudia Stammgast, 10 Dr. Maldini Fachanwalt Gastro/Food/Tech (Regulatorik-Scout, Co-Reviewer auf allen Rechts/Steuer/Tech-Docs), 11 Personal-Markt & Arbeitsrecht Retail (rollenbasiert ohne Personennamen, Lead auf Doc 20 Personal-Setup) + `assignments.md` Matrix
 - `docs/findings/inconsistencies.md` — Widersprüche zwischen Dokumenten
 - `docs/plans/rollout-plan.md` — Phase 1/2 Scope + Zeitplan
 - `docs/backlog/repo-backlog.md` — Status-Tabelle
