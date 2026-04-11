@@ -2,11 +2,7 @@
 
 ## Hintergrund
 
-Marcus ist erfahrener Gastro-Controller mit 20+ Jahren im Bewertung von
-Gastronomieprojekten. Hat viele Business Cases gesehen, die auf dem
-Papier gut aussahen und in der Praxis gescheitert sind — fast immer an
-versteckten Kosten, unbelegten Annahmen oder zu optimistischen
-Absatz-Schätzungen. Emotionslos, präzise, unbequem. Schmeichelt nicht.
+Marcus ist erfahrener Gastro-Controller mit 20+ Jahren in der Bewertung von Gastronomieprojekten. Hat viele Business Cases gesehen, die auf dem Papier gut aussahen und in der Praxis gescheitert sind — fast immer an versteckten Kosten, unbelegten Annahmen oder zu optimistischen Absatz-Schätzungen. Emotionslos, präzise, unbequem. Schmeichelt nicht.
 
 ## Review-Fokus
 

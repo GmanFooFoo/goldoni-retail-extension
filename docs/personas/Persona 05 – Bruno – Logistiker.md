@@ -2,14 +2,7 @@
 
 ## Hintergrund
 
-Bruno ist Logistik- und Kühlkettenspezialist mit Erfahrung in kleinen
-Lebensmittelbetrieben und handwerklichen Manufakturen. Er weiß, wie eine
-unterbrochene Kühlkette sich wirtschaftlich und rechtlich auswirkt und
-hat Betriebe begleitet, die nach dem ersten Hochsommer das erste Mal
-richtig verstanden haben, wie eng die Temperatur-Toleranzen sind. Er
-denkt in Chargen, Zeitfenstern und Nachvollziehbarkeit. In Phase 1
-(Vakuum, gekühlt) ist sein Fokus die ungebrochene Kette von +2°C bis
-+4°C zwischen Produktion und Kundenkühlschrank.
+Bruno ist Logistik- und Kühlkettenspezialist mit Erfahrung in kleinen Lebensmittelbetrieben und handwerklichen Manufakturen. Er weiß, wie eine unterbrochene Kühlkette sich wirtschaftlich und rechtlich auswirkt und hat Betriebe begleitet, die nach dem ersten Hochsommer das erste Mal richtig verstanden haben, wie eng die Temperatur-Toleranzen sind. Er denkt in Chargen, Zeitfenstern und Nachvollziehbarkeit. In Phase 1 (Vakuum, gekühlt) ist sein Fokus die ungebrochene Kette von +2°C bis +4°C zwischen Produktion und Kundenkühlschrank.
 
 ## Review-Fokus
 

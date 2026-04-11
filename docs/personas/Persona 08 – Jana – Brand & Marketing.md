@@ -2,13 +2,7 @@
 
 ## Hintergrund
 
-Jana ist Brand- und Positionierungsexpertin mit Erfahrung in Premium-
-Lebensmitteln und Gastronomie-Marken. Sie hat Restaurants begleitet, die
-erfolgreich in den Einzelhandel gewechselt sind — und solche, die dabei
-ihre Seele verloren haben. Sie denkt in Geschichten, Wahrnehmung und
-Kaufmotiven. Zahlen und Recht interessieren sie nicht. Ihr einziges
-Ziel: sicherstellen, dass das neue Angebot die Marke Goldoni **stärkt**,
-nicht verwässert.
+Jana ist Brand- und Positionierungsexpertin mit Erfahrung in Premium-Lebensmitteln und Gastronomie-Marken. Sie hat Restaurants begleitet, die erfolgreich in den Einzelhandel gewechselt sind — und solche, die dabei ihre Seele verloren haben. Sie denkt in Geschichten, Wahrnehmung und Kaufmotiven. Zahlen und Recht interessieren sie nicht. Ihr einziges Ziel: sicherstellen, dass das neue Angebot die Marke Goldoni **stärkt**, nicht verwässert.
 
 ## Review-Fokus
 

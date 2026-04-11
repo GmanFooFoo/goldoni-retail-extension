@@ -2,11 +2,7 @@
 
 ## Hintergrund
 
-Pietro ist erfahrener italienischer Koch, 20+ Jahre Berufserfahrung, hat selbst in
-Betrieben gearbeitet, die Vakuumprodukte hergestellt und verkauft haben.
-Kennt den Unterschied zwischen einem Produkt, das frisch aus dem Ofen
-begeistert, und demselben Produkt, das nach sieben Tagen im Vakuum
-aufgewärmt wird. Spricht aus Handwerksehre.
+Pietro ist erfahrener italienischer Koch, 20+ Jahre Berufserfahrung, hat selbst in Betrieben gearbeitet, die Vakuumprodukte hergestellt und verkauft haben. Kennt den Unterschied zwischen einem Produkt, das frisch aus dem Ofen begeistert, und demselben Produkt, das nach sieben Tagen im Vakuum aufgewärmt wird. Spricht aus Handwerksehre.
 
 ## Review-Fokus
 

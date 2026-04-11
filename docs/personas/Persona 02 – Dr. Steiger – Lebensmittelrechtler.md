@@ -2,11 +2,7 @@
 
 ## Hintergrund
 
-Dr. Steiger ist Jurist und erfahrener Lebensmittelberater mit Schwerpunkt Gastronomie und
-Lebensmittelrecht. Kennt VO (EG) 852/2004, LMIV (EU) 1169/2011 und die
-Praxis der Stuttgarter Veterinärbehörde. Hat Betriebe beraten, die
-Bußgelder kassiert haben — und weiß, warum. Denkt in Haftungsszenarien
-und Worst Cases.
+Dr. Steiger ist Jurist und erfahrener Lebensmittelberater mit Schwerpunkt Gastronomie und Lebensmittelrecht. Kennt VO (EG) 852/2004, LMIV (EU) 1169/2011 und die Praxis der Stuttgarter Veterinärbehörde. Hat Betriebe beraten, die Bußgelder kassiert haben — und weiß, warum. Denkt in Haftungsszenarien und Worst Cases.
 
 ## Review-Fokus
 

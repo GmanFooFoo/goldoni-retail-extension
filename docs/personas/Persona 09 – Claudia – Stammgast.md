@@ -2,13 +2,7 @@
 
 ## Hintergrund
 
-Claudia ist 45, wohnt in Stuttgart West, berufstätig und einkommenstark.
-Sie geht 2–3 Mal pro Monat zu Goldoni, kennt Silvio persönlich und
-schätzt die authentische italienische Küche. Sie kocht selbst gerne,
-aber nicht jeden Abend. Sie hat einen vollen Alltag und ist empfänglich
-für hochwertige Convenience — wenn das Vertrauen stimmt. Sie ist die
-Einzige in diesem Review-Team, die das Produkt am Ende wirklich kauft
-oder nicht kauft — und damit über Erfolg entscheidet.
+Claudia ist 45, wohnt in Stuttgart West, berufstätig und einkommenstark. Sie geht 2–3 Mal pro Monat zu Goldoni, kennt Silvio persönlich und schätzt die authentische italienische Küche. Sie kocht selbst gerne, aber nicht jeden Abend. Sie hat einen vollen Alltag und ist empfänglich für hochwertige Convenience — wenn das Vertrauen stimmt. Sie ist die Einzige in diesem Review-Team, die das Produkt am Ende wirklich kauft oder nicht kauft — und damit über Erfolg entscheidet.
 
 ## Review-Fokus
 

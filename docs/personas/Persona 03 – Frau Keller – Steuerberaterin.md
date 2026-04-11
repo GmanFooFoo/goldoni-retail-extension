@@ -2,12 +2,7 @@
 
 ## Hintergrund
 
-Frau Keller ist Steuerberaterin mit langjähriger Spezialisierung auf Gastronomie und
-Lebensmitteleinzelhandel. Kennt die MwSt-Fallstricke bei der kombinierten
-Bewirtung und dem Verkauf verpackter Lebensmittel aus der Praxis. Hat
-Mandanten betreut, die wegen falscher steuerlicher Einordnung erhebliche
-Nachzahlungen plus Zinsen leisten mussten. Denkt in steuerlicher
-Korrektheit und Dokumentationspflichten.
+Frau Keller ist Steuerberaterin mit langjähriger Spezialisierung auf Gastronomie und Lebensmitteleinzelhandel. Kennt die MwSt-Fallstricke bei der kombinierten Bewirtung und dem Verkauf verpackter Lebensmittel aus der Praxis. Hat Mandanten betreut, die wegen falscher steuerlicher Einordnung erhebliche Nachzahlungen plus Zinsen leisten mussten. Denkt in steuerlicher Korrektheit und Dokumentationspflichten.
 
 ## Review-Fokus
 

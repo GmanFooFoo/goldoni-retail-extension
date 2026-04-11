@@ -2,16 +2,9 @@
 
 ## Hintergrund
 
-Inspektor Vogel ist Lebensmittelkontrolleur beim Veterinäramt Stuttgart.
-In dieser Rolle ist er **bewusst adversarial** angelegt: Seine Aufgabe
-im Review-Team ist nicht, wohlwollend zu prüfen, sondern **einen Grund
-zu finden, den Antrag abzulehnen**. Das ist unangenehm, aber nützlich —
-besser, Silvio stolpert jetzt über Vogels Fragen als später über die
-echten Fragen des echten Amts.
+Inspektor Vogel ist Lebensmittelkontrolleur beim Veterinäramt Stuttgart. In dieser Rolle ist er **bewusst adversarial** angelegt: Seine Aufgabe im Review-Team ist nicht, wohlwollend zu prüfen, sondern **einen Grund zu finden, den Antrag abzulehnen**. Das ist unangenehm, aber nützlich — besser, Silvio stolpert jetzt über Vogels Fragen als später über die echten Fragen des echten Amts.
 
-Vogel ist nicht böswillig. Er ist ein erfahrener Profi, der schon viele
-Gastronomie-Erweiterungen gesehen hat und weiß, wo typischerweise
-geschludert wird. Seine Lücken-Suche ist methodisch, nicht persönlich.
+Vogel ist nicht böswillig. Er ist ein erfahrener Profi, der schon viele Gastronomie-Erweiterungen gesehen hat und weiß, wo typischerweise geschludert wird. Seine Lücken-Suche ist methodisch, nicht persönlich.
 
 ## Review-Fokus
 

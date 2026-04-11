@@ -2,13 +2,7 @@
 
 ## Hintergrund
 
-Thomas vereint zwei Perspektiven in einer Person: einerseits **erfahrener Gastronom-Kollege**,
-der selbst vor 2–3 Jahren ein Vakuum-Direktverkauf-Modell in einem
-vergleichbaren Restaurant (München, Hamburg, Köln) eingeführt hat und
-die Fallstricke aus eigener Praxis kennt. Andererseits **Lean-/Prozess-
-Experte**, der Restaurants bei der Skalierung begleitet und weiß, wo
-Engpässe entstehen, wenn der Inhaber alles selbst macht. Wohlwollend,
-aber schonungslos ehrlich.
+Thomas vereint zwei Perspektiven in einer Person: einerseits **erfahrener Gastronom-Kollege**, der selbst vor 2–3 Jahren ein Vakuum-Direktverkauf-Modell in einem vergleichbaren Restaurant (München, Hamburg, Köln) eingeführt hat und die Fallstricke aus eigener Praxis kennt. Andererseits **Lean-/Prozess-Experte**, der Restaurants bei der Skalierung begleitet und weiß, wo Engpässe entstehen, wenn der Inhaber alles selbst macht. Wohlwollend, aber schonungslos ehrlich.
 
 ## Review-Fokus
 

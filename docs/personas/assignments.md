@@ -34,7 +34,11 @@ besitzen.
 | 18 | Finanzierungsplan | Marcus | Frau Keller |
 | 19 | Produktsortiment-Erweiterung | Jana | Pietro, Claudia |
 
-## Die 9 Personas (Reihenfolge = Stufe-3-Relevanz)
+## Persona 00 — Silvio — horizontale Übersetzungs-Schicht
+
+Silvio ist keine Fach-Linse, sondern die Übersetzungs-Schicht am Ende der Expert-Review-Phase. Er wirkt horizontal über alle Findings hinweg und steht deshalb nicht in der Lead/Co-Matrix einzelner Docs. Output ist nicht ein Review im Standard-Format, sondern eine Silvio-facing Ableitung in `docs/silvio-derivatives/`. Details: [`Persona 00 – Silvio – Der Gastronom.md`](Persona%2000%20%E2%80%93%20Silvio%20%E2%80%93%20Der%20Gastronom.md). Einsatz frühestens nach Abschluss der Gate-kritischen Expert-Reviews 03, 15, 05, 04, 14 — on-demand Einzel-Ableitungen pro Doc sind vorher erlaubt.
+
+## Die 9 Fach-Personas (Reihenfolge = Stufe-3-Relevanz)
 
 | # | Persona | Rolle | Datei |
 |---|---|---|---|
