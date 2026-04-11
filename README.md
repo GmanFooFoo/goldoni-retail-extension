@@ -20,14 +20,15 @@ Zielkanal: Abholung im Restaurant. Zielgruppe: Stammgäste, Büros im Stuttgarte
 
 | Ordner / Datei | Inhalt |
 |---|---|
-| `docs/business-case/` | Die 19 Original-Dokumente (v1) — Küche, Zahlen, Recht, Verpackung, Verkauf, Logistik. Deep Review steht aus (Stufe 3, Backlog). |
-| `docs/personas/` | 9 rollenbasierte Review-Personas als Analyse-Linsen (CFO, Lebensmittelrecht, Steuer, Koch, Gastronom, Stammkundin, Marketing, Logistik, Amt). Nicht Silvio-facing — Arbeitsmaterial. |
+| `docs/business-case/` | Die 19 Original-Dokumente (v1) — Küche, Zahlen, Recht, Verpackung, Verkauf, Logistik. Gate-kritische Sequenz 03 → 15 → 05 → 04 → 14 lead-reviewt (Stufe 3). |
+| `docs/personas/` | 11 rollenbasierte Review-Personas als Analyse-Linsen (00 Silvio Übersetzungs-Schicht, 01 CFO, 02 Lebensmittelrecht, 03 Steuer, 04 Behördenkontrolleur, 05 Logistiker, 06 Gastronom, 07 Küchenchef, 08 Brand/Marketing, 09 Stammkundin, 10 Dr. Maldini Regulatorik-Scout). |
 | `docs/personas/assignments.md` | Matrix: welche Persona reviewt welches Doc. |
-| `docs/findings/decisions.md` | Entscheidungs-Log D-01 bis D-08. Grundlegend für Scope- und Ton-Fragen. |
-| `docs/findings/inconsistencies.md` | 8 Widersprüche zwischen den 19 Original-Docs, inkl. #7 MHD-Validierung und #8 Netto/Brutto aus dem Deep Review. Einträge #3 und #7 nach Doc-05-Review präzisiert. |
-| `docs/reviews/` | Persona-Reviews im Standard-Format. Aktuell: Doc 03 (Lebensmittelrechtler), Doc 15 (Steuerberaterin), Doc 05 (Lebensmittelrechtler HACCP). |
-| `docs/findings/03-findings.md`, `15-findings.md`, `05-findings.md` | Konsolidierte Findings pro Doc, mit Auflösungs-Gruppen A/B/C. |
-| `docs/plans/03-v2-plan.md` | v2-Plan-Skizze Doc 03. Doc 15 v2-Plan folgt nach Silvio-Steuerberater-Ergebnis. |
+| `docs/findings/decisions.md` | Entscheidungs-Log D-01 bis D-08. Grundlegend für Scope- und Ton-Fragen. Nach Session 7 offen: D-09 Schreibort Rückruf-Prozess, D-10 Silvio-Paket als Artefakt. |
+| `docs/findings/inconsistencies.md` | 14 Widersprüche zwischen den 19 Original-Docs. #5 aufgelöst (7 %-USt), #11 aufgelöst (Schreibort Rückruf). #7 MHD/Los/Chargen-Doku-als-Beweismittel, #12/13/14 aus Doc-14-Review neu. |
+| `docs/reviews/` | Persona-Reviews im Standard-Format. Lead-Reviews durch: Doc 03 (Lebensmittelrechtler), Doc 15 (Steuerberaterin), Doc 05 (Lebensmittelrechtler HACCP), Doc 04 (Lebensmittelrechtler LMIV mit Rule 9), Doc 14 (Lebensmittelrechtler Recht mit Rule 9). |
+| `docs/findings/03-findings.md`, `15-findings.md`, `05-findings.md`, `04-findings.md`, `14-findings.md` | Konsolidierte Findings pro Doc, mit Auflösungs-Gruppen A (Silvio-Paket-Verweis), B (Repo-Arbeit), C (Doc-Rewrite). |
+| `docs/silvio-paket/offene-fragen.md` | **Zentrales Artefakt für Silvio-Aktionen.** 18 Einträge SP-01 bis SP-18 in fünf Blöcken (Behörden, Steuer/Kasse, Hygiene, Etikett, Recht/Versicherung). Silvio fasst das Repo nicht an — dieses Dokument ist der Ausgang, GitHub-Issues mit Label `feedback-silvio` sind der Eingang. |
+| `docs/plans/03-v2-plan.md` | v2-Plan-Skizze Doc 03. Weitere v2-Pläne folgen nach Co-Reviews und Silvio-Rückmeldungen. |
 | `docs/plans/rollout-plan.md` | Phase-1-Scope und Rollout-Reihenfolge. Wird in dieser Session ebenfalls auf Germans Arbeits-Level gezogen (Stufe 6 / 2b). |
 | `docs/glossary.md` | Fachbegriffe (HACCP, LMIV, CCP, Vakuum vs. Schutzgas, Schockfroster, Vetamt). Primär als Silvio-Hilfe gedacht, auch für Germans Cross-Reference nützlich. |
 | `docs/beteiligung.md` | Gerüst für die Frage "wer darf in welcher Form mitmachen" (D-07, offene Beteiligung). Inhaltlich leer, vier offene Fragen an German. |
@@ -60,20 +61,12 @@ Reviews folgen dem Standard-Format aus [`CLAUDE.md`](CLAUDE.md#review-standard-f
 |---|---|---|
 | 1 | Repo-Setup, plain markdown, GitHub | ✅ Done |
 | 2 | 9 Personas + Ton-Reset + Marcello-Streichung | ✅ Done |
-| 3 | Deep Review der 19 Business-Case-Docs | ⚠️ In Progress (Doc 03 + 15 + 05 lead-reviewt) |
+| 3 | Deep Review der 19 Business-Case-Docs | ⚠️ In Progress — **Gate-kritische Sequenz 03/15/05/04/14 abgeschlossen**, Co-Reviews + Rule-9-Nachzug + Sekundär-Reviews Doc 06–19 stehen aus |
 | 4 | Session-1-Wrap-up | ✅ Done |
 | 5 | MASCHIN-Review + Maßnahmen 1/3/4 | ✅ Done |
-| 6 | Repo-Zweck-Umschwung (Germans Arbeits-Level) | ⚠️ In Progress |
+| 6 | Repo-Zweck-Umschwung (Germans Arbeits-Level) | ✅ Done |
 
-Operative Blocker bei Silvio (nicht vom Repo lösbar, nach Doc-03- und Doc-15-Review konkretisiert):
-
-- **Silvio-Paket 1 — Vetamt/IHK** (Doc 03 Gruppe A): Erstkontakt Stuttgart Vetamt (Timing, Gebühren, Luca-Portal-Pflicht), IHK-Erstberatung als Schritt 0.
-- **Silvio-Paket 2 — Steuerberater/Kasse/Gewerbeamt** (Doc 15 Gruppe A): E-Mail an Steuerberater mit vollständigem Fragenkatalog (Satz, Kombi-Beleg, Aufwärm-Empfehlung, Gewerbeanzeige), ggf. verbindliche Auskunft nach § 89 AO. Kassensystem TSE/Zwei-Steuersatz-Check. Gewerbeanzeige-Erweiterung § 14 GewO beim Gewerbeamt Stuttgart.
-- **Silvio-Paket 3 — IfSG/Schädlinge/HACCP-Benennung** (Doc 05 Gruppe A): Termin Gesundheitsamt für § 43 IfSG-Erstbelehrung (für Silvio und das Personal, das am Vakuum arbeitet). Bestand Schädlingsbekämpfungsvertrag klären und ggf. um Retail-Erweiterung erweitern. Schriftliche Selbstbenennung als HACCP-Beauftragter.
-- Echter Nachname, Restaurant-Adresse, vorhandene Gerätebasis (Vakuumierer-Typ).
-- Großhandels-Konditionen (Metro / Di Gennaro).
-
-Siehe `docs/session-handoff.md` für den GitHub-Issue-Workflow zur Einspeisung von Silvio-Feedback.
+**Silvio-Paket:** Operative Aktionen für Silvio sind konsolidiert in [`docs/silvio-paket/offene-fragen.md`](docs/silvio-paket/offene-fragen.md) mit 18 Einträgen (SP-01 bis SP-18) in fünf Blöcken: Behörden, Steuer/Kasse, Hygiene, Etikett, Recht/Versicherung. Silvio fasst das Repo nicht an — das Silvio-Paket ist der Ausgang, GitHub-Issues mit Label `feedback-silvio` sind der Eingang (siehe [`docs/session-handoff.md`](docs/session-handoff.md)).
 
 ## Working Rules
 
