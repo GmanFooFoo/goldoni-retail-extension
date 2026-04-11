@@ -23,7 +23,7 @@ Zielkanal: Abholung im Restaurant. Zielgruppe: Stammgäste, Büros im Stuttgarte
 | `docs/business-case/` | Die 19 Original-Dokumente (v1) — Küche, Zahlen, Recht, Verpackung, Verkauf, Logistik. Gate-kritische Sequenz 03 → 15 → 05 → 04 → 14 lead-reviewt (Stufe 3). |
 | `docs/personas/` | 11 rollenbasierte Review-Personas als Analyse-Linsen (00 Silvio Übersetzungs-Schicht, 01 CFO, 02 Lebensmittelrecht, 03 Steuer, 04 Behördenkontrolleur, 05 Logistiker, 06 Gastronom, 07 Küchenchef, 08 Brand/Marketing, 09 Stammkundin, 10 Dr. Maldini Regulatorik-Scout). |
 | `docs/personas/assignments.md` | Matrix: welche Persona reviewt welches Doc. |
-| `docs/findings/decisions.md` | Entscheidungs-Log D-01 bis D-08. Grundlegend für Scope- und Ton-Fragen. Nach Session 7 offen: D-09 Schreibort Rückruf-Prozess, D-10 Silvio-Paket als Artefakt. |
+| `docs/findings/decisions.md` | Entscheidungs-Log D-01 bis D-10. Grundlegend für Scope- und Ton-Fragen. |
 | `docs/findings/inconsistencies.md` | 14 Widersprüche zwischen den 19 Original-Docs. #5 aufgelöst (7 %-USt), #11 aufgelöst (Schreibort Rückruf). #7 MHD/Los/Chargen-Doku-als-Beweismittel, #12/13/14 aus Doc-14-Review neu. |
 | `docs/reviews/` | Persona-Reviews im Standard-Format. Lead-Reviews durch: Doc 03 (Lebensmittelrechtler), Doc 15 (Steuerberaterin), Doc 05 (Lebensmittelrechtler HACCP), Doc 04 (Lebensmittelrechtler LMIV mit Rule 9), Doc 14 (Lebensmittelrechtler Recht mit Rule 9). |
 | `docs/findings/03-findings.md`, `15-findings.md`, `05-findings.md`, `04-findings.md`, `14-findings.md` | Konsolidierte Findings pro Doc, mit Auflösungs-Gruppen A (Silvio-Paket-Verweis), B (Repo-Arbeit), C (Doc-Rewrite). |
@@ -47,6 +47,8 @@ Voller Log in [`docs/findings/decisions.md`](docs/findings/decisions.md). Tragen
 - **D-06** — Repo-Ton ist Germans Arbeits-Level. Silvio-facing Texte entstehen als explizite Ableitung, nicht als Default.
 - **D-07** — Kein Investment. Bei Umsetzung: Aufwandsentschädigung auf Selbstkosten-Basis, transparent vor Silvios erstem Euro. Haltung in Persona 99 verankert.
 - **D-08** — Phase A/B/C-Lebenszyklus.
+- **D-09** — Rückruf-Prozess zweigeteilt: Doc 14 = Haftung/Krise, Doc 05 = Hygiene/Chargen, gegenseitig verlinkt.
+- **D-10** — Silvio ist kein Reviewer. Aktionen in `docs/silvio-paket/offene-fragen.md` (SP-XX), Rückmeldungen über GitHub-Issues mit Label `feedback-silvio`.
 
 ## Personas
 

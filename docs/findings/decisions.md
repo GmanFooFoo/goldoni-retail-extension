@@ -83,3 +83,23 @@ Single-Source-of-Truth für gefallene Entscheidungen in diesem Repo. Format wie 
 **Alternativen geprüft:** (a) Keine Phasen, Repo läuft weiter bis abgeschaltet — verworfen, lädt zu Over-Engineering ein. (b) Nur zwei Phasen (aktiv / archiv) — zu grob, verliert das Pilot-Zwischenstadium.
 **Affects:** `session-state.md` (neuer Phase-Absatz in dieser Session), künftige Session-Scopes.
 **Revidierbar:** Nein, Grundprinzip.
+
+## D-09: Schreibort Rückruf-Prozess — Doc 14 = Haftung, Doc 05 = Hygiene
+
+**Datum:** 2026-04-11 (Session 7, Doc-14-Lead-Review), nachgetragen Session 9
+**Context:** Nach dem Doc-05-Lead-Review in Session 5 war unklar, wo der Rückruf-Prozess eigentlich geschrieben wird — in Doc 05 (Hygiene/HACCP) oder in Doc 14 (Recht/Versicherung). Zwei mögliche Schreib-Orte ohne klare Trennung führen zu Dopplung und Widerspruchs-Risiko. Inkonsistenz #11 in `docs/findings/inconsistencies.md`.
+**Entscheidung:** Der Rückruf-Prozess wird in **zwei Ebenen** geschrieben, nicht an einem Ort. **Doc 14** = Haftungs- und Krisen-Prozess: rechtliche Pflichten aus Art. 19 BasisVO 178/2002, Kommunikation Kunde/Vetamt/Presse, Dokumentation als Beweismittel, Versicherungs-Obliegenheiten. **Doc 05** = Hygiene- und Chargen-Prozess: Chargen-Identifikation, Warenfluss, HACCP-CCP-Trigger, Rückstellproben. Beide Docs verlinken sich gegenseitig, damit der Leser von jeder Seite aus die vollständige Sicht hat.
+**Rationale:** Die zwei Aspekte haben unterschiedliche Leser, unterschiedliche Aktualisierungs-Rhythmen und unterschiedliche Regulatorik-Quellen. Zusammenlegen macht den zusammengelegten Ort für beide Zielgruppen schlechter. Die Trennung folgt der fachlichen Logik der Gesetze (LFGB/BasisVO vs. HACCP-System).
+**Alternativen geprüft:** (a) Alles in Doc 14 — verworfen, erschwert den Hygiene-Blickwinkel. (b) Alles in Doc 05 — verworfen, vermischt HACCP-Prozess mit Rechts-Prozess und macht beide schwer lesbar. (c) Neues Doc 20 "Rückruf" — verworfen in Session 7, hätte zu viel Neu-Scope erzeugt.
+**Affects:** Doc 05 und Doc 14 in v2-Rewrite, `docs/findings/inconsistencies.md` #11 (aufgelöst), spätere Co-Reviews müssen die Cross-Links prüfen.
+**Revidierbar:** Ja — falls ein Co-Review oder Silvio-Feedback zeigt, dass eine der Ebenen zu dünn bleibt.
+
+## D-10: Silvio ist kein Reviewer — Silvio-Paket als eigenes Artefakt
+
+**Datum:** Session 7, nachgetragen Session 9
+**Context:** In Sessions 3 bis 6 ist Silvio systematisch in die `Wer`-Spalten von Findings- und Inconsistency-Tabellen geschrieben worden — als wäre er ein Reviewer wie CFO, Lebensmittelrechtler, Steuerberaterin. Das hat zwei Probleme verdeckt: (a) Silvio ist der **Kunde** der Review-Arbeit, nicht ihr Mitarbeiter, und (b) die Liste seiner tatsächlichen Handlungen (Telefonate, Termine, Entscheidungen) war nur in Prosa verstreut, nicht als Artefakt greifbar.
+**Entscheidung:** Silvio steht **nie** in der `Wer`-Spalte von Review-Artefakten. Die `Wer`-Spalte ist Review-Personas vorbehalten (CFO, Lebensmittelrechtler, Steuerberaterin, Behördenkontrolleur, Logistiker, Gastronom-Praktiker, Küchenchef, Brand/Marketing, Stammgast, Dr. Maldini). Jede Aktion, die Silvio selbst ausführen muss, wird als Eintrag `SP-XX` im zentralen Artefakt `docs/silvio-paket/offene-fragen.md` geführt. Findings und Inconsistencies verweisen stattdessen per `→ Silvio-Paket SP-XX`. Ausgang (Claude → German → Silvio) läuft über das Silvio-Paket; Eingang (Silvio → German → Repo) läuft über GitHub-Issues mit Label `feedback-silvio`.
+**Rationale:** Ein Artefakt statt verstreuter Prosa sorgt dafür, dass Silvios Liste vollständig, priorisierbar und übergabefähig ist. Die Rollen-Klarheit schützt außerdem den Review-Prozess selbst: Personas sind Denk-Werkzeuge mit Fach-Haltung, Silvio ist der Entscheider — beides zu vermischen macht beide Seiten ungenau.
+**Alternativen geprüft:** (a) Status quo mit Silvio in Wer-Spalten — verworfen, Strukturfehler. (b) Mehrere Silvio-Listen pro Doc — verworfen, fragmentiert den Ausgang an Silvio.
+**Affects:** `CLAUDE.md` Rule 10, `docs/silvio-paket/offene-fragen.md` (SP-01 bis SP-18 in Session 7 angelegt), alle Findings- und Inconsistency-Tabellen ab Session 7, `docs/session-handoff.md` (Feedback-Workflow).
+**Revidierbar:** Nein, Grundprinzip der Rollen-Trennung.
