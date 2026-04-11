@@ -8,6 +8,17 @@ Phase 1: **Vakuum, gekühlt, Haltbarkeit nominell 7 Tage ab Produktion**. Abholu
 
 Das Ausschluss-Argument ist doppelt: (1) Kapitalbedarf für Schockfroster 2.000–5.000 € entfällt, (2) das Vetamt-Verfahren ist signifikant einfacher, weil keine Gefrierkette, keine zusätzlichen HACCP-CCPs für Einfrier-Temperaturkurven, keine erweiterten Kennzeichnungs-Pflichten. Phase 2 (Tiefkühl) bleibt optional nach 6–12 Monaten stabilem Pilot.
 
+## Regulatorische Stichtage 2026 (Gate-kritisch)
+
+Zwei harte Rechts-Stichtage im zweiten Halbjahr 2026 beeinflussen Launch-Timing, Verpackung und Haftungsrahmen unmittelbar. Vor jedem dieser Stichtage gilt das alte Recht, ab dem Stichtag automatisch das neue — ohne Übergangsfrist, ohne Silvio-Entscheidung. Details in den Reviews Doc 04 (LMIV/Verpackung) und Doc 14 (Haftung/Recht).
+
+| # | Stichtag | Regelwerk | Wirkung auf Phase 1 | Quelle |
+|---|---|---|---|---|
+| 1 | **12.08.2026** | **PPWR** — Verordnung (EU) 2025/40 über Verpackungen und Verpackungsabfälle | Ab Stichtag: Rezyklat-Anforderungen, Wiederverwendbarkeits-Quoten, neue Kennzeichnungs-Pflichten für Verpackungen, Minimierungs-Prinzip. Direkte Wirkung auf Beutel-Auswahl und Etiketten-Layout. Beutel, die vor dem Stichtag beschafft und danach verwendet werden, können compliant bleiben — aber nur mit Nachweis. | [Doc-04-Review Regulatorik-Nachtrag](../reviews/04-lmiv-lebensmittelrechtler.md) |
+| 2 | **09.12.2026** | **ProdHaftG-Novelle** (Umsetzung EU-RL 2024/2853, BR-Drs. 775/25) | Ab Stichtag: Wegfall des 500 €-Selbstbehalts, Wegfall der 85-Mio-Cap, Beweiserleichterung bei technisch-wissenschaftlicher Komplexität, 25-Jahres-Höchstverjährung. Chargen-Dokumentation wird ab diesem Datum Zivilprozess-Beweismittel, nicht mehr nur Behörden-Unterlage. Versicherungs-Anforderungen steigen implizit. | [Doc-14-Review Regulatorik-Nachtrag](../reviews/14-recht-lebensmittelrechtler.md) |
+
+**Launch-Timing-Entscheidung (SP-13):** Silvio hat drei Optionen — Launch vor 12.08.2026 (altes Verpackungs-Regime, altes ProdHaftG), Launch zwischen 12.08. und 09.12.2026 (PPWR greift, altes ProdHaftG), Launch nach 09.12.2026 (beide neu). Die Optionen sind nicht gleichwertig: Option 3 ist der saubere Schnitt, Option 1 der schnellste Markttest mit Umstellungsrisiko im Dezember, Option 2 ist die schlechteste Mischung. Entscheidungs-Grundlage siehe Hand-Out in `docs/silvio-paket/sp-13-launch-timing-entscheidung.md` (Session 8).
+
 ## Schritte und Abhängigkeiten
 
 Sieben Schritte, teilweise parallelisierbar. Reihenfolge folgt technischen und prozessualen Abhängigkeiten, nicht der Wunsch-Chronologie.
