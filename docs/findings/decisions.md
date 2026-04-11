@@ -64,15 +64,15 @@ Single-Source-of-Truth für gefallene Entscheidungen in diesem Repo. Format wie 
 **Affects:** `README.md` (Umschrift in Session 3), `docs/plans/rollout-plan.md` (Umschrift oder Split in Session 3), evtl. neuer Ordner `docs/silvio-derivatives/`. Der Silvio-Leitsatz *"nicht überreden, nicht verkaufen, nicht drängen"* gilt weiterhin, aber nur für Ableitungen, nicht für die Arbeits-Ebene.
 **Revidierbar:** Nein, Grundprinzip.
 
-## D-07: Offene Beteiligung, von Anfang an transparent
+## D-07: Kein Investment — Aufwandsentschädigung bei Umsetzung, von Anfang an transparent
 
-**Datum:** 2026-04-11 (MASCHIN-Review-Klärung)
-**Context:** German erwägt, sich finanziell an der Retail-Extension zu beteiligen. Die Frage war, ob das als versteckte Angel-Struktur laufen soll (Silvio erfährt es erst spät) oder offen von Beginn an.
-**Entscheidung:** Offene Beteiligung. Silvio weiß von Anfang an, dass German finanzielle Beteiligung erwägt. Kein Conflict-of-Interest-Aufbau. Spätester Kommunikations-Zeitpunkt: bevor Silvio eigenes Geld ausgibt.
-**Rationale:** Freundschaftsdienst und verdecktes Finanz-Interesse passen nicht zusammen. Transparenz schützt die Beziehung, egal wie das Projekt ausgeht. Form (Betrag, Terms, Timing) ist offen und wird in `docs/beteiligung.md` entwickelt.
-**Alternativen geprüft:** (a) Versteckte Angel-Struktur mit späterem Disclosure — verworfen, Risiko für Freundschaft zu hoch. (b) Keine Beteiligung, reiner Freundschaftsdienst ohne Geld — möglich, aber German will die Option offen halten.
-**Affects:** `docs/beteiligung.md` (neu in dieser Session als Gerüst).
-**Revidierbar:** Form der Beteiligung ja, Transparenz-Prinzip nein.
+**Datum:** 2026-04-11, revidiert in Session 8 (Persona-99-Deep-Dive)
+**Context:** In Session 2b wurde die Frage offen gelassen, *in welcher Form* German sich finanziell beteiligt — mit Angel-Investor-Optionen (Gewinn-Beteiligung, Darlehen, JV, stille Einlage) als offene Dimensionen in einem eigenen Gerüst-Dokument. Der Persona-99-Deep-Dive in Session 8 hat die Haltung geklärt: German ist kein Investor, das Projekt ist Freundschaftsdienst.
+**Entscheidung:** Kein Investment, keine Rendite-Erwartung, keine Gewinn-Beteiligung. Wenn Silvio die Retail-Extension umsetzt und Germans Unterstützung dafür annimmt, kann eine finanzielle Komponente hinzukommen — ausschließlich auf **Selbstkosten-/Aufwandsentschädigungs-Basis**, als Anerkennung für fokussierte Zeit neben Germans anderen Projekten. Transparenz-Prinzip bleibt: Silvio weiß das, bevor er den ersten Euro selbst ausgibt.
+**Rationale:** Freundschaftsdienst und Eigen-Investment-Interesse sind unvereinbar. Die Angel-Optik aus Session 2b (`beteiligung.md`-Gerüst mit "Rückzahlungs-Modell") war eine frühe Fehl-Framing — sie hat eine Investment-Frage gestellt, die es nicht gibt. P99 stellt die richtige Frage: nicht "wie strukturiere ich mein Investment", sondern "wie wird der zusätzliche Zeiteinsatz fair anerkannt, ohne die Freundschaft zu kippen".
+**Alternativen geprüft:** (a) Offene Investment-Struktur mit vier Dimensionen (Session 2b) — verworfen, falsches Framing. (b) Rein ideeller Freundschaftsdienst ohne jede finanzielle Komponente — bleibt als Default-Pfad gültig, falls Silvio umsetzt aber keine zusätzliche Unterstützung annimmt. (c) Versteckte Angel-Struktur mit späterem Disclosure — verworfen, Risiko für Freundschaft zu hoch.
+**Affects:** `docs/personas/Persona 99 – German – Freund und Berater.md` trägt die Haltung. `docs/beteiligung.md` in Session 9 gelöscht (war obsoletes Gerüst aus Session 2b).
+**Revidierbar:** Nein. Aufwandsentschädigungs-Rahmen und Transparenz-Prinzip sind Grundhaltung.
 
 ## D-08: Lebenszyklus Phase A / B / C
 

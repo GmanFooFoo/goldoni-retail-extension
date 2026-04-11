@@ -31,7 +31,6 @@ Zielkanal: Abholung im Restaurant. Zielgruppe: Stammgäste, Büros im Stuttgarte
 | `docs/plans/03-v2-plan.md` | v2-Plan-Skizze Doc 03. Weitere v2-Pläne folgen nach Co-Reviews und Silvio-Rückmeldungen. |
 | `docs/plans/rollout-plan.md` | Phase-1-Scope und Rollout-Reihenfolge. Wird in dieser Session ebenfalls auf Germans Arbeits-Level gezogen (Stufe 6 / 2b). |
 | `docs/glossary.md` | Fachbegriffe (HACCP, LMIV, CCP, Vakuum vs. Schutzgas, Schockfroster, Vetamt). Primär als Silvio-Hilfe gedacht, auch für Germans Cross-Reference nützlich. |
-| `docs/beteiligung.md` | Gerüst für die Frage "wer darf in welcher Form mitmachen" (D-07, offene Beteiligung). Inhaltlich leer, vier offene Fragen an German. |
 | `docs/backlog/repo-backlog.md` | Status-Tabelle aller Arbeitspakete im MASCHIN-Format. |
 | `docs/session-handoff.md` | Wie Sessions gestartet und geschlossen werden, Feedback-Workflow über GitHub-Issues. |
 | `docs/reports/` | Session-Reports (chronologisch). |
@@ -46,7 +45,7 @@ Voller Log in [`docs/findings/decisions.md`](docs/findings/decisions.md). Tragen
 - **D-03** — Keine Marcello-Persona. Das Repo ist Germans Arbeit an Silvios Case, kein Berater-Framing.
 - **D-05** — Keine Easter Eggs in Reports. Stattdessen "Leitsatz der Session".
 - **D-06** — Repo-Ton ist Germans Arbeits-Level. Silvio-facing Texte entstehen als explizite Ableitung, nicht als Default.
-- **D-07** — Offene Beteiligung: externe Personen können grundsätzlich beitragen, Form offen (siehe `docs/beteiligung.md`).
+- **D-07** — Kein Investment. Bei Umsetzung: Aufwandsentschädigung auf Selbstkosten-Basis, transparent vor Silvios erstem Euro. Haltung in Persona 99 verankert.
 - **D-08** — Phase A/B/C-Lebenszyklus.
 
 ## Personas
