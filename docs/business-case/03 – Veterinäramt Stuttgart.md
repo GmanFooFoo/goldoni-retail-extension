@@ -2,10 +2,11 @@
 
 ## Zuständige Behörde
 
-Landeshauptstadt Stuttgart
-Amt für öffentliche Ordnung — Abteilung Lebensmittelüberwachung und Veterinärwesen
-Adresse: Eberhardstraße 37, 70173 Stuttgart
-Tel: 0711 216-98670
+- Landeshauptstadt Stuttgart
+- Amt für öffentliche Ordnung — Abteilung Lebensmittelüberwachung, Verbraucherschutz und Veterinärwesen
+- Arbeits-Annahme Adresse: Hauptstätter Straße 58, 70178 Stuttgart
+- Tel: 0711 216-98670
+- [TBD-Silvio] aktuelle Adresse beim Erstkontakt prüfen — es gibt Hinweise auf einen laufenden Umzug (Schlossstraße), das konnte auf den stuttgart.de-Seiten nicht abschließend belegt werden. Silvio bestätigt die gültige Adresse beim Erstkontakt-Telefonat.
 
 ## Registrierung vs. Zulassung
 
@@ -43,8 +44,7 @@ Für Goldoni im Startszenario (Verkauf nur im Restaurant): Registrierung reicht.
 
 ## Empfehlung
 
-Vor Amt-Kontakt: IHK Stuttgart einschalten (kostenlose Erstberatung).
-IHK Stuttgart, Bereich Gastronomie & Lebensmittel: 0711 2005-0
+Vor Amt-Kontakt: **IHK-Service Existenzgründung** einschalten — die IHK Region Stuttgart bietet explizit eine kostenlose Erstberatung für Mitgliedsunternehmen an, und Silvio ist als Goldoni-Inhaber bereits Mitglied. Der Service hat eine eigene Hotline: 0711 2005-**1677** (nicht die allgemeine Zentrale 0711 2005-0) und die E-Mail-Adresse existenz@stuttgart.ihk.de. Konkreter Ansprechpartner-Name ist auf der Seite [ihk.de/stuttgart/gruendung/ap-service-existenzgrue-6214244](https://www.ihk.de/stuttgart/gruendung/ap-service-existenzgrue-6214244) einsehbar. [TBD-Silvio] den Ansprechpartner beim Erstanruf erfragen oder direkt auf der Seite nachlesen.
 
 ---
 
