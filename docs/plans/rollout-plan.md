@@ -14,7 +14,7 @@ Sieben Schritte, teilweise parallelisierbar. Reihenfolge folgt technischen und p
 
 | # | Schritt | Dauer | Abhängt von | Kann parallel zu | Fail-Bedingung |
 |---|---|---|---|---|---|
-| 1 | Silvio-Entscheidung + MwSt-Klärung durch Steuerberater | 1–2 Wochen | — | — | MwSt nicht verbindlich klärbar → Preismodell kippt, Stopp |
+| 1 | Silvio-Entscheidung. MwSt-Teil dieses Schritts ist durch Steueränderungsgesetz 2025 aufgelöst (7 % auf Speisen seit 01.01.2026); Silvio-Verifikation beim Steuerberater bleibt als Routine-Check. | 1–2 Wochen | — | — | MwSt-Frage nicht mehr als Stopp-Grund; Silvio-Nein zur Gesamt-Idee bleibt Stopp |
 | 2 | Vetamt-Voranfrage (informell) | 2–4 Wochen Vorlauf | 1 | 3, 5 | Vetamt verlangt Küchen-Umbau > wirtschaftliche Schwelle → Stopp oder Scope-Reduktion |
 | 3 | Vakuumierer-Beschaffung (2–3 Angebote, Bestellung, Lieferung) | 2–6 Wochen | 1 | 2, 5 | Budget-Überschreitung > 3.500 € ohne Gegenwert → Re-Eval |
 | 4 | Rezeptur- und Haltbarkeits-Tests (4 Gerichte, je 7-Tage-Verlauf) | 2–3 Wochen | 3 | 5 | Gericht nicht 7 Tage lagerfähig → Gericht streichen oder Haltbarkeit verkürzen |
@@ -40,7 +40,7 @@ Risiko-Kapital-Bewertung: Obergrenze 5.500 €. Bei Abbruch nach Schritt 6 ist d
 
 ## Offene Annahmen und Risiken
 
-- **MwSt-Satz (7 % vs. 19 %)** ist die mit Abstand größte offene Frage. 7 % gilt für "Lebensmittel zum Mitnehmen", 19 % kann greifen, wenn das Finanzamt die Verpackung/Präsentation als Dienstleistung wertet. Der Unterschied verändert die Marge um mehr als 10 Prozentpunkte. **Ohne verbindliche Aussage des Steuerberaters darf Schritt 3 nicht starten.** Persona "Steuer" prüft diese Annahme im Deep Review.
+- ~~**MwSt-Satz (7 % vs. 19 %)** ist die mit Abstand größte offene Frage.~~ **Aufgelöst 2026-04-11:** Steueränderungsgesetz 2025 (Bundestag 04.12.2025, Inkrafttreten 01.01.2026) legt 7 % dauerhaft für Speisen in der Gastronomie fest, einschließlich Retail-Mitnahme. Keine rückwirkende Umstufung auf 19 % mehr möglich. Silvio-Verifikation beim Steuerberater als Routine-Check offen, kein Gate-Blocker mehr. Siehe [Nachtrag im Doc-15-Review](../reviews/15-steuer-steuerberaterin.md) und inconsistencies.md #5.
 - **Vetamt-Haltung** ist unbekannt. Stuttgart ist grundsätzlich gesprächsbereit, aber die lokale Auslegung von "gewerblicher Herstellung verpackter Lebensmittel" schwankt. Vorgespräch in Schritt 2 ist nicht verhandelbar — kein Antragsstellen auf Verdacht.
 - **7-Tage-Haltbarkeit ist Hypothese**, kein Fakt. Besonders Lasagne mit Béchamel ist empfindlich (Wasser-Abgabe, Textur-Verlust). Schritt 4 muss die Haltbarkeit pro Gericht **validieren**, nicht annehmen. Wenn ein Gericht nur 4 Tage trägt, wird es entweder gestrichen oder mit reduziertem MHD verkauft — nicht geschönt.
 - **Küchen-Durchsatz Mo/Di**: es gibt bisher keinen validierten Zahlenwert, wie viele Beutel Silvio an einem produktiven Mo oder Di physisch schafft, ohne die normale Restaurant-Vorbereitung zu beeinträchtigen. `[TBD-Silvio]` — im Gespräch klären.
@@ -62,7 +62,7 @@ Diese Abweichungen werden im Deep Review der 19 Docs (Stufe 3, Backlog) adressie
 
 Harte Abbruch-Punkte, die vor Weiterarbeit erreicht sein müssen:
 
-- **Gate nach Schritt 1:** MwSt verbindlich geklärt. Ohne diese Klärung wird kein Gerät bestellt.
+- **Gate nach Schritt 1:** ~~MwSt verbindlich geklärt.~~ **Gesetzlich erledigt durch Steueränderungsgesetz 2025 (7 % auf Speisen in der Gastronomie dauerhaft seit 01.01.2026, gilt auch für Retail-Mitnahme). Silvio-Verifikation beim Steuerberater als Routine-Check empfohlen, aber kein Stopp-Grund mehr.** Das Gate reduziert sich damit auf die Silvio-Grundsatz-Entscheidung (Ja/Nein zur Idee).
 - **Gate nach Schritt 2:** Vetamt-Aussage ist "grundsätzlich machbar mit diesen Auflagen". Ist die Aussage "Küchenumbau erforderlich" oder "Zulassung als Produktionsstätte nötig", wird das Projekt gestoppt oder massiv im Scope reduziert.
 - **Gate nach Schritt 4:** Mindestens zwei der vier Zielgerichte tragen verlässlich 7 Tage (sensorisch und mikrobiologisch). Sonst Scope-Schnitt auf die tragfähigen Gerichte oder Haltbarkeits-Reduktion auf z.B. 5 Tage mit angepasster Preislogik.
 - **Gate nach Schritt 6:** Pilot-Feedback ist netto positiv (Wiederkauf-Signal, keine Beutelschäden in Serie, Aufwärm-Anleitung funktioniert). Sonst Iteration statt Launch.
