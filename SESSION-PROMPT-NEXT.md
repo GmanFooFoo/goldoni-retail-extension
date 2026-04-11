@@ -1,107 +1,96 @@
-# Session-Prompt für Session 3 — Goldoni Retail Extension
+# Session-Prompt für Session 4 — Goldoni Retail Extension
 
-> Handoff von Session 2b (2026-04-11 abends) an Session 3. Wenn du (Claude) in einer frischen Session dieses Repo öffnest, lies zuerst diese Datei und erledige dann die Session-Start-Checkliste aus `docs/session-handoff.md`.
+> Handoff von Session 3 (2026-04-11 abends) an Session 4. Wenn du (Claude) in einer frischen Session dieses Repo öffnest, lies zuerst diese Datei und erledige dann die Session-Start-Checkliste aus `docs/session-handoff.md`.
 
 ## Kurzstand
 
-Nach Session 2b sind drei von vier MASCHIN-Review-Maßnahmen erledigt:
+Session 3 hat **Maßnahme 2 (Repo-Zweck-Umschwung) abgeschlossen**. Das Repo ist jetzt auf Germans Arbeits-Level, nicht Silvio-facing:
 
-- ✅ **Maßnahme 1:** `docs/findings/decisions.md` mit D-01 bis D-08 angelegt.
-- ✅ **Maßnahme 4:** Phase A/B/C in `session-state.md`, Multi-Session-Suffix und Commit-Log-Pflicht in `docs/session-handoff.md`.
-- ✅ **Maßnahme 3:** `docs/beteiligung.md` Gerüst angelegt, inhaltliche Sektionen bewusst leer, vier offene Fragen an German formuliert.
-- 🔲 **Maßnahme 2:** Repo-Zweck-Umschwung — **das ist Session 3.**
+- README: reiner Arbeits-Index (Phase, Scope, Repo-Map, Decisions, Stand, Working Rules).
+- `docs/plans/rollout-plan.md`: Gate-basiert, 10–12 Wochen, Dependency-Tabelle mit Fail-Bedingungen, explizite TBD-Marker, harte Go/No-Go-Gates.
+- Memory `feedback_readme_is_customer_facing.md` auf D-06 umgestellt. Silvio-Ableitungen entstehen nur ad-hoc.
+- Spot-Check 2d/2e hat ergeben: 19 Business-Case-Docs und 9 Personas sind bereits auf Arbeits-Level — kein Rewrite. Aber es gibt **Substanz-Drift** (D-02 vs. v1-Scope), die in `docs/findings/inconsistencies.md` präzisiert wurde (Einträge 1, 3, 6).
 
-Die **Stufe-3 Deep-Review-Arbeit** (19 Business-Case-Docs) ist in den Backlog gewandert. Sie kommt nach Maßnahme 2, weil der Tonlage-Umschwung die Grundlage für alle weiteren internen Arbeits-Dokumente ist — und es wäre Verschwendung, Reviews in einem Ton zu schreiben, der in Session 3 ohnehin umgedreht wird.
+Commits Session 3: `e5a415e`, `68d4493`, `49f1b0a`.
+
+**Session 4** ist damit offen für den nächsten Hauptblock — den **Stufe-3 Deep Review** der 19 Business-Case-Docs. Alternativ kann German einen ruhigen Arbeits-Block für `docs/beteiligung.md` einschieben.
 
 ## Kontext-Reset — lies diese Dateien zuerst
 
-1. `~/.claude/projects/-Users-germanrauhut-com-Developer-projects-goldoni-retail-extension/memory/MEMORY.md` — Projekt-Memories. Wichtig:
-   - `project_silvio_profile.md`
-   - `project_no_marcello_persona.md`
-   - `feedback_pushback_expected.md`
-   - `feedback_no_hard_wraps.md`
-   - `feedback_readme_is_customer_facing.md` — **Achtung, diese Memory ist jetzt teilweise überholt:** D-06 hat festgelegt, dass das Repo für Germans Arbeits-Ebene geschrieben wird. README bleibt Silvio-facing *als Ableitung* oder wird in eine Arbeits-Version + eine Silvio-Ableitung gesplittet. Die Memory sollte in dieser Session aktualisiert oder ergänzt werden.
-2. `docs/findings/decisions.md` — D-01 bis D-08, besonders D-06 (Germans Arbeits-Level), D-07 (offene Beteiligung), D-08 (Phase A/B/C).
-3. `CLAUDE.md` im Repo-Root — Projekt-Grundregeln.
-4. `session-state.md` — aktueller Stand.
-5. `docs/reports/2026-04-11-goldoni.md` — Session 1 Close.
-6. `docs/reports/2026-04-11-goldoni-b.md` — Session 2b Close (dieser Plan wurde aus der Fortsetzung dieses Reports generiert).
-7. `docs/plans/rollout-plan.md` und `README.md` — die beiden Silvio-facing Dokumente, die in dieser Session auf Germans Level gehoben werden.
-8. `docs/beteiligung.md` — das Gerüst, falls German Dimensionen 1–4 füllen will (separater Block, siehe unten).
+1. `~/.claude/projects/-Users-germanrauhut-com-Developer-projects-goldoni-retail-extension/memory/MEMORY.md` — besonders `feedback_readme_is_customer_facing.md` (neu), `project_silvio_profile.md`, `feedback_personas_role_only.md`, `feedback_pushback_expected.md`.
+2. `docs/findings/decisions.md` — D-01 bis D-08, besonders D-02 (Scope), D-06 (Arbeits-Level), D-08 (Phasen).
+3. `docs/findings/inconsistencies.md` — 6 Einträge, Hauptdrift: v1-Docs vs. D-02 und neuer Rollout-Plan.
+4. `docs/plans/rollout-plan.md` — aktuelle Gate-Logik und Risiko-Bewertung. Ist der Maßstab, gegen den die v1-Docs reviewt werden.
+5. `README.md` — neuer Arbeits-Index.
+6. `session-state.md` — aktueller Stand.
+7. `docs/reports/2026-04-11-goldoni-c.md` — Session 3 Close.
+8. `docs/personas/assignments.md` — Matrix wer welches Doc reviewt.
+9. `CLAUDE.md` im Repo-Root — Review-Standard-Format und Grundregeln.
 
-## Session-3-Auftrag: Maßnahme 2 — Repo-Zweck-Umschwung
+## Session-4-Auftrag — zwei Varianten, German entscheidet via AskUserQuestion
 
-**Grund:** Session 1 hat das komplette Repo auf Silvio-facing Ton gedreht. Der MASCHIN-Review hat gezeigt, dass Silvio das Repo vermutlich nie selbst öffnet. Damit ist der Silvio-Ton in den internen Arbeits-Docs Ballast, der echte Tiefe verhindert (D-06).
+### Variante A — Stufe 3 Deep Review starten (Empfohlen)
 
-**Scope (alle Punkte stehen an, aber nicht alle müssen in einer Session):**
+Der Deep Review ist die Kernarbeit dieser Phase. Ohne ihn bleibt der Business-Case nicht reif für die Silvio-Entscheidung. Er zerfällt in Teilschritte:
 
-### 2a — README auf Germans Level umschreiben (Pflicht)
+**A1 — Priorisierungs-Entscheidung** (XS, 10 Minuten): In welcher Reihenfolge werden die 19 Docs reviewt? Zwei Pfade:
 
-Aktuell: freundschaftlicher Vorschlag an Silvio ("Caro Silvio, …"). Das wird zum **Arbeits-README** für German selbst: was ist in diesem Repo, wo steht was, welche Entscheidungen sind gefallen, in welcher Phase ist das Projekt, welche Personas gibt es, Stand der Business-Case-Reviews.
+- **Pfad Gate-kritisch zuerst:** 03 Vetamt → 15 Steuer → 05 HACCP → 04 LMIV → 14 Recht. Rationale: Diese Gates entscheiden, ob das Projekt überhaupt starten kann. Zahlen sind nachrangig, solange der regulatorische Rahmen unklar ist.
+- **Pfad Zahlen-kritisch zuerst:** 02 Wirtschaftlichkeit → 07 Preis → 18 Finanzierung → 12 Invest → 16 Risiken. Rationale: Ohne tragfähige Unit Economics lohnt sich keine Vetamt-Klärung.
 
-Ton: präzise, direkt, kein Verkaufs-Ton, keine italienischen Grüße, keine Marketing-Formulierungen.
+Empfehlung Session 4: **Pfad Gate-kritisch zuerst**, weil der neue Rollout-Plan die MwSt- und Vetamt-Klärung als harte Blocker vor jeder Investition gesetzt hat (Gate nach Schritt 1 und 2). Zahlen werden belastbar erst, wenn die MwSt-Frage geklärt ist.
 
-### 2b — `rollout-plan.md` — Variante A oder B entscheiden (Pflicht)
+**A2 — Erstes Doc reviewen** (M, 1–2 Stunden): Das erste Doc aus der gewählten Sequenz (bei Empfehlung: Doc 03 — Veterinäramt Stuttgart) durch die zugeordnete Persona reviewen. Persona-Assignments in `docs/personas/assignments.md` prüfen. Review im Standard-Format in `docs/reviews/03-vetamt-[rolle].md` ablegen.
 
-Zwei Optionen:
+**A3 — Findings konsolidieren** (S, 30 Min): Kritische Punkte aus dem Review in ein `docs/findings/03-findings.md` herausziehen — das ist die Basis für den späteren v2-Plan.
 
-- **Variante A (empfohlen im Review-Plan):** Eine interne Arbeits-Version `docs/plans/rollout-plan.md` auf Germans Level (mit echten Risiken, Alternativen, Open Questions), und eine abgeleitete Silvio-Version `docs/silvio-derivatives/rollout-vorschlag.md` für den Fall, dass Silvio es lesen soll.
-- **Variante B:** Nur die interne Version. Silvio-Version entsteht ad-hoc wenn gebraucht.
+**A4 — v2-Plan skizzieren (optional in Session 4)** (S, 30 Min): Erste Skizze eines `docs/plans/03-v2-plan.md` — was muss das Doc v2 anders machen, welche TBDs müssen beantwortet sein. Kein Rewrite, nur Plan.
 
-**Empfehlung an German:** Variante B starten, weil weniger Parallelarbeit. Ableitung erst erzeugen, wenn sie konkret gebraucht wird. Das bleibt lean.
+**Stop-Punkt Session 4:** Nach A3 oder A4, je nach Kontext-Budget. Der Deep Review ist ein XL-Paket über mehrere Sessions.
 
-**Entscheidung via `AskUserQuestion`** am Anfang des Blocks.
+### Variante B — `docs/beteiligung.md` Dimensionen 1–4 befüllen
 
-### 2c — Neuer Ordner `docs/silvio-derivatives/` (nur bei Variante A)
+Ruhiger, reflektierter Block. Kein Review, keine technische Arbeit — eine Denk-Übung zu D-07. Die vier offenen Fragen im Gerüst liegen schon bereit. Passt, wenn German sich nicht in die Deep-Review-Mechanik stürzen will oder wenn der Tag sowieso schon ausgelastet ist.
 
-Falls Variante A gewählt wird: Ordner anlegen, README darin mit dem Leitsatz *"nicht überreden, nicht verkaufen, nicht drängen"* als Tone-Anker.
-
-### 2d — Business-Case-Docs (19 Stück) — Spot-Check, kein Rewrite (Optional)
-
-Die 19 Original-Docs waren bereits arbeits-nah strukturiert. Review, ob in einzelnen Passagen Silvio-Empfindlichkeits-Rücksicht dazu geführt hat, dass Substanz verloren ging. Falls ja: nachziehen. Falls nein: nichts tun. Kein flächendeckender Rewrite.
-
-**Zeitbudget:** Höchstens 30 Minuten. Wenn mehr nötig wäre, als Einzel-Task flaggen, nicht in dieser Session mit rein.
-
-### 2e — Persona-Files Spot-Check (Optional)
-
-Die 9 Review-Personas sind Analyse-Linsen, keine Silvio-facing Texte — sollten bereits auf Germans Level sein. Spot-Check erwartet: keine Überarbeitung.
-
-### 2f — Memory `feedback_readme_is_customer_facing.md` aktualisieren (Pflicht)
-
-Die Memory muss den neuen Stand widerspiegeln: README ist standardmäßig Germans Arbeits-README. Silvio-Version entsteht als explizite Ableitung, wenn gebraucht. Die alte Memory-Formulierung "README = Silvios Seite" wird ersetzt oder ergänzt.
+Ergebnis: `docs/beteiligung.md` bekommt Inhalt in den vier Dimensionen, die Fragen werden beantwortet oder präzisiert.
 
 ## Start-Frage an German
 
-Am Anfang der Session via `AskUserQuestion`:
+Via `AskUserQuestion` am Anfang der Session:
 
-- *Variante A (zwei Versionen) oder B (nur interne Version)?*
-- *Willst du in dieser Session auch `docs/beteiligung.md` Dimensionen befüllen, oder bleibt das ein eigener Block?*
+- *Variante A (Deep Review starten, empfohlen) oder Variante B (`beteiligung.md` befüllen)?*
 
-## Offene Punkte aus Session 2b (keine Blocker)
+Falls Variante A: zweite Frage:
 
-| # | Punkt | Owner | Wann |
-|---|---|---|---|
-| 1 | `docs/beteiligung.md` Dimensionen 1–4 und vier Vor-Fragen | German | Eigener ruhiger Arbeits-Block, nicht unter Zeitdruck |
-| 2 | Maßnahme 2 — diese Session | German + Claude | Jetzt |
-| 3 | Stufe-3 Deep Review der 19 Docs | Nach Maßnahme 2 | Backlog |
+- *Pfad Gate-kritisch zuerst (empfohlen) oder Pfad Zahlen-kritisch zuerst?*
 
-Operative Silvio-Blocker (MwSt, Vetamt, Nachname, Metro) bleiben unverändert offen bei Silvio.
+## Offene Punkte aus Session 3 — kein Blocker, aber im Kopf behalten
 
-## Wichtige Präferenzen von German (aus Memories + Session 2b)
+| # | Punkt | Wann |
+|---|---|---|
+| 1 | Personas tragen noch Namen im Filename und Body ("Marcus", "Claudia" etc.). Memory sagt: nur Rollen. Drift aus früherer Session. | Eigener XS-Task vor oder während Deep Review — Rename der Dateien und Body-Anpassung. Gehört nicht mehr in einen Session-Close. |
+| 2 | Doc 01 Ausgangssituation widerspricht D-02 (nennt Tiefkühl in Phase 1). Kleiner Einzel-Fix vor dem Deep Review möglich, oder im Zuge des Deep Reviews von Doc 01. | Optional im Warmup von Session 4 |
+| 3 | `docs/silvio-derivatives/` Ordner existiert noch nicht. Wird erst bei erstem konkreten Silvio-Gesprächs-Bedarf angelegt. | On-demand |
+| 4 | Deep Review Stufe 3 ist XL (mehrere Sessions). Erwartungsmanagement in Session 4: ein Doc pro Session ist realistisch, kein Zwang zum Durchrauschen. | Dauerthema |
 
-- **Ton für interne Arbeits-Dokumente (Default nach D-06):** präzise, direkt, pointiert. Fach-Sprache erlaubt. Keine Consulting-Pose, keine Überförmlichkeit. Echte Risiko-Analyse ohne Silvio-Empfindlichkeits-Rücksicht.
-- **Ton für Silvio-Ableitungen (wenn sie entstehen):** einfache Sätze, keine Anglizismen, kein Jargon ohne Erklärung, tentativ, warm, Freundschaft statt Kunde. Leitsatz: "nicht überreden, nicht verkaufen, nicht drängen."
-- **Pushback bleibt Pflicht.** Session 2b hat z.B. vom Review-Plan abgewichen, wo das bestehende decisions.md-Schema in `session-handoff.md` sinnvoller war. Das ist richtig so.
+## Wichtige Präferenzen von German (Erinnerung)
+
+- **Ton interne Arbeits-Docs (D-06):** präzise, direkt, Fach-Sprache erlaubt, keine Consulting-Pose.
+- **Ton Silvio-Ableitungen:** einfache Sätze, keine Anglizismen, tentativ, warm, Leitsatz *"nicht überreden, nicht verkaufen, nicht drängen"*.
+- **Pushback Pflicht.** Eigene Recommendation vertreten, nicht blind ausführen.
+- **Review-Standard-Format** aus `CLAUDE.md` — keine freie Struktur.
 - **Tabellen:** MASCHIN-Format (`# | Item | Prio | Effort | Wer | Blocker? | Status | Impact`).
 - **Markdown:** keine Hard-Wraps im Fließtext.
 - **AskUserQuestion** bei 2+ Optionen.
-- **Keine Marcello-Persona** (D-03), keine Easter Eggs (D-05).
+- **Personas als Rollen**, keine Namen — *aber vorhandene Files tragen noch Namen*, das ist offene Drift.
+- **Keine Marcello-Persona** (D-03), keine Easter Eggs (D-05), Leitsatz der Session im Report.
+- **Commit nach jedem Work-Block**, nicht am Session-Ende gebündelt.
 
 ## Start-Nachricht Template
 
 Nach Lesen der Kontext-Dateien:
 
-> "Kontext geladen. Session 2b hat drei Review-Maßnahmen abgeschlossen (decisions.md D-01 bis D-08, Phase A/B/C + Prozess-Fixes, beteiligung.md-Gerüst). Session 3 startet mit Maßnahme 2 — Repo-Zweck-Umschwung. Zwei Entscheidungen bevor ich anfange: (a) rollout-plan als Variante A (zwei Versionen) oder B (nur interne Version)? Ich empfehle B. (b) Soll `docs/beteiligung.md` heute mit befüllt werden, oder bleibt das ein eigener Block?"
+> "Kontext geladen. Session 3 hat Maßnahme 2 abgeschlossen — Repo ist auf Germans Arbeits-Level, README und rollout-plan überarbeitet, Memory angepasst, Spot-Checks ohne Rewrite. Session 4 hat zwei Pfade: (A) Stufe 3 Deep Review starten — empfohlen, Pfad Gate-kritisch zuerst (Doc 03 Vetamt als erstes). (B) `beteiligung.md` Dimensionen befüllen. Welcher Pfad?"
 
 Dann warte auf Germans Antwort und fang entsprechend an.
 
