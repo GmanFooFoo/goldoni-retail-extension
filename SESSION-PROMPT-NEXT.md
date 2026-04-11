@@ -1,102 +1,106 @@
-# Session-Prompt für Session 6 — Goldoni Retail Extension
+# Session-Prompt für Session 7 — Goldoni Retail Extension
 
-> Handoff von Session 5 (2026-04-11) an Session 6. Wenn du (Claude) in einer frischen Session dieses Repo öffnest, lies zuerst diese Datei und erledige dann die Session-Start-Checkliste aus `docs/session-handoff.md`.
+> Handoff von Session 6 (2026-04-11) an Session 7. Wenn du (Claude) in einer frischen Session dieses Repo öffnest, lies zuerst diese Datei und erledige dann die Session-Start-Checkliste aus `docs/session-handoff.md`.
 
 ## Kurzstand
 
-Session 5 hat zwei große Dinge geleistet: (1) **Doc 15 Steuer und Doc 05 HACCP lead-reviewt** — beide Rework — und die Findings in den gleichen A/B/C-Gruppen strukturiert wie Doc 03. (2) **Ein strukturelles Problem entdeckt und gefixt:** Mein Knowledge-Cutoff ist Mai 2025, aber das Steueränderungsgesetz 2025 wurde am 4. Dezember 2025 beschlossen und senkt seit 1. Januar 2026 die Umsatzsteuer auf Speisen in der Gastronomie dauerhaft auf 7 %. Das löst den MwSt-Gate nach Rollout-Schritt 1 gesetzlich auf und macht einen großen Teil des Doc-15-Kernbefunds hinfällig. Als Reaktion wurde **Persona 10 Dr. Maldini** (Fachanwalt für Gastronomie/Food/Tech als horizontaler Regulatorik-Scout) angelegt plus **CLAUDE.md Rule 9**, die vor jedem Lead-Review eines Legal/Tax/Tech-Docs eine aktive WebSearch auf den aktuellen Stand der Rechtsgebiete erzwingt.
+Session 6 hat **Doc 04 LMIV lead-reviewt** mit CLAUDE.md Rule 9 als erstem Praxistest. Der Regulatorik-Nachtrag Dr. Maldini hat fünf Funde geliefert, davon zwei mit hoher Wirkung: (1) **DVO (EU) 2018/775 Herkunftsangabe der primären Zutat** — seit 1. April 2020 Pflicht, im Doc komplett übergangen, P1-Finding. Das ist die stärkste Einzel-Fundstelle der Session, und sie ist nicht frisch, sondern sechs Jahre alt — Rule 9 wirkt also nicht nur als Cutoff-Puffer, sondern als Breiten-Auslöser für vergessene Pflichten. (2) **PPWR (VO EU 2025/40) ab 12. August 2026** — erster echter Zukunfts-Stichtag im Projekt, mit Wirkung auf den Launch-Termin.
 
-Außerdem **Persona 00 Silvio** als horizontale Übersetzungs-Schicht für die spätere Silvio-Kommunikation (nach Abschluss der Expert-Reviews). Außerdem Persona-Hygiene (Hard-Wraps gefixt, Claudia als Mutter mit Lieferservice-Alltag präzisiert) und Doc 03 Vetamt-Adresse und IHK-Kontakt präzisiert.
+17 Findings in A/B/C-Gruppen. Gruppe A (Silvio) bekommt einen vierten Block **Etikett-Vorbereitung** (Adresse, Labor-Nährwerte 320–600 €, PPWR-Konformitätserklärung vom Beutel-Lieferanten). Gruppe B hat fünf Blöcke, beginnt mit Primärzutat-Herkunft-Kapitel. Gruppe C ist der Doc-Rewrite, kommt als letzter Schritt.
 
-**Sequenz-Status:** 03 ✓ 15 ✓ 05 ✓ — **Doc 04 LMIV** und **Doc 14 Recht** stehen in der Gate-kritischen Sequenz noch aus.
+**Sequenz-Status:** 03 ✓ 15 ✓ 05 ✓ **04 ✓** — nur noch **Doc 14 Recht** steht in der Gate-kritischen Sequenz aus. Danach beginnt die Co-Review-Phase, der rückwirkende Rule-9-Scan auf Doc 03 und 05, und die Silvio-Paket-Konsolidierung.
 
-**Commits Session 5:** 096e571, 8e79394, 5bf4db7, 739c1b9, 7d0ced9, 7f97add, 61bce53, 480a9ca, c8406de, 15fb7c3, acf708d, 5c98350, 4e4ca61, 7c5d06d.
+**inconsistencies:** #7 um Doc 04 Los-Kennzeichnung erweitert, **#9 neu** (Doc 04 ↔ Doc 11 Lieferanten-Herkunft), **#10 neu** (Doc 04 ↔ Doc 06 Mockups).
+
+**Commits Session 6:** 1e6c9dd, 28f74d3, 48534cf. Report: `docs/reports/2026-04-11-goldoni-f.md`.
 
 ## Kontext-Reset — lies diese Dateien zuerst
 
-1. `docs/reports/2026-04-11-goldoni-e.md` — Session 5 Close mit Lessons, Commit-Log und der strukturellen Begründung für Persona 10 und Rule 9.
-2. `CLAUDE.md` — **Rule 9 Regulatorik-Aktualität** ist neu und direkt relevant für Session 6, weil Doc 04 LMIV ein Legal-Doc ist.
-3. `docs/personas/Persona 10 – Dr. Maldini – Fachanwalt Gastro Food Tech.md` — die neue Persona und das Nachtrag-Template.
-4. `docs/personas/Persona 00 – Silvio – Der Gastronom.md` — die Übersetzungs-Schicht, die Session 6 nicht aktivieren muss, aber im Hinterkopf halten.
-5. `docs/reviews/15-steuer-steuerberaterin.md` — besonders der Nachtrag, als Muster für den Umgang mit aufgelösten Findings per Strike-through.
-6. `docs/findings/15-findings.md` und `05-findings.md` — die zweite und dritte Findings-Datei, als Vorlage für das Doc-04-Findings-Dokument.
-7. `docs/findings/inconsistencies.md` — Einträge #3, #5 (aufgelöst), #7, #8 sind in Session 5 bewegt worden.
-8. `docs/plans/rollout-plan.md` — Gate 1 aufgelöst, Offene-Annahme MwSt aufgelöst. Der Plan ist ein Stück leichter geworden.
+1. `docs/reports/2026-04-11-goldoni-f.md` — Session 6 Close mit Lessons, Rule-9-Auswertung und Commit-Log.
+2. `CLAUDE.md` — **Rule 9 Regulatorik-Aktualität** ist für Doc 14 noch relevanter als für Doc 04, weil Doc 14 das eigentliche Rechts-Doc ist (BasisVO 178/2002, ProdHaftG, § 58 LFGB, UWG, Versicherungsrecht, AGB, Rückruf-Pflichten).
+3. `docs/reviews/04-lmiv-lebensmittelrechtler.md` — besonders der Regulatorik-Nachtrag, als Muster für den Doc-14-Scan. Die Struktur "Rechtsgebiete → Quellen → Änderungen → Konsequenz" ist jetzt etabliert.
+4. `docs/findings/04-findings.md` — die vierte Findings-Datei mit A/B/C. Vorlage für Doc 14.
+5. `docs/findings/inconsistencies.md` — zehn Einträge, davon #9 und #10 aus Session 6.
+6. `docs/personas/Persona 10 – Dr. Maldini – Fachanwalt Gastro Food Tech.md` — die Persona und das Nachtrag-Template.
+7. `docs/personas/assignments.md` — Doc 14 Recht: Lead Dr. Steiger, Co Inspektor Vogel + Frau Keller + Dr. Maldini (horizontal).
+8. `docs/plans/rollout-plan.md` — Gate-Logik, hier liegt die Aufhängung für den PPWR-Datums-Marker.
 9. `docs/findings/decisions.md` — D-01 bis D-08 unverändert.
-10. `docs/personas/assignments.md` — Doc 04 LMIV: Lead Dr. Steiger, Co Inspektor Vogel + Pietro + **Dr. Maldini (neu, horizontal)**.
-11. `session-state.md` — Stand nach Session 5.
+10. `session-state.md` — Stand nach Session 6.
 
-## Session-6-Auftrag — drei Varianten, German entscheidet via AskUserQuestion
+## Session-7-Auftrag — drei Varianten, German entscheidet via AskUserQuestion
 
-### Variante A — Doc 04 LMIV Lead-Review mit Dr. Maldini als erstem Lackmustest (Recommended)
+### Variante A — Doc 14 Rechtliche Absicherung Lead-Review (Recommended)
 
-Doc 04 ist das nächste Doc in der Gate-kritischen Sequenz und gleichzeitig das erste Doc, an dem die neue Rule 9 in der Praxis laufen muss. Lead: Dr. Steiger (Lebensmittelrechtler). Co: Pietro (Küchenchef), Inspektor Vogel (Behörde), **Dr. Maldini als horizontaler Regulatorik-Scout**.
+Doc 14 ist das letzte Doc in der Gate-kritischen Sequenz und das Doc, an dem Rule 9 am meisten zu tun hat: Rechts-Doc mit mehreren Querschnitts-Themen (Lebensmittelrecht, Produkthaftung, Verbraucherschutz, AGB-Recht, Versicherungsrecht, Rückruf-Pflichten). Lead: Dr. Steiger. Co: Inspektor Vogel, Frau Keller, **Dr. Maldini horizontal**.
 
 **Ablauf als Block-Kette:**
 
-1. **Rule 9 ausführen:** Aktive WebSearch auf LMIV-Änderungen 2025/2026, EU-Verordnung 1169/2011 Novellen, nationale LMIV-Durchführungsgesetze, aktuelle Gerichtsurteile zu Allergenkennzeichnung, Herkunftsangaben, Nährwert-Toleranzen. Quellen-Priorität: bundestag.de, bmel.de, EUR-Lex, BVL, Lebensmittelverband, IHK.
-2. **Regulatorik-Nachtrag** im Kopf des Doc-04-Reviews schreiben, nach dem Template aus Persona 10.
-3. **Lead-Review** schreiben im Standard-Format, mit dem Regulatorik-Nachtrag als erstem Abschnitt nach Metadaten.
-4. **Findings konsolidieren** in `docs/findings/04-findings.md` mit A/B/C-Gruppen, analog 03/15/05.
-5. **Cross-Drift** in `inconsistencies.md` nachziehen, besonders #7 (MHD-Validierung) und neue Einträge falls gefunden.
+1. **Rule 9 ausführen:** Aktive WebSearch auf BasisVO 178/2002 Art. 19 Rückruf-Pflichten, ProdHaftG aktuelle Urteile, § 58 LFGB Bußgelder und Strafbarkeit, UWG-Abmahnrisiken bei Lebensmittel-Werbung, AGB-Recht bei B2C-Abholung, Versicherungsrecht Produkthaftpflicht für Gastronomie-Retail, DSGVO bei Kunden-Kontaktdaten (WhatsApp aus Doc 09), Fernabsatzrecht falls Versand später Thema wird. Quellen-Priorität: gesetze-im-internet.de, EUR-Lex, BVL, DEHOGA, Versicherungsverband.
+2. **Regulatorik-Nachtrag** im Kopf des Doc-14-Reviews, nach Template Persona 10.
+3. **Lead-Review** im Standard-Format.
+4. **Findings konsolidieren** in `docs/findings/14-findings.md` mit A/B/C-Gruppen, analog 03/15/05/04.
+5. **Cross-Drift** in `inconsistencies.md` nachziehen, besonders #7 (MHD/Los), Schreibort-Klärung Rückruf-Prozess (Finding 3 Doc 05 hat den Schreibort Doc 05 vs. Doc 14 offen gelassen — hier wird er entschieden).
 6. **Commit pro Work-Block.**
 
-**Effort:** M (halber Tag), realistisch länger wenn die Regulatorik-Recherche Fundstellen produziert.
+**Effort:** L (halber bis ganzer Tag). Doc 14 ist das umfangreichste Gate-Doc und Rule 9 wird viele Funde produzieren.
 
-**Stop-Punkt:** Nach Findings committed.
+**Stop-Punkt:** Nach Findings committed. Nach Doc 14 ist die Gate-kritische Expert-Sequenz abgeschlossen — das ist ein Meilenstein und sollte mit einem klaren Session-Close gefeiert werden.
 
-### Variante B — Rückwirkender Regulatorik-Scan auf Doc 03 und Doc 05
+### Variante B — Rückwirkender Regulatorik-Scan auf Doc 03 und Doc 05 (Rule-9-Nachzug)
 
-Dr. Maldini existierte bei den Doc-03- und Doc-05-Reviews noch nicht. Beide Reviews sind damit aus Rule-9-Sicht "unbeschrieben" — es gibt keine Aktualitäts-Prüfung. Session 6 könnte diese Lücke schließen, bevor die Sequenz weiterläuft.
+Dr. Maldini existierte bei den Doc-03- und Doc-05-Reviews noch nicht. Beide Reviews sind damit aus Rule-9-Sicht "unbeschrieben". Variante B schließt diese Lücke, bevor die Sequenz mit Doc 14 weiterläuft.
 
 **Ablauf:**
 
 1. WebSearch für Doc 03 Vetamt: laufende Änderungen an VO 852/2004, aktuelle LMHV-Novellen, § 4 LMHV Schulungs-Anforderungen, IfSG § 42/43 Änderungen 2025/2026, Stuttgart-spezifische Verwaltungs-Anpassungen.
 2. WebSearch für Doc 05 HACCP: aktuelle HACCP-Leitlinien-Updates, Codex-Alimentarius-Änderungen, Listerien-Risiko-Empfehlungen BfR/EFSA, aktuelle Urteile zu § 58 LFGB bei MHD.
-3. Regulatorik-Nachträge in beide Review-Dateien einfügen.
+3. Regulatorik-Nachträge in beide Review-Dateien einfügen (Strike-through bei aufgelösten Findings, falls neue Rechtslage alte Befunde entschärft).
 4. Bei Findings: die bestehenden findings-Dateien erweitern, nicht parallel neue anlegen.
 
-**Effort:** S–M (1 Stunde bis halber Tag).
+**Effort:** S–M (1–3 Stunden).
 
 **Stop-Punkt:** Nach den Nachträgen committed.
 
-**Vorteil:** Konsolidierung vor dem nächsten Fortschritt. **Nachteil:** Kein Gate-Fortschritt auf der Sequenz.
+**Vorteil:** Hygiene vor dem nächsten Fortschritt. Alle vier bisher lead-reviewten Docs haben dann den gleichen Rule-9-Stand. **Nachteil:** Kein Gate-Fortschritt in der Sequenz — Doc 14 bleibt liegen.
 
-### Variante C — Silvio-Paket 1 konsolidieren (Briefing-Notiz)
+### Variante C — Silvio-Paket 1 Briefing-Notiz über Persona 00
 
-Die drei Silvio-Pakete (Vetamt/IHK, Steuer/Kasse/Gewerbeamt — ohne MwSt-Briefing, IfSG/Schädlinge/HACCP-Benennung) sind beschrieben, aber nicht in ein silvio-facing Dokument gegossen. Persona 00 wäre dafür die richtige Brille. Output in `docs/silvio-derivatives/silvio-paket-1-anrufe-und-termine.md`.
+Das Silvio-Paket hat nach Session 6 vier Blöcke: (1) Vetamt/IHK aus Doc 03, (2) Steuerberater/Kasse/Gewerbeamt aus Doc 15, (3) IfSG/Schädlinge/HACCP-Benennung aus Doc 05, (4) Etikett-Vorbereitung (Adresse, Labor, Beutel-Lieferant) aus Doc 04. Persona 00 kann daraus eine erste Silvio-facing Briefing-Notiz in `docs/silvio-derivatives/silvio-paket-1-anrufe-und-termine.md` machen.
 
-**Effort:** S (1–2 Stunden), weil der Inhalt aus den Gruppe-A-Findings direkt übernehmbar ist und die Übersetzung in Silvios Ton die eigentliche Arbeit ist.
+**Effort:** S (1–2 Stunden). Der Inhalt ist da; die Arbeit ist die Übersetzung in Silvios Ton.
 
 **Stop-Punkt:** Silvio-Ableitung committet, an German übergeben.
 
-**Vorteil:** Erste echte Silvio-Ableitung, erster Praxis-Test für Persona 00. **Nachteil:** Kein Review-Fortschritt.
+**Vorteil:** Erste echte Silvio-Ableitung, erster Praxis-Test für Persona 00, sichtbarer Wertbeitrag für Silvio. **Nachteil:** Kein Review-Fortschritt, Doc 14 bleibt liegen.
 
-## Empfehlung für Session 6
+## Empfehlung für Session 7
 
-**Variante A (Doc 04 LMIV Lead-Review mit Rule 9)**, aus drei Gründen:
+**Variante A (Doc 14 Recht Lead-Review mit Rule 9)**, aus drei Gründen:
 
-1. Doc 04 ist das nächste Gate-Doc, und es ist wichtig, dass Rule 9 von Anfang an greift, nicht erst bei Doc 14. Session 5 hat gezeigt, wie massiv eine verpasste Regulatorik-Änderung den Business-Case verschiebt — Doc 04 LMIV hat ähnliches Potential (Allergenkennzeichnung, E-Label, Herkunftsangaben werden in der EU laufend bewegt).
-2. Variante B ist sinnvoll, aber nicht dringend. Die rückwirkenden Regulatorik-Scans auf Doc 03 und 05 können auch in einer kürzeren Session 7 oder als Vorspiel zu Doc 14 laufen.
-3. Variante C wäre ein Sprung, der sich stilistisch lohnt, aber Session 6 sollte Substanz liefern, nicht Stilübung. Silvio-Paket 1 wird sinnvoller, wenn Doc 04 auch durch ist und wir vier statt drei Expert-Reviews im Rücken haben.
+1. Doc 14 ist das **letzte** Doc in der Gate-kritischen Sequenz. Danach öffnet sich das Feld für Co-Reviews, Silvio-Paket-Konsolidierung, v2-Rewrites und die B-Variante. Die Sequenz abschließen hat strategischen Wert — solange Doc 14 offen ist, ist das Projekt in der Halbzeit.
+2. Doc 14 ist das Rule-9-relevanteste Doc überhaupt. Rechtsgebiete mit hohem Gesetzgebungs-Takt (ProdHaftG, DSGVO, UWG-Urteile) stapeln sich hier. Rule 9 wird viele Funde produzieren — das ist genau der Einsatzzweck, für den die Regel geschaffen wurde.
+3. Variante B bleibt wichtig, ist aber nicht dringlich. Der Nachzug auf Doc 03 und 05 kann in einer kompakten Session 8 oder als Vorspiel zu den v2-Rewrites laufen. Variante C wäre stilistisch reizvoll, aber Silvio-Paket 1 wird belastbarer, wenn auch Doc 14 durch ist — dann hat das Paket fünf statt vier Blöcke, was zum Beispiel Rückruf-Kontakte und Versicherungs-Fragen aus Doc 14 enthalten kann.
 
-**Wenn aber die rückwirkende Lücke aus Rule-9-Hygiene-Gründen dringlich wird, Variante B priorisieren.**
+**Wenn aber die rückwirkende Lücke aus Hygiene-Gründen dringlich wird, Variante B priorisieren.**
 
 ## Start-Frage an German
 
-Via `AskUserQuestion` am Anfang der Session: *Variante A (Doc 04 LMIV mit Dr. Maldini — Empfehlung), Variante B (rückwirkender Regulatorik-Scan Doc 03 + 05) oder Variante C (Silvio-Paket 1 Briefing-Notiz)?*
+Via `AskUserQuestion` am Anfang der Session: *Variante A (Doc 14 Recht mit Dr. Maldini — Empfehlung), Variante B (rückwirkender Regulatorik-Scan Doc 03 + 05) oder Variante C (Silvio-Paket 1 Briefing-Notiz)?*
 
-## Offene Punkte aus Session 5 — kein Blocker, aber im Kopf behalten
+## Offene Punkte aus Session 6 — kein Blocker, aber im Kopf behalten
 
 | # | Punkt | Wann |
 |---|---|---|
-| 1 | Silvio-Verifikation 7 %-USt beim nächsten Steuerberater-Kontakt — Routine-Check, kein Gate | On-demand |
-| 2 | Vetamt-Umzug Schlossstraße — Silvio fragt beim Erstkontakt nach | On-demand |
-| 3 | Rückwirkender Regulatorik-Scan Doc 03 und Doc 05 (Variante B) | Spätestens vor v2-Rewrite |
-| 4 | Silvio-Paket 1 als Briefing-Notiz (Variante C) | Wenn Doc 04 und Doc 14 durch sind |
-| 5 | Co-Reviews Doc 03/15/05 (Behördenkontrolleur, CFO, Küche/Logistik/Behörde) | Nach Abschluss der Gate-kritischen Sequenz |
-| 6 | Gruppe-B-Pflicht-Dokumente (Rückruf, HACCP-Beauftragter, Tagesprotokolle, Rückstellproben) entstehen im HACCP- und Recht-Review — Schreibort klärt sich beim Doc-14-Review | Doc 14 |
-| 7 | Deep Review Stufe 3 bleibt XL. Realistisch: ein Lead-Review pro Session plus Findings plus ggf. Regulatorik-Nachtrag | Dauerthema |
+| 1 | Silvio-Lieferanten-Gespräch für Primärzutat-Herkunft (Doc 04 Finding 1, inconsistencies #9) | Vor Doc-04-v2 |
+| 2 | Labor-Nährwert-Analyse pro Produktlinie (Doc 04 Finding 7, 320–600 €) | Vor erstem Etikett-Druck |
+| 3 | PPWR-Konformitätserklärung vom Beutel-Lieferanten (Doc 04 Finding 9) | Wenn Launch nach 12.8.2026 |
+| 4 | Silvio-Verifikation 7 %-USt beim nächsten Steuerberater-Kontakt — Routine-Check | On-demand |
+| 5 | Vetamt-Umzug Schlossstraße (Doc 03) — Silvio fragt beim Erstkontakt | On-demand |
+| 6 | Rückwirkender Regulatorik-Scan Doc 03 und Doc 05 (Variante B) | Spätestens vor v2-Rewrite |
+| 7 | Silvio-Paket 1 als Briefing-Notiz (Variante C) | Wenn Doc 14 durch |
+| 8 | Co-Reviews Doc 03/15/05/04 (Behördenkontrolleur, CFO, Küche/Logistik/Behörde, Küchenchef) | Nach Abschluss der Gate-kritischen Sequenz |
+| 9 | Gruppe-B-Pflicht-Dokumente (Rückruf, HACCP-Beauftragter, Tagesprotokolle, Rückstellproben) — Schreibort klärt sich beim Doc-14-Review | Doc 14 |
+| 10 | Deep Review Stufe 3 bleibt XL. Realistisch: ein Lead-Review pro Session plus Findings plus Regulatorik-Nachtrag | Dauerthema |
 
 ## Wichtige Präferenzen von German (Erinnerung)
 
@@ -104,16 +108,16 @@ Via `AskUserQuestion` am Anfang der Session: *Variante A (Doc 04 LMIV mit Dr. Ma
 - **Ton Silvio-Ableitungen (Variante C):** einfache Sätze, keine Anglizismen, tentativ, warm, *"nicht überreden, nicht verkaufen, nicht drängen"*.
 - **Pushback Pflicht.**
 - **Review-Standard-Format** aus `CLAUDE.md`.
-- **Rule 9 Regulatorik-Scan** ist neu — **nicht vergessen**, bevor ein Lead-Review eines Legal/Tax/Tech-Docs geschrieben wird.
+- **Rule 9 Regulatorik-Scan** ist für Doc 14 noch wichtiger als für Doc 04 — das Rechts-Doc ist ihr Haupt-Einsatzfeld.
 - **Tabellen:** MASCHIN-Format (`# | Item | Prio | Effort | Wer | Blocker? | Status | Impact`).
 - **Markdown:** keine Hard-Wraps im Fließtext.
 - **AskUserQuestion** bei 2+ Optionen.
 - **Commit nach jedem Work-Block.**
 - **Session-Session-Regel:** Genau ein Schreibender pro Repo gleichzeitig. Vor Session-Start `session-state.md` prüfen.
-- **Strike-through statt Löschen** bei aufgelösten Findings und Inconsistencies, damit die Historie nachvollziehbar bleibt.
+- **Strike-through statt Löschen** bei aufgelösten Findings und Inconsistencies.
 
 ## Start-Nachricht Template
 
 Nach Lesen der Kontext-Dateien:
 
-> "Kontext geladen. Session 5 hat Doc 15 und Doc 05 lead-reviewt und strukturell zwei Dinge eingeführt: Persona 10 Dr. Maldini als Regulatorik-Scout und CLAUDE.md Rule 9, die vor Legal/Tax/Tech-Reviews eine aktive WebSearch erzwingt. Außerdem hat das 7%-USt-Finding den MwSt-Gate nach Rollout-Schritt 1 gesetzlich aufgelöst. Session 6 hat drei Varianten: (A) Doc 04 LMIV Lead-Review mit Dr. Maldini als erstem Lackmustest für Rule 9 — Empfehlung. (B) Rückwirkender Regulatorik-Scan auf Doc 03 und Doc 05, um die Lücke vor v2-Rewrites zu schließen. (C) Silvio-Paket 1 Briefing-Notiz als erste Silvio-Ableitung über Persona 00. Welcher Pfad?"
+> "Kontext geladen. Session 6 hat Doc 04 LMIV lead-reviewt mit Rule 9 als erstem Praxistest. Haupt-Trophäe: DVO (EU) 2018/775 Primärzutat-Herkunft, seit 2020 Pflicht, im Doc komplett übergangen — P1. Zweiter Fund: PPWR 12.8.2026 als erster Zukunfts-Stichtag. Sequenz: 03/15/05/04 durch, nur noch Doc 14 Recht offen. Session 7 hat drei Varianten: (A) Doc 14 Recht Lead-Review mit Dr. Maldini — schließt die Gate-kritische Sequenz ab, Empfehlung. (B) Rückwirkender Regulatorik-Scan Doc 03 und 05 vor v2-Rewrites. (C) Silvio-Paket 1 Briefing-Notiz über Persona 00. Welcher Pfad?"
