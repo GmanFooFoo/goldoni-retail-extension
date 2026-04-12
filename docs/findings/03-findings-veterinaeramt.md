@@ -2,7 +2,7 @@
 
 **Quelle:** [Lead-Review Lebensmittelrechtler](../reviews/03-vetamt-lebensmittelrechtler.md), [Co-Review Behördenkontrolleur](../reviews/03-vetamt-behoerdenkontrolleur.md)
 **Datum:** 2026-04-11 (Lead), 2026-04-12 (Co-Review + Rule-9-Nachtrag)
-**Status:** Co-Review durch Behördenkontrolleur abgeschlossen. Lead sagt "Rework", Behördenkontrolleur sagt **"Stopp — in dieser Form nicht genehmigungsfähig"** (Begründung: fehlende Nachweisstruktur, nicht nur fehlende Absätze). Doc 03 v2 wird sinnvoll erst, wenn Doc 04, 05, 14 ihre v2 haben — Doc 03 ist die Klammer.
+**Status:** **Doc 03 v2 geschrieben** (2026-04-12). Doc 03 als Klammer-Dokument neu aufgebaut: Registrierungs-Weg korrigiert (service-bw.de), Kontaktdaten aktualisiert, IHK als Schritt 0, Rework-Szenario mit Kosten, "nicht vor Erstbegehung starten"-Empfehlung, simulierte Erstbegehungs-Checkliste (15 Punkte), vollständige Rechtsgrundlagen-Tabelle, Cross-Refs. Von 16 Findings sind 14 in v2 aufgelöst, 2 bleiben offen (abhängig von Doc 05 v2 für HACCP-Inhalte).
 
 Konsolidierte Findings aus dem Lead-Review. Jedes Finding benennt den Auflösungs-Pfad und den Owner. Findings sind die Grundlage für den späteren v2-Plan (`docs/plans/03-v2-plan.md`) und für Cross-Drift-Einträge in `inconsistencies.md`.
 
