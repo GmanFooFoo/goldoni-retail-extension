@@ -1,8 +1,8 @@
 # Findings: Doc 04 – LMIV-Kennzeichnung
 
-**Quelle:** [Lead-Review Lebensmittelrechtler](../reviews/04-lmiv-lebensmittelrechtler.md) inkl. Regulatorik-Nachtrag Dr. Maldini (Persona 10)
-**Datum:** 2026-04-11
-**Status:** In Klärung — Co-Reviews durch Behördenkontrolleur und Küchenchef ausstehend.
+**Quelle:** [Lead-Review Lebensmittelrechtler](../reviews/04-lmiv-lebensmittelrechtler.md) inkl. Regulatorik-Nachtrag Dr. Maldini (Persona 10), [Co-Review Behördenkontrolleur](../reviews/04-lmiv-behoerdenkontrolleur.md), [Co-Review Küchenchef](../reviews/04-lmiv-kuechenchef.md)
+**Datum:** 2026-04-11 (Lead), 2026-04-12 (Co-Reviews)
+**Status:** Co-Reviews abgeschlossen. Alle drei Reviewer sagen **"Rework erforderlich"**. Behördenkontrolleur: Risiko-Abdeckung 1 (kein einziges Risiko benannt), Musterwerte als Ablehnungsgrund, Etikett-Validierungs-Protokoll fehlt. Küchenchef: Rezeptur-Standardisierung als Voraussetzung, Aufwärm-Test im Haushaltsofen, saisonale Zutatenwechsel als blinder Fleck.
 
 Konsolidierte Findings analog `03-findings-veterinaeramt.md`, `15-findings-steuer.md` und `05-findings-haccp.md`. Gruppen-Logik einheitlich: A = Silvio/extern, B = eigenständige Arbeits-Blöcke im Repo, C = Doc-Rewrite.
 
@@ -27,6 +27,12 @@ Konsolidierte Findings analog `03-findings-veterinaeramt.md`, `15-findings-steue
 | 15 | UWG / PAngV-Hinweis für freiwillige Claims ("hausgemacht", "traditionell") fehlt. Cross-Ref Dr. Maldini. | P3 | XS | Lebensmittelrechtler (Absatz) | — | Offen | Spätere Werbe-Aussagen müssen belegbar sein; vorbeugender Hinweis verhindert Abmahn-Risiko. |
 | 16 | Cross-Refs zu Doc 05 (HACCP, Allergen-Management, CCP MHD), Doc 06 (Mockups), Doc 08 (Verpackung, PPWR), Doc 11 (Lieferanten, Primärzutat-Herkunft) fehlen. | P3 | XS | Lebensmittelrechtler (Doc-Ergänzung) | — | Offen | Reife-Problem; verhindert Doppel-Aufbau und erleichtert v2-Merge. |
 | 17 | Nutri-Score neuer Algorithmus seit 1.1.2026 nicht erwähnt. Freiwillig, aber falls Goldoni später einsetzt, muss der neue Algorithmus rein. | P3 | XS | Lebensmittelrechtler (Hinweis-Absatz) | — | Offen | Reine Vorsorge-Notiz; kein Gate-Problem. |
+| 18 | Rezeptur-Standardisierung als Voraussetzung für Etikett-Druck fehlt — Silvio kocht nach Gefühl, für Retail muss er nach Protokoll kochen. Gramm-genaue Rezepturen für alle Phase-1-Produkte sind Blocker für Nährwerte und QUID. | P1 | L | Küchenchef (Rezepturen) + Lebensmittelrechtler (Etikett-Trigger) | Ja, vor erstem Etikett-Druck | Offen | Ohne standardisierte Rezeptur sind Nährwert-Tabelle und QUID-% nicht belastbar. Kultur-Frage: italienischer Koch muss Rezeptur verschriftlichen. |
+| 19 | Aufwärm-Anleitung muss im Haushaltsofen und Mikrowelle getestet werden — dokumentiertes Ergebnis als Grundlage für Etikett. Beutel öffnen, ofenfestes Gefäß, Wattzahl Mikrowelle fehlen. | P1 | S | Küchenchef (Test) | Ja, vor erstem Etikett-Druck | Offen | Sicherheitsrisiko (platzender Beutel im Ofen) und Qualitätsrisiko (Ergebnis im Hauhalts- vs. Profi-Ofen). |
+| 20 | Allergen-Hervorhebung nur "fett" — Praxis-Standard ist fett + Großbuchstaben oder fett + unterstrichen. Doc 04 sollte doppelte Hervorhebung als Standard setzen. | P2 | XS | Lebensmittelrechtler (Doc-Korrektur) | — | Offen | Kontrolleur prüft optische Unterscheidbarkeit im Kontext, nicht nur ob "irgendwas" fett ist. |
+| 21 | Etikett-Validierungs-Protokoll fehlt — wer prüft, wann, gegen welche Checkliste, wo wird Freigabe dokumentiert. | P2 | S | Lebensmittelrechtler + Behördenkontrolleur | — | Offen | Ohne Prozess werden Fehler erst bei Stichprobe entdeckt. |
+| 22 | Béchamel-Wasserabscheidung wirkt auf Nettofüllmenge — 400 g bei Verpackung kann nach 5 Tagen nur 380 g "fest" sein. LMIV Art. 23: Gewicht zum Zeitpunkt der Verpackung. Empfehlung: konservativ angeben oder Rezeptur anpassen. | P2 | S | Küchenchef (Test) + Lebensmittelrechtler | — | Offen | Rechtlich sicher (Verpackungs-Gewicht zählt), aber Kundenerlebnis-Risiko und Qualitäts-Thema. |
+| 23 | Saisonale Zutatenwechsel nicht adressiert — Entscheidungs-Baum "Zutat wechselt → Allergen? QUID? Nährwert >20%? → neues Etikett" fehlt. | P2 | S | Küchenchef + Lebensmittelrechtler | — | Offen | In laufender Restaurant-Küche ist Zutaten-Dynamik der Normalfall; Etikett muss mitziehen. |
 
 ## Auflösungs-Gruppen
 
