@@ -12,9 +12,9 @@ Nach Silvios Entscheidung: Phase B (reduziert aktiv, Pilot-Begleitung) oder Phas
 
 ## Scope
 
-Phase 1 des Produkts: **nur Vakuum, gekühlt, eine Woche Haltbarkeit**. Keine Tiefkühlung, kein Schockfroster, keine MAP/Schutzgas, kein Versand. Tiefkühl steht als mögliche Phase 2 auf der Roadmap (D-02), ist aber bewusst nicht im Launch-Scope.
+Phase 1 des Produkts: **nur Vakuum, gekühlt, eine Woche Haltbarkeit**. Keine Tiefkühlung, kein Schockfroster, keine MAP/Schutzgas. Tiefkühl steht als mögliche Phase 2 auf der Roadmap (D-02), ist aber bewusst nicht im Launch-Scope.
 
-Zielkanal: Abholung im Restaurant. Zielgruppe: Stammgäste, Büros im Stuttgarter Westen, Familien mit Convenience-Bedarf. Öffnungszeiten Goldoni: Mi + Do–So, 17–22 Uhr (zwei Küchen-Leerlauf-Tage Mo/Di als produktives Zeitfenster).
+Zielkanal: **Abholung im Restaurant + Plattform-Lieferung** (Wolt/Uber Eats) innerhalb Stuttgart (D-13). Kein Paketversand, keine Lieferung über Stadtgrenzen. Webshop zum Vorbestellen ab Phase 1 (D-12). Zielgruppe: Stammgäste, Büros im Stuttgarter Westen, Familien mit Convenience-Bedarf. Öffnungszeiten Goldoni: Mi + Do–So, 17–22 Uhr (zwei Küchen-Leerlauf-Tage Mo/Di als produktives Zeitfenster).
 
 ## Repo-Map
 
@@ -23,12 +23,14 @@ Zielkanal: Abholung im Restaurant. Zielgruppe: Stammgäste, Büros im Stuttgarte
 | `docs/business-case/` | Die 19 Original-Dokumente (v1) — Küche, Zahlen, Recht, Verpackung, Verkauf, Logistik. Gate-kritische Sequenz 03 → 15 → 05 → 04 → 14 lead-reviewt (Stufe 3). |
 | `docs/personas/` | 12 rollenbasierte Review-Personas als Analyse-Linsen (00 Silvio Übersetzungs-Schicht, 01 CFO, 02 Lebensmittelrecht, 03 Steuer, 04 Behördenkontrolleur, 05 Logistiker, 06 Gastronom, 07 Küchenchef, 08 Brand/Marketing, 09 Stammkundin, 10 Dr. Maldini Regulatorik-Scout, 11 Personal-Markt & Arbeitsrecht Retail). |
 | `docs/personas/assignments.md` | Matrix: welche Persona reviewt welches Doc. |
-| `docs/findings/decisions.md` | Entscheidungs-Log D-01 bis D-10. Grundlegend für Scope- und Ton-Fragen. |
-| `docs/findings/inconsistencies.md` | 16 Widersprüche zwischen den 19 Original-Docs. #5 aufgelöst (7 %-USt), #11 aufgelöst (Schreibort Rückruf). #7 MHD/Los/Chargen-Doku-als-Beweismittel, #12/13/14 aus Doc-14-Review. #15 Béchamel-Annahme ungeprüft (SP-19, bei Silvio). #16 Geschenkebox Sugo+Nudeln LMIV-Frage (SP-20). |
-| `docs/reviews/` | Persona-Reviews im Standard-Format. **Lead-Reviews:** Doc 03 (Lebensmittelrechtler), Doc 15 (Steuerberaterin), Doc 05 (Lebensmittelrechtler HACCP), Doc 04 (Lebensmittelrechtler LMIV mit Rule 9), Doc 14 (Lebensmittelrechtler Recht mit Rule 9). **Co-Reviews (Session 10):** Doc 15 (CFO), Doc 03 (Behördenkontrolleur + Rule-9-Nachtrag), Doc 14 (Behördenkontrolleur + Steuerberaterin), Doc 04 (Behördenkontrolleur + Küchenchef), Doc 05 (Behördenkontrolleur + Küchenchef + Logistiker + Rule-9-Nachtrag). |
-| `docs/findings/03-findings-veterinaeramt.md`, `04-findings-lmiv.md`, `05-findings-haccp.md`, `14-findings-recht-haftung.md`, `15-findings-steuer.md` | Konsolidierte Findings pro Doc, mit Auflösungs-Gruppen A (Silvio-Paket-Verweis), B (Repo-Arbeit), C (Doc-Rewrite). **109 Findings gesamt** (82 Lead + 27 Co-Review). |
-| `docs/silvio-paket/offene-fragen.md` | **Zentrales Artefakt für Silvio-Aktionen.** 20 Einträge SP-01 bis SP-20 in sechs Blöcken (Behörden, Steuer/Kasse, Hygiene, Etikett, Recht/Versicherung, Rezepturen & Produktlinie). SP-19 (Béchamel-Frage) bei Silvio seit 2026-04-12. Silvio fasst das Repo nicht an — dieses Dokument ist der Ausgang, GitHub-Issues mit Label `feedback-silvio` sind der Eingang. |
-| `docs/plans/03-v2-plan.md` | v2-Plan-Skizze Doc 03. Weitere v2-Pläne folgen nach Co-Reviews und Silvio-Rückmeldungen. |
+| `docs/findings/decisions.md` | Entscheidungs-Log D-01 bis D-13. Grundlegend für Scope- und Ton-Fragen. Neu Session 11: D-11 (BAFA), D-12 (Vorbestellungen Phase 1), D-13 (Vertriebskanal Abholung + Wolt/Uber). |
+| `docs/findings/inconsistencies.md` | 16 Widersprüche, davon **4 aufgelöst** (#5 USt, #11 Rückruf-Schreibort, #14 Aufbewahrungs-Fristen, #15 Béchamel-Arbeitsannahme). 12 offen. #2 und #8 mit Cross-Refs zu Doc-02-Findings ergänzt (Session 11). |
+| `docs/reviews/` | Persona-Reviews im Standard-Format. **Gate-Docs (03/04/05/14/15):** Lead + Co fertig. **Doc 02 (Session 11):** Lead CFO + Co Steuerberaterin + Co Persona 11 fertig. |
+| `docs/findings/` | Konsolidierte Findings pro Doc. **6 Findings-Dateien:** 03 Vetamt (16), 04 LMIV (23), 05 HACCP (28), 14 Recht (25), 15 Steuer (16), **02 Wirtschaftlichkeit (22, Session 11)**. Gesamt: **131 Findings**. |
+| `docs/silvio-paket/offene-fragen.md` | **Zentrales Artefakt für Silvio-Aktionen.** 23 Einträge SP-01 bis SP-23 in acht Blöcken. Neu Session 11: SP-22 (Metro-Preise), SP-23 (Nachfrage-Schätzung). SP-19 (Béchamel) bei Silvio seit 2026-04-12. |
+| `docs/plans/02-v2-plan.md` | v2-Plan Doc 02 — 10 Kapitel, Finding-zu-Kapitel-Matrix, 19 von 22 Findings im v2 auflösbar. |
+| `docs/plans/02-cashflow-projektion-2026.md` | Monats-P&L Mai–Dez 2026 (hypothetisch bei Start Mai). Invest ~6.200 €, operativ ab August positiv, Cashflow-Break-Even Mai/Juni 2027. |
+| `docs/plans/03-v2-plan.md` | v2-Plan-Skizze Doc 03. |
 | `docs/plans/rollout-plan.md` | Phase-1-Scope und Rollout-Reihenfolge. Wird in dieser Session ebenfalls auf Germans Arbeits-Level gezogen (Stufe 6 / 2b). |
 | `docs/glossary.md` | Fachbegriffe (HACCP, LMIV, CCP, Vakuum vs. Schutzgas, Schockfroster, Vetamt). Primär als Silvio-Hilfe gedacht, auch für Germans Cross-Reference nützlich. |
 | `docs/backlog/repo-backlog.md` | Status-Tabelle aller Arbeitspakete im MASCHIN-Format. |
@@ -42,19 +44,17 @@ Zielkanal: Abholung im Restaurant. Zielgruppe: Stammgäste, Büros im Stuttgarte
 Voller Log in [`docs/findings/decisions.md`](docs/findings/decisions.md). Tragend für aktuelle Arbeit:
 
 - **D-02** — Phase 1 nur Vakuum, Tiefkühl vertagt.
-- **D-03** — Keine Marcello-Persona. Das Repo ist Germans Arbeit an Silvios Case, kein Berater-Framing.
-- **D-05** — Keine Easter Eggs in Reports. Stattdessen "Leitsatz der Session".
-- **D-06** — Repo-Ton ist Germans Arbeits-Level. Silvio-facing Texte entstehen als explizite Ableitung, nicht als Default.
-- **D-07** — Kein Investment. Bei Umsetzung: Aufwandsentschädigung auf Selbstkosten-Basis, transparent vor Silvios erstem Euro. Haltung in Persona 99 verankert.
-- **D-08** — Phase A/B/C-Lebenszyklus.
-- **D-09** — Rückruf-Prozess zweigeteilt: Doc 14 = Haftung/Krise, Doc 05 = Hygiene/Chargen, gegenseitig verlinkt.
-- **D-10** — Silvio ist kein Reviewer. Aktionen in `docs/silvio-paket/offene-fragen.md` (SP-XX), Rückmeldungen über GitHub-Issues mit Label `feedback-silvio`.
+- **D-06** — Repo-Ton ist Germans Arbeits-Level. Silvio-facing Texte als explizite Ableitung.
+- **D-10** — Silvio ist kein Reviewer. Aktionen im Silvio-Paket (SP-XX).
+- **D-11** — BAFA-Förderung für Germans Beratungsleistung (formales Mandat neben Freundschaft).
+- **D-12** — Vorbestellungen ab Phase 1 (Webshop + Stripe, Fernabsatz kein separater Scope-Block).
+- **D-13** — Vertriebskanal: Abholung + Wolt/Uber innerhalb Stuttgart, kein Paketversand.
 
 ## Personas
 
 Analyse-Linsen, keine Narrative. Neue Personas rollen-basiert ohne Personennamen (Persona 11 ist der erste Fall). Jede Persona hat eine eigene Datei in `docs/personas/` mit Haltung, Fokus-Fragen, Red-Flags-Katalog. Die 12 Rollen decken: Zahlen (CFO), Lebensmittelrecht, Steuern, Küche, Gastronom (peer), Stammkundin, Brand/Marketing, Logistik, Amt (adversarial), Regulatorik-Scout (Dr. Maldini, horizontal), Personal-Markt & Arbeitsrecht Retail (neu Session 9), Silvio (Übersetzungs-Schicht, horizontal).
 
-Reviews folgen dem Standard-Format aus [`CLAUDE.md`](CLAUDE.md#review-standard-format). Gate-kritische Sequenz (5 Docs, 14 Reviews, 109 Findings) ist vollständig reviewt (Lead + Co). v2-Rewrites und Sekundär-Reviews stehen aus.
+Reviews folgen dem Standard-Format aus [`CLAUDE.md`](CLAUDE.md#review-standard-format). Gate-kritische Sequenz (5 Docs, 14 Reviews, 109 Findings) Lead + Co fertig + v2-Rewrites fertig. **Doc 02 Wirtschaftlichkeit** (Session 11): Lead + 2 Co fertig, 22 Findings, Cashflow-Projektion, v2-Plan. Sekundär-Reviews Doc 01/06–13/16–19 stehen aus.
 
 ## Stand
 
@@ -62,14 +62,16 @@ Reviews folgen dem Standard-Format aus [`CLAUDE.md`](CLAUDE.md#review-standard-f
 |---|---|---|
 | 1 | Repo-Setup, plain markdown, GitHub | ✅ Done |
 | 2 | 9 Personas + Ton-Reset + Marcello-Streichung | ✅ Done |
-| 3 | Deep Review der 19 Business-Case-Docs | ⚠️ In Progress — **Gate-kritische Sequenz 03/15/05/04/14: Lead-Reviews + Co-Reviews abgeschlossen** (109 Findings, 14 Reviews). Rule-9-Nachzug Doc 03/05 erledigt. v2-Rewrites + Sekundär-Reviews Doc 06–19 stehen aus. **Blocker:** SP-19 (Béchamel-Rezeptur) vor v2-Rewrites klären. |
+| 3 | Deep Review der 19 Business-Case-Docs | ⚠️ In Progress — **6 von 19 Docs reviewt** (03/04/05/14/15 Gate-Sequenz + 02 Wirtschaftlichkeit). 131 Findings, 17 Reviews, 5 v2-Rewrites. Sekundär-Reviews Doc 01/06–13/16–19 stehen aus. |
 | 4 | Session-1-Wrap-up | ✅ Done |
 | 5 | MASCHIN-Review + Maßnahmen 1/3/4 | ✅ Done |
 | 6 | Repo-Zweck-Umschwung (Germans Arbeits-Level) | ✅ Done |
 
-**Silvio-Paket:** Operative Aktionen für Silvio sind konsolidiert in [`docs/silvio-paket/offene-fragen.md`](docs/silvio-paket/offene-fragen.md) mit 20 Einträgen (SP-01 bis SP-20) in sechs Blöcken: Behörden, Steuer/Kasse, Hygiene, Etikett, Recht/Versicherung, Rezepturen & Produktlinie. SP-19 (Béchamel-Frage, P1-Blocker) ist bei Silvio seit 2026-04-12. SP-20 (Geschenkebox Sugo + Rummo-Nudeln) ist offen.
+**Silvio-Paket:** 23 Einträge (SP-01 bis SP-23) in acht Blöcken. Neu Session 11: SP-22 (Metro-/Lieferanten-Preise), SP-23 (Nachfrage-Schätzung). SP-19 (Béchamel, P1-Blocker) bei Silvio seit 2026-04-12.
 
-**Rule-9-Funde (Session 10):** Zwei neue Rechts-Stichtage entdeckt: (1) verschärfter **Listerien-Grenzwert ab 1.7.2026** — "nicht nachweisbar in 25g" statt bisheriger 100 KBE/g auf Handelsebene, direkt relevant für Béchamel-Produkte. (2) **Registrierungs-Portal-Korrektur** — "Luca-Portal" in Doc 03 ist falsch, richtig ist service-bw.de. Zusammen mit PPWR (12.8.2026) und ProdHaftG (9.12.2026) aus früheren Sessions gibt es jetzt **drei harte Rechts-Stichtage im zweiten Halbjahr 2026**.
+**Cashflow-Projektion (Session 11):** Hypothetisch bei Start Mai 2026: Invest ~6.200 €, Ende 2026 kumuliert −3.100 €, operativ ab August positiv (~650 €/Monat), Break-Even Mai/Juni 2027. Realer Gewinnbeitrag: 7.000–9.000 €/Jahr (nicht 19.500 € wie Doc 02 v1).
+
+**Drei harte Rechts-Stichtage H2/2026:** Listerien-Grenzwert 1.7., PPWR 12.8., ProdHaftG 9.12.
 
 ## Working Rules
 
