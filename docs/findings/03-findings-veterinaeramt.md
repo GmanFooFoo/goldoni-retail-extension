@@ -1,8 +1,8 @@
 # Findings: Doc 03 – Veterinäramt Stuttgart
 
-**Quelle:** [Lead-Review Lebensmittelrechtler](../reviews/03-vetamt-lebensmittelrechtler.md)
-**Datum:** 2026-04-11
-**Status:** In Klärung — Co-Review durch Behördenkontrolleur folgt in Session 5.
+**Quelle:** [Lead-Review Lebensmittelrechtler](../reviews/03-vetamt-lebensmittelrechtler.md), [Co-Review Behördenkontrolleur](../reviews/03-vetamt-behoerdenkontrolleur.md)
+**Datum:** 2026-04-11 (Lead), 2026-04-12 (Co-Review + Rule-9-Nachtrag)
+**Status:** Co-Review durch Behördenkontrolleur abgeschlossen. Lead sagt "Rework", Behördenkontrolleur sagt **"Stopp — in dieser Form nicht genehmigungsfähig"** (Begründung: fehlende Nachweisstruktur, nicht nur fehlende Absätze). Doc 03 v2 wird sinnvoll erst, wenn Doc 04, 05, 14 ihre v2 haben — Doc 03 ist die Klammer.
 
 Konsolidierte Findings aus dem Lead-Review. Jedes Finding benennt den Auflösungs-Pfad und den Owner. Findings sind die Grundlage für den späteren v2-Plan (`docs/plans/03-v2-plan.md`) und für Cross-Drift-Einträge in `inconsistencies.md`.
 
@@ -22,16 +22,22 @@ Konsolidierte Findings aus dem Lead-Review. Jedes Finding benennt den Auflösung
 | 10 | Rechtsgrundlagen unvollständig aufgeführt (es fehlen VO 178/2002, LFGB, § 42 IfSG, LMHV §§ 3–5). | P3 | XS | Lebensmittelrechtler (Doc-Ergänzung) | — | Offen | Reife-Problem, kein Gate-Problem. Löst sich im v2-Rewrite. |
 | 11 | IHK-Erstberatung ist als "Empfehlung" weich formuliert; sollte Ablauf-Schritt 0 werden. Termin-Buchung → Silvio-Paket SP-02. | P3 | XS | Lebensmittelrechtler (Doc-Ergänzung) | — | Offen | Billig, Risiko-Reduktion vor dem ersten Vetamt-Kontakt. |
 | 12 | D-01-Konformität (Phase 1 nur Vakuum, kein Tiefkühl) nicht explizit im Doc-Kopf. | P3 | XS | Lebensmittelrechtler (Doc-Ergänzung) | — | Offen | Konsistenz-Drift; verhindert Tiefkühl-Missverständnis bei Leser. |
+| 13 | Registrierungs-Weg falsch: "Luca-Portal" → **service-bw.de**. Telefonnummer veraltet (0711/216-98670 → 0711/21688590). E-Mail fehlt (Poststelle.32-23Verbraucherschutz@Stuttgart.de). Behörde sendet **keine Registrierungs-Bestätigung** — Silvio muss nachfassen. Rule-9-Fund. | P1 | XS | Lebensmittelrechtler (Doc-Korrektur) | — | Offen | Factual-Fehler im Doc; Silvio würde auf dem falschen Portal landen. Bestätigungs-Lücke als operativer Hinweis an Silvio-Paket SP-01. |
+| 14 | Simulierte Erstbegehungs-Checkliste fehlt — einseitige Tabelle "Was der Kontrolleur sehen will / Wo dokumentiert / Status", damit Silvio sich vor dem Vetamt-Termin selbst prüfen kann. Klammer-Funktion über Doc 04, 05, 14. | P1 | M | Lebensmittelrechtler + Behördenkontrolleur | — | Offen | Operativ wertvollstes neues Artefakt für Silvio. Reduziert Risiko einer Beanstandung bei Erstbegehung deutlich. |
+| 15 | Empfehlung "nicht vor Erstbegehung starten" fehlt — rechtlich darf Silvio nach Registrierung sofort verkaufen, betrieblich riskant: bei nachträglicher Beanstandung greift § 58 LFGB auf bereits verkaufte Ware. | P2 | XS | Lebensmittelrechtler (Doc-Ergänzung) | — | Offen | Risiko-Minimierung; ein Satz im Doc genügt. |
+| 16 | Erstbegehungs-Timing realistisch (2–6 Wochen nach Registrierung, abhängig von Auslastung) und Nachbegehungs-Kosten (ca. 80–200 € pro Begehung) nicht beziffert. | P2 | XS | Lebensmittelrechtler (Doc-Ergänzung) | — | Offen | Präzisiert Finding 4 und 5 mit Behörden-Erfahrungswerten. |
 
 ## Auflösungs-Gruppen
 
-Die 12 Findings zerfallen in drei natürliche Gruppen, die unterschiedliche Arbeits-Stränge auslösen.
+Die 16 Findings (12 Lead + 4 Co-Review) zerfallen in drei natürliche Gruppen, die unterschiedliche Arbeits-Stränge auslösen.
 
-**Gruppe A — Aktionen im Silvio-Paket** (`docs/silvio-paket/offene-fragen.md`, Block 1): Findings 4/5/7 → SP-01 (Vetamt-Erstkontakt), 11 → SP-02 (IHK-Termin), 2 → SP-07 (HACCP-Beauftragter Selbstbenennung). Ein Vetamt-Telefonat plus ein IHK-Termin klärt zusammen fünf von zwölf Findings auf.
+**Gruppe A — Aktionen im Silvio-Paket** (`docs/silvio-paket/offene-fragen.md`, Block 1): Findings 4/5/7/**13** → SP-01 (Vetamt-Erstkontakt — jetzt mit korrigierter Nummer und Hinweis "nachfassen, weil keine Bestätigung kommt"), 11 → SP-02 (IHK-Termin), 2 → SP-07 (HACCP-Beauftragter Selbstbenennung). Ein Vetamt-Telefonat plus ein IHK-Termin klärt zusammen sechs von sechzehn Findings auf.
 
 **Gruppe B — Pflicht-Dokumente neu erstellen:** Findings 1, 2, 3, 9. Rückruf-Prozess, HACCP-Beauftragten-Benennung, MHD-Validierung, Tagesprotokolle. Diese gehören nicht in Doc 03, sondern in Doc 05 (HACCP) und Doc 14 (Recht). Doc 03 referenziert sie nur. MHD-Validierung hat den größten Aufwand (Labor-Test oder dokumentierter Haltbarkeits-Test mit mindestens drei Chargen über den geplanten MHD-Zeitraum) und wird zum eigenen Arbeits-Block.
 
-**Gruppe C — Doc-Rewrite-Arbeit:** Findings 6, 8, 10, 12. Korrekturen und Ergänzungen, die in Doc 03 v2 gehören. Klein, aber nur sinnvoll, wenn Gruppe A beantwortet ist — sonst werden die Lücken mit neuen [TBD]-Markern überschrieben statt gefüllt.
+**Gruppe B2 — Neue Artefakte aus Co-Review:** Finding **14** (Erstbegehungs-Checkliste) ist ein eigenständiger Arbeits-Block mit M-Effort, der auf Doc 04, 05, 14 aufbaut und erst nach deren v2 sinnvoll ist. Finding **15** (Empfehlung "nicht vor Erstbegehung starten") und **16** (Timing + Kosten) sind XS-Ergänzungen für Doc 03 v2.
+
+**Gruppe C — Doc-Rewrite-Arbeit:** Findings 6, 8, 10, 12, **13** (Portal-Korrektur), **15**, **16**. Korrekturen und Ergänzungen, die in Doc 03 v2 gehören. Klein, aber nur sinnvoll, wenn Gruppe A beantwortet ist — sonst werden die Lücken mit neuen [TBD]-Markern überschrieben statt gefüllt.
 
 ## Cross-Drift in inconsistencies.md
 
