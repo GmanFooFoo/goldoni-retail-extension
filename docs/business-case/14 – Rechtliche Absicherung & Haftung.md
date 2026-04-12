@@ -166,17 +166,17 @@ Auch bei Widerrufs-Ausschluss für schnell verderbliche Ware (§ 312g Abs. 2 Nr.
 
 Typisches Missverständnis: "Lebensmittel kann man nicht zurückgeben" — stimmt für das **Widerrufsrecht** bei Fernabsatz, nicht für die **Gewährleistung**. Wenn die Lasagne verschimmelt ist, hat der Kunde Gewährleistungsrechte.
 
-## Fernabsatz — Scope-Entscheidung
+## Fernabsatz — Vorbestellungen ab Phase 1 (D-12)
 
-[TBD — SP-14] Phase 1 sieht nur Theken-Verkauf vor. Wenn Silvio Vorbestellungen per WhatsApp oder Telefon annimmt, wird das rechtlich zum **Fernabsatzvertrag** nach § 312c BGB:
+Vorbestellungen (WhatsApp, Webshop, Telefon) gehören in Phase 1. Der Umsatz-Hebel (bessere Produktionsplanung, sichere Chargen) überwiegt die rechtliche Mehr-Komplexität, die minimal ist. Jede Vorbestellung ist rechtlich ein **Fernabsatzvertrag** nach § 312c BGB:
 
-**Was dann zwingend wird:**
+**Was zwingend ist:**
 - Vorvertragliche Informationspflichten nach Art. 246a EGBGB
 - Widerrufsrecht-Ausschluss-Hinweis für schnell verderbliche Ware (§ 312g Abs. 2 Nr. 2 BGB) — muss **ausdrücklich kommuniziert** werden (OLG Celle: eng auszulegen)
 - LMIV Art. 14: alle Pflichtangaben (außer MHD) müssen dem Kunden **vor Vertragsschluss** zugänglich sein
 - AGB-Stack mit Widerrufsbelehrung
 
-**Empfehlung:** Entweder Phase 1 strikt ohne Vorbestellung (Theke-only, kein Fernabsatz-Stack), oder mit Vorbestellung (dann AGB + Widerrufsbelehrung + vorvertragliche Info-Schicht). Die Entscheidung beeinflusst den Anwalts-Auftrag (→ SP-15).
+**Praktische Umsetzung:** Widerrufsrecht entfällt bei verderblicher Ware (§ 312g Abs. 2 Nr. 2 BGB) — ein Satz Hinweis reicht. AGB und Datenschutzerklärung braucht Silvio ohnehin (SP-15). LMIV-Pflichtangaben existieren fürs Etikett und werden auf der Webshop-Produktseite gespiegelt. Der Anwalts-Auftrag (SP-15) schließt Fernabsatz-Klauseln direkt mit ein.
 
 ## AGB
 

@@ -116,3 +116,12 @@ Single-Source-of-Truth für gefallene Entscheidungen in diesem Repo. Format wie 
 **Alternativen geprüft:** (a) BAFA nur für Dritte (Steuerberater, Anwalt) — verworfen, verschenkt Potenzial. (b) German berät ohne BAFA — Status quo, Aufwandsentschädigung unter Wert. (c) German verzichtet auf Vergütung — edel, aber nicht nachhaltig bei dem Umfang der Arbeit.
 **Affects:** D-03 (Revision-Vermerk), D-07 (Revision-Vermerk), `docs/plans/21-foerdermittel.md`, `docs/silvio-paket/offene-fragen.md` SP-21.
 **Revidierbar:** Ja — falls BAFA-Registrierung scheitert oder Silvio das formale Mandat nicht will.
+
+## D-12: Vorbestellungen ab Phase 1 — Fernabsatz ist kein separater Scope-Block
+
+**Datum:** 2026-04-12 (Session 10)
+**Context:** SP-14 war als offene "Scope-Entscheidung" angelegt: Theken-Verkauf only vs. Vorbestellung (Fernabsatz). Die Analyse in Doc 14 hatte Fernabsatz als eigenen Rechts-Stack dargestellt (§ 312c BGB, AGB, Widerrufsbelehrung, LMIV Art. 14). Bei genauem Hinsehen ist die Mehr-Komplexität minimal: Widerrufsrecht entfällt bei verderblicher Ware (§ 312g Abs. 2 Nr. 2 BGB — ein Satz), AGB und Datenschutzerklärung braucht Silvio ohnehin (SP-15), LMIV-Pflichtangaben existieren fürs Etikett und müssen nur online gestellt werden.
+**Entscheidung:** Vorbestellungen (WhatsApp, Webshop, Telefon) gehören in Phase 1. Kein separater Scope-Entscheidungs-Punkt. Webshop + Stripe + ggf. PayPal werden direkt mitgeplant. SP-14 ist aufgelöst.
+**Rationale:** Vorbestellungen erhöhen den Umsatz, verbessern Silvios Produktionsplanung (er weiß morgens, wie viel er vakuumieren muss), und die rechtliche Komplexität ist ein Absatz im AGB-Paket, nicht ein eigener Phase-Block. Das Overengineering der "Scope-Entscheidung" hat unnötig Unsicherheit erzeugt.
+**Affects:** SP-14 (aufgelöst), Doc 14 v2 (Fernabsatz-Abschnitt wird von "optional" auf "fest" umgestellt), Doc 22 Software-Tools (Phase-2-Block wird zu Phase-1-Block), SP-15 Anwalts-Auftrag (AGB-Paket schließt Fernabsatz-Klauseln direkt mit ein).
+**Revidierbar:** Ja — falls Silvio explizit keinen Online-Kanal will.

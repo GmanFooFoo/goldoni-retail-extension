@@ -14,9 +14,9 @@
 | 5 | **Einstechthermometer** | Kerntemperatur-Messung CCP1/CCP2 | Vermutlich vorhanden (Restaurant-Küche) | ~30 €, jährliche Kalibrierung | Doc 05, Küchenchef-Finding. |
 | 6 | **WiFi-Datenlogger** | Kontinuierliches Temperatur-Monitoring Kühlraum mit min/max und Alarm | Neu | 50–150 € | Doc 05 Finding 23 (Logistiker): Punktmessung 1×/Tag reicht nicht. |
 
-## Phase 2 — Fernabsatz / Online (abhängig von SP-14 Scope-Entscheidung)
+## Phase 1 — Vorbestellung & Online-Bezahlung (D-12)
 
-> **Achtung:** Diese Tools setzen voraus, dass Silvio Vorbestellungen annimmt und/oder online verkauft. Das ist ein **Fernabsatzvertrag** nach § 312c BGB und zieht AGB, Widerrufsbelehrung, vorvertragliche Informationspflichten und LMIV Art. 14 nach sich (Doc 14, Findings 3–5). SP-14 (Scope-Entscheidung) muss vorher fallen.
+> Vorbestellungen gehören in Phase 1 (D-12). Die rechtliche Mehr-Komplexität ist minimal: Widerrufsrecht entfällt bei verderblicher Ware (§ 312g Abs. 2 Nr. 2 BGB — ein Satz), AGB und Datenschutzerklärung braucht Silvio ohnehin (SP-15), LMIV-Pflichtangaben existieren fürs Etikett und werden online gespiegelt. Der Umsatz-Hebel (bessere Produktionsplanung, Vorbestellungen = sichere Chargen) überwiegt den Aufwand.
 
 | # | Tool | Zweck | Status | Kosten | Anmerkung |
 |---|---|---|---|---|---|
@@ -42,7 +42,7 @@ Phase 1 (sofort):
   Etikettendrucker + Thermometer ──→ Produktion starten
   Datenlogger ──→ Kühlketten-Monitoring
 
-Phase 2 (nach SP-14 Scope-Entscheidung):
+Phase 1 (parallel zum Theken-Start):
   Webshop aufsetzen ──→ Stripe-Konto ──→ ggf. PayPal
   AGB + Widerrufsbelehrung (SP-15) ──→ Webshop live
   LMIV Art. 14 Pflichtangaben ──→ Webshop live
@@ -54,7 +54,7 @@ Phase 2 (nach SP-14 Scope-Entscheidung):
 |---|---|---|---|
 | 1 | CRV-Kassensystem: TSE-fähig? Zwei Steuersätze? | Silvio (SP-06) | Doc 15 Finding 4 |
 | 2 | Q4Me: Preismodell, Funktionsumfang, passt es zu Silvios Größe? | German (Recherche) | Doc 05 HACCP |
-| 3 | Webshop: welche Plattform? Abhängig von SP-14 | German + Silvio | Doc 14 Finding 3 |
+| 3 | Webshop: welche Plattform? (Shopify, WooCommerce, Ecwid, Square) | German + Silvio | D-12, Doc 22 |
 | 4 | WhatsApp Business: hat Silvio das schon oder nutzt er privates WhatsApp? | Silvio | Doc 14 DSGVO |
 
 ---
