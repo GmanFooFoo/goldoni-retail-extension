@@ -1,10 +1,14 @@
 # Findings: Doc 02 – Wirtschaftlichkeitsrechnung
 
-**Quelle:** [Lead-Review CFO](../reviews/02-wirtschaftlichkeit-cfo.md)
-**Datum:** 2026-04-12
-**Status:** Offen — v2-Plan ausstehend
+**Quellen:**
+- [Lead-Review CFO](../reviews/02-wirtschaftlichkeit-cfo.md)
+- [Co-Review Steuerberaterin](../reviews/02-wirtschaftlichkeit-steuerberaterin.md)
+- [Co-Review Persona 11 Personal](../reviews/02-wirtschaftlichkeit-personal.md)
 
-Konsolidierte Findings aus dem CFO-Lead-Review. Jedes Finding benennt Auflösungs-Pfad, Owner und Impact. Findings sind die Grundlage für den späteren v2-Plan (`docs/plans/02-v2-plan.md`, noch nicht geschrieben).
+**Datum:** 2026-04-12
+**Status:** Offen — v2-Plan ausstehend. **22 Findings** (19 Lead + 3 Co-Reviews).
+
+Konsolidierte Findings aus Lead-Review CFO und Co-Reviews Steuerberaterin + Persona 11 Personal. Jedes Finding benennt Auflösungs-Pfad, Owner und Impact. Findings sind die Grundlage für den späteren v2-Plan (`docs/plans/02-v2-plan.md`, noch nicht geschrieben).
 
 ## Findings-Tabelle
 
@@ -29,6 +33,9 @@ Konsolidierte Findings aus dem CFO-Lead-Review. Jedes Finding benennt Auflösung
 | 17 | **Abschreibungs-Tabelle fehlt.** Doc 15 v2 hat die Rechnung (Vakuumierer 8 J., Etikettendrucker 3 J., Vorsteuer-Effekt). Muss nach Doc 02 propagiert werden, damit der Cash-Flow-Effekt sichtbar wird. | P3 | XS | CFO | — | Offen | Vorsteuer-Abzug aus Investitionen (285–665 €) ist Liquidität im Monat 1 — fehlt in der Cashflow-Betrachtung. |
 | 18 | **Saisonalität nicht berücksichtigt.** Sommerterrasse = mehr Restaurant, weniger Retail? Oder umgekehrt (Büros bestellen im Winter mehr Comfort Food)? Weihnachts-/Ostergeschäft für Geschenkeboxen? | P3 | S | CFO + Gastronom-Praktiker | — | Offen | Ohne Saisonalität ist die Jahresbetrachtung eine Gleichverteilung, die es in der Gastronomie nicht gibt. |
 | 19 | **Lieferdienst-Provision als Kostenblock fehlt (D-13).** Wolt/Uber nehmen 15–30 % Provision. Zwei Margen-Schienen nötig: Abholung (volle Marge) vs. Plattform-Lieferung (Marge minus Provision). Ohne Split ist der gewichtete DB falsch. Annahme für v2: 30 % der Bestellungen über Plattform, 70 % Abholung → gewichteter Provisions-Anteil ca. 4,5–9 % auf Gesamt-Umsatz. | P1 | S | CFO | D-13, SP-23 (Nachfrage-Split) | Offen | Bei 30 % Plattform-Anteil und 25 % Provision: ca. 4.000 €/Jahr weniger DB im realistischen Szenario. Verschärft den Effekt von F13 ("Gewinnbeitrag" ist kein Gewinn). |
+| 20 | **"Gewinnbeitrag" ist steuerlich der falsche Begriff (Co-Review Steuerberaterin).** Richtiger Term: Betriebsergebnis vor Steuern. Doc 02 v2 sollte EÜR-Struktur annehmen (Betriebseinnahmen netto − Betriebsausgaben = Betriebsergebnis), damit Silvios Steuerberater die Zahlen sofort versteht. | P2 | XS | Steuerberaterin | F1 (Netto/Brutto) | Offen | Sprachliche und strukturelle Korrektur. Ohne EÜR-Logik muss der Steuerberater die Zahlen erst übersetzen. |
+| 21 | **USt-Voranmeldung als laufender Prozess fehlt (Co-Review Steuerberaterin).** Silvio muss monatlich/vierteljährlich USt-VA abgeben. Retail-Umsätze (7 %) stehen den Vorsteuer-Abzügen gegenüber. Kein großer Aufwand, aber ein Prozess, der in der operativen Planung und im Cashflow-Timing berücksichtigt werden muss. Verspätungszuschlag bei Versäumnis: bis 10 % der Steuer (§ 152 AO). | P3 | XS | Steuerberaterin | — | Offen | Operativer Prozess, kein Kostenblock, aber Disziplin-Anforderung. |
+| 22 | **Personalkosten-Herleitung fehlt komplett (Co-Review Persona 11).** "1,00–1,50 €/Stk" ist nicht herleitbar. Korrekte Rechnung: Mindestlohn 13,90 €/h + AG-Nebenkosten (~20 % SV-pflichtig oder ~31 % Minijob-Pauschale) ÷ ~12 Stk/h = **1,42–1,54 €/Stk**. Drei Szenarien (Ehefrau/Externe/Silvio) müssen als Sensitivity in v2 stehen. Minijob ist bei ≤237 Stk/Monat volumenmäßig möglich (~20 h/Monat, 275 €/Monat < 603 € Grenze). AG-Gesamtkosten: ~335–366 €/Monat je nach Szenario. | P1 | M | Persona 11 + CFO | Doc 20 (Szenarien) | Offen | Personalkosten sind der zweitgrößte variable Kostenposten. Ohne Herleitung ist die Wirtschaftlichkeitsrechnung bei jeder Nachfrage (Steuerberater, Bank, BAFA) angreifbar. |
 
 ## Auflösungs-Gruppen
 
