@@ -29,11 +29,17 @@ Dein Steuerberater bestätigt das nur noch kurz. Der größte Stein ist weg, bev
 
 ---
 
-## Slide 3 — Vielleicht sogar Fördergeld
+## Slide 3 — Das Gute: es gibt Fördergeld
 
-Für Projekte wie dieses — ein Gastronom, der etwas Neues aufbaut — gibt es staatliche Zuschüsse und günstige Kredite. Landesbank, KfW, IHK-Beratungsförderung.
+Ich habe nachgeschaut, was es an staatlichen Zuschüssen gibt — und es gibt zwei Programme, die direkt passen:
 
-Ich schaue mir das in den nächsten Tagen an und sage dir, was konkret zu uns passt. Kann sein, dass das Projekt am Ende weniger aus deiner Tasche kostet, als es im ersten Moment aussieht.
+**Programm 1 — BAFA Beratungsförderung:** Wenn du einen Steuerberater oder Anwalt für das Retail-Projekt beauftragst, bekommst du **die Hälfte der Kosten zurück** — bis zu 1.750 €. Einzige Bedingung: der Berater muss beim BAFA registriert sein, und der Antrag muss **vor** dem Termin gestellt werden. Online, dauert eine Stunde.
+
+**Programm 2 — BW Beratungsrichtlinie:** Wenn wir einen Spezialisten für die Lebensmittelsicherheit brauchen (HACCP-Aufbau, Haltbarkeitstests), übernimmt das Land Baden-Württemberg **80 % der Kosten** — bis zu 1.920 € pro Jahr. Antrag über die IHK.
+
+**Zusammen:** Bis zu **3.670 € Zuschuss** für Beratung, die du sowieso brauchst. Dein Eigenanteil sinkt auf ca. 1.500–2.500 € für die gesamte externe Beratung (Steuerberater + Anwalt + Food-Safety).
+
+Meine Aufgabe: ich stelle die Anträge vor, du unterschreibst.
 
 ---
 
@@ -75,7 +81,7 @@ Summe deiner Zeit: etwa **ein halber Arbeitstag, über zwei bis drei Wochen vert
 
 ## Slide 6 — Meine Liste (du musst nichts davon selbst machen)
 
-- Fördermittel-Recherche und -Vergleich
+- Fördermittel-Anträge vorbereiten (BAFA + BW-Beratungsrichtlinie — bis zu 3.670 € Zuschuss)
 - Drei Mail-Texte vorbereiten
 - Labor-Vorauswahl für die Nährwert-Analyse (drei Angebote, ~400–600 € einmalig)
 - Etikett-Design koordinieren (ein Nachbar von mir macht das grafisch, kommt auch zu dir)
@@ -114,7 +120,7 @@ Bei diesen drei Punkten kann ich dir keine Empfehlung in einer Zeile geben. Für
 - Mail-Text für den Steuerberater
 - Entscheidungs-Zettel Start-Zeitpunkt
 - Mail-Text für den Anwalt
-- Kurzer Überblick Fördermittel (was konkret in Frage kommt)
+- Fördermittel-Übersicht mit konkreten Programmen und Zahlen (BAFA + BW-Beratungsrichtlinie)
 
 **Von dir in den nächsten Wochen zu mir:**
 
@@ -136,7 +142,7 @@ Ab da bauen wir Schritt für Schritt weiter. Kein Zeitdruck, kein Plan mit Meile
 - **Was raus ist:** der Satz "das hier ist kein Vertrag und keine Rechnung" aus dem Vor-Rework. Peer-to-peer heißt, man entschuldigt sich nicht für die Arbeit.
 - **Was raus ist:** "Wenn du heute nur eine Sache machen willst". Hand-Holding, nicht nötig. Silvio weiß selbst, wann er anfängt.
 - **Was raus ist:** Paragraphen-Referenzen ("§ 43", "Art. 19 BasisVO"). Inhalt bleibt, Nummerierung raus.
-- **Fördermittel:** erster Eintrag an prominenter Stelle (Slide 3). Auch wenn die Recherche erst noch läuft — die Chance-Dimension gehört vor die Arbeitsverteilung, nicht als Fußnote hinten.
+- **Fördermittel:** erster Eintrag an prominenter Stelle (Slide 3). Teaser durch Substanz ersetzt — konkrete Programme (BAFA + BW-Beratungsrichtlinie), konkrete Zahlen (bis 3.670 €), konkreter Eigenanteil. Die Chance-Dimension ist jetzt belastbar, nicht mehr "ich schaue mal".
 - **Germans operative Aufteilung:** Slide 6 ist neu gegenüber dem Rohmaterial. Dort steht explizit, was German abnimmt, damit Silvios Liste ehrlich kurz wirkt.
 
 ## Nicht in der Silvio-Version

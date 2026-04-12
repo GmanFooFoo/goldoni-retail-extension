@@ -68,6 +68,12 @@ Die Silvio-Aktionen sind nach Kontext gruppiert, damit ein Gespräch/Telefonat m
 | SP-19 | **Rezeptur-Klärung Phase-1-Produkte:** (a) Hat die Goldoni-Lasagne Béchamel oder nicht? Direkte Auswirkung auf Listerien-Risiko-Profil — Béchamel = feuchtes, proteinreiches Milieu = gehobenes Risiko; ohne Béchamel sinkt die Risiko-Kategorie erheblich. (b) Genaue Rezepturen aller vier Phase-1-Produkte (Lasagne, Sugo, Ragù, Parmigiana) in Gramm-Angaben fixieren — Voraussetzung für Nährwert-Berechnung, QUID-%, Allergen-Liste, MHD-Validierung und Etikett-Druck. Ohne fixierte Rezepturen sind 8+ Findings nicht auflösbar. | Doc 04 F18, Doc 05 F2/F18/F20, alle Béchamel-Referenzen in Reviews | P1 | Bei Silvio (WhatsApp 2026-04-12, Frage nach Béchamel/Mehl/Ei) | — |
 | SP-20 | **Sugo als Standalone-Produkt + Geschenkebox-Konzept:** German sieht Potenzial für ein reines Sugo-Produkt (500g Vakuum) plus eine Geschenkebox "2× Sugo + 500g Rummo-Nudeln". Vorteil: kein Koch-Aufwand für den Nudel-Teil, kein HACCP-kritischer Prozess für Trockennudeln, Cross-Selling-Effekt. Silvio-Frage: (a) Will Silvio das als Produkt anbieten? (b) Welche Sugos kommen in Frage (Pomodoro, Arrabbiata, Bolognese)? (c) Rummo oder anderer Premium-Nudel-Lieferant? Wichtig: Trockennudeln als Handelsware im Paket verändern die LMIV-Kennzeichnung (Zutatenliste + Nährwerte der Nudeln separat oder als Gesamtpaket?). | German (Idee Session 10), Cross-Ref Doc 04, Doc 08 | P2 | Offen | — |
 
+### Block 7 — Fördermittel
+
+| # | Frage/Aktion | Quelle | Prio | Status | Ergebnis |
+|---|---|---|---|---|---|
+| SP-21 | **BAFA-Antrag vor nächstem Beratertermin stellen:** Vor dem Steuerberater-Termin (SP-05) oder dem Anwalts-Termin (SP-15) den BAFA-Förderantrag online stellen. Reihenfolge zwingend: erst Antrag, dann Beratung. Prüfen, ob Silvios Steuerberater/Anwalt BAFA-registriert ist. Zuschuss: bis 50 % der Beratungskosten, max. 1.750 €. Programm läuft bis 31.12.2026. | Doc 21 Fördermittel | P1 | In Vorbereitung (German recherchiert BAFA-Berater-Status) | — |
+
 ## Workflow
 
 **Eingang (Silvio → German → Repo):**
