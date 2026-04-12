@@ -2,7 +2,7 @@
 
 **Quelle:** [Lead-Review Lebensmittelrechtler](../reviews/14-recht-lebensmittelrechtler.md) inkl. Regulatorik-Nachtrag Dr. Maldini (Persona 10), [Co-Review Behördenkontrolleur](../reviews/14-recht-behoerdenkontrolleur.md), [Co-Review Steuerberaterin](../reviews/14-recht-steuerberaterin.md)
 **Datum:** 2026-04-11 (Lead), 2026-04-12 (Co-Reviews)
-**Status:** Co-Reviews abgeschlossen. Alle drei Reviewer sagen **"Rework erforderlich"**. Behördenkontrolleur bestätigt die 22 Lead-Findings und ergänzt Melde-Schwellen-Definition und Begehungs-Vorbereitung. Steuerberaterin ergänzt die steuerliche Dimension der Aufbewahrungs-Fristen (Hauptpunkt: differenzierte Tabelle mit "Maximum"-Logik).
+**Status:** **Doc 14 v2 geschrieben** (2026-04-12). Von 25 Findings sind 22 in Doc 14 v2 aufgelöst (neue Kapitel: § 58 LFGB, ProdHaftG-Novelle, Versicherungs-Deckungs-Profil, Rückruf-Prozess mit Tabelle und Vorlagen, Melde-Schwellen, UWG/Claims, Gewährleistung, Fernabsatz, AGB, DSGVO, Aufbewahrungs-Tabelle differenziert, Risiko-Matrix, Rechtsform, Cross-Refs). 3 Findings bleiben offen (abhängig von SP-Aktionen oder externen Docs).
 
 Konsolidierte Findings analog `03-findings-veterinaeramt.md`, `15-findings-steuer.md`, `05-findings-haccp.md` und `04-findings-lmiv.md`. Gruppen-Logik einheitlich: A = Silvio/extern, B = eigenständige Arbeits-Blöcke im Repo, C = Doc-Rewrite.
 
