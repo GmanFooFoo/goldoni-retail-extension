@@ -21,7 +21,7 @@ Der Deep-Dive hat sechs Findings hervorgebracht, die das bisherige Repo-Modell a
 
 ## Gruppen-Logik
 
-Analog zu den bestehenden Findings-Dateien (`03-findings.md` etc.):
+Analog zu den bestehenden Findings-Dateien (`03-findings-veterinaeramt.md` etc.):
 
 - **Gruppe A — Aktionen im Silvio-Paket:** keine. Dieser Deep-Dive hat keine neuen SP-Einträge erzeugt, weil die Findings strukturell sind (Rollout, Ton, Format, Fördermittel) und nicht durch Silvio-Aktionen aufgelöst werden, sondern durch Repo-interne Arbeit.
 - **Gruppe B — Eigenständige Arbeits-Blöcke im Repo:**

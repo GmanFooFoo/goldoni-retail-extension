@@ -6,7 +6,7 @@
 
 > **Nachtrag 2026-04-11:** Seit 1. Januar 2026 gilt laut Steueränderungsgesetz 2025 ein dauerhafter 7 %-Umsatzsteuersatz auf Speisen in der Gastronomie (Bundestag 04.12.2025). Das löst die MwSt-Kernfrage aus Finding 1 und die Quantifizierungs-Frage aus Finding 9 auf. Die beiden Einträge stehen weiter in der Tabelle, sind aber als "aufgelöst, Silvio-Verifikation beim Steuerberater-Kontakt" markiert, damit die Historie nachvollziehbar bleibt. Die übrigen Findings (Gewerbeanzeige, KassenSichV, Kontenrahmen, Abschreibung, Verderb-Buchung, Vorsteuer, Cross-Refs) sind nicht betroffen.
 
-Konsolidierte Findings aus dem Lead-Review. Format und Struktur analog `03-findings.md`. Jedes Finding benennt Auflösungs-Pfad, Owner und Impact. Findings sind die Grundlage für den späteren v2-Plan (`docs/plans/15-v2-plan.md`, noch nicht geschrieben) und für Cross-Drift-Einträge in `inconsistencies.md`.
+Konsolidierte Findings aus dem Lead-Review. Format und Struktur analog `03-findings-veterinaeramt.md`. Jedes Finding benennt Auflösungs-Pfad, Owner und Impact. Findings sind die Grundlage für den späteren v2-Plan (`docs/plans/15-v2-plan.md`, noch nicht geschrieben) und für Cross-Drift-Einträge in `inconsistencies.md`.
 
 ## Findings-Tabelle
 
@@ -28,7 +28,7 @@ Konsolidierte Findings aus dem Lead-Review. Format und Struktur analog `03-findi
 
 ## Auflösungs-Gruppen
 
-Die 13 Findings zerfallen in drei Gruppen, die unterschiedliche Arbeits-Stränge auslösen. Die Zuordnung folgt der gleichen Logik wie bei Doc 03 (`03-findings.md`), damit Session 5+ die Gruppen repo-weit einheitlich handhabt.
+Die 13 Findings zerfallen in drei Gruppen, die unterschiedliche Arbeits-Stränge auslösen. Die Zuordnung folgt der gleichen Logik wie bei Doc 03 (`03-findings-veterinaeramt.md`), damit Session 5+ die Gruppen repo-weit einheitlich handhabt.
 
 **Gruppe A — Aktionen im Silvio-Paket** (`docs/silvio-paket/offene-fragen.md`, Block 2): Findings 1/5/8/10/11 → SP-05 (Steuerberater-Briefing per E-Mail mit vier Kern-Fragen, Konten, Abschreibung, Vorsteuer, Verderb), 4 → SP-06 (Kassenhersteller-Check TSE + Zwei-Steuersatz), 3 → SP-03 (Gewerbeanzeige-Erweiterung Stuttgart). Finding 7 (Briefing-Text) ist eine Vor-Arbeit von Gruppe C (Claude), die den Input für SP-05 liefert.
 

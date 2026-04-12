@@ -4,7 +4,7 @@
 **Datum:** 2026-04-11
 **Status:** In Klärung — Co-Reviews durch Küchenchef, Logistiker, Behördenkontrolleur ausstehend.
 
-Konsolidierte Findings analog `03-findings.md` und `15-findings.md`. Gruppen-Logik einheitlich: A = Silvio/extern, B = eigenständige Arbeits-Blöcke im Repo, C = Doc-Rewrite.
+Konsolidierte Findings analog `03-findings-veterinaeramt.md` und `15-findings-steuer.md`. Gruppen-Logik einheitlich: A = Silvio/extern, B = eigenständige Arbeits-Blöcke im Repo, C = Doc-Rewrite.
 
 ## Findings-Tabelle
 
@@ -12,7 +12,7 @@ Konsolidierte Findings analog `03-findings.md` und `15-findings.md`. Gruppen-Log
 |---|---|---|---|---|---|---|---|
 | 1 | Gefahrenanalyse fehlt als Fundament (VO 852/2004 Art. 5 Abs. 2 a, Entscheidungsbaum Codex Alimentarius). | P1 | L | Lebensmittelrechtler | Ja, Gate nach Rollout-Schritt 2 | Offen | Ohne Analyse stehen die CCPs ohne Begründung; Vetamt kann Auswahl und Vollständigkeit bei Erstbegehung in Frage stellen. |
 | 2 | MHD-Validierung fehlt — 7 Tage Lasagne, 8 Tage Ragù sind Schätzungen. Listeria-Risiko bei Béchamel + Vakuum + Kühlung. | P1 | L | Lebensmittelrechtler + Küche (Test-Protokoll) oder Labor | Ja, Gate nach Rollout-Schritt 4 (Haltbarkeitstests) | Offen | Unvalidiertes MHD ist persönliche Haftungs-Quelle § 58 LFGB; Cross-Ref inconsistencies #7, Doc 03 Finding 3. |
-| 3 | Rückruf-Prozess fehlt (Art. 19 VO 178/2002). Schreibort jetzt entschieden (siehe 14-findings.md #6): Doc 14 = Haftungs-/Krisen-Prozess, Doc 05 = Hygiene-/Chargen-Prozess. | P1 | S | Lebensmittelrechtler | Ja, vor erstem Verkauf | Offen | Cross-Ref Doc 03 Finding 1 und Doc 14 Finding 6. |
+| 3 | Rückruf-Prozess fehlt (Art. 19 VO 178/2002). Schreibort jetzt entschieden (siehe 14-findings-recht-haftung.md #6): Doc 14 = Haftungs-/Krisen-Prozess, Doc 05 = Hygiene-/Chargen-Prozess. | P1 | S | Lebensmittelrechtler | Ja, vor erstem Verkauf | Offen | Cross-Ref Doc 03 Finding 1 und Doc 14 Finding 6. |
 | 4 | Rohware-Eingangskontrolle fehlt komplett (Akzeptanz-Kriterien, Temperaturmessung, Lieferanten-Spezifikationen). | P1 | M | Lebensmittelrechtler + Küchenchef (Co-Review) | Ja, Teil der Gefahrenanalyse | Offen | Vakuum-Produktion verträgt keine Fehlertoleranz in der Rohware; ohne Wareneingangs-Kontrolle versagt die Ketten-Logik bei lieferanten-seitiger Kontamination. |
 | 5 | Reaktion auf geschwollenen Beutel unvollständig ("sofort entsorgen" statt Charge sperren, Rückstellproben prüfen, ggf. Rückruf). | P1 | S | Lebensmittelrechtler | Ja, vor erstem Verkauf | Offen | Geschwollener Beutel ist das deutlichste Symptom für Clostridium-Wachstum — Einzel-Entsorgung lässt das Systemrisiko ungeprüft. |
 | 6 | CCP1-Grenzwert Ein-Stufen ("≤ 10 °C in 2 h") statt Zwei-Stufen-Regel. | P2 | XS | Lebensmittelrechtler (Korrektur) | — | Offen | B. cereus-Sporen-Keimbereich offen gelassen; fachlich und rechtlich nicht haltbar. |

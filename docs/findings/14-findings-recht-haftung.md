@@ -4,7 +4,7 @@
 **Datum:** 2026-04-11
 **Status:** In Klärung — Co-Reviews durch Behördenkontrolleur (Persona 04) und Steuerberaterin (Persona 03, für Aufbewahrungs-Fristen-Kopplung zu Doc 15) ausstehend.
 
-Konsolidierte Findings analog `03-findings.md`, `15-findings.md`, `05-findings.md` und `04-findings.md`. Gruppen-Logik einheitlich: A = Silvio/extern, B = eigenständige Arbeits-Blöcke im Repo, C = Doc-Rewrite.
+Konsolidierte Findings analog `03-findings-veterinaeramt.md`, `15-findings-steuer.md`, `05-findings-haccp.md` und `04-findings-lmiv.md`. Gruppen-Logik einheitlich: A = Silvio/extern, B = eigenständige Arbeits-Blöcke im Repo, C = Doc-Rewrite.
 
 ## Findings-Tabelle
 
@@ -55,7 +55,7 @@ Reihenfolge:
 
 ## Cross-Drift in inconsistencies.md
 
-1. **Finding 6 (Rückruf-Prozess Schreibort)** löst den offenen Punkt aus `05-findings.md` Finding 3 auf. Entscheidung: Doc 14 = Haftungs-/Krisen-Prozess, Doc 05 = Hygiene-/Chargen-Prozess. Eintrag in `inconsistencies.md` entweder als neuer aufgelöster Punkt oder als Kommentar an #7. Präferenz: neuer Eintrag #11 "Schreibort Rückruf-Prozess aufgelöst" mit Strike-through-Bezug auf Doc 05 Finding 3.
+1. **Finding 6 (Rückruf-Prozess Schreibort)** löst den offenen Punkt aus `05-findings-haccp.md` Finding 3 auf. Entscheidung: Doc 14 = Haftungs-/Krisen-Prozess, Doc 05 = Hygiene-/Chargen-Prozess. Eintrag in `inconsistencies.md` entweder als neuer aufgelöster Punkt oder als Kommentar an #7. Präferenz: neuer Eintrag #11 "Schreibort Rückruf-Prozess aufgelöst" mit Strike-through-Bezug auf Doc 05 Finding 3.
 2. **Findings 3, 4, 11 (Fernabsatz und WhatsApp-DSGVO)** schaffen einen neuen Cross-Ref **Doc 09 ↔ Doc 14**. Neuer Eintrag #12: "Doc 09 nennt WhatsApp-Broadcast ohne Fernabsatz- und DSGVO-Kontext, Doc 14 muss den Kanal rechtlich einhängen; Cross-Review Doc 09 folgt".
 3. **Finding 12 (UWG-Claims)** schafft einen weiteren Cross-Ref **Doc 08 ↔ Doc 14** und **Doc 09 ↔ Doc 14** (Claims werden dort geboren). Neuer Eintrag #13: "UWG-Claims-Risiko Doc 08/09 ↔ Doc 14 — Claims-Liste und Beleg-Anforderungen fehlen".
 4. **Finding 14 (Aufbewahrungs-Fristen)** koppelt an **Doc 15 Steuer**. Neuer Eintrag #14: "Dokumentations-Aufbewahrungs-Fristen widersprüchlich — Doc 14 pauschal 3 Jahre, Doc 15 10 Jahre (§ 147 AO), Doc 05 HACCP ohne klare Frist".

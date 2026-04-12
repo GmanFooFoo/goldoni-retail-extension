@@ -4,7 +4,7 @@
 **Datum:** 2026-04-11
 **Status:** In Klärung — Co-Reviews durch Behördenkontrolleur und Küchenchef ausstehend.
 
-Konsolidierte Findings analog `03-findings.md`, `15-findings.md` und `05-findings.md`. Gruppen-Logik einheitlich: A = Silvio/extern, B = eigenständige Arbeits-Blöcke im Repo, C = Doc-Rewrite.
+Konsolidierte Findings analog `03-findings-veterinaeramt.md`, `15-findings-steuer.md` und `05-findings-haccp.md`. Gruppen-Logik einheitlich: A = Silvio/extern, B = eigenständige Arbeits-Blöcke im Repo, C = Doc-Rewrite.
 
 ## Findings-Tabelle
 
