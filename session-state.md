@@ -1,7 +1,7 @@
 # Session State — Goldoni Retail Extension
 
 **Aktuelles Datum:** 2026-04-12
-**Letzte aktive Session:** Session 10 (German + Claude, 2026-04-12) — aktiv
+**Letzte aktive Session:** Session 10 (German + Claude, 2026-04-12) — abgeschlossen
 **Status:** Stufe 3 Deep Review Gate-kritische Sequenz **vollständig reviewt** (Lead + Co-Reviews). Session 9 hat den Vor-Block aus SESSION-PROMPT-NEXT komplett abgearbeitet (Persona 11 "Personal-Markt & Arbeitsrecht Retail", Doc 20 Szenarien A/B/C, assignments-Erweiterung, Rollout-Plan Vormittags-Fenster + einfacher Koch, Persona 00 Red-Flags, CLAUDE.md-Personas-Liste) und anschließend **Variante A durchgezogen**: die vier Session-8-Rohmaterial-Artefakte (Briefing-Notiz, SP-05 Steuerberater, SP-13 Launch-Timing, SP-15 Anwalt) sind unter dem Chance-Modus-Leitfaden neu geschrieben — Slide-Vorstufe-Format, peer-to-peer, gute Nachrichten zuerst, Germans operatives Angebot explizit in Drei-Spalten-Tabelle, Kontroll-Szene-Gegenteil-Garantie bei Behörden-Kontakten, keine Paragraphen im Silvio-facing Text. Zwei zusätzliche Konsistenz-Blöcke nicht auf dem Session-Plan: D-07 revidiert (kein Investment — Aufwandsentschädigung bei Umsetzung, `beteiligung.md` gelöscht) und D-09/D-10 im Decision-Log nachgetragen (Schreibort Rückruf, Silvio-Paket als Artefakt).
 **Aktuelle Phase:** **A — aktiv** (siehe Lebenszyklus unten)
 
@@ -17,7 +17,7 @@ Jede Maßnahme, die eine Session einführt, muss die Frage bestehen: *"Brauchen 
 
 ## Aktive Sessions
 
-**Session 10** (German + Claude, 2026-04-12) — aktiv. Co-Reviews aller fünf Gate-Docs abgeschlossen (9 Reviews, 27 neue Findings, 109 gesamt). Rule-9-Nachzug Doc 03 und Doc 05 erledigt (Listerien-Grenzwert ab 1.7.2026, Registrierungs-Portal-Korrektur). Silvio-Paket auf 20 Einträge gewachsen (SP-19 Béchamel-Frage bei Silvio, SP-20 Geschenkebox-Idee). Findings-Dateien umbenannt mit sprechenden Suffixen. README und Housekeeping aktualisiert.
+Keine aktive Session. Session 10 (2026-04-12) abgeschlossen. Session-Report: `docs/reports/2026-04-12-goldoni-c.md`. Die nächste Session sollte zuerst `SESSION-PROMPT-NEXT.md` lesen.
 
 ## Repo-Ownership
 
