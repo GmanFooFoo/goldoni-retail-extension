@@ -87,6 +87,18 @@ Bei Silvios Phase-1-Investition (Vakuumierer 1.500–3.500 €, ggf. Etikettendr
 
 **Wird relevant in Phase 2**, wenn Silvio einen Schockfroster (3.000–8.000 €) oder eine Kühlraum-Erweiterung plant. Bei einem 8.000-€-Darlehen wären 800 € Tilgungszuschuss plus Zinsersparnis das Ergebnis — dann lohnt sich der Antrag.
 
+## German als BAFA-geförderter Berater (D-11)
+
+Germans eigene Beratungsarbeit für Silvio (IT-/Digitalisierungs-/Organisationsberatung) ist über BAFA förderfähig — vorausgesetzt:
+
+1. **German registriert sich als BAFA-Berater** ([BAFA-Beraterregistrierung](https://www.bafa.de/DE/Wirtschaft/Beratung_Finanzierung/Unternehmensberatung/unternehmensberatung_node.html))
+2. **Antrag wird vor der Beratung gestellt** (Reihenfolge zwingend)
+3. **Die Beratung ist konzeptionell/strategisch**, nicht operative Umsetzung (z. B. "Digitalisierungsstrategie für Retail-Erweiterung", "Organisationsberatung Geschäftsfeldentwicklung", nicht "ich baue dir eine Website")
+
+**Was das für Silvio bedeutet:** German wird fair vergütet, Silvio bekommt 50 % der Kosten (max. 1.750 €) vom BAFA zurück. Die Beziehung bleibt freundschaftlich, das formale Mandat ist Papier für die Förderung.
+
+**Nächster Schritt für German:** BAFA-Berater-Registrierung prüfen und ggf. durchführen. Dann: vor dem nächsten substanziellen Beratungsblock den BAFA-Antrag stellen.
+
 ## Nicht realistisch für Silvio
 
 | Programm | Warum nicht |

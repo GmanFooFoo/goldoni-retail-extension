@@ -29,10 +29,11 @@ Single-Source-of-Truth für gefallene Entscheidungen in diesem Repo. Format wie 
 **Datum:** 2026-04-11
 **Context:** In Session 1 wurde zunächst eine "Marcello"-Persona aufgesetzt als Berater-Figur, die Silvio fachlich begleitet. Beim Überarbeiten des README fiel auf, dass das Framing falsch ist: German ist Silvios Freund, kein Berater mit eigener Persona.
 **Entscheidung:** Marcello-Persona komplett gestrichen. Alles, was Silvio sieht, ist in Germans Stimme und als Germans Arbeit ausgewiesen. Claude unterstützt im Hintergrund, tritt aber nicht als eigene Figur auf.
-**Rationale:** Eine Berater-Persona hätte eine professionelle Distanz erzeugt, die weder Germans Verhältnis zu Silvio entspricht noch Silvios Erwartung an einen freundschaftlichen Austausch. Freundschaftsdienst ≠ Beratungsmandat.
+**Rationale:** Eine Berater-Persona hätte eine professionelle Distanz erzeugt, die weder Germans Verhältnis zu Silvio entspricht noch Silvios Erwartung an einen freundschaftlichen Austausch.
 **Alternativen geprüft:** (a) Marcello als "Chief of Staff"-Figur behalten — verworfen. (b) Claude als namentliche Persona — verworfen, widerspricht Germans Autorschaft.
 **Affects:** `CLAUDE.md` Rollen-Section, `README.md`, `docs/backlog/repo-backlog.md`, `docs/session-handoff.md` (ehemals `how-to-use-marcello.md`), Memory `project_no_marcello_persona.md`.
-**Revidierbar:** Nein, Grundprinzip der Beziehung German ↔ Silvio.
+**Revidiert in Session 10:** Die Aussage "Freundschaftsdienst ≠ Beratungsmandat" wird durch D-11 (BAFA-Förderung) differenziert: die Beziehung bleibt freundschaftlich, aber für die BAFA-Förderung kann German als formal beauftragter Berater auftreten. Marcello bleibt gestrichen — German tritt unter eigenem Namen auf.
+**Revidierbar:** Marcello-Streichung nein. Formales Mandat-Framing für BAFA: ja, siehe D-11.
 
 ## D-04: 9 Review-Personas als Analyse-Linsen, nicht Agent-Files
 
@@ -72,7 +73,8 @@ Single-Source-of-Truth für gefallene Entscheidungen in diesem Repo. Format wie 
 **Rationale:** Freundschaftsdienst und Eigen-Investment-Interesse sind unvereinbar. Die Angel-Optik aus Session 2b (`beteiligung.md`-Gerüst mit "Rückzahlungs-Modell") war eine frühe Fehl-Framing — sie hat eine Investment-Frage gestellt, die es nicht gibt. P99 stellt die richtige Frage: nicht "wie strukturiere ich mein Investment", sondern "wie wird der zusätzliche Zeiteinsatz fair anerkannt, ohne die Freundschaft zu kippen".
 **Alternativen geprüft:** (a) Offene Investment-Struktur mit vier Dimensionen (Session 2b) — verworfen, falsches Framing. (b) Rein ideeller Freundschaftsdienst ohne jede finanzielle Komponente — bleibt als Default-Pfad gültig, falls Silvio umsetzt aber keine zusätzliche Unterstützung annimmt. (c) Versteckte Angel-Struktur mit späterem Disclosure — verworfen, Risiko für Freundschaft zu hoch.
 **Affects:** `docs/personas/Persona 99 – German – Freund und Berater.md` trägt die Haltung. `docs/beteiligung.md` in Session 9 gelöscht (war obsoletes Gerüst aus Session 2b).
-**Revidierbar:** Nein. Aufwandsentschädigungs-Rahmen und Transparenz-Prinzip sind Grundhaltung.
+**Revidiert in Session 10:** Durch D-11 (BAFA-Förderung) wird eine formale Beratungs-Vergütung möglich, die über Selbstkosten-Aufwandsentschädigung hinausgeht — aber nur im Rahmen der BAFA-förderfähigen Beratungskosten (max. 3.500 € pro Beratung, davon 50 % Zuschuss). Die Grundhaltung "kein Investment, keine Rendite" bleibt. German wird fair vergütet, BAFA zahlt die Hälfte, Silvio zahlt den Eigenanteil.
+**Revidierbar:** Grundhaltung (kein Investment) nein. Vergütungsrahmen durch D-11 erweitert.
 
 ## D-08: Lebenszyklus Phase A / B / C
 
@@ -103,3 +105,14 @@ Single-Source-of-Truth für gefallene Entscheidungen in diesem Repo. Format wie 
 **Alternativen geprüft:** (a) Status quo mit Silvio in Wer-Spalten — verworfen, Strukturfehler. (b) Mehrere Silvio-Listen pro Doc — verworfen, fragmentiert den Ausgang an Silvio.
 **Affects:** `CLAUDE.md` Rule 10, `docs/silvio-paket/offene-fragen.md` (SP-01 bis SP-18 in Session 7 angelegt), alle Findings- und Inconsistency-Tabellen ab Session 7, `docs/session-handoff.md` (Feedback-Workflow).
 **Revidierbar:** Nein, Grundprinzip der Rollen-Trennung.
+
+## D-11: BAFA-Förderung für Germans Beratungsleistung — formales Mandat neben Freundschaft
+
+**Datum:** 2026-04-12 (Session 10)
+**Context:** Die Fördermittel-Recherche (Doc 21) hat gezeigt, dass die BAFA-Förderung "Unternehmensberatung für KMU" explizit auch IT-Beratung, Digitalisierungsstrategie und organisatorische Beratung abdeckt. German ist Berater mit IT-/Consulting-Hintergrund. Die Frage war, ob Germans eigene Beratungsarbeit für Silvio über BAFA laufen kann — was ein formales Beratungsmandat voraussetzt und damit D-03 ("Freundschaftsdienst ≠ Beratungsmandat") und D-07 ("Aufwandsentschädigung auf Selbstkosten-Basis") berührt.
+**Entscheidung:** German kann sich als BAFA-registrierter Berater eintragen und Silvio formal beraten. Die Beziehung bleibt freundschaftlich, das formale Mandat ist Voraussetzung für die BAFA-Förderung. Silvio bekommt 50 % der Beratungskosten (max. 1.750 €) vom Staat zurück. German wird fair vergütet statt auf Selbstkosten-Basis. D-03 und D-07 werden entsprechend revidiert (Revision-Vermerke dort).
+**Rationale:** Die BAFA-Förderung löst das Spannungsfeld zwischen "Kumpel hilft gratis" und "Berater mit Rechnung": Silvio zahlt weniger als ohne Förderung, German wird professionell entlohnt, der Staat trägt die Differenz. Die Freundschaft bleibt intakt, weil das formale Mandat nur Papier fürs BAFA ist — die Art der Zusammenarbeit ändert sich nicht.
+**Voraussetzungen:** (a) German registriert sich als Berater beim BAFA. (b) Antrag wird **vor** der Beratung gestellt. (c) Beratung ist "konzeptionelle Einzelberatung" (strategisch, nicht operative Umsetzung). (d) Silvio ist als KMU förderberechtigt (ja, Einzelrestaurant < 250 Mitarbeiter, < 50 Mio. Umsatz).
+**Alternativen geprüft:** (a) BAFA nur für Dritte (Steuerberater, Anwalt) — verworfen, verschenkt Potenzial. (b) German berät ohne BAFA — Status quo, Aufwandsentschädigung unter Wert. (c) German verzichtet auf Vergütung — edel, aber nicht nachhaltig bei dem Umfang der Arbeit.
+**Affects:** D-03 (Revision-Vermerk), D-07 (Revision-Vermerk), `docs/plans/21-foerdermittel.md`, `docs/silvio-paket/offene-fragen.md` SP-21.
+**Revidierbar:** Ja — falls BAFA-Registrierung scheitert oder Silvio das formale Mandat nicht will.
