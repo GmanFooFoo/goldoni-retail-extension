@@ -2,7 +2,7 @@
 
 **Quelle:** [Lead-Review Lebensmittelrechtler](../reviews/04-lmiv-lebensmittelrechtler.md) inkl. Regulatorik-Nachtrag Dr. Maldini (Persona 10), [Co-Review Behördenkontrolleur](../reviews/04-lmiv-behoerdenkontrolleur.md), [Co-Review Küchenchef](../reviews/04-lmiv-kuechenchef.md)
 **Datum:** 2026-04-11 (Lead), 2026-04-12 (Co-Reviews)
-**Status:** Co-Reviews abgeschlossen. Alle drei Reviewer sagen **"Rework erforderlich"**. Behördenkontrolleur: Risiko-Abdeckung 1 (kein einziges Risiko benannt), Musterwerte als Ablehnungsgrund, Etikett-Validierungs-Protokoll fehlt. Küchenchef: Rezeptur-Standardisierung als Voraussetzung, Aufwärm-Test im Haushaltsofen, saisonale Zutatenwechsel als blinder Fleck.
+**Status:** **Doc 04 v2 geschrieben** (2026-04-12). Arbeitsannahme: Lasagne ohne Béchamel, ohne Ei (SP-19). Referenz-Zutatenverzeichnis, QUID-Tabelle, Primärzutat-Herkunft-Tabelle, Los-Kennzeichnung, Rezeptur-Änderungs-Prozess, Etikett-Freigabe-Checkliste, Sanktions-Tabelle, PPWR-Abschnitt, Aufwärm-Test-Anforderung. Von 23 Findings sind 19 in v2 aufgelöst, 4 bleiben offen (abhängig von SP-10 Lieferanten-Herkunft, SP-11 Labor, SP-19 Gramm-Angaben).
 
 Konsolidierte Findings analog `03-findings-veterinaeramt.md`, `15-findings-steuer.md` und `05-findings-haccp.md`. Gruppen-Logik einheitlich: A = Silvio/extern, B = eigenständige Arbeits-Blöcke im Repo, C = Doc-Rewrite.
 
