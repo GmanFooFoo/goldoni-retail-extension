@@ -2,7 +2,7 @@
 
 **Quelle:** [Lead-Review Lebensmittelrechtler](../reviews/05-haccp-lebensmittelrechtler.md), [Co-Review Behördenkontrolleur](../reviews/05-haccp-behoerdenkontrolleur.md), [Co-Review Küchenchef](../reviews/05-haccp-kuechenchef.md), [Co-Review Logistiker](../reviews/05-haccp-logistiker.md)
 **Datum:** 2026-04-11 (Lead), 2026-04-12 (Co-Reviews + Rule-9-Nachtrag)
-**Status:** Co-Reviews abgeschlossen. Behördenkontrolleur sagt **"Stopp — nicht genehmigungsfähig"** (fehlende Gefahrenanalyse, verschärfter Listerien-Grenzwert ab 1.7.2026). Küchenchef und Logistiker sagen "Rework". Rule-9-Fund: ab 1.7.2026 gilt für Listerien in verzehrfertigen Lebensmitteln auf Handelsebene "nicht nachweisbar in 25g" (verschärft vs. bisheriger 100 KBE/g-Toleranz).
+**Status:** **Doc 05 v2 geschrieben** (2026-04-12). Arbeitsannahme: Lasagne ohne Béchamel, ohne Ei (SP-19). Vollständige Gefahrenanalyse, 4 CCPs (CCP1 Zwei-Stufen-Abkühlung, CCP2 ≤4 °C, CCP3 Drei-Stufen-Kühlung, CCP4 Übergabe neu), Rohware-Eingangskontrolle, Vormittags-Produktionsfenster, FIFO, Rückstellproben, Reinigungsplan, Chargen-Protokoll mit Lieferschein-Kopplung, geschwollener-Beutel-Prozedur (Charge sperren statt einzeln entsorgen), Strom-Ausfall-Plan, Lagerkapazitäts-Rechnung, Schulungsnachweise. Listerien-Grenzwert ab 1.7.2026 adressiert. Von 28 Findings sind 24 in v2 aufgelöst, 4 bleiben offen (MHD-Validierung durch Labor, Sensorik-Test, Lagerkapazität [TBD-Silvio], Kältetechniker-Kontakt).
 
 Konsolidierte Findings analog `03-findings-veterinaeramt.md` und `15-findings-steuer.md`. Gruppen-Logik einheitlich: A = Silvio/extern, B = eigenständige Arbeits-Blöcke im Repo, C = Doc-Rewrite.
 
