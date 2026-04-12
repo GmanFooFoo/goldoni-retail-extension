@@ -56,22 +56,60 @@ Analyse-Linsen, keine Narrative. Neue Personas rollen-basiert ohne Personennamen
 
 Reviews folgen dem Standard-Format aus [`CLAUDE.md`](CLAUDE.md#review-standard-format). Gate-kritische Sequenz (5 Docs, 14 Reviews, 109 Findings) Lead + Co fertig + v2-Rewrites fertig. **Doc 02 Wirtschaftlichkeit** (Session 11): Lead + 2 Co fertig, 22 Findings, Cashflow-Projektion, v2-Plan. Sekundär-Reviews Doc 01/06–13/16–19 stehen aus.
 
-## Stand
+## Stand pro Dokument
 
-| Stufe | Thema | Status |
+Pipeline: **v1** (Original) → **Lead-Review** → **Co-Reviews** → **Findings** → **v2-Plan** → **v2-Rewrite** → ✅
+
+| # | Dokument | Lead | Co | Findings | v2-Plan | v2 | Blocker |
+|---|---|---|---|---|---|---|---|
+| 01 | Business Case Übersicht | 🔲 | — | — | — | — | — |
+| **02** | **Wirtschaftlichkeitsrechnung** | **✅ CFO** | **✅ Steuer, Personal** | **22** | **✅** | **🔲** | SP-19, SP-22 |
+| 03 | Veterinäramt Stuttgart | ✅ Lebensmittelrecht | ✅ Behörde + R9 | 16 | ✅ | ✅ (14 gelöst) | — |
+| 04 | LMIV-Kennzeichnung | ✅ Lebensmittelrecht + R9 | ✅ Behörde, Küche | 23 | — | ✅ (19 gelöst) | SP-10 |
+| 05 | HACCP-Erweiterung | ✅ Lebensmittelrecht | ✅ Behörde, Küche, Logistik + R9 | 28 | — | ✅ (24 gelöst) | — |
+| 06 | Mockups | 🔲 | — | — | — | — | — |
+| 07 | Preisgestaltung | 🔲 | — | — | — | — | Doc 02 erst |
+| 08 | Verpackungsstrategie | 🔲 | — | — | — | — | — |
+| 09 | Verkaufsstrategie | 🔲 | — | — | — | — | — |
+| 10 | Operative Umsetzung | 🔲 | — | — | — | — | — |
+| 11 | Lieferanten Stuttgart | 🔲 | — | — | — | — | — |
+| 12 | Investitionsplan | 🔲 | — | — | — | — | Doc 02 erst |
+| 13 | 6-Wochen-Rollout-Plan | 🔲 | — | — | — | — | — |
+| 14 | Rechtliche Absicherung | ✅ Lebensmittelrecht + R9 | ✅ Behörde, Steuer | 25 | — | ✅ (22 gelöst) | — |
+| 15 | Steuerliche Behandlung | ✅ Steuer | ✅ CFO | 16 | — | ✅ (15 gelöst) | — |
+| 16 | Risiken & Gegenmaßnahmen | 🔲 | — | — | — | — | — |
+| 17 | Wettbewerbsanalyse | 🔲 | — | — | — | — | — |
+| 18 | Finanzierungsplan | 🔲 | — | — | — | — | Doc 02 erst |
+| 19 | Produktsortiment-Erweiterung | 🔲 | — | — | — | — | — |
+| 20 | Personal-Setup Retail (Plan) | 🔲 P11 | — | — | — | — | — |
+
+**Legende:** ✅ erledigt, ⚠️ in Arbeit, 🔲 offen, R9 = Rule-9-Regulatorik-Nachtrag
+
+**Aggregate:** 6 von 20 Docs lead-reviewt (30 %). 131 Findings. 5 v2-Rewrites fertig. 17 Reviews gesamt.
+
+### Silvio-Paket
+
+23 Einträge (SP-01 bis SP-23) in acht Blöcken. Gate-kritisch offen:
+
+| SP | Thema | Status | Blockiert |
+|---|---|---|---|
+| SP-19 | Rezeptur (Béchamel, Gramm-Angaben) | Bei Silvio (WhatsApp 12.04.) | Doc 02/04/05 v2-Finishing |
+| SP-22 | Metro-/Lieferanten-Preise | Offen | Doc 02 v2 (Quellen-Anforderung) |
+| SP-23 | Nachfrage-Schätzung | Offen | Doc 02 v2 (Absatz-Szenarien) |
+| SP-05 | Steuerberater-Briefing | Hand-Out bereit | Steuer-Verifikation |
+| SP-13 | Launch-Timing | Hand-Out bereit | Rollout-Kalender |
+
+### Cashflow-Projektion
+
+Hypothetisch bei Start Mai 2026: Invest ~6.200 €, Ende 2026 kumuliert −3.100 €, operativ ab August positiv (~650 €/Monat), Cashflow-Break-Even Mai/Juni 2027. Realer Gewinnbeitrag: **7.000–9.000 €/Jahr** (nicht 19.500 € wie Doc 02 v1). Details: [`docs/plans/02-cashflow-projektion-2026.md`](docs/plans/02-cashflow-projektion-2026.md).
+
+### Rechts-Stichtage H2/2026
+
+| Datum | Regelwerk | Wirkung |
 |---|---|---|
-| 1 | Repo-Setup, plain markdown, GitHub | ✅ Done |
-| 2 | 9 Personas + Ton-Reset + Marcello-Streichung | ✅ Done |
-| 3 | Deep Review der 19 Business-Case-Docs | ⚠️ In Progress — **6 von 19 Docs reviewt** (03/04/05/14/15 Gate-Sequenz + 02 Wirtschaftlichkeit). 131 Findings, 17 Reviews, 5 v2-Rewrites. Sekundär-Reviews Doc 01/06–13/16–19 stehen aus. |
-| 4 | Session-1-Wrap-up | ✅ Done |
-| 5 | MASCHIN-Review + Maßnahmen 1/3/4 | ✅ Done |
-| 6 | Repo-Zweck-Umschwung (Germans Arbeits-Level) | ✅ Done |
-
-**Silvio-Paket:** 23 Einträge (SP-01 bis SP-23) in acht Blöcken. Neu Session 11: SP-22 (Metro-/Lieferanten-Preise), SP-23 (Nachfrage-Schätzung). SP-19 (Béchamel, P1-Blocker) bei Silvio seit 2026-04-12.
-
-**Cashflow-Projektion (Session 11):** Hypothetisch bei Start Mai 2026: Invest ~6.200 €, Ende 2026 kumuliert −3.100 €, operativ ab August positiv (~650 €/Monat), Break-Even Mai/Juni 2027. Realer Gewinnbeitrag: 7.000–9.000 €/Jahr (nicht 19.500 € wie Doc 02 v1).
-
-**Drei harte Rechts-Stichtage H2/2026:** Listerien-Grenzwert 1.7., PPWR 12.8., ProdHaftG 9.12.
+| 1.7.2026 | Listerien-Grenzwert verschärft | "nicht nachweisbar in 25g" — relevant bei Béchamel |
+| 12.8.2026 | PPWR (Verpackung) | Konformitätserklärung Pflicht |
+| 9.12.2026 | ProdHaftG-Novelle | 25-Jahre-Haftung, Chargen-Doku als Beweismittel |
 
 ## Working Rules
 
