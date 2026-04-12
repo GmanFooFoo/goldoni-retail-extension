@@ -125,3 +125,19 @@ Single-Source-of-Truth für gefallene Entscheidungen in diesem Repo. Format wie 
 **Rationale:** Vorbestellungen erhöhen den Umsatz, verbessern Silvios Produktionsplanung (er weiß morgens, wie viel er vakuumieren muss), und die rechtliche Komplexität ist ein Absatz im AGB-Paket, nicht ein eigener Phase-Block. Das Overengineering der "Scope-Entscheidung" hat unnötig Unsicherheit erzeugt.
 **Affects:** SP-14 (aufgelöst), Doc 14 v2 (Fernabsatz-Abschnitt wird von "optional" auf "fest" umgestellt), Doc 22 Software-Tools (Phase-2-Block wird zu Phase-1-Block), SP-15 Anwalts-Auftrag (AGB-Paket schließt Fernabsatz-Klauseln direkt mit ein).
 **Revidierbar:** Ja — falls Silvio explizit keinen Online-Kanal will.
+
+## D-13: Vertriebskanal — Abholung + Wolt/Uber innerhalb Stuttgart, kein Versand
+
+**Datum:** 2026-04-12 (Session 11)
+**Context:** In der Diskussion um Fernabsatz und Webshop (D-12) war unklar, was "Lieferung" konkret heißt. German hat klargestellt: der Webshop dient zum Einkaufen und Vorbestellen. Die Ware kommt auf zwei Wegen zum Kunden: (a) Abholung im Goldoni, (b) Zustellung innerhalb Stuttgarts über Plattform-Lieferdienste (Wolt, Uber Eats). Es gibt **keinen Versand** per Paketdienst (DHL, DPD), keine Lieferung über Stadtgrenzen hinaus.
+**Entscheidung:** Phase 1 hat zwei Vertriebswege: **Abholung** und **Plattform-Lieferung** (Wolt/Uber). Kein eigener Fuhrpark, kein Paketversand. Die Plattform-Lieferdienste übernehmen den Transport, Goldoni die Produktion und Verpackung.
+**Rationale:** Wolt/Uber eliminieren die Logistik-Frage für Silvio — kein Fahrer, kein Fahrzeug, kein HACCP-Transportprozess in Eigenregie. Die Plattformen bringen zusätzlich Sichtbarkeit bei neuen Kunden. Trade-off: 15–30 % Provision pro Bestellung drückt die Marge bei Lieferungen erheblich.
+**Implikationen:**
+1. **Doc 02 (Wirtschaftlichkeit):** Provisions-Position als eigener Kostenblock (15–30 % auf den Lieferungs-Anteil). Zwei Margen-Schienen: Abholung (volle Marge) vs. Lieferung (Marge minus Provision).
+2. **Doc 05 (HACCP):** Gefahrübergang bei Übergabe an Lieferdienst. Goldoni kontrolliert die Kühlkette nur bis zur Abgabe. Verpackung muss Transportzeit + Wartezeit beim Fahrer überstehen.
+3. **Doc 09 (Verkaufsstrategie):** Kapitel "Lieferpartner-Modell" mit Plattform-Vergleich, Provisions-Struktur, Listing-Anforderungen.
+4. **Doc 14 (Recht):** Haftungsfrage bei Kühlketten-Bruch durch Lieferdienst. Gefahrübergang nach § 447 BGB (Versendungskauf) vs. § 446 BGB (Abholung). AGB müssen den Gefahrübergang-Zeitpunkt klären.
+5. **Doc 04 (LMIV):** Pflichtinformationen müssen auch auf den Plattformen verfügbar sein (Allergene, Zutaten, Nährwerte — LMIV Art. 14 Fernabsatz).
+**Alternativen geprüft:** (a) Eigene Lieferung mit Silvios Fahrzeug — verworfen, Aufwand, Versicherung, HACCP-Kühlketten-Nachweis im Auto. (b) Nur Abholung — verworfen, verschenkt Umsatz-Potenzial. (c) Versand per DHL/DPD — verworfen, kühlkettenpflichtige Lebensmittel per Paket ist logistisch und regulatorisch eine eigene Kategorie (Styroporbox, Kühlakkus, Haltbarkeits-Garantie) — Phase 2 frühestens.
+**Affects:** Doc 02 v2 (neuer Kostenblock), Doc 05 v2 (Gefahrübergang), Doc 09 (Lieferpartner-Kapitel), Doc 14 v2 (Haftung Lieferdienst), Doc 04 v2 (Plattform-LMIV), `docs/plans/22-software-tools.md` (Plattform-Integration).
+**Revidierbar:** Ja — Plattform-Auswahl (Wolt vs. Uber vs. Lieferando) kann sich ändern. Das Grundmodell (kein eigener Versand) ist stabil.
