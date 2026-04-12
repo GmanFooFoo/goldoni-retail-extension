@@ -68,7 +68,7 @@ Pipeline: **v1** (Original) → **Lead-Review** → **Co-Reviews** → **Finding
 | 04 | LMIV-Kennzeichnung | ✅ Lebensmittelrecht + R9 | ✅ Behörde, Küche | 23 | — | ✅ (19 gelöst) | SP-10 |
 | 05 | HACCP-Erweiterung | ✅ Lebensmittelrecht | ✅ Behörde, Küche, Logistik + R9 | 28 | — | ✅ (24 gelöst) | — |
 | 06 | Mockups | 🔲 | — | — | — | — | — |
-| 07 | Preisgestaltung | 🔲 | — | — | — | — | Doc 02 erst |
+| **07** | **Preisgestaltung** | **✅ CFO** | **🔲** | **12** | **🔲** | **🔲** | Doc 02 v2 erst |
 | 08 | Verpackungsstrategie | 🔲 | — | — | — | — | — |
 | 09 | Verkaufsstrategie | 🔲 | — | — | — | — | — |
 | 10 | Operative Umsetzung | 🔲 | — | — | — | — | — |
@@ -85,7 +85,7 @@ Pipeline: **v1** (Original) → **Lead-Review** → **Co-Reviews** → **Finding
 
 **Legende:** ✅ erledigt, ⚠️ in Arbeit, 🔲 offen, R9 = Rule-9-Regulatorik-Nachtrag
 
-**Aggregate:** 6 von 20 Docs lead-reviewt (30 %). 131 Findings. 5 v2-Rewrites fertig. 17 Reviews gesamt.
+**Aggregate:** 7 von 20 Docs lead-reviewt (35 %). 143 Findings. 5 v2-Rewrites fertig. 18 Reviews gesamt.
 
 ### Silvio-Paket
 
