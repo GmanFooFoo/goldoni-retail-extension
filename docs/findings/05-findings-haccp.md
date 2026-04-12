@@ -1,8 +1,8 @@
 # Findings: Doc 05 – HACCP-Erweiterung
 
-**Quelle:** [Lead-Review Lebensmittelrechtler](../reviews/05-haccp-lebensmittelrechtler.md)
-**Datum:** 2026-04-11
-**Status:** In Klärung — Co-Reviews durch Küchenchef, Logistiker, Behördenkontrolleur ausstehend.
+**Quelle:** [Lead-Review Lebensmittelrechtler](../reviews/05-haccp-lebensmittelrechtler.md), [Co-Review Behördenkontrolleur](../reviews/05-haccp-behoerdenkontrolleur.md), [Co-Review Küchenchef](../reviews/05-haccp-kuechenchef.md), [Co-Review Logistiker](../reviews/05-haccp-logistiker.md)
+**Datum:** 2026-04-11 (Lead), 2026-04-12 (Co-Reviews + Rule-9-Nachtrag)
+**Status:** Co-Reviews abgeschlossen. Behördenkontrolleur sagt **"Stopp — nicht genehmigungsfähig"** (fehlende Gefahrenanalyse, verschärfter Listerien-Grenzwert ab 1.7.2026). Küchenchef und Logistiker sagen "Rework". Rule-9-Fund: ab 1.7.2026 gilt für Listerien in verzehrfertigen Lebensmitteln auf Handelsebene "nicht nachweisbar in 25g" (verschärft vs. bisheriger 100 KBE/g-Toleranz).
 
 Konsolidierte Findings analog `03-findings-veterinaeramt.md` und `15-findings-steuer.md`. Gruppen-Logik einheitlich: A = Silvio/extern, B = eigenständige Arbeits-Blöcke im Repo, C = Doc-Rewrite.
 
@@ -27,6 +27,17 @@ Konsolidierte Findings analog `03-findings-veterinaeramt.md` und `15-findings-st
 | 15 | HACCP-Beauftragter nicht namentlich benannt (Art. 5 VO 852/2004). Selbstbenennung → Silvio-Paket SP-07. | P3 | XS | Lebensmittelrechtler (Dokumentation) | — | Offen | Cross-Ref Doc 03 Finding 2. |
 | 16 | Aufbewahrungspflicht pauschal "3 Jahre" — sollte differenziert sein (Rückverfolgbarkeit 5 Jahre, Tagesprotokolle 2 Jahre). | P3 | XS | Lebensmittelrechtler (Differenzierung) | — | Offen | Reife-Problem, kein Gate-Problem. |
 | 17 | Cross-Refs zu Doc 03 (Vetamt), Doc 04 (LMIV), Doc 14 (Recht) fehlen. | P3 | XS | Lebensmittelrechtler (Doc-Ergänzung) | — | Offen | Reife-Problem; verhindert Doppel-Aufbau von Pflicht-Dokumenten. |
+| 18 | **Verschärfter Listerien-Grenzwert ab 1. Juli 2026** — "nicht nachweisbar in 25g in jeder von 5 Proben" auf Handelsebene bis Ende MHD (VO 2073/2005 Änderungsverordnung). Béchamel-Lasagne ist Risiko-Kategorie (feuchtes, proteinreiches Milieu). MHD-Validierung muss Listerien-Nachweis am Ende des MHD einschließen. Rule-9-Fund. | P1 | L | Lebensmittelrechtler + Labor | Ja, vor Launch nach 1.7.2026 | Offen | Dritter harter Rechts-Stichtag neben PPWR 12.8.2026 und ProdHaftG 9.12.2026. Ohne Listerien-Nachweis ist Béchamel-Produkt ab dem Stichtag nicht verkehrsfähig. |
+| 19 | Abkühlzeit für Lasagne unrealistisch ohne Schnellkühler — 400g-Portion ca. 6 cm hoch braucht 3–4 Stunden statt 2 Stunden im Standard-Gastro-Kühlschrank. Entweder CCP1 anpassen, Schockfroster in Phase 1 vorziehen, oder Lasagne erst Phase 2. Scope-Entscheidung. | P1 | S | Küchenchef + Lebensmittelrechtler | Ja, vor erstem Produktions-Tag | Offen | Betrifft Silvios Kern-Produkt Lasagne. Ohne realistischen Abkühlzeit-Nachweis ist CCP1 nicht validiert. |
+| 20 | 7-Tage-Sensorik-Test nicht dokumentiert — Verkostung an Tag 0, 3, 5, 7 mit Protokoll (Aussehen, Geruch, Textur, Geschmack) pro Produkt fehlt. | P1 | M | Küchenchef (Test durchführen) | Ja, vor MHD-Festlegung | Offen | Béchamel wird wässrig, Pasta wird matschig — ohne Test ist MHD eine Wette, nicht eine Validierung. |
+| 21 | Vormittags-Produktionsfenster nicht im HACCP verankert — zeitliche Trennung Retail (vormittags) vs. Restaurant (nachmittags) als Kreuzkontaminations-Schutz. | P2 | S | Küchenchef + Lebensmittelrechtler | — | Offen | Ohne zeitliche Trennung ist Kreuzkontamination zwischen Rohware (Restaurant) und fertigem Vakuumprodukt (Retail) nicht ausgeschlossen. |
+| 22 | Kein CCP4 für Verkaufs-/Übergabephase — Temperatur im Verkaufsbereich, maximale Verweildauer, Rückführ-Regel. | P2 | S | Logistiker + Lebensmittelrechtler | — | Offen | Die meisten Kühlketten-Brüche in der Praxis passieren zwischen Kühllager und Kundenübergabe. |
+| 23 | Datenlogger statt Punktmessung — 1× täglich um 08:00 ist Stichprobe, kein Monitoring. Kompressor-Ausfall um 22:00 wird 10 Stunden zu spät bemerkt. WiFi-Logger mit min/max und Alarm: 50–150 €. | P2 | XS | Logistiker | — | Offen | Ohne min/max-Aufzeichnung ist Kühlketten-Nachweis bei Reklamation oder Behördenprüfung lückenhaft. |
+| 24 | FIFO-Regelung fehlt — ältere Chargen nach vorne, MHD-Datum sichtbar, Prüfung bei Entnahme. | P2 | XS | Logistiker | — | Offen | Ohne FIFO steigt Verderb-Quote und einzelne Kunden bekommen MHD-nahe Produkte. |
+| 25 | Kunden-Kühlketten-Hinweis fehlt — "Gekühlt transportieren, innerhalb 2 Stunden in den Kühlschrank" auf Etikett (Art. 25 LMIV) und an Verkaufsstelle. Optionale Isoliertasche als Service. Cross-Ref Doc 04. | P2 | XS | Logistiker + Lebensmittelrechtler | — | Offen | Übergabe-Punkt-Verantwortung (Doc 14 Finding 17) und Kunden-Erwartung. |
+| 26 | Lagerkapazitäts-Rechnung fehlt — bei 20–30 Portionen/Tag und 7 Tagen MHD bis 150 Portionen (≈60 kg) parallel zu Restaurant-Vorräten. Reicht Silvios Kühlraum? [TBD-Silvio] | P2 | S | Logistiker | — | Offen | Wenn der Kühlraum nicht reicht, ist entweder die Tages-Menge zu reduzieren oder ein zweiter Kühlschrank anzuschaffen. |
+| 27 | Strom-Ausfall-/Kompressor-Ausfall-Plan fehlt — Handlungsanweisung, Entsorgungs-Schwelle (Temperatur × Dauer), Kontakt Kältetechniker. | P2 | S | Logistiker | — | Offen | Ohne Datenlogger weiß Silvio die Maximal-Temperatur nicht und muss im Zweifel alles entsorgen. |
+| 28 | Rückläufer-Regelung fehlt — zurückgebrachte Produkte nie weiterverkaufen, dokumentiert entsorgen. | P3 | XS | Logistiker | — | Offen | Praktisch selten, aber ohne Regel entsteht ein Hygiene- und Haftungsrisiko. |
 
 ## Auflösungs-Gruppen
 
