@@ -46,3 +46,4 @@
 | 51 | Brand-Konsistenz-Checkliste Jana als Review-Tool | Backlog | S | German | — | Offen | Wiederverwendbar für weitere Goldoni-Projekte |
 | 52 | Sensitivity-Analyse Doc 02 (Break-Even bei 30/40/50/60 Einheiten/Woche) | Backlog | S | German | #31 | Offen | Risiko-Transparenz |
 | 53 | Rechtscheck Produkthaftung (Doc 14) durch echten Anwalt | Backlog | M | Silvio + Anwalt | — | Offen | Haftungsrisiko Silvio persönlich |
+| 54 | Geschenkebox-Konzept "Sugo + Rummo-Nudeln" durchplanen: LMIV-Kennzeichnung (separate Etiketten vs. Gesamt-Etikett), Haftungs-Profil (Goldoni als Händler für Trockennudeln), Kalkulation, Verpackungs-Design. Cross-Ref SP-20, Doc 04, Doc 08. | Backlog | M | German + Brand/Marketing | SP-19 (Rezepturen) | Offen | Cross-Selling ohne Koch-Aufwand, neue Produktkategorie mit geringerem HACCP-Risiko |
