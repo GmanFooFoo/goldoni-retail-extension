@@ -1,8 +1,8 @@
 # Findings: Doc 14 – Rechtliche Absicherung & Haftung
 
-**Quelle:** [Lead-Review Lebensmittelrechtler](../reviews/14-recht-lebensmittelrechtler.md) inkl. Regulatorik-Nachtrag Dr. Maldini (Persona 10)
-**Datum:** 2026-04-11
-**Status:** In Klärung — Co-Reviews durch Behördenkontrolleur (Persona 04) und Steuerberaterin (Persona 03, für Aufbewahrungs-Fristen-Kopplung zu Doc 15) ausstehend.
+**Quelle:** [Lead-Review Lebensmittelrechtler](../reviews/14-recht-lebensmittelrechtler.md) inkl. Regulatorik-Nachtrag Dr. Maldini (Persona 10), [Co-Review Behördenkontrolleur](../reviews/14-recht-behoerdenkontrolleur.md), [Co-Review Steuerberaterin](../reviews/14-recht-steuerberaterin.md)
+**Datum:** 2026-04-11 (Lead), 2026-04-12 (Co-Reviews)
+**Status:** Co-Reviews abgeschlossen. Alle drei Reviewer sagen **"Rework erforderlich"**. Behördenkontrolleur bestätigt die 22 Lead-Findings und ergänzt Melde-Schwellen-Definition und Begehungs-Vorbereitung. Steuerberaterin ergänzt die steuerliche Dimension der Aufbewahrungs-Fristen (Hauptpunkt: differenzierte Tabelle mit "Maximum"-Logik).
 
 Konsolidierte Findings analog `03-findings-veterinaeramt.md`, `15-findings-steuer.md`, `05-findings-haccp.md` und `04-findings-lmiv.md`. Gruppen-Logik einheitlich: A = Silvio/extern, B = eigenständige Arbeits-Blöcke im Repo, C = Doc-Rewrite.
 
@@ -32,6 +32,9 @@ Konsolidierte Findings analog `03-findings-veterinaeramt.md`, `15-findings-steue
 | 20 | Rechtsform-Frage Einzelunternehmer vs. GmbH/UG als Haftungsbeschränkung nicht adressiert — bei Einzelunternehmer greift die Haftung auf Privatvermögen. Strategische Entscheidung → Silvio-Paket SP-18. | P3 | S | Lebensmittelrechtler + Steuerberaterin (Doc 15 Cross-Ref) | — | Offen | Umwandlung bei einer bestimmten Umsatz- oder Risiko-Schwelle. Rollout-Plan-Marker. |
 | 21 | KassenSichV und TSE nicht als rechtliche Querverbindung benannt. Cross-Ref Doc 15, Doc 10. | P3 | XS | Lebensmittelrechtler (Cross-Ref-Absatz) | — | Offen | Kein eigenes Finding für Doc 14, aber Absatz zur Kopplung. |
 | 22 | Cross-Refs zu Doc 03 (Vetamt), Doc 04 (LMIV), Doc 05 (HACCP), Doc 08 (Verpackung/Claims), Doc 09 (WhatsApp/Fernabsatz), Doc 10 (Operatives), Doc 11 (Lieferanten), Doc 15 (Aufbewahrung/Rechtsform) fehlen. | P3 | XS | Lebensmittelrechtler (Doc-Ergänzung) | — | Offen | Reife-Problem; Doc 14 lebt bisher isoliert. |
+| 23 | Melde-Schwellen-Definition fehlt: ab wann Vetamt-Meldung Pflicht (Art. 19 VO 178/2002 = niedrige Schwelle: "Grund zu der Annahme"), ab wann Empfehlung, ab wann Staatsanwaltschaft. "Ernster Verdacht" im Doc ist zu hoch angesetzt. Konkretes Entscheidungs-Diagramm nötig. | P2 | S | Lebensmittelrechtler + Behördenkontrolleur | — | Offen | Silvio muss die Schwelle kennen, nicht raten. Ein geschwollener Beutel in einer Charge reicht für Meldepflicht. |
+| 24 | Differenzierte Aufbewahrungs-Tabelle mit steuerlicher Spalte fehlt — die pauschale "3 Jahre"-Aussage kollidiert mit § 147 AO (10 Jahre) und ProdHaftG-Novelle (bis 25 Jahre). Tabelle muss für jede Dokumentenart die **längste** Frist aus allen Rechtsgebieten angeben ("Maximum"-Logik). Cross-Ref Doc 15, inconsistencies #14. | P1 | S | Lebensmittelrechtler + Steuerberaterin | — | Offen | Compliance-Unfall, wenn Silvio nach 3 Jahren entsorgt und dann die Betriebsprüfung kommt. |
+| 25 | Rechtsform-Frage (Finding 20) hat steuerliche Dimension: GmbH/UG in Phase 1 steuerlich nachteilig (KSt + GewSt vs. ESt + GewSt-Anrechnung). Umwandlung wird erst ab ca. 60–80k Gewinn sinnvoll. Marker "in Phase 1 kein Handlungsbedarf" im Doc verankern. | P3 | XS | Steuerberaterin (Absatz) | — | Offen | Verhindert, dass Silvio voreilig umfirmiert. |
 
 ## Auflösungs-Gruppen
 
