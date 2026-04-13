@@ -2,7 +2,7 @@
 
 **Quelle:** [Lead-Review CFO](../reviews/07-preisgestaltung-cfo.md)
 **Datum:** 2026-04-12
-**Status:** Offen — v2-Plan ausstehend. **12 Findings** aus Lead-Review.
+**Status:** Offen — v2-Plan ausstehend. **17 Findings** (12 Lead-Review + 5 Co-Review Claudia).
 
 ## Findings-Tabelle
 
@@ -20,6 +20,11 @@
 | 10 | **Kein Wettbewerbs-Benchmark.** Doc 17 (Wettbewerbsanalyse) existiert, aber Doc 07 referenziert ihn nicht. "Premium" ist eine Behauptung ohne Marktkontext. | P3 | S | CFO + Brand/Marketing | Doc 17 Review | Offen | Ohne Benchmark kein Nachweis, dass die Preise im Markt bestehen können. |
 | 11 | **Cross-Ref zu Doc 02 fehlt.** Preis und Kosten sind in getrennten Docs ohne Verlinkung. v2-Rewrite muss Doc 02 explizit als Kosten-Gegenpart referenzieren. | P2 | XS | CFO | — | Offen | Strukturelles Problem. Ohne Cross-Ref kann jedes Doc unabhängig geändert werden, ohne die Auswirkung auf das andere zu prüfen. |
 | 12 | **Preisanker-Methode "80 % des Restaurantpreises" — nicht für alle Produkte anwendbar.** Ragù hat keinen Restaurantpreis (kein Einzelgericht auf der Karte), Sugo auch nicht. Die Methode funktioniert nur für Lasagne und ggf. Parmigiana. Für Ragù und Sugo braucht es eine andere Preislogik (Wettbewerb, Warenwert, Convenience-Premium). | P2 | S | CFO + Brand/Marketing | — | Offen | Zwei verschiedene Pricing-Logiken nötig: Preisanker (Lasagne, Parmigiana) und Standalone-Pricing (Ragù, Sugo). |
+| 13 | **11,90 € für Lasagne fair, wenn Qualität stimmt.** Stammgast-Perspektive: Preis akzeptabel, solange Restaurant-Qualität erkennbar ist. Kein Preisproblem, sondern Erwartungs-Management. | P3 | XS | Stammgast (Claudia) | — | Offen | Bestätigung — kein Handlungsbedarf am Preis, aber am Qualitäts-Versprechen. |
+| 14 | **Sugo 6,90 € zu günstig — 7,90 € realistischer.** Bei Premium-Zutaten (San Marzano, frisches Basilikum) erwartet Stammkundin höheren Preis. 6,90 € signalisiert "Supermarkt-Niveau". | P2 | XS | CFO + Stammgast (Claudia) | — | Offen | 1 €/Stk mehr = ~100 €/Monat Zusatz-DB bei 25 Stk/Woche. |
+| 15 | **Parmigiana ist ein Schnäppchen.** Aufwändiges Gericht, im Restaurant 16–18 €. Vakuum-VK unter 12 € wird als "zu billig" wahrgenommen. Preis-Anker prüfen. | P2 | XS | CFO + Stammgast (Claudia) | — | Offen | Unterbewertung drückt wahrgenommene Qualität und verschenkt Marge. |
+| 16 | **Portionsangabe fehlt auf Etikett und in Preisliste.** "Für wie viele Personen?" ist die erste Frage beim Kauf. Ohne Angabe kein Preis-Leistungs-Vergleich möglich. | P2 | XS | Brand/Marketing + Stammgast (Claudia) | — | Offen | Cross-Ref zu Doc 06 (Mockup) — Portionsangabe muss auf Etikett. |
+| 17 | **Wolt-Preis max. +2 € über Abholpreis.** Stammkundin würde bei >2 € Aufschlag lieber abholen. Plattform-Preisschiene darf nicht zu weit vom Abholpreis abweichen. | P2 | XS | CFO + Stammgast (Claudia) | — | Offen | Deckel für Plattform-Aufschlag: max. 2 € über Abhol-VK. |
 
 ## Auflösungs-Gruppen
 
@@ -45,4 +50,4 @@ Findings 2 (Tiefkühl streichen), 3 (fehlende Produkte), 8 (Di Gennaro UWG), 9 (
 
 1. [ ] Silvio-Paket: SP-24 (aktuelle Kartenpreise Lasagne/Parmigiana) anlegen
 2. [ ] v2-Plan erst nach Doc 02 v2 — die beiden Docs müssen gekoppelt geschrieben werden
-3. [ ] Co-Reviews: Stammkundin (Claudia) + Brand/Marketing (Jana) lt. assignments.md
+3. [ ] Co-Reviews: Brand/Marketing (Jana) lt. assignments.md — Claudia Co-Review eingeflossen (siehe Findings 13–17)

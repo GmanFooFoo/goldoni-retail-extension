@@ -2,7 +2,8 @@
 
 **Stand:** 2026-04-13 (Session 13, Jana-Batch)
 **Reviews eingeflossen:** Lead Jana (Brand & Marketing)
-**Co-Reviews ausstehend:** Thomas (Gastronom), Claudia (Stammgast)
+**Co-Reviews eingeflossen:** Thomas (Gastronom)
+**Co-Reviews ausstehend:** Claudia (Stammgast)
 
 ## Findings-Tabelle
 
@@ -16,5 +17,9 @@
 | 6 | **Instagram-Aufwand unterschätzt.** "2 Min./Tag" unrealistisch, eher 10–15 Min. Zuständigkeit ungeklärt. | P3 | Jana F-06 | v2-Rewrite | Offen |
 | 7 | **Keine Launch-Story.** "Warum macht Goldoni das?" fehlt als emotionale Klammer über alle Touchpoints. | P1 | Jana F-07 | v2-Rewrite | Offen |
 | 8 | **WhatsApp-Broadcast ohne DSGVO-Einwilligung.** Art. 7 DSGVO, BfDI kritisch. Cross-Ref: inconsistency #12. | P1 | Jana F-08 | v2-Rewrite + SP-15 (Anwalt) | Offen |
+| 9 | **Kellner-Skript braucht Differenzierung.** Stammgast ≠ Neukunde ≠ Tisch-mit-Kindern. Ein Einheitsskript wirkt aufgesetzt. Mindestens 2 Varianten nötig. | P2 | Thomas CF-01 | v2-Rewrite | Offen |
+| 10 | **Tischaufsteller werden ignoriert.** Erfahrungswert: nach 2 Wochen nimmt niemand mehr wahr. Rotation oder saisonale Varianten nötig, sonst wirkungslos. | P3 | Thomas CF-02 | v2-Rewrite | Offen |
+| 11 | **Abo-Modell erst Phase 2.** Logistik, Zahlungsabwicklung und Lagerplanung für Abo sind für Phase 1 zu komplex. Klar als Phase-2-Kanal kennzeichnen. | P2 | Thomas CF-03 | v2-Rewrite | Offen |
+| 12 | **Konsignation ist operativer Albtraum.** MHD-Kontrolle, Retouren, Transport, Abrechnung — für einen Ein-Mann-Betrieb in Phase 1 nicht machbar. Frühestens Phase 3. | P2 | Thomas CF-04 | v2-Rewrite | Offen |
 
-**Gesamt: 8 Findings** (5× P1, 2× P2, 1× P3)
+**Gesamt: 12 Findings** (5× P1, 5× P2, 2× P3)

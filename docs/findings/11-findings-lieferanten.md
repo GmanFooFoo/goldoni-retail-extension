@@ -2,7 +2,8 @@
 
 **Stand:** 2026-04-13 (Session 13, Thomas-Batch)
 **Reviews eingeflossen:** Lead Thomas (Gastronom-Praktiker)
-**Co-Reviews ausstehend:** Logistiker, Küchenchef
+**Co-Reviews eingeflossen:** Küchenchef (Pietro)
+**Co-Reviews ausstehend:** Logistiker
 
 ## Findings-Tabelle
 
@@ -15,5 +16,9 @@
 | 5 | **Rohwaren-Trennung unrealistisch.** Separate Bestellung für Retail verdoppelt Mindestbestell-Aufwand. Chargenweise Kennzeichnung realistischer. | P3 | Thomas F-05 | v2-Rewrite | Offen |
 | 6 | **Liefermodus ungeklärt.** Di Gennaro: Lieferung oder Abholung? Metro: Abholung = Fahrtzeit. Personalaufwand-Impact. | P2 | Thomas F-06 | v2-Rewrite + → Silvio-Paket SP-22 (klären beim Metro-/DiGennaro-Kontakt) | Offen |
 | 7 | **Keine Saisonalität und Preisvolatilität.** Premium-Zutaten schwanken — keine Bandbreite dokumentiert. | P3 | Thomas F-07 | v2-Rewrite | Offen |
+| 8 | **Büffelmozzarella Haltbarkeit kritisch.** Frische Büffelmozzarella hält 3–5 Tage. Bei Di-Lieferung und Mi-Produktion: nur 1 Tag Puffer. Verderb-Risiko hoch. | P1 | Pietro CF-01 | v2-Rewrite (Lieferrhythmus anpassen) | Offen |
+| 9 | **San Marzano sind Dosenware, nicht frisch.** Doc 11 suggeriert Frischware. DOP San Marzano kommen als Pelati in Dosen — Lagerung und Haltbarkeit sind kein Problem, aber Beschreibung irreführend. | P3 | Pietro CF-02 | v2-Rewrite (Korrektur) | Offen |
+| 10 | **Bio-Hackfleisch Fettgehalt für Ragù.** Standard-Hackfleisch 20 % Fett, Bio oft 10–15 %. Niedrigerer Fettgehalt verändert Ragù-Konsistenz und Geschmack. Rezeptur-Anpassung nötig. | P2 | Pietro CF-03 | v2-Rewrite + Küchenchef-Test | Offen |
+| 11 | **Basilikum fehlt in Lieferanten-Liste.** Frisches Basilikum ist Kernzutat für Sugo und Parmigiana. Kein Lieferant, keine Menge, keine Saison-Alternative (Winter: Gewächshaus oder Tiefkühl-Basilikum). | P2 | Pietro CF-04 | v2-Rewrite | Offen |
 
-**Gesamt: 7 Findings** (2× P1, 3× P2, 2× P3)
+**Gesamt: 11 Findings** (3× P1, 5× P2, 3× P3)
