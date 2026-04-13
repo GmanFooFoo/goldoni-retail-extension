@@ -1,74 +1,123 @@
 # Doc 20 — Personal-Setup Retail (Szenarien A/B/C)
 
-> **Status:** Szenario-Ebene. Dieses Doc trifft **keine** Vorentscheidung, welches Szenario das richtige ist. Es stellt die drei realistischen Wege gegenüber, damit Silvio entscheiden kann und Persona 11 (Personal-Markt & Arbeitsrecht Retail) daran reviewen kann. Alle Markt-Daten und Stundenlohn-Annahmen sind mit `[TBD-Recherche]` markiert, bis Persona 11 den ersten Lead-Review geschrieben hat.
+> **Version:** v2 (2026-04-13, Session 13)
+> **Änderungen gegenüber v1:** TBD-Marker aufgelöst (Mindestlohn, Minijob-Grenze, Stundenlöhne Stuttgart, AG-Kosten), Minijob/Teilzeit-Schwellenrechnung eingefügt, Misch-Modell als vierte Variante, DRV-Prüf-Schwerpunkt Gastronomie als Risiko-Hinweis, Pilot-Dauer Szenario C quantifiziert (4–6 Wochen).
+> **Findings aufgelöst:** F-01 bis F-08 (8 von 9). F-09 (IfSG-Status Ehefrau) offen → SP-04 erweitern.
 
 ## Kontext
 
-Die Vakuum-Produktion für den Retail-Strang läuft **vormittags**, zwischen ~9 und ~14 Uhr, in Silvios Restaurant-Küche, außerhalb der Service-Zeiten (Mi + Do–So 17–22 Uhr). Diese Zeitlage ist Ergebnis des Rollout-Plans (siehe `docs/plans/rollout-plan.md`) und der Küche-Tagesablauf-Logik aus den Doc-05-Findings. Die Frage "wer steht vormittags in der Küche und produziert Lasagne, Sugo, Ragù, Parmigiana vakuumiert" ist noch offen.
+Die Vakuum-Produktion für den Retail-Strang läuft **vormittags**, zwischen ~9 und ~14 Uhr, in Silvios Restaurant-Küche, außerhalb der Service-Zeiten (Mi + Do–So 17–22 Uhr). Die Frage "wer steht vormittags in der Küche und produziert Lasagne, Sugo, Ragù, Parmigiana vakuumiert" ist noch offen.
 
-Das Doc führt drei Szenarien durch. Jedes Szenario hat vier tragende Spalten: **Wer produziert**, **Kosten-Rahmen**, **Rechtliche Form**, **Ausfall-Risiko**. Zusätzlich eine kurze Prosa-Einordnung, die die Haken sichtbar macht — nicht als Empfehlung, sondern als ehrliche Darstellung der Konsequenzen.
+Das Doc führt drei Rein-Szenarien und ein Misch-Modell durch. Jedes Szenario hat vier tragende Spalten: **Wer produziert**, **Kosten-Rahmen**, **Rechtliche Form**, **Ausfall-Risiko**. Die Entscheidung fällt Silvio, nicht dieses Dokument.
 
-Die drei Szenarien sind **nicht exklusiv**. Ein Misch-Modell (Szenario A + C als Redundanz, oder B + C) ist in späteren Iterationen möglich. Diese Version bleibt bei den drei Reinformen, um die Unterschiede klar zu machen.
+## Arbeitsmarkt-Daten Stuttgart 2026
+
+| Rolle | Stundenlohn brutto | Quelle |
+|---|---|---|
+| Mindestlohn (absolute Untergrenze) | **13,90 €/h** (ab 01.01.2026) | BMAS, Mindestlohnkommission |
+| Küchenhilfe (ungelernt, mit IfSG) | 13,90–14,50 €/h | StepStone Stuttgart, Arbeitsagentur |
+| Angelernte Kraft (Hygiene-Erfahrung) | 14,50–15,50 €/h | StepStone Stuttgart |
+| Einfacher Koch (ohne Gesellenprüfung) | 14,80–16,00 €/h | meingehalt.net |
+| Koch mit Gesellenprüfung | 16,00–18,00 €/h (+ Zulagen) | StepStone Stuttgart |
+
+**Arbeitsannahme für alle Rechnungen:** 15 €/h brutto. Über Mindestlohn, unter Fachkraft, realistisch für eine angelernte Kraft mit Lebensmittel-Hygiene-Grundlagen.
+
+**Suchdauer Stuttgart:** 4–8 Wochen über Arbeitsagentur/IHK-Jobbörse. Schneller über informelle Kanäle (italienische Community Stuttgart, Silvios Gastro-Netzwerk).
+
+## Minijob vs. SV-pflichtige Teilzeit: Schwellenrechnung
+
+**Minijob-Grenze 2026:** 603 €/Monat (7.236 €/Jahr). Dynamisch an Mindestlohn gekoppelt. Max. 43,38 Stunden/Monat bei 13,90 €/h.
+
+| Arbeitszeit/Woche | Monatsbrutto (15 €/h) | Minijob möglich? | Form |
+|---|---|---|---|
+| 8 h | ~520 € | **Ja** (unter 603 €) | Minijob |
+| 10 h | ~650 € | **Nein** (über 603 €) | SV-pflichtige Teilzeit (Midijob) |
+| 12 h | ~780 € | Nein | SV-pflichtige Teilzeit (Midijob) |
+| 20 h | ~1.300 € | Nein | SV-pflichtige Teilzeit |
+
+**Realistischer Bedarf (5 Produkte, Pietro-Schätzung):** 8–12 h/Woche reine Arbeitszeit + Abkühlung/Reinigung. Bei 10+ Stunden ist Minijob nicht mehr möglich → SV-pflichtige Teilzeit mit Midijob-Gleitzone (603,01–2.000 €).
 
 ## Szenarien — Vergleichstabelle
 
-| # | Szenario | Wer produziert vormittags | Kosten-Rahmen (Monat) | Rechtliche Form | Ausfall-Risiko |
+| # | Szenario | Wer produziert | Kosten/Monat (AG-Gesamt) | Rechtliche Form | Ausfall-Risiko |
 |---|---|---|---|---|---|
-| A | Ehefrau | Silvios Ehefrau, in der Restaurant-Küche, zwischen ~9 und ~14 Uhr | `[TBD-Recherche]` Ehegatten-Arbeitsvertrag bei marktüblichem Lohn, rund `[TBD-Recherche]` €/h × ~20 h/Woche | Ehegatten-Arbeitsvertrag mit Fremdvergleich, schriftlich, eigenes Lohn-Konto, regelmäßige Überweisung, IfSG-Belehrung | Hoch — Ein-Personen-Abhängigkeit, bei Ausfall (Krankheit, Familie) sofort Produktions-Stopp. Keine Redundanz im Reinform-Szenario. |
-| B | Externer einfacher Koch / Hilfe | Extern angestellte Kraft (einfacher Koch oder Küchenhilfe), nicht Gesellen-Koch | `[TBD-Recherche]` rund `[TBD-Recherche]` €/h × ~20 h/Woche; bei ~20 h/Woche tendenziell über Minijob-Grenze (603 € Stand 2026 `[TBD-Recherche]`) → SV-pflichtige Teilzeit wahrscheinlich | Teilzeit-Arbeitsvertrag, SV-pflichtig. Minijob nur, wenn Arbeitszeit unter der 556-€-Grenze bleibt. **Nie als "freier Mitarbeiter auf Rechnung"** (Scheinselbständigkeits-Risiko). | Mittel — externe Kraft ist ersetzbar, aber Suche am Stuttgarter Markt dauert `[TBD-Recherche]` Wochen. Redundanz nur durch zweite Kraft, was das Kosten-Modell sprengt. |
-| C | Silvio selbst | Silvio selbst, vor dem Service-Fenster | Kein zusätzlicher Personalkosten-Block, aber Opportunitäts-Kosten: Silvio hat die Vormittage nicht mehr für Einkauf, Küchenplanung, Verwaltung, Erholung | Keine arbeitsrechtliche Form nötig (Inhaber), keine Lohn-Abrechnung, kein zusätzlicher Vertrag | Sehr hoch — Ein-Personen-Abhängigkeit im Extrem. Fällt Silvio aus, fällt **Restaurant und Retail gleichzeitig** aus. Kein Puffer. Belastungs-Grenze realistisch 6–12 Monate `[TBD-Recherche]`, dann droht Burnout oder Qualitäts-Verfall. |
+| A | Ehefrau | Silvios Ehefrau, 9–14 Uhr | **~690 € (Minijob 8h)** oder **~940 € (Teilzeit 12h)** | Ehegatten-AV mit Fremdvergleich | Hoch — Ein-Personen-Abhängigkeit |
+| B | Externe Kraft | Angelernte Küchenhilfe | **~940–1.000 € (Teilzeit 12h)** | SV-pflichtige Teilzeit | Mittel — ersetzbar, aber Suchdauer 4–8 Wochen |
+| C | Silvio selbst | Silvio, vor Service | **0 € direkt** (Opportunitätskosten) | Keine (Inhaber) | Sehr hoch — Restaurant + Retail fallen gleichzeitig aus |
+| **M** | **Misch-Modell** | **C als Pilot → A oder B als Dauer** | **0 → 690–1.000 €** | **Phase-abhängig** | **Sinkt mit Übergang zu A/B** |
 
 ## Szenario A — Ehefrau
 
-Silvios Ehefrau übernimmt die Vormittags-Produktion. Sie kennt das Restaurant, die Rezepturen, die Abläufe, und ist rechtlich-organisatorisch bereits im Betrieb verankert. Der Weg ist operativ einfach, weil keine externe Person eingelernt werden muss.
+Silvios Ehefrau übernimmt die Vormittags-Produktion. Operativ einfach (kennt Küche, Rezepturen, Abläufe), aber rechtlich anspruchsvoll.
 
-Der kritische Punkt ist die rechtliche Form. Eine "hilft eben mit"-Konstruktion ohne schriftlichen Arbeitsvertrag, ohne Lohn-Konto und ohne Fremdvergleich wird steuerlich und sozialversicherungsrechtlich nicht anerkannt — mit der Folge, dass im Schadenfall (Verletzung in der Küche, Hygiene-Vorfall) kein Versicherungsschutz greift und bei einer Prüfung Nachzahlungen drohen. Der saubere Weg ist: schriftlicher Ehegatten-Arbeitsvertrag, marktüblicher Lohn, eigenes Lohn-Konto, regelmäßige Überweisung, IfSG-Belehrung wie bei jeder anderen Küchenkraft. Die Kriterien stehen im Lead-Review von Persona 11.
+**Ehegatten-Arbeitsvertrag — Anforderungen für steuerliche Anerkennung:**
 
-Die zweite offene Frage — ob Silvios Ehefrau diese Rolle überhaupt annehmen will, und wie sich Doppelrolle Restaurant + Retail auf die familiäre Belastung auswirkt — ist **nicht Gegenstand dieses Docs und nicht Gegenstand der Persona-11-Review**. Das ist Silvios Revier, und es gehört in Silvios persönliche Entscheidung, nicht in eine Fach-Review.
+1. **Fremdvergleich:** Lohn muss marktüblich sein (15 €/h = realistisch für Stuttgart, Bezugspunkt: angelernte Küchenhilfe)
+2. **Schriftlicher Vertrag** empfohlen (steuerlich nicht zwingend, aber Beweis-Sicherheit)
+3. **Eigenes Lohn-Konto** mit regelmäßiger Überweisung (nicht bar, nicht auf Gemeinschaftskonto)
+4. **Tatsächliche Durchführung** (Arbeitszeiten, Urlaubsanspruch, Lohnfortzahlung im Krankheitsfall)
+5. **IfSG-Erstbelehrung** vor der ersten Produktionsstunde (§ 43 IfSG, Gesundheitsamt Stuttgart, ~25–30 €, halber Tag)
 
-Das Ausfall-Risiko ist in Reinform hoch, weil es keine zweite Person gibt, die einspringen kann. Eine Redundanz-Option (zweite Kraft auf Minijob als Backup, oder Silvio selbst als Backup für einzelne Tage) verringert das Risiko, macht das Szenario aber teurer und gehört in eine spätere Iteration.
+**Typische Fehler:** "Hilft eben mit" ohne Vertrag, Lohn als Barzahlung, kein eigenes Konto, Arbeitszeiten nicht dokumentiert → steuerliche Nicht-Anerkennung + kein Versicherungsschutz bei Küchenverletzung.
 
-## Szenario B — Externer einfacher Koch / Küchenhilfe
+**Kosten:**
+- Minijob (8 h/Woche): ~520 € Brutto + ~170 € AG-Pauschale (30 %) = **~690 €/Monat**
+- Teilzeit (12 h/Woche): ~780 € Brutto + ~160 € AG-Anteil (~20 %) = **~940 €/Monat**
 
-Silvio stellt eine externe Kraft an, die vormittags die Vakuum-Produktion übernimmt. Nicht zwingend ein Gesellen-Koch — eine angelernte Kraft mit Lebensmittel-Hygiene-Grundlagen und der Bereitschaft, sich auf die Rezepturen einzuarbeiten, reicht für die geplante Produktionstiefe (vier Gerichte in konstanter Qualität, nicht Drei-Sterne-Innovation). Der Kandidaten-Pool ist in Stuttgart `[TBD-Recherche]` — Persona 11 muss beurteilen, ob der Markt einen solchen Kandidaten hergibt und zu welchem Stundenlohn.
+Ausfall-Risiko hoch (Ein-Personen-Abhängigkeit). Redundanz nur durch Silvio als Backup (= Misch-Modell M).
 
-Der rechtliche Rahmen entscheidet sich an der Arbeitszeit. Bei ~20 Stunden pro Woche und ~15–18 €/h `[TBD-Recherche]` liegt das Monatsbrutto über der Minijob-Grenze von 603 € (Stand 2026 `[TBD-Recherche]`), damit ist ein SV-pflichtiger Teilzeit-Vertrag wahrscheinlich. Die Konstruktion "freier Mitarbeiter auf Rechnung" ist **nicht zulässig** — bei festen vormittäglichen Zeiten, Weisungsgebundenheit, Eingliederung in den Betrieb und einem einzigen Auftraggeber erfüllt sie alle Merkmale der Scheinselbständigkeit, mit Nachzahlungs-Risiko bis vier Jahre zurück. Der saubere Weg ist Teilzeit mit Lohnabrechnung, IfSG-Belehrung, schriftlichem Vertrag.
+## Szenario B — Externe Kraft
 
-Das Ausfall-Risiko ist mittel. Externe Kräfte sind theoretisch ersetzbar, aber die Suche dauert, und während der Suche steht die Produktion. Die Haltbarkeit der Vakuumware ist endlich, der Kunden-Vertrag (Abholung zu einem zugesagten Termin) nicht einfach verschiebbar. Eine zweite Kraft als Backup würde das Risiko lösen, verdoppelt aber den Personalkosten-Block. Diese Abwägung gehört in Doc 02 Wirtschaftlichkeitsrechnung.
+Extern angestellte Küchenhilfe oder angelernter Koch. Kein Gesellen-Koch nötig — eine angelernte Kraft mit IfSG-Belehrung und Bereitschaft, sich in Silvios Rezepturen einzuarbeiten, reicht.
+
+**Rechtlicher Rahmen:** Bei 10–12 h/Woche und 15 €/h: Monatsbrutto 650–780 € → über der Minijob-Grenze von 603 € → **SV-pflichtige Teilzeit** (Midijob-Gleitzone 603,01–2.000 €). Kosten: ~940–1.000 €/Monat inkl. AG-Anteil.
+
+**Nie als "freier Mitarbeiter auf Rechnung."** Gastronomie ist **DRV-Prüf-Schwerpunkt** für Scheinselbständigkeit. Bei festen vormittäglichen Zeiten, Weisungsgebundenheit, Eingliederung in den Betrieb und einem einzigen Auftraggeber: alle Kriterien erfüllt. Nachzahlungs-Risiko bis 4 Jahre zurück. Die DRV prüft in der Gastronomie nicht erst bei einer Anzeige, sondern im Rahmen regulärer Betriebsprüfungen.
+
+Ausfall-Risiko mittel. Externe Kräfte sind ersetzbar, aber Suchdauer 4–8 Wochen in Stuttgart. Während der Suche steht die Produktion.
 
 ## Szenario C — Silvio selbst
 
-Silvio produziert die Vakuum-Ware vormittags selbst, vor dem Service-Fenster um 17 Uhr. Kein zusätzlicher Personalkosten-Block, keine arbeitsrechtlichen Fragen, keine Einlern-Zeit. Auf dem Papier das schlankste Szenario.
+Silvio produziert vormittags, führt abends den Service. Kein Personalkosten-Block, keine arbeitsrechtlichen Fragen.
 
-Der versteckte Preis sind die Opportunitäts-Kosten. Silvios Vormittage sind heute nicht leer — sie werden für Einkauf, Lieferanten-Gespräche, Küchenplanung, Verwaltung, Reservierungen, Personal-Themen, und für die Erholungs-Zeit gebraucht, die einen Gastronomen durch die Abend-Service-Belastung trägt. Fällt die Vormittags-Erholung weg, steigt die Belastungs-Grenze sichtbar, und die Qualität im Abend-Service ist das erste, was darunter leidet. Das ist kein Burnout-Alarmismus, sondern eine nüchterne Alltags-Rechnung für einen 25-Jahre-Gastronom.
+**Versteckte Kosten:** Silvios Vormittage (Einkauf, Lieferanten, Verwaltung, Erholung) fallen weg. Bei einem 25-Jahre-Gastronom ist die Erholung zwischen den Abend-Services kein Luxus, sondern Substanz-Erhalt.
 
-Das Ausfall-Risiko ist in diesem Szenario am höchsten, auch wenn das auf den ersten Blick paradox wirkt. Wenn Silvio vormittags produziert und abends den Service führt, ist er der einzige Produktions-Punkt des Restaurants — fällt er aus, fallen Restaurant und Retail gleichzeitig aus. Eine Ein-Personen-Abhängigkeit im Extrem, ohne jeden Puffer.
+**Pilot-Tauglichkeit: 4–6 Wochen.** Szenario C ist realistisch als Pilot-Phase (Testproduktion, Rezeptur-Feinschliff, erste Verkäufe). Danach muss der Wechsel zu A oder B als Meilenstein im Rollout-Plan stehen. Kein "sehen wir dann".
 
-Szenario C ist realistisch als **Pilot-Phase-Lösung** für wenige Wochen (erster Monat Produktion, Testbetrieb, Rezeptur-Feinschliff), nicht als Dauer-Modell. Der Wechsel zu A oder B muss als Meilenstein im Rollout-Plan eingeplant sein, nicht als "sehen wir dann".
+Ausfall-Risiko am höchsten: Restaurant und Retail fallen gleichzeitig aus.
 
-## Non-Goals dieses Docs
+## Misch-Modell M — C als Pilot → A oder B als Dauer
 
-- **Will Silvios Ehefrau Szenario A?** — nicht Gegenstand, Silvios Revier.
-- **Emotionale Familien-Belastung, Beziehungs-Dynamik, Rollen-Verteilung im Haushalt.** — nicht Gegenstand.
-- **Welche konkrete Person könnte Szenario B füllen?** — nicht Gegenstand. Persona 11 liefert Markt-Rahmen, nicht Einzel-Empfehlung.
-- **Küchen-Handwerks-Eignung einer konkreten Person für Rezeptur-Qualität.** — Persona 07 Küchenchef.
-- **Team-Dynamik Restaurant-Küchenteam ↔ Retail-Produktions-Kraft.** — Persona 06 Gastronom-Praktiker, wenn relevant.
-- **Entscheidung.** Dieses Doc trifft keine Wahl. Die Entscheidung fällt Silvio nach Persona-11-Review und nach einer Silvio-Paket-Rückmeldung.
+Das realistischste Phase-1-Modell:
 
-## Offene `[TBD-Recherche]`-Marker
+| Phase | Wer | Dauer | Kosten |
+|---|---|---|---|
+| Pilot (Wochen 1–6) | Silvio selbst (Szenario C) | 4–6 Wochen | 0 € direkt |
+| Übergang | Personalsuche parallel zum Pilot (Woche 1–2 starten!) | 4–8 Wochen Suchdauer | — |
+| Dauerbetrieb | Ehefrau (A) oder externe Kraft (B) | unbegrenzt | 690–1.000 €/Monat |
+| Backup | Silvio springt bei Ausfall ein | sporadisch | 0 € |
 
-1. Stundenlohn-Spanne 2026 für einfache Küchenkräfte / Küchenhilfen im Stuttgarter Markt (vormittags-Verfügbarkeit).
-2. Minijob-Monats-Grenze 2026 (nach aktuellem Kenntnisstand 603 €, zu bestätigen).
-3. Durchschnittliche Suchdauer Stuttgart für eine Teilzeit-Küchenhilfe mit Vormittags-Verfügbarkeit über IHK-Jobbörse, Arbeitsagentur, Community-Kanäle.
-4. Marktüblicher Fremdvergleichs-Lohn für einen Ehegatten-Arbeitsvertrag in derselben Rolle (Bezugspunkt für die steuerliche Anerkennung).
-5. Belastungs-Grenze für Szenario C — welcher Zeitraum ist realistisch, bevor Qualität oder Gesundheit kippen? Keine medizinische Aussage, sondern erfahrungsbasierter Rahmen.
-6. Minijob-Pauschalabgaben und Arbeitgeber-Brutto-Belastungs-Quote 2026 (für Kosten-Rechnung Szenario B bei Minijob-Variante).
+**Kritisch:** Die Personalsuche muss **in Woche 1–2 starten**, nicht nach dem Pilot. Sonst steht Silvio in Woche 7 ohne Ablösung da und rutsche in Dauer-Szenario-C.
+
+## Non-Goals
+
+- **Will Silvios Ehefrau Szenario A?** — Silvios Revier, kein Review-Gegenstand.
+- **Emotionale Familien-Belastung** — nicht Gegenstand.
+- **Welche konkrete Person für Szenario B?** — Persona 11 liefert Markt-Rahmen, nicht Einzel-Empfehlung.
+- **Küchen-Handwerks-Qualifikation** — Persona 07 Küchenchef.
+- **SV-Beitrags-Berechnung im Detail** — Persona 03 Steuerberaterin.
+
+## Offene Punkte
+
+| # | Punkt | Status | Abhängig von |
+|---|---|---|---|
+| 1 | IfSG-Status Ehefrau (falls Szenario A) | Offen | SP-04 erweitern |
+| 2 | Silvios Präferenz A/B/C | Offen | Silvio-Paket |
+| 3 | Konkreter Stundenlohn (Fremdvergleich für Ehegatten-AV) | Arbeitsannahme 15 €/h gesetzt | Steuerberater-Verifikation (SP-05) |
 
 ## Verweise
 
-- `docs/personas/Persona 11 – Personal-Markt & Arbeitsrecht Retail.md` — Lead-Review-Persona für dieses Doc.
-- `docs/plans/rollout-plan.md` — Vormittags-Fenster und Personal-Annahme werden dort in Session 9 nachgezogen.
-- `docs/business-case/02 – Wirtschaftlichkeitsrechnung.md` — Personalkosten-Block muss die drei Szenarien als Sensitivitäts-Fälle aufnehmen, sobald Persona 11 die `[TBD-Recherche]`-Marker aufgelöst hat.
-- `docs/business-case/10 – Operative Umsetzung.md` — Tagesablauf-Sektion muss das Vormittags-Fenster explizit ausweisen.
-- `docs/business-case/13 – 6-Wochen-Rollout-Plan.md` — Meilenstein "Wechsel von Szenario C zu A oder B" gehört rein, falls die Pilot-Phase mit Szenario C läuft.
-- `docs/findings/session-8-persona-deep-dive-findings.md` — Findings 4 und 5 (Vormittags-Fenster, einfacher Koch statt zweiter Chef) sind die Grundlage für dieses Doc.
+- `docs/personas/Persona 11 – Personal-Markt & Arbeitsrecht Retail.md` — Lead-Review-Persona
+- `docs/plans/rollout-plan.md` — Vormittags-Fenster, Personal-Meilenstein fehlt (→ Doc 13 v2)
+- `docs/business-case/02 – Wirtschaftlichkeitsrechnung.md` — Personalkosten-Block referenziert Szenarien A/B/C
+- `docs/findings/session-8-persona-deep-dive-findings.md` — Findings 4+5 (Vormittags-Fenster, einfacher Koch)
