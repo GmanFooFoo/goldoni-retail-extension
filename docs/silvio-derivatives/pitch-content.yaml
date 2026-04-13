@@ -1,0 +1,95 @@
+# ============================================================
+# Goldoni Retail — Pitch (A5 Postkarte als Slides)
+# ============================================================
+#
+# Bearbeiten, dann:
+#   python3 scripts/create-slides.py -i docs/silvio-derivatives/pitch-content.yaml -o docs/silvio-derivatives/goldoni-retail-pitch.pptx
+#
+# ============================================================
+
+slides:
+
+  # ----------------------------------------------------------
+  - type: title
+    headline: "Dein Essen. Deine Küche."
+    subline: "Nur ein Kanal mehr."
+    footer: ""
+
+  # ----------------------------------------------------------
+  - type: text
+    headline: ""
+    lines:
+      - text: "Montags und dienstags steht deine Küche still."
+      - text: ""
+      - text: "Die Idee: an diesen Tagen Lasagne, Ragù, Sugo, Parmigiana"
+      - text: "vakuumieren — zum Mitnehmen, über Wolt, zum Vorbestellen."
+      - text: "Fünf bis acht Tage haltbar im Kühlschrank, dein Name drauf."
+      - text: ""
+      - text: "Kein neues Restaurant. Deine Rezepte, deine Küche,"
+      - text: "dein Vakuumierer — nur ein größerer, der auch Serien schafft."
+
+  # ----------------------------------------------------------
+  - type: text
+    headline: "Der erste Schritt kostet nichts."
+    lines:
+      - text: "Als IHK-Mitglied hast du Anspruch auf eine"
+      - text: "kostenlose Erstberatung. Ein Fachmann kommt,"
+      - text: "schaut sich den Plan an, sagt dir, was geht und was nicht."
+      - text: ""
+      - text: "Ich komme mit, ich bereite alles vor."
+        bold: true
+      - text: ""
+      - text: "Danach weißt du, ob der Weg frei ist —"
+      - text: "bevor du einen Cent ausgibst."
+        bold: true
+
+  # ----------------------------------------------------------
+  - type: text
+    headline: "Was es bringt."
+    lines:
+      - text: "Pro Portion bleiben dir 4 bis 7 € hängen."
+      - text: ""
+      - text: "Bei 50 Stück pro Woche sind das"
+      - text: "über 4.000 € im Jahr —"
+        bold: true
+      - text: "aus zwei Tagen, an denen die Küche sonst kalt bleibt."
+      - text: ""
+      - text: "Falls es gut läuft, das Doppelte."
+
+  # ----------------------------------------------------------
+  - type: text
+    headline: "Was es kostet."
+    lines:
+      - text: "Insgesamt rund 6.000 € — aber in Stufen,"
+      - text: "nicht auf einen Schlag."
+      - text: ""
+      - text: "Erst nach dem IHK-Check und dem Vetamt-Termin"
+      - text: "kommt die erste echte Ausgabe."
+      - text: ""
+      - text: "Und es gibt staatliche Zuschüsse, die einen Teil"
+      - text: "davon zurückbringen können."
+
+  # ----------------------------------------------------------
+  - type: text
+    headline: "Was du tun musst."
+    lines:
+      - text: "Sieben kurze Sachen — ein Anruf beim Vetamt,"
+      - text: "Kasse prüfen, ein paar Mails verschicken."
+      - text: ""
+      - text: "Alles zusammen ein halber Tag."
+        bold: true
+      - text: "Den Rest mache ich."
+        bold: true
+      - text: ""
+      - text: "Erst testen wir zwei Wochen nur mit Stammgästen."
+      - text: "Wenn es nicht läuft, wissen wir's früh genug."
+
+  # ----------------------------------------------------------
+  - type: closing
+    headline: ""
+    intro:
+      - text: ""
+      - text: "German"
+        bold: true
+    quote: []
+    footer: ""
