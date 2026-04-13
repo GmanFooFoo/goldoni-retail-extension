@@ -73,7 +73,7 @@ Pipeline: **v1** (Original) → **Lead-Review** → **Co-Reviews** → **Finding
 | 09 | Verkaufsstrategie | 🔲 | — | — | — | — | — |
 | 10 | Operative Umsetzung | 🔲 | — | — | — | — | — |
 | 11 | Lieferanten Stuttgart | 🔲 | — | — | — | — | — |
-| **12** | **Investitionsplan** | **✅ CFO** | **🔲** | **9** | **🔲** | **🔲** | Doc 02 v2 Propagation |
+| **12** | **Investitionsplan** | **✅ CFO** | **🔲** | **9 (7 gelöst)** | **—** | **✅** | SP-06/22 offen |
 | 13 | 6-Wochen-Rollout-Plan | 🔲 | — | — | — | — | — |
 | 14 | Rechtliche Absicherung | ✅ Lebensmittelrecht + R9 | ✅ Behörde, Steuer | 25 | — | ✅ (22 gelöst) | — |
 | 15 | Steuerliche Behandlung | ✅ Steuer | ✅ CFO | 16 | — | ✅ (15 gelöst) | — |
@@ -85,7 +85,7 @@ Pipeline: **v1** (Original) → **Lead-Review** → **Co-Reviews** → **Finding
 
 **Legende:** ✅ erledigt, ⚠️ in Arbeit, 🔲 offen, R9 = Rule-9-Regulatorik-Nachtrag
 
-**Aggregate:** 8 von 20 Docs lead-reviewt (40 %). 152 Findings. 6 v2-Rewrites fertig. 19 Reviews gesamt.
+**Aggregate:** 8 von 20 Docs lead-reviewt (40 %). 152 Findings. **7 v2-Rewrites fertig.** 19 Reviews gesamt.
 
 ### Silvio-Paket
 

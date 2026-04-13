@@ -2,7 +2,7 @@
 
 **Quelle:** [Lead-Review CFO](../reviews/12-investitionsplan-cfo.md)
 **Datum:** 2026-04-13
-**Status:** Offen — v2-Rewrite als nächster Schritt (S-Effort, koppelt an Doc 02 v2).
+**Status:** **Doc 12 v2 geschrieben** (2026-04-13). Von 9 Findings sind 7 in v2 aufgelöst, 2 offen bis Silvio-Input (F5 SP-06 Kasse, F9 SP-22 Angebote).
 
 ## Findings-Tabelle
 

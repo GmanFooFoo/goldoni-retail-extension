@@ -1,77 +1,126 @@
 # Goldoni – Investitionsplan & Geräteausstattung
 
-## Grundprinzip
+> **Version:** v2 (2026-04-13). Rewrite auf Basis von 9 Findings aus CFO-Lead-Review, abgeglichen mit Doc 02 v2 (Kapitel 5) und Doc 15 v2.
+> **Scope:** Phase 1 — Vakuum, gekühlt, 5 Produkte. Kein Tiefkühl (D-02).
+> **Netto/Brutto-Deklaration:** Alle Preise sind **Brutto inkl. 19 % USt** (Geräte/Dienstleistungen), sofern nicht anders gekennzeichnet. Vorsteuer-Erstattung wird separat ausgewiesen.
 
-Minimale Erstinvestition, schrittweise skalieren. Nur kaufen was für Phase 1 zwingend nötig ist.
+## Was ist wahrscheinlich vorhanden
 
-## Was ist wahrscheinlich bereits vorhanden
+Vor Einkauf: **Bestandsaufnahme in der Küche** — was ist wirklich da und in welchem Zustand? [TBD-Silvio]
 
-| Gerät | Wahrscheinlichkeit | Relevanz |
-|---|---|---|
-| Backofen (Kombi oder Konvektomat) | Sehr hoch | Lasagne-Produktion |
-| Kernthermometer digital | Hoch | CCP 1 + 2 |
-| GN-Behälter flach (1/1, 1/2) | Hoch | Abkühlung CCP 1 |
-| Kühlschrank / Kühlzelle | Sehr hoch | CCP 3 |
-| Tiefkühler | Hoch | Tiefkühl-Linie (Phase 2) |
-| Waage digital | Hoch | Portionierung |
-| Messer, Schneidbretter, Kochgeschirr | Sehr hoch | Produktion |
+| # | Gerät | Wahrscheinlichkeit | Relevanz Phase 1 | Falls vorhanden → spart |
+|---|---|---|---|---|
+| 1 | Backofen (Kombi oder Konvektomat) | Sehr hoch | Lasagne-/Parmigiana-Produktion | Keine Anschaffung nötig |
+| 2 | Kernthermometer digital | Hoch | CCP-Kontrolle (Doc 05) | ~30 € |
+| 3 | GN-Behälter flach (1/1, 1/2) | Hoch | Abkühlung, Portionierung | 60–120 € |
+| 4 | Kühlschrank / Kühlzelle | Sehr hoch | Lagerung Retail-Produkte | Keine Anschaffung nötig |
+| 5 | Waage digital | Hoch | Portionierung nach Gramm | ~50 € |
+| 6 | Vakuumierer (Henkelman?) | Möglich [TBD-Silvio] | Kern-Gerät Phase 1 | 2.500 € |
 
-Vor Einkauf: kurze Bestandsaufnahme in der Küche — was ist wirklich vorhanden und in welchem Zustand?
+> **Silvio-Hinweis:** Laut erster Info hat Silvio möglicherweise einen Henkelman im Bestand. Typ, Alter, Kammer-Größe, Beutel-Kompatibilität klären [TBD-Silvio]. Falls das Gerät ausreicht, entfällt die größte Einzelposition.
 
-## Stufe 1: Pflichtanschaffungen für Phase 1
+## Stufe 1 — Pflichtinvestitionen Phase 1
 
-Ohne diese Geräte kein legaler Verkauf:
+Ohne diese Positionen kein legaler Retail-Verkauf. Reihenfolge nach Rollout-Plan (Schritte 1–5).
 
-| Gerät | Empfehlung | Kosten |
-|---|---|---|
-| Vakuumiergerät Kammer | Henkelman Jumbo 42 oder Multivac C200 | 1.200–1.800 € |
-| Etikettendrucker | Brother QL-820NWB | 180–220 € |
-| Datumsstempel (Backup) | Trodat Printy 4750 | 8–15 € |
-| Vakuumbeutel PA/PE 250×350mm | Allfo.de, 500er-Pack | 60–80 € |
-| Etikettenrollen kompatibel | Brother DK-22205 | 20–30 € |
+| # | Position | Brutto | Netto | Vorsteuer | AfA | Rollout-Schritt |
+|---|---|---|---|---|---|---|
+| 1 | **Vakuumierer Kammer** (Henkelman Jumbo 42 o.ä.) | 2.500 € [E] | 2.101 € | 399 € | 8 J. linear, 263 €/J. | Schritt 3 |
+| 2 | **Etikettendrucker** (Brother QL-820NWB) | 240 € | 202 € | 38 € | GWG, sofort absetzbar | Schritt 5 |
+| 3 | **Erstausstattung Verpackung** (Beutel PA/PE, Etikettenrollen) | 400 € | 336 € | 64 € | Verbrauchsmaterial | Schritt 3 |
+| 4 | **HACCP-Berater** (Eigenkontrollkonzept-Update) | 800 € | 672 € | 128 € | Sofort absetzbar | Schritt 2 |
+| 5 | **Labor-Nährwertanalyse** (5 Produkte × ~100 €) | 500 € | 420 € | 80 € | Sofort absetzbar | Schritt 5 |
+| 6 | **Anwalt** AGB + Datenschutz + Fernabsatz (D-12) | 1.000 € | 840 € | 160 € | Sofort absetzbar | Schritt 5 |
+| 7 | **IfSG-Erstbelehrung** (2 Personen, Gesundheitsamt) | 60 € | 60 € | — | — | Schritt 2 |
+| 8 | **Gewerbeanzeige** (§ 14 GewO, Gewerbeamt Stuttgart) | 40 € | 40 € | — | — | Schritt 1 |
+| 9 | **Versicherung Produkthaftpflicht** (Jahresprämie) | 300 € | 300 € | — | Laufend | Schritt 6 |
+| 10 | **Webshop-Setup** (Ecwid oder Shopify, einmalig) | 200 € | 168 € | 32 € | Sofort absetzbar | Schritt 5 |
+| | | | | | | |
+| | **Summe Stufe 1** | **6.040 €** | **5.139 €** | **901 €** | | |
 
-Gesamtinvestition Stufe 1: ca. 1.500–2.200 €
+### Cashflow-Timing
 
-## Stufe 2: Komfortanschaffungen (nach 4–6 Wochen)
-
-Wenn Produktion läuft und Nachfrage bestätigt:
-
-| Gerät | Nutzen | Kosten |
-|---|---|---|
-| Kühlvitrine Verkauf (Glasfront) | Sichtbarkeit am POS erhöhen | 800–1.500 € |
-| Zusätzliche GN-Behälter (4–6 Stk) | Schnellere Abkühlung größerer Mengen | 60–120 € |
-| Profi-Etiketten (Druckerei) | Hochwertigeres Erscheinungsbild | 80–150 € (1.000er) |
-
-Gesamtinvestition Stufe 2: ca. 1.000–1.800 €
-
-## Stufe 3: Skalierung (nach 3–6 Monaten)
-
-Wenn Tiefkühl-Linie oder höhere Mengen geplant:
-
-| Gerät | Nutzen | Kosten |
-|---|---|---|
-| Zusätzlicher Tiefkühler (dediziert) | Tiefkühl-Produkte getrennt vom Restaurantbedarf | 400–800 € |
-| Schnellkühler / Schockfroster | Abkühlzeit CCP1 von 2 Std. auf 20 Min. reduzieren | 2.000–4.000 € |
-| Zweites Vakuumiergerät | Redundanz + höhere Durchsatzkapazität | 1.200–1.800 € |
-
-Schockfroster ist der größte Hebel für Skalierung — er löst den Engpass bei CCP 1 und ermöglicht deutlich höhere Stückzahlen.
-
-## Gesamtübersicht Investitionsplan
-
-| Stufe | Zeitpunkt | Investition | Auslöser |
+| Monat | Positionen | Cash-Abfluss brutto | Vorsteuer zurück (nächste VA) |
 |---|---|---|---|
-| 1 — Pflicht | Woche 1–2 | 1.500–2.200 € | Sofort |
-| 2 — Komfort | Woche 4–6 | 1.000–1.800 € | Nach Pilotbestätigung |
-| 3 — Skalierung | Monat 3–6 | 3.600–6.600 € | Bei >80 Einheiten/Woche |
+| Mai (Vorbereitung) | #7 IfSG, #8 Gewerbe | 100 € | — |
+| Juni (Beschaffung) | #1 Vakuumierer, #2 Drucker, #3 Verpackung, #4 HACCP | 3.940 € | 629 € |
+| Juli (Pilot-Start) | #5 Labor, #6 Anwalt, #9 Versicherung, #10 Webshop | 2.000 € | 272 € |
 
-Gesamtrahmen über 6 Monate: ca. 6.100–10.600 €
+**Effektive Belastung nach Vorsteuer: 5.139 €** (nicht 6.040 €). Die 901 € Vorsteuer kommen innerhalb von 1–2 Monaten via Umsatzsteuer-Voranmeldung zurück.
 
-## Bezugsquellen Geräte
+### Risiko-Kapital bei Abbruch
 
-1. Henkelman / Multivac — direkt oder über Gastro-Fachhändler Stuttgart
-2. Metro Weil im Dorf — Vakuumbeutel, kleinere Geräte
-3. Allfo.de — Vakuumbeutel online, beste Preise bei Mengenbestellung
-4. eBay Kleinanzeigen — gebrauchte Kühlvitrinen, oft sehr günstig
+| Zeitpunkt Abbruch | Versunkene Kosten | Rückhol-Potential |
+|---|---|---|
+| Nach Schritt 2 (Vetamt sagt Nein) | ~900 € (HACCP, Belehrung, Gewerbe) | 0 € |
+| Nach Schritt 4 (Tests scheitern) | ~4.440 € | Vakuumierer 50–70 % Restwert = 1.250–1.750 € |
+| Nach Schritt 6 (Pilot scheitert) | ~6.040 € | Vakuumierer Restwert + Drucker = 1.400–1.900 € |
+| **Max. versunkener Betrag** | | **~3.100–4.600 €** |
+
+## Stufe 2 — Komfortinvestitionen (nach Pilot-Bestätigung)
+
+Erst kaufen, wenn Gate 6 (Pilot) bestanden ist und Regelbetrieb läuft (ab Monat 4–5).
+
+| # | Position | Brutto [E] | Nutzen | Bedingung |
+|---|---|---|---|---|
+| 11 | Zusätzliche GN-Behälter (4–6 Stk) | 60–120 € | Schnellere Abkühlung größerer Chargen | Produktion > 40 Stk/Woche |
+| 12 | Profi-Etiketten (Druckerei statt Thermodrucker) | 80–150 € (1.000er) | Hochwertigeres Erscheinungsbild | Silvio-Entscheidung (Marke vs. Kosten) |
+| 13 | Kühlvitrine Glasfront (POS) | 800–1.500 € | Sichtbarkeit im Restaurant | **Optional** — bei 30 % Plattform-Anteil (D-13) sehen viele Kunden die Vitrine nie. Silvio-Entscheidung, nicht CFO-Empfehlung. |
+
+**Summe Stufe 2:** 940–1.770 € (davon 800–1.500 € optional)
+
+## Phase 2 — Skalierung (frühestens nach 6–12 Monaten)
+
+> **Nicht im Scope Phase 1 (D-02).** Hier nur dokumentiert, damit die Investitions-Perspektive vollständig ist.
+
+| # | Position | Brutto [E] | Voraussetzung |
+|---|---|---|---|
+| 14 | Schockfroster / Schnellkühler | 2.000–4.000 € | Nachfrage > 80 Stk/Woche, Tiefkühl-Entscheidung |
+| 15 | Zusätzlicher Tiefkühler (dediziert) | 400–800 € | Tiefkühl-Linie in Betrieb |
+| 16 | Zweiter Vakuumierer (Redundanz) | 2.500 € | Durchsatz-Engpass bestätigt |
+
+## Bedingte Position: Kassensystem (SP-06)
+
+[TBD-Silvio] Silvios Kassensystem muss TSE-zertifiziert sein und zwei Steuersätze parallel verarbeiten können (7 % Speisen + 19 % Getränke). Wenn nicht:
+
+| Szenario | Kosten | Wahrscheinlichkeit |
+|---|---|---|
+| TSE-Nachrüstung (Software-Update + Modul) | 300–500 € | Hoch |
+| Kassen-Komplettersatz mit TSE | 1.500–3.000 € | Niedrig |
+
+**Bei "nicht TSE-fähig": Stopper für Rollout** (Doc 15 v2). Diese Position wird erst nach SP-06-Klärung in die Summe aufgenommen.
+
+## Gesamtübersicht
+
+| Stufe | Zeitpunkt | Brutto | Netto (nach VSt) | Bedingung |
+|---|---|---|---|---|
+| **1 — Pflicht** | Monat 1–3 | 6.040 € | 5.139 € | Sofort |
+| 2 — Komfort | Monat 4–5 | 140–270 € (ohne Vitrine) | ~130–250 € | Pilot bestanden |
+| 2 — Vitrine (optional) | Monat 4–5 | 800–1.500 € | ~670–1.260 € | Silvio-Entscheidung |
+| Kasse (bedingt) | Monat 1 | 300–3.000 € | 250–2.520 € | SP-06 |
+| Phase 2 (nicht im Scope) | Monat 6–12+ | 4.900–7.300 € | — | Separate Entscheidung |
+
+### Abschreibungs-Tabelle (Steuerberater-Referenz)
+
+| Position | Netto | GWG? | AfA-Dauer | Jährliche AfA |
+|---|---|---|---|---|
+| Vakuumierer | 2.101 € | Nein (> 800 €) | 8 Jahre | 263 € |
+| Etikettendrucker | 202 € | Ja (< 800 €) | Sofort | 202 € (Jahr 1) |
+| HACCP-Berater | 672 € | Ja | Sofort | 672 € (Jahr 1) |
+| Labor | 420 € | Ja | Sofort | 420 € (Jahr 1) |
+| Anwalt | 840 € | Ja (Dienstleistung) | Sofort | 840 € (Jahr 1) |
+| Webshop-Setup | 168 € | Ja | Sofort | 168 € (Jahr 1) |
+
+**Jahr 1 Steuer-Effekt:** 2.302 € sofort absetzbar + 263 € AfA = 2.565 € Betriebsausgaben. Bei ~30 % persönlichem Steuersatz: ca. **770 € Steuerersparnis** im ersten Jahr.
+
+## Cross-Referenzen
+
+| Verweis | Thema | Richtung |
+|---|---|---|
+| [Doc 02 v2 Kapitel 5](02%20–%20Wirtschaftlichkeitsrechnung.md) | Investitionstabelle identisch | Doc 02 ↔ Doc 12 |
+| [Doc 15 v2](15%20–%20Steuerliche%20Behandlung.md) | AfA, Vorsteuer, GWG-Grenze | Doc 15 → Doc 12 |
+| [Rollout-Plan](../plans/rollout-plan.md) | Zeitliche Zuordnung der Investitionen | Rollout → Doc 12 |
+| [Cashflow-Projektion](../plans/02-cashflow-projektion-2026.md) | Monatliche Verteilung | Doc 12 → Cashflow |
 
 ---
 
