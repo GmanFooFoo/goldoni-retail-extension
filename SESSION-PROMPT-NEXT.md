@@ -1,60 +1,53 @@
-# Session-Prompt für Session 15 — Goldoni Retail Extension
+# Session-Prompt für Session 16 — Goldoni Retail Extension
 
-> Handoff von Session 14 (2026-04-13) an Session 15.
+> Handoff von Session 15 (2026-04-13) an Session 16.
 
 ## Kurzstand
 
-Session 14 hat die **7 verbleibenden v2-Rewrites** abgeschlossen (6 von 7; Doc 06 Mockups bewusst verschoben). Gesamt: 308 Findings, 45 Reviews, **19 von 20 Docs auf v2** (nur Doc 06 bleibt v1). 74 Findings in dieser Session adressiert.
+**Alle 20 Docs auf v2. 14/17 Inconsistencies aufgelöst. Silvio-Slides fertig.** 308 Findings, 45 Reviews, 12-Slide-Präsentation für das Übergabe-Gespräch an Silvio. Das Projekt ist inhaltlich komplett — der nächste Meilenstein ist **Germans Gespräch mit Silvio**.
 
 ## Kontext-Reset — lies diese Dateien zuerst
 
-1. `docs/reports/2026-04-13-goldoni-c.md` — Session-14-Report. **Wichtigste Datei.**
-2. `docs/findings/decisions.md` — D-01 bis D-13.
-3. `docs/silvio-paket/offene-fragen.md` — 24 Einträge (SP-01 bis SP-24).
-4. `session-state.md` — Stand nach Session 14.
+1. `docs/reports/2026-04-13-goldoni-d.md` — Session-15-Report.
+2. `docs/silvio-derivatives/gesamt-ueberblick.md` — Persona-00 Gesamt-Überblick (12 Slides).
+3. `docs/silvio-derivatives/slides-content.yaml` — editierbare Slide-Inhalte.
+4. `session-state.md` — Stand nach Session 15.
 
-## Was in Session 15 ansteht
+## Was in Session 16 ansteht
 
-### Priorität 1 — Inconsistencies schließen
+### Priorität 1 — Silvio-Rückmeldungen verarbeiten
 
-17 Einträge, davon 4 bereits aufgelöst. Viele der 13 offenen werden durch die v2-Rewrites automatisch aufgelöst sein. Systematischer Durchlauf:
+Falls Silvio auf offene Fragen geantwortet hat:
 
-- Für jede Inconsistency prüfen: Ist der Widerspruch durch v2-Rewrites behoben?
-- Status auf "Aufgelöst" oder "Offen mit Begründung" setzen
-- Verbleibende offene Punkte als Aktionen zuordnen
+| SP | Thema | Was dann |
+|---|---|---|
+| SP-19 | Rezeptur (ohne Béchamel, Gramm) | Arbeitsannahme bestätigen/korrigieren, QUID + Allergene in Doc 04/06 befüllen |
+| SP-09 | Vollständige Anschrift | Etikett-Pflichtfeld #8 in Doc 06 befüllen |
+| SP-22 | Metro-/Lieferanten-Preise | [E]-Marker in Doc 02/07/11 durch echte Preise ersetzen |
+| SP-23 | Nachfrage-Schätzung | Absatz-Szenarien in Doc 02 kalibrieren, Slides anpassen |
+| SP-24 | Kartenpreise | Preisanker in Doc 07 validieren |
 
-Besonders prüfen: #1 (Rollout-Dauer, sollte durch Doc 13 v2 aufgelöst sein), #3 (Tiefkühl-Scope, durch v2-Rewrites überall korrigiert), #6 (Pilot-Gate, durch Doc 13 v2 aufgelöst), #8 (Netto/Brutto, durch Doc 02/07 v2 aufgelöst).
+### Priorität 2 — Slides verfeinern
 
-### Priorität 2 — Doc 06 Mockups
+- YAML-Texte prüfen und Formulierungen schärfen
+- Ggf. italienische Version (`slides-content-it.yaml`)
+- PPTX in Keynote/PowerPoint visuell prüfen und ggf. Layout-Korrekturen
 
-Entscheiden: Text-Rewrite (LMIV-Checkliste als Tabelle, Pflichtfelder dokumentieren, "Marco Antonelli" durch [TBD-Silvio] ersetzen) oder warten auf visuellen Entwurf. Ein Text-v2 ohne visuelles Design ist sinnvoll als Arbeitsgrundlage für Silvio/Designer.
+### Priorität 3 — Backlog-Items (falls Zeit)
 
-### Priorität 3 — Silvio-Paket-Rückmeldungen
+| # | Item | Effort |
+|---|---|---|
+| 52 | Sensitivity-Analyse Doc 02 (Break-Even bei 30/40/50/60 Einheiten) | S |
+| 54 | Geschenkebox-Konzept (Sugo + Rummo-Nudeln) | M |
+| 56 | Q4Me QM-Software evaluieren | S |
 
-Falls Silvio geantwortet hat:
-- SP-19 (Rezeptur ohne Béchamel) → Arbeitsannahme bestätigen
-- SP-22 (Metro-/Lieferanten-Preise) → [E]-Marker in Doc 02/07/11 durch echte Preise ersetzen
-- SP-23 (Nachfrage-Schätzung) → Absatz-Szenarien in Doc 02 kalibrieren
-- SP-24 (aktuelle Kartenpreise) → Preisanker in Doc 07 validieren
+### Priorität 4 — Inconsistency #17 (Öffnungszeiten)
 
-### Priorität 4 — README aktualisieren
-
-Doc-Status-Matrix auf 19/20 v2 (oder 20/20 falls Doc 06 v2 geschrieben wird).
-
-### Priorität 5 — Optional: Persona-00-Silvio-Übersetzungsschicht
-
-Vorbereitung für das Übergabe-Gespräch an Silvio. Persona 00 erstellt eine Silvio-Ableitung der wichtigsten Ergebnisse — nicht als 20-Doc-Dump, sondern als "Was muss Silvio wissen, um Ja oder Nein zu sagen?"
+17–22 vs. 18–22:30. Falls Silvio antwortet → direkt korrigieren. Falls nicht → als offenen Punkt belassen.
 
 ## Offene Blocker
 
-| # | Blocker | Wartet auf | Impact |
-|---|---|---|---|
-| 1 | SP-19 Rezeptur (ohne Béchamel/Ei) | Silvio (WhatsApp 12.04.) | Arbeitsannahme gesetzt, Bestätigung offen |
-| 2 | SP-22 Metro-/Lieferanten-Preise | Silvio | Doc 02/07/11 [E]-Marker |
-| 3 | SP-23 Nachfrage-Schätzung | Silvio | Doc 02 Absatz-Szenarien |
-| 4 | SP-24 Kartenpreise | Silvio | Doc 07 Preisanker |
-| 5 | SP-06 Kassensystem TSE | Silvio | Doc 15 |
-| 6 | Doc 06 visueller Etikett-Entwurf | Silvio + Designer | Doc 06 v2 (falls visuell) |
+Alle 6 Blocker warten auf Silvio (SP-09, SP-19, SP-22, SP-23, SP-24, Inconsistency #17).
 
 ## Wichtige Präferenzen
 
@@ -62,3 +55,4 @@ Vorbereitung für das Übergabe-Gespräch an Silvio. Persona 00 erstellt eine Si
 - **AskUserQuestion bei 2+ Optionen Pflicht (Rule 11)**
 - **Eine Frage nach der anderen (Rule 12)**
 - **Pushback erwartet — nicht blind ausführen**
+- **Silvio ist kein Reviewer — Silvio-Paket als Artefakt (Rule 10)**
