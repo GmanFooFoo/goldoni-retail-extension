@@ -1,48 +1,60 @@
-# Session-Prompt für Session 14 — Goldoni Retail Extension
+# Session-Prompt für Session 15 — Goldoni Retail Extension
 
-> Handoff von Session 13 (2026-04-13) an Session 14.
+> Handoff von Session 14 (2026-04-13) an Session 15.
 
 ## Kurzstand
 
-Session 13 hat **alle 20 Docs lead-reviewt (100 %)**, 14 Tier-1-Co-Reviews geschrieben und 6 v2-Rewrites fertiggestellt. Gesamt: 308 Findings, 45 Reviews, 13 v2-Rewrites. **7 Docs sind noch v1** und brauchen v2-Rewrites.
+Session 14 hat die **7 verbleibenden v2-Rewrites** abgeschlossen (6 von 7; Doc 06 Mockups bewusst verschoben). Gesamt: 308 Findings, 45 Reviews, **19 von 20 Docs auf v2** (nur Doc 06 bleibt v1). 74 Findings in dieser Session adressiert.
 
 ## Kontext-Reset — lies diese Dateien zuerst
 
-1. `docs/reports/2026-04-13-goldoni-b.md` — Session-13-Report. **Wichtigste Datei.**
+1. `docs/reports/2026-04-13-goldoni-c.md` — Session-14-Report. **Wichtigste Datei.**
 2. `docs/findings/decisions.md` — D-01 bis D-13.
 3. `docs/silvio-paket/offene-fragen.md` — 24 Einträge (SP-01 bis SP-24).
-4. `session-state.md` — Stand nach Session 13.
+4. `session-state.md` — Stand nach Session 14.
 
-## Was in Session 14 ansteht
+## Was in Session 15 ansteht
 
-### Priorität 1 — v2-Rewrites der 7 verbleibenden Docs
+### Priorität 1 — Inconsistencies schließen
 
-Reihenfolge nach Abhängigkeit:
+17 Einträge, davon 4 bereits aufgelöst. Viele der 13 offenen werden durch die v2-Rewrites automatisch aufgelöst sein. Systematischer Durchlauf:
 
-1. **Doc 13 — Rollout** (Neustrukturierung auf 10–12 Wochen, CFO-Stopp aus Session 12 adressieren, Personal-Meilenstein, Stichtag-Markierungen, Gantt-Diagramm)
-2. **Doc 09 — Verkaufsstrategie** (Wolt/Uber als Phase-1-Kanal, Webshop Phase 1, Launch-Story, DSGVO-WhatsApp, Kellner-Skript konkret, Abo → Phase 2)
-3. **Doc 07 — Preisgestaltung** (Propagation Doc 02 v2, Claudia-Findings: Sugo 6,90 → 7,90 €, Portions-Angabe, Plattform-Preis max. +2 € über Restaurant)
-4. **Doc 11 — Lieferanten** (Zutaten-Steckbrief-Tabelle, Backup-Lieferant, Preise teilweise SP-22-abhängig, Pietro-Findings: Büffelmozzarella-Haltbarkeit, Basilikum)
-5. **Doc 17 — Wettbewerb** (Plattform-Scan Wolt/Uber Stuttgart, Substitut-Analyse, "Di Gennaro" klären)
-6. **Doc 01 — Übersicht** (Dach-Dokument, reine Propagation aus allen anderen v2s — als Letztes)
-7. **Doc 06 — Mockups** (LMIV-Compliance-Checkliste gegen Doc 04 v2, braucht visuelle Etikett-Entwürfe — ggf. eigene Session)
+- Für jede Inconsistency prüfen: Ist der Widerspruch durch v2-Rewrites behoben?
+- Status auf "Aufgelöst" oder "Offen mit Begründung" setzen
+- Verbleibende offene Punkte als Aktionen zuordnen
 
-### Priorität 2 — Silvio-Paket-Rückmeldungen
+Besonders prüfen: #1 (Rollout-Dauer, sollte durch Doc 13 v2 aufgelöst sein), #3 (Tiefkühl-Scope, durch v2-Rewrites überall korrigiert), #6 (Pilot-Gate, durch Doc 13 v2 aufgelöst), #8 (Netto/Brutto, durch Doc 02/07 v2 aufgelöst).
 
-Falls Silvio auf SP-19 (Rezeptur/Béchamel) oder SP-22 (Metro-Preise) geantwortet hat: Arbeitsannahmen bestätigen oder korrigieren, betroffene v2-Docs anpassen.
+### Priorität 2 — Doc 06 Mockups
 
-### Priorität 3 — Inconsistencies schließen
+Entscheiden: Text-Rewrite (LMIV-Checkliste als Tabelle, Pflichtfelder dokumentieren, "Marco Antonelli" durch [TBD-Silvio] ersetzen) oder warten auf visuellen Entwurf. Ein Text-v2 ohne visuelles Design ist sinnvoll als Arbeitsgrundlage für Silvio/Designer.
 
-17 Einträge, 4 aufgelöst, 13 offen. Viele werden durch die v2-Rewrites automatisch aufgelöst. Nach allen v2-Rewrites: Konsistenz-Durchlauf.
+### Priorität 3 — Silvio-Paket-Rückmeldungen
+
+Falls Silvio geantwortet hat:
+- SP-19 (Rezeptur ohne Béchamel) → Arbeitsannahme bestätigen
+- SP-22 (Metro-/Lieferanten-Preise) → [E]-Marker in Doc 02/07/11 durch echte Preise ersetzen
+- SP-23 (Nachfrage-Schätzung) → Absatz-Szenarien in Doc 02 kalibrieren
+- SP-24 (aktuelle Kartenpreise) → Preisanker in Doc 07 validieren
+
+### Priorität 4 — README aktualisieren
+
+Doc-Status-Matrix auf 19/20 v2 (oder 20/20 falls Doc 06 v2 geschrieben wird).
+
+### Priorität 5 — Optional: Persona-00-Silvio-Übersetzungsschicht
+
+Vorbereitung für das Übergabe-Gespräch an Silvio. Persona 00 erstellt eine Silvio-Ableitung der wichtigsten Ergebnisse — nicht als 20-Doc-Dump, sondern als "Was muss Silvio wissen, um Ja oder Nein zu sagen?"
 
 ## Offene Blocker
 
 | # | Blocker | Wartet auf | Impact |
 |---|---|---|---|
 | 1 | SP-19 Rezeptur (ohne Béchamel/Ei) | Silvio (WhatsApp 12.04.) | Arbeitsannahme gesetzt, Bestätigung offen |
-| 2 | SP-22 Metro-/Lieferanten-Preise | Silvio | Doc 02 v2 [E]-Marker, Doc 11 v2 |
-| 3 | SP-23 Nachfrage-Schätzung | Silvio | Doc 02 v2 Absatz-Szenarien |
-| 4 | SP-06 Kassensystem TSE | Silvio | Doc 15 |
+| 2 | SP-22 Metro-/Lieferanten-Preise | Silvio | Doc 02/07/11 [E]-Marker |
+| 3 | SP-23 Nachfrage-Schätzung | Silvio | Doc 02 Absatz-Szenarien |
+| 4 | SP-24 Kartenpreise | Silvio | Doc 07 Preisanker |
+| 5 | SP-06 Kassensystem TSE | Silvio | Doc 15 |
+| 6 | Doc 06 visueller Etikett-Entwurf | Silvio + Designer | Doc 06 v2 (falls visuell) |
 
 ## Wichtige Präferenzen
 

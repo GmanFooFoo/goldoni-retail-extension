@@ -24,9 +24,9 @@
 
 | # | Item | Prio | Effort | Wer | Blocker? | Status | Impact |
 |---|---|---|---|---|---|---|---|
-| 20 | v2-Rewrite der 5 kritischen Docs auf Basis der Revisionspläne | P2 | L | German | Silvio-Feedback zu #30 | Offen | Saubere v2 für Bank/Steuerberater |
-| 21 | Review der 🟡 lückenhaften Docs (01, 07, 09, 11, 14, 15, 16, 18) | P2 | L | German | #20 | Offen | Vollständigkeit Business Case |
-| 22 | Doc 06 Mockups: echte HTML/Design-Assets besorgen oder als Skizze deklarieren | P2 | M | Silvio + Jana | — | Offen | Doc 06 aktuell 🔴 kritisch |
+| 20 | ~~v2-Rewrite der 5 kritischen Docs auf Basis der Revisionspläne~~ | — | — | — | — | ✅ Done | Session 13 + 14: 19 von 20 Docs auf v2 |
+| 21 | ~~Review der 🟡 lückenhaften Docs (01, 07, 09, 11, 14, 15, 16, 18)~~ | — | — | — | — | ✅ Done | Session 13: alle 20 Docs lead-reviewt, Session 14: alle v2 geschrieben |
+| 22 | Doc 06 Mockups: LMIV-Text-v2 oder visueller Entwurf mit Silvio | P2 | M | German + Silvio | Silvio-Input für echten Namen + visuelles Design | Offen | Einziges v1-Doc |
 
 ## P3 — Silvio-Fragen (werden als GitHub Issues angelegt)
 
