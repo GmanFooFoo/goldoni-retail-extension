@@ -1,8 +1,8 @@
 # Session State — Goldoni Retail Extension
 
 **Aktuelles Datum:** 2026-04-13
-**Letzte aktive Session:** Session 12 (German + Claude, 2026-04-13) — abgeschlossen
-**Status:** Stufe 3 Deep Review — **12 von 20 Docs lead-reviewt (60 %)**. 184 Findings, 23 Reviews, 7 v2-Rewrites. **CFO (Marcus) komplett — alle 7 Lead-Docs abgehakt.** Dr. Steiger (4/4) und Frau Keller (1/1) ebenfalls komplett. Offen: Thomas (3 Docs), Jana (4 Docs), Persona 11 (1 Doc). Sortiment auf 5 Produkte erweitert (2× Lasagne + Ragù + Sugo + Parmigiana). Entscheidungen D-01 bis D-13.
+**Letzte aktive Session:** Session 13 (German + Claude, 2026-04-13) — aktiv
+**Status:** Stufe 3 Deep Review — **15 von 20 Docs lead-reviewt (75 %)**. 213 Findings, 26 Reviews, 7 v2-Rewrites. **CFO (Marcus) komplett (7/7). Thomas (Gastronom) komplett (3/3).** Dr. Steiger (4/4) und Frau Keller (1/1) ebenfalls komplett. Offen: Jana (4 Docs), Persona 11 (1 Doc). Sortiment auf 5 Produkte erweitert (2× Lasagne + Ragù + Sugo + Parmigiana). Entscheidungen D-01 bis D-13.
 **Aktuelle Phase:** **A — aktiv** (siehe Lebenszyklus unten)
 
 ## Lebenszyklus (D-08)
@@ -17,7 +17,7 @@ Jede Maßnahme, die eine Session einführt, muss die Frage bestehen: *"Brauchen 
 
 ## Aktive Sessions
 
-Keine aktive Session. Session 12 (2026-04-13) abgeschlossen. Session-Report: `docs/reports/2026-04-13-goldoni.md`.
+Session 13 (German + Claude, 2026-04-13) — aktiv. Thomas-Batch: Lead-Reviews Doc 01, 10, 11.
 
 ## Repo-Ownership
 
@@ -31,7 +31,7 @@ Nur **eine schreibende Session** gleichzeitig auf diesem Repo. Lese-Zugriff ist 
 | 1b | MkDocs Reader-Site | ❌ Rolled back | MkDocs war Overkill. Alles entfernt, zurück zu plain markdown |
 | 1c | Vercel Deploy | ❌ Dropped | Entfällt komplett. Nur GitHub + lokale Verzeichnisse |
 | 2 | 9 Personas + README für Silvio + Frontmatter-Cleanup + Goldoni-Präfix raus + Marcello-Persona abgeschafft + Ton-Reset | ✅ Done | Alle Silvio-facing Dokumente im freundschaftlichen Ton, Personas im Format "Persona NN – Name – Rolle", Marcello-Figur komplett gestrichen |
-| 3 | Deep Review der Business-Case-Docs | ⚠️ In Progress | **12 von 20 Docs lead-reviewt (60 %).** 184 Findings, 23 Reviews, 7 v2-Rewrites. Drei Personas komplett: CFO (7/7), Lebensmittelrecht (4/4), Steuer (1/1). Offen: Thomas (01/10/11), Jana (06/08/09/19), Persona 11 (20). |
+| 3 | Deep Review der Business-Case-Docs | ⚠️ In Progress | **15 von 20 Docs lead-reviewt (75 %).** 213 Findings, 26 Reviews, 7 v2-Rewrites. Fünf Personas komplett: CFO (7/7), Thomas (3/3), Lebensmittelrecht (4/4), Steuer (1/1). Offen: Jana (06/08/09/19), Persona 11 (20). |
 | 4 | Wrap-up Session 1 | ✅ Done | Session-Report, Handoff, SESSION-PROMPT-NEXT geschrieben |
 | 5 | MASCHIN-Review + Maßnahmen 1/3/4 (Session 2b) | ✅ Done | decisions.md, Phase A/B/C, beteiligung.md-Gerüst, Prozess-Fixes |
 | 6 | Maßnahme 2 — Repo-Zweck-Umschwung | ✅ Done | README und rollout-plan auf Germans Arbeits-Level. Variante B gewählt (keine parallele Silvio-Version). Memory aktualisiert. Spot-Check 2d/2e ohne Rewrite-Bedarf. |

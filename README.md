@@ -24,9 +24,9 @@ Zielkanal: **Abholung im Restaurant + Plattform-Lieferung** (Wolt/Uber Eats) inn
 | `docs/personas/` | 12 rollenbasierte Review-Personas als Analyse-Linsen (00 Silvio Übersetzungs-Schicht, 01 CFO, 02 Lebensmittelrecht, 03 Steuer, 04 Behördenkontrolleur, 05 Logistiker, 06 Gastronom, 07 Küchenchef, 08 Brand/Marketing, 09 Stammkundin, 10 Dr. Maldini Regulatorik-Scout, 11 Personal-Markt & Arbeitsrecht Retail). |
 | `docs/personas/assignments.md` | Matrix: welche Persona reviewt welches Doc. |
 | `docs/findings/decisions.md` | Entscheidungs-Log D-01 bis D-13. Grundlegend für Scope- und Ton-Fragen. Neu Session 11: D-11 (BAFA), D-12 (Vorbestellungen Phase 1), D-13 (Vertriebskanal Abholung + Wolt/Uber). |
-| `docs/findings/inconsistencies.md` | 16 Widersprüche, davon **4 aufgelöst** (#5 USt, #11 Rückruf-Schreibort, #14 Aufbewahrungs-Fristen, #15 Béchamel-Arbeitsannahme). 12 offen. #2 und #8 mit Cross-Refs zu Doc-02-Findings ergänzt (Session 11). |
-| `docs/reviews/` | Persona-Reviews im Standard-Format. **Gate-Docs (03/04/05/14/15):** Lead + Co fertig. **Doc 02 (Session 11):** Lead CFO + Co Steuerberaterin + Co Persona 11 fertig. |
-| `docs/findings/` | Konsolidierte Findings pro Doc. **6 Findings-Dateien:** 03 Vetamt (16), 04 LMIV (23), 05 HACCP (28), 14 Recht (25), 15 Steuer (16), **02 Wirtschaftlichkeit (22, Session 11)**. Gesamt: **131 Findings**. |
+| `docs/findings/inconsistencies.md` | 17 Widersprüche, davon **4 aufgelöst** (#5 USt, #11 Rückruf-Schreibort, #14 Aufbewahrungs-Fristen, #15 Béchamel-Arbeitsannahme). 13 offen. #17 neu (Öffnungszeiten Doc 01/10 vs. README). |
+| `docs/reviews/` | Persona-Reviews im Standard-Format. **Gate-Docs (03/04/05/14/15):** Lead + Co fertig. **Doc 02 (Session 11):** Lead CFO + Co Steuerberaterin + Co Persona 11 fertig. **Thomas-Batch (Session 13):** Lead auf Doc 01, 10, 11 fertig. |
+| `docs/findings/` | Konsolidierte Findings pro Doc. **15 Findings-Dateien:** 01 Übersicht (10), 02 Wirtschaftlichkeit (22), 03 Vetamt (16), 04 LMIV (23), 05 HACCP (28), 07 Preisgestaltung (12), 10 Operative Umsetzung (12), 11 Lieferanten (7), 12 Investitionsplan (9), 13 Rollout (9), 14 Recht (25), 15 Steuer (16), 16 Risiken (8), 17 Wettbewerb (7), 18 Finanzierungsplan (8). Gesamt: **213 Findings**. |
 | `docs/silvio-paket/offene-fragen.md` | **Zentrales Artefakt für Silvio-Aktionen.** 24 Einträge SP-01 bis SP-24 in acht Blöcken. Neu Session 11: SP-22 (Metro-Preise), SP-23 (Nachfrage-Schätzung), SP-24 (Kartenpreise). SP-19 (Béchamel) bei Silvio seit 2026-04-12. |
 | `docs/plans/02-v2-plan.md` | v2-Plan Doc 02 — 10 Kapitel, Finding-zu-Kapitel-Matrix, 19 von 22 Findings im v2 auflösbar. |
 | `docs/plans/02-cashflow-projektion-2026.md` | Monats-P&L Mai–Dez 2026 (hypothetisch bei Start Mai). Invest ~6.200 €, operativ ab August positiv, Cashflow-Break-Even Mai/Juni 2027. |
@@ -62,7 +62,7 @@ Pipeline: **v1** (Original) → **Lead-Review** → **Co-Reviews** → **Finding
 
 | # | Dokument | Lead | Co | Findings | v2-Plan | v2 | Blocker |
 |---|---|---|---|---|---|---|---|
-| 01 | Business Case Übersicht | 🔲 | — | — | — | — | — |
+| **01** | **Business Case Übersicht** | **✅ Thomas** | **🔲** | **10** | **🔲** | **🔲** | Propagation aus Doc 02/12 v2 |
 | **02** | **Wirtschaftlichkeitsrechnung** | **✅ CFO** | **✅ Steuer, Personal** | **22 (19 gelöst)** | **✅** | **✅** | SP-19/22/23 offen |
 | 03 | Veterinäramt Stuttgart | ✅ Lebensmittelrecht | ✅ Behörde + R9 | 16 | ✅ | ✅ (14 gelöst) | — |
 | 04 | LMIV-Kennzeichnung | ✅ Lebensmittelrecht + R9 | ✅ Behörde, Küche | 23 | — | ✅ (19 gelöst) | SP-10 |
@@ -71,8 +71,8 @@ Pipeline: **v1** (Original) → **Lead-Review** → **Co-Reviews** → **Finding
 | **07** | **Preisgestaltung** | **✅ CFO** | **🔲** | **12** | **🔲** | **🔲** | Doc 02 v2 erst |
 | 08 | Verpackungsstrategie | 🔲 | — | — | — | — | — |
 | 09 | Verkaufsstrategie | 🔲 | — | — | — | — | — |
-| 10 | Operative Umsetzung | 🔲 | — | — | — | — | — |
-| 11 | Lieferanten Stuttgart | 🔲 | — | — | — | — | — |
+| **10** | **Operative Umsetzung** | **✅ Thomas** | **🔲** | **12** | **🔲** | **🔲** | SPOF Inhaber, 5-Produkt-Update |
+| **11** | **Lieferanten Stuttgart** | **✅ Thomas** | **🔲** | **7** | **🔲** | **🔲** | Keine Preise, SP-22 |
 | **12** | **Investitionsplan** | **✅ CFO** | **🔲** | **9 (7 gelöst)** | **—** | **✅** | SP-06/22 offen |
 | **13** | **6-Wochen-Rollout-Plan** | **✅ CFO** | **🔲** | **9** | **🔲** | **🔲** | ❌ Stopp — 6 Wo unrealistisch |
 | 14 | Rechtliche Absicherung | ✅ Lebensmittelrecht + R9 | ✅ Behörde, Steuer | 25 | — | ✅ (22 gelöst) | — |
@@ -85,7 +85,7 @@ Pipeline: **v1** (Original) → **Lead-Review** → **Co-Reviews** → **Finding
 
 **Legende:** ✅ erledigt, ⚠️ in Arbeit, 🔲 offen, R9 = Rule-9-Regulatorik-Nachtrag
 
-**Aggregate:** 12 von 20 Docs lead-reviewt (60 %). 184 Findings. 7 v2-Rewrites fertig. 23 Reviews gesamt. **CFO (Marcus) komplett — alle 7 Lead-Docs abgehakt.**
+**Aggregate:** 15 von 20 Docs lead-reviewt (75 %). 213 Findings. 7 v2-Rewrites fertig. 26 Reviews gesamt. **CFO (Marcus) komplett (7/7). Thomas (Gastronom) komplett (3/3).** Dr. Steiger (4/4) und Frau Keller (1/1) ebenfalls komplett.
 
 ### Silvio-Paket
 
