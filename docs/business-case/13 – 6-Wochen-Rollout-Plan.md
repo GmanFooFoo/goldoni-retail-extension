@@ -206,7 +206,7 @@ Erst **nach** Laborergebnissen, weil Nährwerte Pflichtangabe sind (LMIV). Entwu
 | 10 | Herkunftsangabe (falls relevant) | |
 | 11 | Mindestschriftgröße 1,2 mm (x-Höhe) | |
 
-Name auf dem Etikett: `[TBD-Silvio]` — Silvios echter Name und Anschrift, nicht "Marco Antonelli".
+Name auf dem Etikett: **Silvio Brunetti**, Ristorante Goldoni, Reinsburgstraße [TBD-Silvio Hausnr.], [TBD-Silvio PLZ] Stuttgart (SP-09).
 
 ### Gate II (Ende Woche 8)
 
