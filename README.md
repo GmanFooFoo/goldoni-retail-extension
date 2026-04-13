@@ -27,7 +27,7 @@ Zielkanal: **Abholung im Restaurant + Plattform-Lieferung** (Wolt/Uber Eats) inn
 | `docs/findings/inconsistencies.md` | 16 Widersprüche, davon **4 aufgelöst** (#5 USt, #11 Rückruf-Schreibort, #14 Aufbewahrungs-Fristen, #15 Béchamel-Arbeitsannahme). 12 offen. #2 und #8 mit Cross-Refs zu Doc-02-Findings ergänzt (Session 11). |
 | `docs/reviews/` | Persona-Reviews im Standard-Format. **Gate-Docs (03/04/05/14/15):** Lead + Co fertig. **Doc 02 (Session 11):** Lead CFO + Co Steuerberaterin + Co Persona 11 fertig. |
 | `docs/findings/` | Konsolidierte Findings pro Doc. **6 Findings-Dateien:** 03 Vetamt (16), 04 LMIV (23), 05 HACCP (28), 14 Recht (25), 15 Steuer (16), **02 Wirtschaftlichkeit (22, Session 11)**. Gesamt: **131 Findings**. |
-| `docs/silvio-paket/offene-fragen.md` | **Zentrales Artefakt für Silvio-Aktionen.** 23 Einträge SP-01 bis SP-23 in acht Blöcken. Neu Session 11: SP-22 (Metro-Preise), SP-23 (Nachfrage-Schätzung). SP-19 (Béchamel) bei Silvio seit 2026-04-12. |
+| `docs/silvio-paket/offene-fragen.md` | **Zentrales Artefakt für Silvio-Aktionen.** 24 Einträge SP-01 bis SP-24 in acht Blöcken. Neu Session 11: SP-22 (Metro-Preise), SP-23 (Nachfrage-Schätzung), SP-24 (Kartenpreise). SP-19 (Béchamel) bei Silvio seit 2026-04-12. |
 | `docs/plans/02-v2-plan.md` | v2-Plan Doc 02 — 10 Kapitel, Finding-zu-Kapitel-Matrix, 19 von 22 Findings im v2 auflösbar. |
 | `docs/plans/02-cashflow-projektion-2026.md` | Monats-P&L Mai–Dez 2026 (hypothetisch bei Start Mai). Invest ~6.200 €, operativ ab August positiv, Cashflow-Break-Even Mai/Juni 2027. |
 | `docs/plans/03-v2-plan.md` | v2-Plan-Skizze Doc 03. |
