@@ -20,12 +20,12 @@ Zielkanal: **Abholung im Restaurant + Plattform-Lieferung** (Wolt/Uber Eats) inn
 
 | Ordner / Datei | Inhalt |
 |---|---|
-| `docs/business-case/` | Die 19 Original-Dokumente. **13 v2-Rewrites fertig** (02, 03, 04, 05, 08, 10, 12, 14, 15, 16, 18, 19 + Doc 20 als Plan-Doc). 7 Docs noch v1 (01, 06, 07, 09, 11, 13, 17). |
+| `docs/business-case/` | Die 20 Dokumente (19 Original + Doc 20 Personal-Setup). **Alle 20 auf v2** (Session 13–15). |
 | `docs/personas/` | 12 rollenbasierte Review-Personas als Analyse-Linsen (00 Silvio Übersetzungs-Schicht, 01 CFO, 02 Lebensmittelrecht, 03 Steuer, 04 Behördenkontrolleur, 05 Logistiker, 06 Gastronom, 07 Küchenchef, 08 Brand/Marketing, 09 Stammkundin, 10 Dr. Maldini Regulatorik-Scout, 11 Personal-Markt & Arbeitsrecht Retail). |
 | `docs/personas/assignments.md` | Matrix: welche Persona reviewt welches Doc. |
 | `docs/findings/decisions.md` | Entscheidungs-Log D-01 bis D-13. Grundlegend für Scope- und Ton-Fragen. Neu Session 11: D-11 (BAFA), D-12 (Vorbestellungen Phase 1), D-13 (Vertriebskanal Abholung + Wolt/Uber). |
-| `docs/findings/inconsistencies.md` | 17 Widersprüche, davon **4 aufgelöst** (#5 USt, #11 Rückruf-Schreibort, #14 Aufbewahrungs-Fristen, #15 Béchamel-Arbeitsannahme). 13 offen. #17 neu (Öffnungszeiten Doc 01/10 vs. README). |
-| `docs/reviews/` | Persona-Reviews im Standard-Format. **Gate-Docs (03/04/05/14/15):** Lead + Co fertig. **Doc 02 (Session 11):** Lead CFO + Co Steuerberaterin + Co Persona 11 fertig. **Session 13:** 8 Lead-Reviews + 14 Tier-1-Co-Reviews. 45 Reviews gesamt. |
+| `docs/findings/inconsistencies.md` | 17 Widersprüche, davon **14 aufgelöst** (Session 15: systematische Prüfung gegen v2-Rewrites + Doc 06 v2 + Namensbestätigung). **3 offen:** #2 (Launch-Mengen, Präzisierung), #16 (Geschenkebox LMIV), #17 (Öffnungszeiten). |
+| `docs/reviews/` | Persona-Reviews im Standard-Format. **Alle 20 Docs lead-reviewt.** Gate-Docs (03/04/05/14/15): Lead + Co fertig. Doc 02: Lead + 2 Co fertig. Session 13: 8 Lead-Reviews + 14 Tier-1-Co-Reviews. **45 Reviews gesamt.** |
 | `docs/findings/` | Konsolidierte Findings pro Doc. **20 Findings-Dateien:** 01 Übersicht (10), 02 Wirtschaftlichkeit (22), 03 Vetamt (16), 04 LMIV (23), 05 HACCP (28), 06 Mockups (12), 07 Preisgestaltung (17), 08 Verpackung (14), 09 Verkaufsstrategie (12), 10 Operative Umsetzung (24), 11 Lieferanten (11), 12 Investitionsplan (9), 13 Rollout (17), 14 Recht (25), 15 Steuer (16), 16 Risiken (17), 17 Wettbewerb (7), 18 Finanzierungsplan (8), 19 Sortiment (11), 20 Personal-Setup (9). Gesamt: **308 Findings**. |
 | `docs/silvio-paket/offene-fragen.md` | **Zentrales Artefakt für Silvio-Aktionen.** 24 Einträge SP-01 bis SP-24 in acht Blöcken. Neu Session 11: SP-22 (Metro-Preise), SP-23 (Nachfrage-Schätzung), SP-24 (Kartenpreise). SP-19 (Béchamel) bei Silvio seit 2026-04-12. |
 | `docs/plans/02-v2-plan.md` | v2-Plan Doc 02 — 10 Kapitel, Finding-zu-Kapitel-Matrix, 19 von 22 Findings im v2 auflösbar. |
@@ -54,50 +54,51 @@ Voller Log in [`docs/findings/decisions.md`](docs/findings/decisions.md). Tragen
 
 Analyse-Linsen, keine Narrative. Neue Personas rollen-basiert ohne Personennamen (Persona 11 ist der erste Fall). Jede Persona hat eine eigene Datei in `docs/personas/` mit Haltung, Fokus-Fragen, Red-Flags-Katalog. Die 12 Rollen decken: Zahlen (CFO), Lebensmittelrecht, Steuern, Küche, Gastronom (peer), Stammkundin, Brand/Marketing, Logistik, Amt (adversarial), Regulatorik-Scout (Dr. Maldini, horizontal), Personal-Markt & Arbeitsrecht Retail (neu Session 9), Silvio (Übersetzungs-Schicht, horizontal).
 
-Reviews folgen dem Standard-Format aus [`CLAUDE.md`](CLAUDE.md#review-standard-format). Gate-kritische Sequenz (5 Docs, 14 Reviews, 109 Findings) Lead + Co fertig + v2-Rewrites fertig. **Doc 02 Wirtschaftlichkeit** (Session 11): Lead + 2 Co fertig, 22 Findings, Cashflow-Projektion, v2-Plan. Sekundär-Reviews Doc 01/06–13/16–19 stehen aus.
+Reviews folgen dem Standard-Format aus [`CLAUDE.md`](CLAUDE.md#review-standard-format). Alle 20 Docs durchlaufen: Lead-Review → Findings → v2-Rewrite. Gate-kritische Sequenz (5 Docs) zusätzlich mit Co-Reviews abgesichert. Tier-2-Co-Reviews für verbleibende Docs optional.
 
 ## Stand pro Dokument
 
 Pipeline: **v1** (Original) → **Lead-Review** → **Co-Reviews** → **Findings** → **v2-Plan** → **v2-Rewrite** → ✅
 
-| # | Dokument | Lead | Co | Findings | v2-Plan | v2 | Blocker |
-|---|---|---|---|---|---|---|---|
-| **01** | **Business Case Übersicht** | **✅ Thomas** | **🔲** | **10** | **🔲** | **🔲** | Propagation aus Doc 02/12 v2 |
-| **02** | **Wirtschaftlichkeitsrechnung** | **✅ CFO** | **✅ Steuer, Personal** | **22 (19 gelöst)** | **✅** | **✅** | SP-19/22/23 offen |
-| 03 | Veterinäramt Stuttgart | ✅ Lebensmittelrecht | ✅ Behörde + R9 | 16 | ✅ | ✅ (14 gelöst) | — |
-| 04 | LMIV-Kennzeichnung | ✅ Lebensmittelrecht + R9 | ✅ Behörde, Küche | 23 | — | ✅ (19 gelöst) | SP-10 |
-| 05 | HACCP-Erweiterung | ✅ Lebensmittelrecht | ✅ Behörde, Küche, Logistik + R9 | 28 | — | ✅ (24 gelöst) | — |
-| **06** | **Mockups** | **✅ Jana** | **🔲** | **7** | **🔲** | **🔲** | Kein visuelles Mockup im Repo |
-| **07** | **Preisgestaltung** | **✅ CFO** | **🔲** | **12** | **🔲** | **🔲** | Doc 02 v2 erst |
-| **08** | **Verpackungsstrategie** | **✅ Jana** | **✅ Pietro, Bruno** | **14** | **—** | **✅** | 14/14 Findings aufgelöst |
-| **09** | **Verkaufsstrategie** | **✅ Jana** | **🔲** | **8** | **🔲** | **🔲** | Wolt/Uber + Webshop Phase 1 fehlen |
-| **10** | **Operative Umsetzung** | **✅ Thomas** | **✅ Pietro, Steiger, P11** | **24** | **—** | **✅** | 21/24 aufgelöst, 3 offen (SP-22, MHD-Strategie, Ehefrau) |
-| **11** | **Lieferanten Stuttgart** | **✅ Thomas** | **🔲** | **7** | **🔲** | **🔲** | Keine Preise, SP-22 |
-| **12** | **Investitionsplan** | **✅ CFO** | **🔲** | **9 (7 gelöst)** | **—** | **✅** | SP-06/22 offen |
-| **13** | **6-Wochen-Rollout-Plan** | **✅ CFO** | **🔲** | **9** | **🔲** | **🔲** | ❌ Stopp — 6 Wo unrealistisch |
-| 14 | Rechtliche Absicherung | ✅ Lebensmittelrecht + R9 | ✅ Behörde, Steuer | 25 | — | ✅ (22 gelöst) | — |
-| 15 | Steuerliche Behandlung | ✅ Steuer | ✅ CFO | 16 | — | ✅ (15 gelöst) | — |
-| **16** | **Risiken & Gegenmaßnahmen** | **✅ CFO** | **✅ Thomas, Vogel** | **17** | **—** | **✅** | 17/17 aufgelöst, Risiko-Register mit 10 Einträgen |
-| **17** | **Wettbewerbsanalyse** | **✅ CFO** | **🔲** | **7** | **🔲** | **🔲** | Plattform-Scan nötig |
-| **18** | **Finanzierungsplan** | **✅ CFO** | **🔲** | **8** | **—** | **✅** | 8/8 aufgelöst, BAFA/L-Bank, KfW gestrichen |
-| **19** | **Produktsortiment-Erweiterung** | **✅ Jana** | **✅ Pietro** | **11** | **—** | **✅** | 10/11 aufgelöst, Polpette als Phase-2-Roadmap |
-| **20** | **Personal-Setup Retail (Plan)** | **✅ P11** | **🔲** | **9** | **—** | **✅** | 8/9 aufgelöst, IfSG Ehefrau offen (SP-04) |
+| # | Dokument | Lead | Co | Findings | v2 | Status |
+|---|---|---|---|---|---|---|
+| 01 | Business Case Übersicht | ✅ Thomas | 🔲 | 10 | ✅ | Dach-Propagation aller v2-Docs |
+| 02 | Wirtschaftlichkeitsrechnung | ✅ CFO | ✅ Steuer, Personal | 22 (19 gelöst) | ✅ | SP-19/22/23 offen ([E]-Marker) |
+| 03 | Veterinäramt Stuttgart | ✅ Lebensmittelrecht | ✅ Behörde + R9 | 16 (14 gelöst) | ✅ | — |
+| 04 | LMIV-Kennzeichnung | ✅ Lebensmittelrecht + R9 | ✅ Behörde, Küche | 23 (19 gelöst) | ✅ | SP-10 (Herkunftsdaten) |
+| 05 | HACCP-Erweiterung | ✅ Lebensmittelrecht | ✅ Behörde, Küche, Logistik + R9 | 28 (24 gelöst) | ✅ | — |
+| 06 | Etikett-Spezifikation (ex Mockups) | ✅ Jana | ✅ Lebensmittelrecht | 12 (11 gelöst) | ✅ | Visueller Entwurf wartet auf SP-09/11/19 |
+| 07 | Preisgestaltung | ✅ CFO | 🔲 | 17 | ✅ | Margen-Tabelle + 2 Preisschienen |
+| 08 | Verpackungsstrategie | ✅ Jana | ✅ Pietro, Bruno | 14 (14 gelöst) | ✅ | — |
+| 09 | Verkaufsstrategie | ✅ Jana | 🔲 | 12 | ✅ | 3-Stufen-Kanal-Modell |
+| 10 | Operative Umsetzung | ✅ Thomas | ✅ Pietro, Steiger, P11 | 24 (21 gelöst) | ✅ | SP-22, MHD-Strategie, Ehefrau offen |
+| 11 | Lieferanten Stuttgart | ✅ Thomas | 🔲 | 11 | ✅ | Zutaten-Steckbriefe + Backup |
+| 12 | Investitionsplan | ✅ CFO | 🔲 | 9 (7 gelöst) | ✅ | SP-06/22 offen |
+| 13 | Rollout-Plan | ✅ CFO | 🔲 | 17 | ✅ | 10–12 Wochen, gate-basiert |
+| 14 | Rechtliche Absicherung | ✅ Lebensmittelrecht + R9 | ✅ Behörde, Steuer | 25 (22 gelöst) | ✅ | — |
+| 15 | Steuerliche Behandlung | ✅ Steuer | ✅ CFO | 16 (15 gelöst) | ✅ | — |
+| 16 | Risiken & Gegenmaßnahmen | ✅ CFO | ✅ Thomas, Vogel | 17 (17 gelöst) | ✅ | — |
+| 17 | Wettbewerbsanalyse | ✅ CFO | 🔲 | 7 | ✅ | 3-Ebenen + Substitut-Analyse |
+| 18 | Finanzierungsplan | ✅ CFO | 🔲 | 8 (8 gelöst) | ✅ | BAFA/L-Bank, KfW gestrichen |
+| 19 | Produktsortiment-Erweiterung | ✅ Jana | ✅ Pietro | 11 (10 gelöst) | ✅ | Polpette Phase-2-Roadmap |
+| 20 | Personal-Setup Retail | ✅ P11 | 🔲 | 9 (8 gelöst) | ✅ | IfSG Ehefrau offen (SP-04) |
 
-**Legende:** ✅ erledigt, ⚠️ in Arbeit, 🔲 offen, R9 = Rule-9-Regulatorik-Nachtrag
+**Legende:** ✅ erledigt, 🔲 offen, R9 = Rule-9-Regulatorik-Nachtrag
 
-**Aggregate:** **20 von 20 Docs lead-reviewt (100 %).** 308 Findings. **13 v2-Rewrites fertig** (02, 03, 04, 05, 08, 10, 12, 14, 15, 16, 18, 19, 20). 45 Reviews gesamt (31 Lead + 14 Tier-1-Co). 7 Docs noch v1 (01, 06, 07, 09, 11, 13, 17).
+**Aggregate:** **20/20 Docs lead-reviewt, 20/20 auf v2.** 308 Findings, davon ~260 in v2-Rewrites adressiert. 45 Reviews (31 Lead + 14 Tier-1-Co). 14/17 Inconsistencies aufgelöst, 3 offen.
 
 ### Silvio-Paket
 
-23 Einträge (SP-01 bis SP-23) in acht Blöcken. Gate-kritisch offen:
+24 Einträge (SP-01 bis SP-24) in acht Blöcken. Gate-kritisch offen:
 
 | SP | Thema | Status | Blockiert |
 |---|---|---|---|
-| SP-19 | Rezeptur (Béchamel, Gramm-Angaben) | Bei Silvio (WhatsApp 12.04.) | Doc 02/04/05 v2-Finishing |
-| SP-22 | Metro-/Lieferanten-Preise | Offen | Doc 02 v2 (Quellen-Anforderung) |
-| SP-23 | Nachfrage-Schätzung | Offen | Doc 02 v2 (Absatz-Szenarien) |
-| SP-05 | Steuerberater-Briefing | Hand-Out bereit | Steuer-Verifikation |
-| SP-13 | Launch-Timing | Hand-Out bereit | Rollout-Kalender |
+| SP-09 | Vollständige Anschrift (Hausnr. + PLZ) | Offen | Doc 06 Etikett druckfertig |
+| SP-11 | Labor-Nährwertanalyse (400–750 €) | Offen | Doc 06 Nährwerttabelle |
+| SP-19 | Rezeptur (ohne Béchamel, Gramm-Angaben) | Bei Silvio (WhatsApp 12.04.) | Doc 02/04/05/06 |
+| SP-22 | Metro-/Lieferanten-Preise | Offen | Doc 02/07/11 [E]-Marker |
+| SP-23 | Nachfrage-Schätzung | Offen | Doc 02 Absatz-Szenarien |
+| SP-24 | Aktuelle Kartenpreise | Offen | Doc 07 Preisanker |
 
 ### Cashflow-Projektion
 
@@ -107,7 +108,7 @@ Hypothetisch bei Start Mai 2026: Invest ~6.200 €, Ende 2026 kumuliert −3.100
 
 | Datum | Regelwerk | Wirkung |
 |---|---|---|
-| 1.7.2026 | Listerien-Grenzwert verschärft | "nicht nachweisbar in 25g" — relevant bei Béchamel |
+| 1.7.2026 | Listerien-Grenzwert verschärft | "nicht nachweisbar in 25g" — durch Arbeitsannahme ohne Béchamel (SP-19) entschärft, Büffelmozzarella bleibt Substrat |
 | 12.8.2026 | PPWR (Verpackung) | Konformitätserklärung Pflicht |
 | 9.12.2026 | ProdHaftG-Novelle | 25-Jahre-Haftung, Chargen-Doku als Beweismittel |
 
