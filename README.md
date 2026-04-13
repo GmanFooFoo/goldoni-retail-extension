@@ -79,13 +79,13 @@ Pipeline: **v1** (Original) → **Lead-Review** → **Co-Reviews** → **Finding
 | 15 | Steuerliche Behandlung | ✅ Steuer | ✅ CFO | 16 | — | ✅ (15 gelöst) | — |
 | 16 | Risiken & Gegenmaßnahmen | 🔲 | — | — | — | — | — |
 | 17 | Wettbewerbsanalyse | 🔲 | — | — | — | — | — |
-| 18 | Finanzierungsplan | 🔲 | — | — | — | — | Doc 02 erst |
+| **18** | **Finanzierungsplan** | **✅ CFO** | **🔲** | **8** | **🔲** | **🔲** | Doc 02/12/21 Propagation |
 | 19 | Produktsortiment-Erweiterung | 🔲 | — | — | — | — | — |
 | 20 | Personal-Setup Retail (Plan) | 🔲 P11 | — | — | — | — | — |
 
 **Legende:** ✅ erledigt, ⚠️ in Arbeit, 🔲 offen, R9 = Rule-9-Regulatorik-Nachtrag
 
-**Aggregate:** 8 von 20 Docs lead-reviewt (40 %). 152 Findings. **7 v2-Rewrites fertig.** 19 Reviews gesamt.
+**Aggregate:** 9 von 20 Docs lead-reviewt (45 %). 160 Findings. 7 v2-Rewrites fertig. 20 Reviews gesamt.
 
 ### Silvio-Paket
 
