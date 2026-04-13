@@ -1,0 +1,205 @@
+# ============================================================
+# Goldoni Retail — Slide-Inhalte
+# ============================================================
+#
+# Diese Datei bearbeiten, dann im Terminal:
+#   python3 scripts/create-slides.py
+#
+# Die PPTX wird neu generiert. Keine Python-Kenntnisse nötig.
+#
+# Regeln:
+#   - Text in Anführungszeichen, wenn er Sonderzeichen enthält (: oder ")
+#   - "bold: true" macht die Zeile fett
+#   - Tabellen: erste Zeile = Kopfzeile, Rest = Daten
+#   - Leerzeile im Text: einfach "" als Eintrag
+# ============================================================
+
+slides:
+
+  # ----------------------------------------------------------
+  - type: title
+    headline: "GOLDONI RETAIL"
+    subline: "Vakuumierte Gerichte aus deiner Küche — zum Mitnehmen"
+    footer: "Ein Vorschlag von German  ·  April 2026"
+
+  # ----------------------------------------------------------
+  - type: text
+    headline: "Worum es geht"
+    lines:
+      - text: "Deine Küche kocht jeden Tag Ragù, Sugo, Lasagne, Parmigiana —"
+      - text: "für die Gäste am Tisch."
+      - text: ""
+      - text: "Die Idee: einen Teil davon vakuumiert in den Kühlschrank packen"
+      - text: "und verkaufen. Zum Mitnehmen, zum Vorbestellen,"
+      - text: "über Wolt und Uber Eats."
+      - text: ""
+      - text: "Kein neues Geschäft, keine neue Küche."
+        bold: true
+      - text: "Dasselbe Essen, nur zusätzlich verpackt."
+        bold: true
+
+  # ----------------------------------------------------------
+  - type: text-and-table
+    headline: "Die gute Nachricht zuerst"
+    intro:
+      - text: "Die Steuer-Frage ist vom Tisch."
+        bold: true
+      - text: "Seit Januar 2026 steht im Gesetz: 7 % auf Speisen,"
+      - text: "dauerhaft, auch auf das, was der Gast mitnimmt."
+    table_label: "Es gibt Fördergeld."
+    table:
+      - ["Programm", "Was wird bezahlt", "Zuschuss"]
+      - ["BAFA Beratungsförderung", "Steuerberater, Anwalt, Berater", "50 %, max. 1.750 €"]
+      - ["BW Beratungsrichtlinie (IHK)", "HACCP-Aufbau, Lebensmittelsicherheit", "80 %, max. 1.920 €/Jahr"]
+    footer: "Zusammen: bis zu 3.670 € Zuschuss. Ich stelle die Anträge, du unterschreibst."
+
+  # ----------------------------------------------------------
+  - type: checklist
+    headline: "Was du schon hast"
+    items:
+      - "Eine Küche, die jeden Tag genau diese Gerichte kocht"
+      - "Einen Kühlschrank und Kühlzelle, die funktionieren"
+      - "Ein Team, das die Abläufe kennt"
+      - "Stammgäste, die dein Essen lieben und wiederkommen"
+      - "Einen Steuerberater, der dein Geschäft kennt"
+      - "Einen Schädlingsbekämpfer-Vertrag"
+    footer: "Das Projekt baut auf 25 Jahren Goldoni auf. Eine Erweiterung, kein Neuanfang."
+
+  # ----------------------------------------------------------
+  - type: table
+    headline: "Fünf Produkte"
+    table:
+      - ["Produkt", "Portion", "Preis", "Verdienst pro Stück"]
+      - ["Lasagne Classica", "400g, 1–2 Personen", "13,50 €", "ca. 6,25 €"]
+      - ["Lasagne Verdure", "400g, 1–2 Personen", "12,00 €", "ca. 6,50 €"]
+      - ["Ragù Bolognese", "350g", "9,00 €", "ca. 4,65 €"]
+      - ["Sugo Pomodoro", "500g", "7,00 €", "ca. 4,00 €"]
+      - ["Parmigiana di Melanzane", "400g, 1–2 Personen", "12,00 €", "ca. 7,15 €"]
+    footer: "Keine Tiefkühl-Ware. Alles frisch vakuumiert, eine Woche haltbar im Kühlschrank.\nWie beim Metzger um die Ecke — nur aus deiner Küche."
+
+  # ----------------------------------------------------------
+  - type: table-and-sidebar
+    headline: "Was es kostet"
+    subtitle: "Gesamt-Investition: rund 6.000 €"
+    table:
+      - ["Position", "Kosten"]
+      - ["Vakuumierer (z. B. Henkelman)", "ca. 2.500 €"]
+      - ["Etikettendrucker", "ca. 240 €"]
+      - ["Verpackungsmaterial", "ca. 400 €"]
+      - ["HACCP-Beratung (einmalig)", "ca. 800 €"]
+      - ["Labor-Nährwertanalyse", "ca. 500 €"]
+      - ["Anwalt (AGB, Datenschutz)", "ca. 1.000 €"]
+      - ["Sonstiges", "ca. 600 €"]
+    sidebar:
+      - text: "Fördergeld:"
+        bold: true
+      - text: "bis zu 3.670 € zurück"
+      - text: ""
+      - text: "Dein Eigenanteil:"
+        bold: true
+      - text: "2.300 – 3.000 €"
+      - text: ""
+      - text: "Falls du stoppst:"
+        bold: true
+      - text: "Vakuumierer bleibt nützlich."
+      - text: "Risiko-Kapital: 3.000–4.500 €"
+
+  # ----------------------------------------------------------
+  - type: table-and-text
+    headline: "Was es bringt"
+    table:
+      - ["Szenario", "Verkauf / Woche", "Pro Monat", "Pro Jahr"]
+      - ["Vorsichtig", "25 Stück", "100–150 €", "ca. 1.500 €"]
+      - ["Realistisch", "50 Stück", "330–400 €", "ca. 4.000 €"]
+      - ["Gut läuft's", "80 Stück", "650–700 €", "ca. 8.000 €"]
+    lines:
+      - text: "Nach Abzug von Wareneinsatz, Verpackung, Arbeitszeit, Verderb,"
+      - text: "Plattform-Gebühren und Steuern."
+      - text: ""
+      - text: "Keine Goldgrube, aber ein solider Zusatzverdienst —"
+        bold: true
+      - text: "und du nutzt Kapazität, die sowieso da ist."
+        bold: true
+      - text: ""
+      - text: "Investition zurück: im realistischen Szenario nach 12–13 Monaten."
+
+  # ----------------------------------------------------------
+  - type: table-and-text
+    headline: "Wie lange es dauert"
+    subtitle: "10 bis 12 Wochen, in vier Stufen."
+    table:
+      - ["Stufe", "Was passiert", "Dauer", "Kosten"]
+      - ["1. Vorbereitung", "Vetamt, Gewerbe, Ausrüstung, HACCP", "4 Wochen", "1.200–6.500 €"]
+      - ["2. Aufbau", "Erste Produktion, Etiketten, Abläufe testen", "5 Wochen", "600–1.350 €"]
+      - ["3. Testlauf", "30–50 Portionen/Woche, nur Stammgäste", "2 Wochen", "300–500 €"]
+      - ["4. Echter Start", "Wolt/Uber dazu, Webshop-Vorbestellung", "laufend", "250–550 €"]
+    lines:
+      - text: "Zwischen jeder Stufe gibt es eine Prüfung."
+        bold: true
+      - text: "Wenn der Testlauf zeigt, dass es nicht funktioniert — stoppen wir."
+      - text: "Kein Geld mehr rein, Lektion gelernt, Vakuumierer bleibt."
+
+  # ----------------------------------------------------------
+  - type: numbered-list
+    headline: "Was du machen musst"
+    items:
+      - action: "Vetamt anrufen."
+        detail: "10 Minuten, eine Frage"
+      - action: "Kasse prüfen."
+        detail: "7 % und 19 % nebeneinander?"
+      - action: "Schädlingsbekämpfer fragen."
+        detail: "Vertrag reicht?"
+      - action: "Drei Mails verschicken."
+        detail: "Text kommt fertig von mir"
+      - action: "Zwei Lieferanten-Nachrichten."
+        detail: "Herkunft + Beutel-Dokument"
+      - action: "Belehrung Gesundheitsamt."
+        detail: "Einmalig, halbe Stunde"
+      - action: "Einen Zettel schreiben."
+        detail: "HACCP-Verantwortlicher, 2 Min."
+    footer: "Dein Zeitaufwand: ein halber Arbeitstag, über 2–3 Wochen verteilt."
+
+  # ----------------------------------------------------------
+  - type: bullet-list
+    headline: "Was ich mache"
+    items:
+      - "Fördergeld-Anträge vorbereiten (BAFA + IHK)"
+      - "Drei Mail-Texte schreiben"
+      - "Labor-Angebote einholen (Nährwertanalyse)"
+      - "Etikett-Design koordinieren"
+      - "Vetamt-Termin vorbereiten (Fragen, Unterlagen)"
+      - "IHK-Erstberatung buchen und mitkommen"
+      - "Gewerbeanzeige-Formular holen und mit dir ausfüllen"
+      - "Webshop-Seite einrichten (einfach, zum Vorbestellen)"
+    footer: "Du siehst davon nichts, bis es zu einer Frage für dich wird."
+
+  # ----------------------------------------------------------
+  - type: risks
+    headline: "Wo es heikel werden kann"
+    items:
+      - title: "Haltbarkeit."
+        detail: "Vakuumierte Kühlware hält eine Woche — aber nur bei sauberer Kühlkette. Deshalb testen wir das mit einem Labor, bevor irgendwas verkauft wird."
+      - title: "Etiketten."
+        detail: "Die Behörde will 13 Pflichtangaben auf dem Etikett. Klingt viel, ist Standard. Ich bereite alles vor, du gibst mir die Rezepte in Gramm."
+      - title: "Neues Haftungsgesetz ab Dez. 2026."
+        detail: "Strengere Regeln für Produkthaftung. Heißt: Chargen-Protokoll sauber führen. Ich baue die Vorlage."
+      - title: "Du brauchst jemanden für die Produktion."
+        detail: "Einfache Gerichte, kann ein Koch oder eine Hilfskraft am Vormittag machen. Wer das ist — entscheidest du."
+      - title: "Nachfrage ist eine Wette."
+        detail: "Deshalb der Testlauf: erst Stammgäste, kleine Menge, zwei Wochen schauen."
+
+  # ----------------------------------------------------------
+  - type: closing
+    headline: "Der eine nächste Schritt"
+    intro:
+      - text: "Wenn du nach diesem Gespräch sagst"
+      - text: '"klingt gut, lass uns mal schauen":'
+      - text: ""
+      - text: "Ruf morgen im Vetamt an."
+        bold: true
+    quote:
+      - '"Guten Tag, ich bin Silvio Brunetti vom Ristorante Goldoni.'
+      - "Ich möchte zusätzlich vakuumierte Speisen"
+      - "zum Mitnehmen anbieten."
+      - 'Können Sie mir sagen, was ich dafür brauche?"'
+    footer: "Eine Nummer, eine Frage, zehn Minuten. Alles andere kommt danach — und alles andere bereite ich vor."
