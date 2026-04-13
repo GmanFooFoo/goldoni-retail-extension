@@ -73,7 +73,7 @@ Die "Du"-Liste ist kürzer, als du erwartest. Alles, was ich abnehmen kann, nehm
 4. **Drei Mails verschicken.** Steuerberater, Anwalt, Versicherung. Text kommt fertig von mir — je zwei bis vier Sätze, zum Kopieren und Absenden.
 5. **Zwei Lieferanten-Nachrichten.** Deine Stamm-Lieferanten: woher kommt der Hartweizen, die Tomaten, das Rindfleisch, der Käse? Eine Nachricht an jeden. Dein Beutel-Lieferant: kurze Mail, Standard-Dokument (Konformitätserklärung) schicken lassen.
 6. **Personal-Belehrung Gesundheitsamt.** Für jeden in der Küche einmalig eine kurze Belehrung, dann einmal im Jahr Auffrischung intern. Kurzes Online-Video in den meisten Ämtern, halbe Stunde pro Person.
-7. **HACCP-Zettel.** Ein Blatt: *"Verantwortlich für die Lebensmittelsicherheit im Vakuum-Prozess: Silvio [Nachname], Goldoni, [Datum], [Unterschrift]."* Das war's. Rolle, kein Zertifikat.
+7. **HACCP-Zettel.** Ein Blatt: *"Verantwortlich für die Lebensmittelsicherheit im Vakuum-Prozess: Silvio Brunetti, Goldoni, [Datum], [Unterschrift]."* Das war's. Rolle, kein Zertifikat.
 
 Summe deiner Zeit: etwa **ein halber Arbeitstag, über zwei bis drei Wochen verteilt**. Nicht am Stück, nicht unter Druck.
 
