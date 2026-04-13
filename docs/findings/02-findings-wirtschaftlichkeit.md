@@ -6,7 +6,7 @@
 - [Co-Review Persona 11 Personal](../reviews/02-wirtschaftlichkeit-personal.md)
 
 **Datum:** 2026-04-12
-**Status:** Offen — v2-Plan ausstehend. **22 Findings** (19 Lead + 3 Co-Reviews).
+**Status:** **Doc 02 v2 geschrieben** (2026-04-13). Von 22 Findings sind 19 in v2 aufgelöst, 3 offen bis Silvio-Input (F3 SP-19, F5 SP-22, F15 SP-23). Sortiment auf 5 Produkte erweitert (2× Lasagne + Ragù + Sugo + Parmigiana).
 
 Konsolidierte Findings aus Lead-Review CFO und Co-Reviews Steuerberaterin + Persona 11 Personal. Jedes Finding benennt Auflösungs-Pfad, Owner und Impact. Findings sind die Grundlage für den späteren v2-Plan (`docs/plans/02-v2-plan.md`, noch nicht geschrieben).
 

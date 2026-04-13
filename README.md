@@ -63,7 +63,7 @@ Pipeline: **v1** (Original) → **Lead-Review** → **Co-Reviews** → **Finding
 | # | Dokument | Lead | Co | Findings | v2-Plan | v2 | Blocker |
 |---|---|---|---|---|---|---|---|
 | 01 | Business Case Übersicht | 🔲 | — | — | — | — | — |
-| **02** | **Wirtschaftlichkeitsrechnung** | **✅ CFO** | **✅ Steuer, Personal** | **22** | **✅** | **🔲** | SP-19, SP-22 |
+| **02** | **Wirtschaftlichkeitsrechnung** | **✅ CFO** | **✅ Steuer, Personal** | **22 (19 gelöst)** | **✅** | **✅** | SP-19/22/23 offen |
 | 03 | Veterinäramt Stuttgart | ✅ Lebensmittelrecht | ✅ Behörde + R9 | 16 | ✅ | ✅ (14 gelöst) | — |
 | 04 | LMIV-Kennzeichnung | ✅ Lebensmittelrecht + R9 | ✅ Behörde, Küche | 23 | — | ✅ (19 gelöst) | SP-10 |
 | 05 | HACCP-Erweiterung | ✅ Lebensmittelrecht | ✅ Behörde, Küche, Logistik + R9 | 28 | — | ✅ (24 gelöst) | — |
@@ -73,7 +73,7 @@ Pipeline: **v1** (Original) → **Lead-Review** → **Co-Reviews** → **Finding
 | 09 | Verkaufsstrategie | 🔲 | — | — | — | — | — |
 | 10 | Operative Umsetzung | 🔲 | — | — | — | — | — |
 | 11 | Lieferanten Stuttgart | 🔲 | — | — | — | — | — |
-| 12 | Investitionsplan | 🔲 | — | — | — | — | Doc 02 erst |
+| **12** | **Investitionsplan** | **✅ CFO** | **🔲** | **9** | **🔲** | **🔲** | Doc 02 v2 Propagation |
 | 13 | 6-Wochen-Rollout-Plan | 🔲 | — | — | — | — | — |
 | 14 | Rechtliche Absicherung | ✅ Lebensmittelrecht + R9 | ✅ Behörde, Steuer | 25 | — | ✅ (22 gelöst) | — |
 | 15 | Steuerliche Behandlung | ✅ Steuer | ✅ CFO | 16 | — | ✅ (15 gelöst) | — |
@@ -85,7 +85,7 @@ Pipeline: **v1** (Original) → **Lead-Review** → **Co-Reviews** → **Finding
 
 **Legende:** ✅ erledigt, ⚠️ in Arbeit, 🔲 offen, R9 = Rule-9-Regulatorik-Nachtrag
 
-**Aggregate:** 7 von 20 Docs lead-reviewt (35 %). 143 Findings. 5 v2-Rewrites fertig. 18 Reviews gesamt.
+**Aggregate:** 8 von 20 Docs lead-reviewt (40 %). 152 Findings. 6 v2-Rewrites fertig. 19 Reviews gesamt.
 
 ### Silvio-Paket
 
