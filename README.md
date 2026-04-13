@@ -77,15 +77,15 @@ Pipeline: **v1** (Original) → **Lead-Review** → **Co-Reviews** → **Finding
 | **13** | **6-Wochen-Rollout-Plan** | **✅ CFO** | **🔲** | **9** | **🔲** | **🔲** | ❌ Stopp — 6 Wo unrealistisch |
 | 14 | Rechtliche Absicherung | ✅ Lebensmittelrecht + R9 | ✅ Behörde, Steuer | 25 | — | ✅ (22 gelöst) | — |
 | 15 | Steuerliche Behandlung | ✅ Steuer | ✅ CFO | 16 | — | ✅ (15 gelöst) | — |
-| 16 | Risiken & Gegenmaßnahmen | 🔲 | — | — | — | — | — |
-| 17 | Wettbewerbsanalyse | 🔲 | — | — | — | — | — |
+| **16** | **Risiken & Gegenmaßnahmen** | **✅ CFO** | **🔲** | **8** | **🔲** | **🔲** | Risiko-Register aufbauen |
+| **17** | **Wettbewerbsanalyse** | **✅ CFO** | **🔲** | **7** | **🔲** | **🔲** | Plattform-Scan nötig |
 | **18** | **Finanzierungsplan** | **✅ CFO** | **🔲** | **8** | **🔲** | **🔲** | Doc 02/12/21 Propagation |
 | 19 | Produktsortiment-Erweiterung | 🔲 | — | — | — | — | — |
 | 20 | Personal-Setup Retail (Plan) | 🔲 P11 | — | — | — | — | — |
 
 **Legende:** ✅ erledigt, ⚠️ in Arbeit, 🔲 offen, R9 = Rule-9-Regulatorik-Nachtrag
 
-**Aggregate:** 10 von 20 Docs lead-reviewt (50 %). 169 Findings. 7 v2-Rewrites fertig. 21 Reviews gesamt.
+**Aggregate:** 12 von 20 Docs lead-reviewt (60 %). 184 Findings. 7 v2-Rewrites fertig. 23 Reviews gesamt. **CFO (Marcus) komplett — alle 7 Lead-Docs abgehakt.**
 
 ### Silvio-Paket
 
