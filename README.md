@@ -26,7 +26,7 @@ Zielkanal: **Abholung im Restaurant + Plattform-Lieferung** (Wolt/Uber Eats) inn
 | `docs/findings/decisions.md` | Entscheidungs-Log D-01 bis D-13. Grundlegend für Scope- und Ton-Fragen. Neu Session 11: D-11 (BAFA), D-12 (Vorbestellungen Phase 1), D-13 (Vertriebskanal Abholung + Wolt/Uber). |
 | `docs/findings/inconsistencies.md` | 17 Widersprüche, davon **4 aufgelöst** (#5 USt, #11 Rückruf-Schreibort, #14 Aufbewahrungs-Fristen, #15 Béchamel-Arbeitsannahme). 13 offen. #17 neu (Öffnungszeiten Doc 01/10 vs. README). |
 | `docs/reviews/` | Persona-Reviews im Standard-Format. **Gate-Docs (03/04/05/14/15):** Lead + Co fertig. **Doc 02 (Session 11):** Lead CFO + Co Steuerberaterin + Co Persona 11 fertig. **Session 13:** Thomas-Batch (Doc 01, 10, 11) + Jana-Batch (Doc 06, 08, 09, 19) — 7 Lead-Reviews. |
-| `docs/findings/` | Konsolidierte Findings pro Doc. **19 Findings-Dateien:** 01 Übersicht (10), 02 Wirtschaftlichkeit (22), 03 Vetamt (16), 04 LMIV (23), 05 HACCP (28), 06 Mockups (7), 07 Preisgestaltung (12), 08 Verpackung (7), 09 Verkaufsstrategie (8), 10 Operative Umsetzung (12), 11 Lieferanten (7), 12 Investitionsplan (9), 13 Rollout (9), 14 Recht (25), 15 Steuer (16), 16 Risiken (8), 17 Wettbewerb (7), 18 Finanzierungsplan (8), 19 Sortiment (7). Gesamt: **242 Findings**. |
+| `docs/findings/` | Konsolidierte Findings pro Doc. **20 Findings-Dateien:** 01 Übersicht (10), 02 Wirtschaftlichkeit (22), 03 Vetamt (16), 04 LMIV (23), 05 HACCP (28), 06 Mockups (7), 07 Preisgestaltung (12), 08 Verpackung (7), 09 Verkaufsstrategie (8), 10 Operative Umsetzung (12), 11 Lieferanten (7), 12 Investitionsplan (9), 13 Rollout (9), 14 Recht (25), 15 Steuer (16), 16 Risiken (8), 17 Wettbewerb (7), 18 Finanzierungsplan (8), 19 Sortiment (7), 20 Personal-Setup (9). Gesamt: **251 Findings**. |
 | `docs/silvio-paket/offene-fragen.md` | **Zentrales Artefakt für Silvio-Aktionen.** 24 Einträge SP-01 bis SP-24 in acht Blöcken. Neu Session 11: SP-22 (Metro-Preise), SP-23 (Nachfrage-Schätzung), SP-24 (Kartenpreise). SP-19 (Béchamel) bei Silvio seit 2026-04-12. |
 | `docs/plans/02-v2-plan.md` | v2-Plan Doc 02 — 10 Kapitel, Finding-zu-Kapitel-Matrix, 19 von 22 Findings im v2 auflösbar. |
 | `docs/plans/02-cashflow-projektion-2026.md` | Monats-P&L Mai–Dez 2026 (hypothetisch bei Start Mai). Invest ~6.200 €, operativ ab August positiv, Cashflow-Break-Even Mai/Juni 2027. |
@@ -81,11 +81,11 @@ Pipeline: **v1** (Original) → **Lead-Review** → **Co-Reviews** → **Finding
 | **17** | **Wettbewerbsanalyse** | **✅ CFO** | **🔲** | **7** | **🔲** | **🔲** | Plattform-Scan nötig |
 | **18** | **Finanzierungsplan** | **✅ CFO** | **🔲** | **8** | **🔲** | **🔲** | Doc 02/12/21 Propagation |
 | **19** | **Produktsortiment-Erweiterung** | **✅ Jana** | **🔲** | **7** | **🔲** | **🔲** | Phasen-Zuordnung überholt |
-| 20 | Personal-Setup Retail (Plan) | 🔲 P11 | — | — | — | — | — |
+| **20** | **Personal-Setup Retail (Plan)** | **✅ P11** | **🔲** | **9** | **🔲** | **🔲** | Freigabe mit Auflagen, TBDs auflösbar |
 
 **Legende:** ✅ erledigt, ⚠️ in Arbeit, 🔲 offen, R9 = Rule-9-Regulatorik-Nachtrag
 
-**Aggregate:** 19 von 20 Docs lead-reviewt (95 %). 242 Findings. 7 v2-Rewrites fertig. 30 Reviews gesamt. **CFO (7/7), Thomas (3/3), Jana (4/4), Dr. Steiger (4/4), Frau Keller (1/1) komplett.** Offen: Persona 11 Lead auf Doc 20.
+**Aggregate:** **20 von 20 Docs lead-reviewt (100 %).** 251 Findings. 7 v2-Rewrites fertig. 31 Reviews gesamt. **Alle Lead-Personas komplett:** CFO (7/7), Thomas (3/3), Jana (4/4), Dr. Steiger (4/4), Frau Keller (1/1), Persona 11 (1/1).
 
 ### Silvio-Paket
 

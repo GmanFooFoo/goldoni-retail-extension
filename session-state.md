@@ -2,7 +2,7 @@
 
 **Aktuelles Datum:** 2026-04-13
 **Letzte aktive Session:** Session 13 (German + Claude, 2026-04-13) — aktiv
-**Status:** Stufe 3 Deep Review — **19 von 20 Docs lead-reviewt (95 %)**. 242 Findings, 30 Reviews, 7 v2-Rewrites. **CFO (7/7), Thomas (3/3), Jana (4/4), Dr. Steiger (4/4), Frau Keller (1/1) komplett.** Offen: Persona 11 Lead auf Doc 20. Sortiment auf 5 Produkte erweitert (2× Lasagne + Ragù + Sugo + Parmigiana). Entscheidungen D-01 bis D-13.
+**Status:** Stufe 3 Deep Review — **20 von 20 Docs lead-reviewt (100 %).** 251 Findings, 31 Reviews, 7 v2-Rewrites. **Alle Lead-Personas komplett:** CFO (7/7), Thomas (3/3), Jana (4/4), Dr. Steiger (4/4), Frau Keller (1/1), Persona 11 (1/1). Sortiment auf 5 Produkte erweitert (2× Lasagne + Ragù + Sugo + Parmigiana). Entscheidungen D-01 bis D-13.
 **Aktuelle Phase:** **A — aktiv** (siehe Lebenszyklus unten)
 
 ## Lebenszyklus (D-08)
@@ -31,7 +31,7 @@ Nur **eine schreibende Session** gleichzeitig auf diesem Repo. Lese-Zugriff ist 
 | 1b | MkDocs Reader-Site | ❌ Rolled back | MkDocs war Overkill. Alles entfernt, zurück zu plain markdown |
 | 1c | Vercel Deploy | ❌ Dropped | Entfällt komplett. Nur GitHub + lokale Verzeichnisse |
 | 2 | 9 Personas + README für Silvio + Frontmatter-Cleanup + Goldoni-Präfix raus + Marcello-Persona abgeschafft + Ton-Reset | ✅ Done | Alle Silvio-facing Dokumente im freundschaftlichen Ton, Personas im Format "Persona NN – Name – Rolle", Marcello-Figur komplett gestrichen |
-| 3 | Deep Review der Business-Case-Docs | ⚠️ In Progress | **19 von 20 Docs lead-reviewt (95 %).** 242 Findings, 30 Reviews, 7 v2-Rewrites. Sechs Personas komplett: CFO (7/7), Thomas (3/3), Jana (4/4), Lebensmittelrecht (4/4), Steuer (1/1). Offen: Persona 11 Lead auf Doc 20. |
+| 3 | Deep Review der Business-Case-Docs | ⚠️ In Progress | **20 von 20 Docs lead-reviewt (100 %).** 251 Findings, 31 Reviews, 7 v2-Rewrites. **Alle Lead-Personas komplett.** Nächster Schritt: Co-Reviews und v2-Rewrites für die 13 neuen Findings-Dateien (Session 13). |
 | 4 | Wrap-up Session 1 | ✅ Done | Session-Report, Handoff, SESSION-PROMPT-NEXT geschrieben |
 | 5 | MASCHIN-Review + Maßnahmen 1/3/4 (Session 2b) | ✅ Done | decisions.md, Phase A/B/C, beteiligung.md-Gerüst, Prozess-Fixes |
 | 6 | Maßnahme 2 — Repo-Zweck-Umschwung | ✅ Done | README und rollout-plan auf Germans Arbeits-Level. Variante B gewählt (keine parallele Silvio-Version). Memory aktualisiert. Spot-Check 2d/2e ohne Rewrite-Bedarf. |
