@@ -20,12 +20,12 @@ Zielkanal: **Abholung im Restaurant + Plattform-Lieferung** (Wolt/Uber Eats) inn
 
 | Ordner / Datei | Inhalt |
 |---|---|
-| `docs/business-case/` | Die 19 Original-Dokumente (v1) — Küche, Zahlen, Recht, Verpackung, Verkauf, Logistik. Gate-kritische Sequenz 03 → 15 → 05 → 04 → 14 lead-reviewt (Stufe 3). |
+| `docs/business-case/` | Die 19 Original-Dokumente. **13 v2-Rewrites fertig** (02, 03, 04, 05, 08, 10, 12, 14, 15, 16, 18, 19 + Doc 20 als Plan-Doc). 7 Docs noch v1 (01, 06, 07, 09, 11, 13, 17). |
 | `docs/personas/` | 12 rollenbasierte Review-Personas als Analyse-Linsen (00 Silvio Übersetzungs-Schicht, 01 CFO, 02 Lebensmittelrecht, 03 Steuer, 04 Behördenkontrolleur, 05 Logistiker, 06 Gastronom, 07 Küchenchef, 08 Brand/Marketing, 09 Stammkundin, 10 Dr. Maldini Regulatorik-Scout, 11 Personal-Markt & Arbeitsrecht Retail). |
 | `docs/personas/assignments.md` | Matrix: welche Persona reviewt welches Doc. |
 | `docs/findings/decisions.md` | Entscheidungs-Log D-01 bis D-13. Grundlegend für Scope- und Ton-Fragen. Neu Session 11: D-11 (BAFA), D-12 (Vorbestellungen Phase 1), D-13 (Vertriebskanal Abholung + Wolt/Uber). |
 | `docs/findings/inconsistencies.md` | 17 Widersprüche, davon **4 aufgelöst** (#5 USt, #11 Rückruf-Schreibort, #14 Aufbewahrungs-Fristen, #15 Béchamel-Arbeitsannahme). 13 offen. #17 neu (Öffnungszeiten Doc 01/10 vs. README). |
-| `docs/reviews/` | Persona-Reviews im Standard-Format. **Gate-Docs (03/04/05/14/15):** Lead + Co fertig. **Doc 02 (Session 11):** Lead CFO + Co Steuerberaterin + Co Persona 11 fertig. **Session 13:** Thomas-Batch (Doc 01, 10, 11) + Jana-Batch (Doc 06, 08, 09, 19) — 7 Lead-Reviews. |
+| `docs/reviews/` | Persona-Reviews im Standard-Format. **Gate-Docs (03/04/05/14/15):** Lead + Co fertig. **Doc 02 (Session 11):** Lead CFO + Co Steuerberaterin + Co Persona 11 fertig. **Session 13:** 8 Lead-Reviews + 14 Tier-1-Co-Reviews. 45 Reviews gesamt. |
 | `docs/findings/` | Konsolidierte Findings pro Doc. **20 Findings-Dateien:** 01 Übersicht (10), 02 Wirtschaftlichkeit (22), 03 Vetamt (16), 04 LMIV (23), 05 HACCP (28), 06 Mockups (12), 07 Preisgestaltung (17), 08 Verpackung (14), 09 Verkaufsstrategie (12), 10 Operative Umsetzung (24), 11 Lieferanten (11), 12 Investitionsplan (9), 13 Rollout (17), 14 Recht (25), 15 Steuer (16), 16 Risiken (17), 17 Wettbewerb (7), 18 Finanzierungsplan (8), 19 Sortiment (11), 20 Personal-Setup (9). Gesamt: **308 Findings**. |
 | `docs/silvio-paket/offene-fragen.md` | **Zentrales Artefakt für Silvio-Aktionen.** 24 Einträge SP-01 bis SP-24 in acht Blöcken. Neu Session 11: SP-22 (Metro-Preise), SP-23 (Nachfrage-Schätzung), SP-24 (Kartenpreise). SP-19 (Béchamel) bei Silvio seit 2026-04-12. |
 | `docs/plans/02-v2-plan.md` | v2-Plan Doc 02 — 10 Kapitel, Finding-zu-Kapitel-Matrix, 19 von 22 Findings im v2 auflösbar. |
@@ -69,23 +69,23 @@ Pipeline: **v1** (Original) → **Lead-Review** → **Co-Reviews** → **Finding
 | 05 | HACCP-Erweiterung | ✅ Lebensmittelrecht | ✅ Behörde, Küche, Logistik + R9 | 28 | — | ✅ (24 gelöst) | — |
 | **06** | **Mockups** | **✅ Jana** | **🔲** | **7** | **🔲** | **🔲** | Kein visuelles Mockup im Repo |
 | **07** | **Preisgestaltung** | **✅ CFO** | **🔲** | **12** | **🔲** | **🔲** | Doc 02 v2 erst |
-| **08** | **Verpackungsstrategie** | **✅ Jana** | **🔲** | **7** | **🔲** | **🔲** | Freigabe mit Auflagen |
+| **08** | **Verpackungsstrategie** | **✅ Jana** | **✅ Pietro, Bruno** | **14** | **—** | **✅** | 14/14 Findings aufgelöst |
 | **09** | **Verkaufsstrategie** | **✅ Jana** | **🔲** | **8** | **🔲** | **🔲** | Wolt/Uber + Webshop Phase 1 fehlen |
-| **10** | **Operative Umsetzung** | **✅ Thomas** | **🔲** | **12** | **🔲** | **🔲** | SPOF Inhaber, 5-Produkt-Update |
+| **10** | **Operative Umsetzung** | **✅ Thomas** | **✅ Pietro, Steiger, P11** | **24** | **—** | **✅** | 21/24 aufgelöst, 3 offen (SP-22, MHD-Strategie, Ehefrau) |
 | **11** | **Lieferanten Stuttgart** | **✅ Thomas** | **🔲** | **7** | **🔲** | **🔲** | Keine Preise, SP-22 |
 | **12** | **Investitionsplan** | **✅ CFO** | **🔲** | **9 (7 gelöst)** | **—** | **✅** | SP-06/22 offen |
 | **13** | **6-Wochen-Rollout-Plan** | **✅ CFO** | **🔲** | **9** | **🔲** | **🔲** | ❌ Stopp — 6 Wo unrealistisch |
 | 14 | Rechtliche Absicherung | ✅ Lebensmittelrecht + R9 | ✅ Behörde, Steuer | 25 | — | ✅ (22 gelöst) | — |
 | 15 | Steuerliche Behandlung | ✅ Steuer | ✅ CFO | 16 | — | ✅ (15 gelöst) | — |
-| **16** | **Risiken & Gegenmaßnahmen** | **✅ CFO** | **🔲** | **8** | **🔲** | **🔲** | Risiko-Register aufbauen |
+| **16** | **Risiken & Gegenmaßnahmen** | **✅ CFO** | **✅ Thomas, Vogel** | **17** | **—** | **✅** | 17/17 aufgelöst, Risiko-Register mit 10 Einträgen |
 | **17** | **Wettbewerbsanalyse** | **✅ CFO** | **🔲** | **7** | **🔲** | **🔲** | Plattform-Scan nötig |
-| **18** | **Finanzierungsplan** | **✅ CFO** | **🔲** | **8** | **🔲** | **🔲** | Doc 02/12/21 Propagation |
-| **19** | **Produktsortiment-Erweiterung** | **✅ Jana** | **🔲** | **7** | **🔲** | **🔲** | Phasen-Zuordnung überholt |
-| **20** | **Personal-Setup Retail (Plan)** | **✅ P11** | **🔲** | **9** | **🔲** | **🔲** | Freigabe mit Auflagen, TBDs auflösbar |
+| **18** | **Finanzierungsplan** | **✅ CFO** | **🔲** | **8** | **—** | **✅** | 8/8 aufgelöst, BAFA/L-Bank, KfW gestrichen |
+| **19** | **Produktsortiment-Erweiterung** | **✅ Jana** | **✅ Pietro** | **11** | **—** | **✅** | 10/11 aufgelöst, Polpette als Phase-2-Roadmap |
+| **20** | **Personal-Setup Retail (Plan)** | **✅ P11** | **🔲** | **9** | **—** | **✅** | 8/9 aufgelöst, IfSG Ehefrau offen (SP-04) |
 
 **Legende:** ✅ erledigt, ⚠️ in Arbeit, 🔲 offen, R9 = Rule-9-Regulatorik-Nachtrag
 
-**Aggregate:** **20 von 20 Docs lead-reviewt (100 %).** 308 Findings. 7 v2-Rewrites fertig. 45 Reviews gesamt (31 Lead + 14 Tier-1-Co). **Alle Lead-Personas komplett.** Tier-1-Co-Reviews komplett: Pietro (4), Thomas (3), Dr. Steiger (3), Bruno (1), Claudia (1), Inspektor Vogel (1), P11 (1).
+**Aggregate:** **20 von 20 Docs lead-reviewt (100 %).** 308 Findings. **13 v2-Rewrites fertig** (02, 03, 04, 05, 08, 10, 12, 14, 15, 16, 18, 19, 20). 45 Reviews gesamt (31 Lead + 14 Tier-1-Co). 7 Docs noch v1 (01, 06, 07, 09, 11, 13, 17).
 
 ### Silvio-Paket
 

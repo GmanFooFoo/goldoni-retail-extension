@@ -1,58 +1,52 @@
-# Session-Prompt für Session 11 — Goldoni Retail Extension
+# Session-Prompt für Session 14 — Goldoni Retail Extension
 
-> Handoff von Session 10 (2026-04-12) an Session 11.
+> Handoff von Session 13 (2026-04-13) an Session 14.
 
 ## Kurzstand
 
-Session 10 hat die **gesamte Gate-kritische Sequenz abgeschlossen**: 9 Co-Reviews, 5 v2-Rewrites, 94 von 108 Findings aufgelöst. Drei neue Entscheidungen: D-11 (BAFA-Förderung für Germans Beratung), D-12 (Vorbestellungen ab Phase 1), SP-19-Arbeitsannahme (Lasagne ohne Béchamel, ohne Ei). Fördermittel-Recherche (Doc 21, bis 3.670 € Zuschuss) und Software-Tools-Übersicht (Doc 22, 12 Tools) sind neu. Decision-Log steht bei D-01 bis D-12.
+Session 13 hat **alle 20 Docs lead-reviewt (100 %)**, 14 Tier-1-Co-Reviews geschrieben und 6 v2-Rewrites fertiggestellt. Gesamt: 308 Findings, 45 Reviews, 13 v2-Rewrites. **7 Docs sind noch v1** und brauchen v2-Rewrites.
 
 ## Kontext-Reset — lies diese Dateien zuerst
 
-1. `docs/reports/2026-04-12-goldoni-c.md` — Session-10-Report mit Block-Chronik, Zahlen, Lessons. **Wichtigste Datei.**
-2. `docs/findings/decisions.md` — D-01 bis D-12. Prüfe beim Start, ob eine Entscheidung, die du triffst, gegen einen der Einträge verstößt.
-3. `docs/silvio-paket/offene-fragen.md` — 21 Einträge (SP-01 bis SP-21) in 7 Blöcken. SP-19 (Béchamel → Arbeitsannahme "ohne", Bestätigung Silvio ausstehend). SP-14 aufgelöst (D-12). SP-21 (BAFA-Antrag) neu.
-4. `docs/plans/21-foerdermittel.md` — Drei Programme (BAFA, BW-Beratungsrichtlinie, L-Bank), German als BAFA-Berater (D-11).
-5. `docs/plans/22-software-tools.md` — 12 Tools, Phase 1 inkl. Webshop/Stripe/PayPal (D-12).
-6. Die fünf v2-Rewrites: `docs/business-case/03`, `04`, `05`, `14`, `15`. Alle auf aktuellem Stand.
-7. `session-state.md` — Stand nach Session 10.
+1. `docs/reports/2026-04-13-goldoni-b.md` — Session-13-Report. **Wichtigste Datei.**
+2. `docs/findings/decisions.md` — D-01 bis D-13.
+3. `docs/silvio-paket/offene-fragen.md` — 24 Einträge (SP-01 bis SP-24).
+4. `session-state.md` — Stand nach Session 13.
 
-## Was in Session 11 ansteht
+## Was in Session 14 ansteht
 
-### Priorität 1 — SP-19-Antwort verarbeiten
+### Priorität 1 — v2-Rewrites der 7 verbleibenden Docs
 
-Wenn Silvio auf die WhatsApp-Frage geantwortet hat: Arbeitsannahme bestätigen oder korrigieren. Wenn Béchamel doch drin ist → betroffene Abschnitte in Doc 04 v2 und Doc 05 v2 anpassen (Allergen Ei zurück, Listerien-Risiko-Kategorie hoch, Abkühlzeit-Problem wieder offen).
+Reihenfolge nach Abhängigkeit:
 
-### Priorität 2 — Sekundär-Reviews starten
+1. **Doc 13 — Rollout** (Neustrukturierung auf 10–12 Wochen, CFO-Stopp aus Session 12 adressieren, Personal-Meilenstein, Stichtag-Markierungen, Gantt-Diagramm)
+2. **Doc 09 — Verkaufsstrategie** (Wolt/Uber als Phase-1-Kanal, Webshop Phase 1, Launch-Story, DSGVO-WhatsApp, Kellner-Skript konkret, Abo → Phase 2)
+3. **Doc 07 — Preisgestaltung** (Propagation Doc 02 v2, Claudia-Findings: Sugo 6,90 → 7,90 €, Portions-Angabe, Plattform-Preis max. +2 € über Restaurant)
+4. **Doc 11 — Lieferanten** (Zutaten-Steckbrief-Tabelle, Backup-Lieferant, Preise teilweise SP-22-abhängig, Pietro-Findings: Büffelmozzarella-Haltbarkeit, Basilikum)
+5. **Doc 17 — Wettbewerb** (Plattform-Scan Wolt/Uber Stuttgart, Substitut-Analyse, "Di Gennaro" klären)
+6. **Doc 01 — Übersicht** (Dach-Dokument, reine Propagation aus allen anderen v2s — als Letztes)
+7. **Doc 06 — Mockups** (LMIV-Compliance-Checkliste gegen Doc 04 v2, braucht visuelle Etikett-Entwürfe — ggf. eigene Session)
 
-14 Docs (01, 02, 06, 07, 08, 09, 10, 11, 12, 13, 16, 17, 18, 19) sind noch unreviewed. Empfohlene Reihenfolge nach Business-Impact:
+### Priorität 2 — Silvio-Paket-Rückmeldungen
 
-1. **Doc 02 Wirtschaftlichkeit** (CFO-Lead) — hängt an Netto/Brutto-Deklaration aus Doc 15 v2 und Fixkosten-Allokation
-2. **Doc 13 6-Wochen-Rollout-Plan** (CFO-Lead) — integriert die drei Rechts-Stichtage und das Vormittags-Fenster
-3. **Doc 06 Mockups** (Brand/Marketing-Lead) — muss gegen Doc 04 v2 Pflichtfelder validiert werden
-4. **Doc 09 Verkaufsstrategie** (Brand/Marketing-Lead) — WhatsApp-Kanal, Webshop, Fernabsatz (D-12)
+Falls Silvio auf SP-19 (Rezeptur/Béchamel) oder SP-22 (Metro-Preise) geantwortet hat: Arbeitsannahmen bestätigen oder korrigieren, betroffene v2-Docs anpassen.
 
-### Priorität 3 — Operatives
+### Priorität 3 — Inconsistencies schließen
 
-- BAFA-Berater-Registrierung vorantreiben (Backlog #55, German hat Seminar besucht)
-- Q4Me evaluieren (Backlog #56)
-- Webshop-Plattform-Entscheidung (Shopify vs. WooCommerce vs. Ecwid)
+17 Einträge, 4 aufgelöst, 13 offen. Viele werden durch die v2-Rewrites automatisch aufgelöst. Nach allen v2-Rewrites: Konsistenz-Durchlauf.
 
 ## Offene Blocker
 
 | # | Blocker | Wartet auf | Impact |
 |---|---|---|---|
-| 1 | SP-19 Bestätigung "ohne Béchamel/Ei" | Silvio | Doc 04/05 v2 ggf. Korrektur |
-| 2 | SP-10 Primärzutat-Herkunft | Silvio + Lieferanten | Doc 04 v2 Etikett nicht druckfertig |
-| 3 | SP-11 Labor-Nährwertanalyse | Silvio + Rezept-Fixierung | Doc 04 v2 Nährwerttabelle offen |
-| 4 | MHD-Validierung (Haltbarkeitstest) | Silvio + Labor | Doc 05 — vor erstem Verkauf |
+| 1 | SP-19 Rezeptur (ohne Béchamel/Ei) | Silvio (WhatsApp 12.04.) | Arbeitsannahme gesetzt, Bestätigung offen |
+| 2 | SP-22 Metro-/Lieferanten-Preise | Silvio | Doc 02 v2 [E]-Marker, Doc 11 v2 |
+| 3 | SP-23 Nachfrage-Schätzung | Silvio | Doc 02 v2 Absatz-Szenarien |
+| 4 | SP-06 Kassensystem TSE | Silvio | Doc 15 |
 
-## Wichtige Präferenzen von German
+## Wichtige Präferenzen
 
-- **Commit + Push zusammen** — keine Lücke (neu Session 10)
+- **Commit + Push zusammen** — keine Lücke
 - **AskUserQuestion bei 2+ Optionen Pflicht (Rule 11)**
 - **Eine Frage nach der anderen (Rule 12)**
 - **Pushback erwartet — nicht blind ausführen**
-- **Silvio ist im Chance-Modus** — Informations-Asymmetrie respektieren
-- **Personas ohne Personennamen bei neuen Personas**
-- **Review-Standard-Format** aus CLAUDE.md
-- **MASCHIN-Tabellen-Format**
