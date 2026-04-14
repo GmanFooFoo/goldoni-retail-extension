@@ -1,8 +1,8 @@
 # Session State — Goldoni Retail Extension
 
-**Aktuelles Datum:** 2026-04-13
-**Letzte aktive Session:** Session 15 (German + Claude, 2026-04-13) — abgeschlossen
-**Status:** **Alle 20 Docs auf v2. 14/17 Inconsistencies aufgelöst.** 308 Findings, 45 Reviews. Persona-00 Gesamt-Überblick + PPTX fertig. Silvio-Slides bereit für Übergabe-Gespräch. 3 offene Inconsistencies (#2, #16, #17) und 6 SP-Blocker warten auf Silvio.
+**Aktuelles Datum:** 2026-04-14
+**Letzte aktive Session:** Session 16 (German + Claude, 2026-04-14) — abgeschlossen
+**Status:** **Alle 20 Docs auf v2. 15/17 Inconsistencies aufgelöst.** 308 Findings, 45 Reviews. Persona-00 Gesamt-Überblick + PPTX. Backlog #52/#54/#56 in Session 16 durch (Q4Me evaluiert, Geschenkebox-Konzept, Sensitivity-Analyse). 2 offene Inconsistencies (#2, #17) und 6 SP-Blocker warten auf Silvio, zusätzlich SP-25 und SP-26 neu.
 **Aktuelle Phase:** **A — aktiv** (siehe Lebenszyklus unten)
 
 ## Lebenszyklus (D-08)
@@ -17,7 +17,7 @@ Jede Maßnahme, die eine Session einführt, muss die Frage bestehen: *"Brauchen 
 
 ## Aktive Sessions
 
-Session 15 (German + Claude, 2026-04-13) — abgeschlossen. Session-Report: `docs/reports/2026-04-13-goldoni-d.md`.
+Session 16 (German + Claude, 2026-04-14) — abgeschlossen. Session-Report: `docs/reports/2026-04-14-goldoni.md`.
 
 ## Repo-Ownership
 
@@ -39,4 +39,5 @@ Nur **eine schreibende Session** gleichzeitig auf diesem Repo. Lese-Zugriff ist 
 
 ## Letzte Updates
 
+- 2026-04-14 — Session 16: Backlog-Abarbeitung ohne Silvio-Blocker. Q4Me-Evaluation (29,90 €/19,90 € DEHOGA, 4 Wochen Test). Geschenkebox-Konzept "Sugo + Rummo" mit LMIV-Warenzusammenstellung, 19,90 € Einstieg / 22,90 € Premium, DB 40–49 % netto. Sensitivity-Analyse Doc 02 mit Absatz-Matrix 15–70 Stk/W, Kombi-Worst 39 Monate Amortisation, 6 Go/No-Go-Checkpoints bis Q1 2027. Inconsistency #16 aufgelöst → 15/17. SP-25, SP-26 neu, SP-20 präzisiert, SP-05 erweitert. 3 Commits.
 - 2026-04-13 — Session 15: Konsolidierung + Silvio-Übersetzungsschicht. Inconsistencies 4/17 → 14/17 aufgelöst. Doc 06 v2 Etikett-Spezifikation (11/12 Findings). Silvio Brunetti bestätigt und propagiert. README auf 20/20 v2. Persona-00 Gesamt-Überblick (12 Slides). PPTX-Generator mit YAML-Content-Trennung. 6 Commits.
