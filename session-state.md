@@ -1,8 +1,8 @@
 # Session State — Goldoni Retail Extension
 
 **Aktuelles Datum:** 2026-04-14
-**Letzte aktive Session:** Session 16 (German + Claude, 2026-04-14) — abgeschlossen
-**Status:** **Alle 20 Docs auf v2. 15/17 Inconsistencies aufgelöst.** 308 Findings, 45 Reviews. Persona-00 Gesamt-Überblick + PPTX. Backlog #52/#54/#56 in Session 16 durch (Q4Me evaluiert, Geschenkebox-Konzept, Sensitivity-Analyse). 2 offene Inconsistencies (#2, #17) und 6 SP-Blocker warten auf Silvio, zusätzlich SP-25 und SP-26 neu.
+**Letzte aktive Session:** Session 17 (German + Claude, 2026-04-14) — abgeschlossen
+**Status:** **Alle 20 Docs auf v2. 15/17 Inconsistencies aufgelöst.** 308 Findings, 45 Reviews. Session 17: Propagation der Session-16-Ergebnisse (Geschenkebox 19,90/22,90 € + Sensitivity-Cross-Ref) in Doc 02/07/08/19 + SP-05. Verpackungs-Zahl-Korrektur (3,70 € statt 4,10 €) nach Pushback. 2 offene Inconsistencies (#2, #17) und 8 SP-Blocker (SP-09, 19, 20, 22–26) warten auf Silvio.
 **Aktuelle Phase:** **A — aktiv** (siehe Lebenszyklus unten)
 
 ## Lebenszyklus (D-08)
@@ -17,7 +17,7 @@ Jede Maßnahme, die eine Session einführt, muss die Frage bestehen: *"Brauchen 
 
 ## Aktive Sessions
 
-Session 16 (German + Claude, 2026-04-14) — abgeschlossen. Session-Report: `docs/reports/2026-04-14-goldoni.md`.
+Session 17 (German + Claude, 2026-04-14) — abgeschlossen. Session-Report: `docs/reports/2026-04-14-goldoni-b.md`.
 
 ## Repo-Ownership
 
@@ -39,5 +39,6 @@ Nur **eine schreibende Session** gleichzeitig auf diesem Repo. Lese-Zugriff ist 
 
 ## Letzte Updates
 
+- 2026-04-14 — Session 17: Propagation der Session-16-Ergebnisse ohne Silvio-Blocker. Doc 07 Geschenke-Sugo in Einstieg/Premium aufgetrennt (19,90/22,90 €), Doc 02 Cross-Ref Sensitivity, Doc 08 Kraft-Kartonbox präzisiert (1,80 € Einstieg / 3,70 € Premium), Doc 19 Geschenkebox-Tabelle aktualisiert, SP-05 um fünften Punkt (USt-Geschenkebox) erweitert. Zahl 4,10 € → 3,70 € nach Pushback korrigiert (Arbeitszeit war fälschlich in Verpackungsmaterial). 2 Commits.
 - 2026-04-14 — Session 16: Backlog-Abarbeitung ohne Silvio-Blocker. Q4Me-Evaluation (29,90 €/19,90 € DEHOGA, 4 Wochen Test). Geschenkebox-Konzept "Sugo + Rummo" mit LMIV-Warenzusammenstellung, 19,90 € Einstieg / 22,90 € Premium, DB 40–49 % netto. Sensitivity-Analyse Doc 02 mit Absatz-Matrix 15–70 Stk/W, Kombi-Worst 39 Monate Amortisation, 6 Go/No-Go-Checkpoints bis Q1 2027. Inconsistency #16 aufgelöst → 15/17. SP-25, SP-26 neu, SP-20 präzisiert, SP-05 erweitert. 3 Commits.
 - 2026-04-13 — Session 15: Konsolidierung + Silvio-Übersetzungsschicht. Inconsistencies 4/17 → 14/17 aufgelöst. Doc 06 v2 Etikett-Spezifikation (11/12 Findings). Silvio Brunetti bestätigt und propagiert. README auf 20/20 v2. Persona-00 Gesamt-Überblick (12 Slides). PPTX-Generator mit YAML-Content-Trennung. 6 Commits.
