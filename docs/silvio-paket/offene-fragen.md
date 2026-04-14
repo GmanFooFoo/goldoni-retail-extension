@@ -75,6 +75,7 @@ Die Silvio-Aktionen sind nach Kontext gruppiert, damit ein Gespräch/Telefonat m
 | SP-22 | **Metro-/Lieferanten-Preise für alle 4 Phase-1-Produkte.** Für den v2-Rewrite von Doc 02 brauchen wir echte Einkaufspreise mit Datums-Stempel statt Spannen-Schätzungen. Ideal: Metro-Rechnung oder Online-Preisliste für Bio-Hackfleisch, San-Marzano-Tomaten, Büffelmozzarella, Parmigiano, Auberginen, Lasagneplatten, Olivenöl. | Doc 02 F5 | P1 | Offen | — |
 | SP-23 | **Stammgast-/Nachfrage-Schätzung.** Wie viele Portionen pro Woche hält Silvio für realistisch? Basis: Anzahl Stammgäste, Büro-Kunden im Stuttgarter Westen, Erfahrung mit Außer-Haus-Verkauf. Ohne Silvios Einschätzung sind die Absatz-Szenarien in Doc 02 unbelegt. | Doc 02 F15 | P2 | Offen | — |
 | SP-24 | **Aktuelle Kartenpreise Lasagne und Parmigiana.** Doc 07 nutzt "16–18 € im Restaurant" als Preisanker für den Retail-VK. Stimmt das mit der aktuellen Speisekarte überein? Falls Silvio die Preise kürzlich geändert hat, muss der Retail-VK nachziehen. | Doc 07 F7 | P2 | Offen | — |
+| SP-25 | **DEHOGA-Baden-Württemberg-Mitgliedschaft.** Ist Silvio bereits Mitglied? Falls ja, kostet Q4Me QM-Software 19,90 € statt 29,90 € netto/Monat (Ersparnis ~120 €/Jahr, siehe [Q4Me-Evaluation](../plans/22-q4me-evaluation.md)). Falls nein, DEHOGA-BW-Jahresbeitrag separat prüfen und Mitgliedschafts-Nutzen gesamthaft bewerten (QM-Rabatt, Rechtsberatung, Tarif-Infos). | Doc 22 Software-Tools | P3 | Offen | — |
 
 ### Block 7 — Fördermittel
 

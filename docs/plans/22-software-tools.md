@@ -8,7 +8,7 @@
 | # | Tool | Zweck | Status | Kosten | Anmerkung |
 |---|---|---|---|---|---|
 | 1 | **Kassensystem (CRV)** | POS, Belegausgabe, TSE, Zwei-Steuersatz (7 %/19 %) | Im Einsatz, muss für Retail konfiguriert werden | Konfiguration: 0 € (wenn TSE-fähig), Nachrüstung: 300–3.000 € worst case | SP-06: TSE-Check offen. Neuer Artikel "Vakuum-Retail" mit 7 %-Steuerschlüssel anlegen. KassenSichV-konform. |
-| 2 | **[Q4Me Qualitätsmanagement](https://www.q4me-qualitaetsmanagement.de)** | QM-System für HACCP-Dokumentation, Chargen-Protokolle, Temperatur-Logs, Reinigungspläne, Schulungsnachweise | Neu, noch nicht im Einsatz | [TBD-Recherche] Preismodell prüfen | Könnte die Papier-Protokolle aus Doc 05 (Tagesprotokoll Kühlung, Chargenprotokoll) digitalisieren. Erfüllt ggf. auch die BAFA-Berater-Anforderung an ein QM-System. Passt zum Datenlogger-Thema (Doc 05 Finding 23). |
+| 2 | **[Q4Me Qualitätsmanagement](https://www.q4me-qualitaetsmanagement.de)** | QM-System für HACCP-Dokumentation, Temperatur-Logs, Schulungsnachweise, Checklisten | Evaluiert 2026-04-14, 4-Wochen-Test empfohlen | 29,90 €/Monat (Nicht-Mitglied) oder 19,90 €/Monat (DEHOGA-Mitglied), netto, Ein-Preis-pro-Standort, 4 Wochen gratis | Details und Flowtify-Vergleich: siehe [Q4Me-Evaluation](./22-q4me-evaluation.md). Chargenprotokoll/Reinigungspläne und Datenlogger-Integration im Test explizit prüfen. DEHOGA-BW-Status → SP-25. |
 | 3 | **WhatsApp Business** | Marketing-Kanal, Kunden-Kommunikation, Broadcast-Listen für Stammgäste | Vermutlich schon im Einsatz (Restaurant) | Kostenlos (WhatsApp Business App) | DSGVO-Einwilligung nach Art. 7 zwingend (Doc 14 DSGVO-Abschnitt). BfDI bewertet kritisch. Marketing- und Rückruf-Liste getrennt führen (zwei Rechtsgrundlagen). |
 | 4 | **Etikettendrucker** | Etiketten-Druck für Vakuum-Produkte (LMIV-konform) | Noch nicht angeschafft | Brother QL-820NWB ~200 € oder Profidruck 0,05–0,10 €/Stück | GWG, sofort abzugsfähig (Doc 15 v2). |
 | 5 | **Einstechthermometer** | Kerntemperatur-Messung CCP1/CCP2 | Vermutlich vorhanden (Restaurant-Küche) | ~30 €, jährliche Kalibrierung | Doc 05, Küchenchef-Finding. |
@@ -53,7 +53,7 @@ Phase 1 (parallel zum Theken-Start):
 | # | Frage | Wer | Bezug |
 |---|---|---|---|
 | 1 | CRV-Kassensystem: TSE-fähig? Zwei Steuersätze? | Silvio (SP-06) | Doc 15 Finding 4 |
-| 2 | Q4Me: Preismodell, Funktionsumfang, passt es zu Silvios Größe? | German (Recherche) | Doc 05 HACCP |
+| 2 | Q4Me: Preismodell, Funktionsumfang, passt es zu Silvios Größe? | ✅ Erledigt 2026-04-14 → [Evaluation](./22-q4me-evaluation.md), offen: DEHOGA-Status (SP-25) | Doc 05 HACCP |
 | 3 | Webshop: welche Plattform? (Shopify, WooCommerce, Ecwid, Square) | German + Silvio | D-12, Doc 22 |
 | 4 | WhatsApp Business: hat Silvio das schon oder nutzt er privates WhatsApp? | Silvio | Doc 14 DSGVO |
 
