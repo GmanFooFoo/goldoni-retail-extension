@@ -106,7 +106,7 @@ Peaks: Weihnachten, Ostern, Ferragosto (15. August).
 | Natale-Box | 2 × Classica + Parmigiana + Geschenkkarton | 40,00 € | +1,00 € | Geschenkkarton ~2,50 € [E] | −1,50 € DB ggü. Einzelverkauf |
 | Pasqua-Box | Verdure + Parmigiana + Sugo + Geschenkkarton | 33,00 € | +2,00 € | Geschenkkarton ~2,50 € [E] | −0,50 € DB ggü. Einzelverkauf |
 | Geschenke-Sugo Einstieg | 2 × Sugo + Rummo-Nudeln (500g) + Kraft-Kartonbox mit Bauchbinde | 19,90 € | — (neues Produkt) | Nudeln ~2 € + Karton ~1,80 € [E] | DB netto ~8,15 € (43,8 %) → [Konzept](../plans/54-geschenkebox-konzept.md) |
-| Geschenke-Sugo Premium | wie oben + Geschenkkarton, Karte, Schleife | 22,90 € | — (neues Produkt) | Nudeln ~2 € + Premium-Verpackung ~4,10 € [E] | DB netto ~8,65 € (40,4 %) → [Konzept](../plans/54-geschenkebox-konzept.md) |
+| Geschenke-Sugo Premium | wie oben + Geschenkkarton, Karte, Schleife | 22,90 € | — (neues Produkt) | Nudeln ~2 € + Premium-Verpackung ~3,70 € [E] | DB netto ~8,65 € (40,4 %) → [Konzept](../plans/54-geschenkebox-konzept.md) |
 
 Die Natale-/Pasqua-Boxen sind DB-schwach (Karton-Aufpreis schluckt die Marge), aber Marketing-positiv: Mund-zu-Mund ("Ich hab dir was vom Goldoni mitgebracht") und Einsteiger-Geschenk für Nicht-Stammgäste. Erst ab Phase 2, wenn die Standard-Produkte laufen.
 

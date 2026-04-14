@@ -66,7 +66,7 @@ Cross-Ref: inconsistency #13 (Claims-Risiko Doc 08/09 ↔ Doc 14).
 |---|---|---|
 | Papiertragetasche mit Logo | 0,40–0,80 € | **Standard** — bester ROI (hebt Preisbereitschaft um mehrere Euro) |
 | Kraft-Kartonbox + Füllung (Holzwolle/Papier) | 1,80 € (1,20 € Karton + 0,60 € Füllung) | Einstiegs-Geschenkebox Sugo+Nudeln (→ [Konzept](../plans/54-geschenkebox-konzept.md)) |
-| Premium-Geschenkkarton + Bauchbinde + Karte + Schleife | ~4,10 € | Premium-Variante 22,90 € (Weihnachten/Ostern) |
+| Premium-Geschenkkarton + Füllung + Bauchbinde + Karte + Schleife | ~3,70 € | Premium-Variante 22,90 € (Weihnachten/Ostern); Aufbau: 2,20 € Geschenkkarton + 0,60 € Füllung + 0,40 € Bauchbinde + 0,50 € Karte/Schleife |
 | Nackter Vakuumbeutel | 0 € | **Niemals** |
 
 ### Wolt/Uber-Lieferung (D-13)
