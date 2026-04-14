@@ -312,6 +312,8 @@ Vollständige steuerliche Behandlung: [Doc 15 v2](15%20–%20Steuerliche%20Behan
 
 **Selbst im Worst Case bleibt das operative Ergebnis positiv.** Das Geschäft kippt erst bei struktureller Nachfrage unter 15 Stk/Woche — das wäre ein fundamentales Markt-Problem, kein Kosten-Problem.
 
+> **Vertiefung:** Die ausgebaute Break-Even-Matrix mit Absatz-Szenarien 15–70 Stk/Woche, Kombi-Worst-Case (39 Monate Amortisation) und 6 Go/No-Go-Checkpoints bis Q1 2027 liegt in [Sensitivity-Analyse](../plans/52-sensitivity-analyse.md) (Backlog #52). Empfohlener Einsatz: monatliches Pulse-Check während der Rollout-Phase, um früh zu erkennen, ob die Absatz-Linie Richtung 15-Stk-Kipppunkt oder Richtung 50-Stk-Baseline läuft.
+
 ### Top-5-Risiken
 
 | # | Risiko | Eintritts-Wahrscheinlichkeit | Kosten-Effekt | Gegenmaßnahme |

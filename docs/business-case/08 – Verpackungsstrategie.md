@@ -65,8 +65,8 @@ Cross-Ref: inconsistency #13 (Claims-Risiko Doc 08/09 ↔ Doc 14).
 | Option | Kosten | Empfehlung |
 |---|---|---|
 | Papiertragetasche mit Logo | 0,40–0,80 € | **Standard** — bester ROI (hebt Preisbereitschaft um mehrere Euro) |
-| Kraft-Kartonbox | 0,60–1,20 € | Für Geschenkeboxen (SP-20) |
-| Geschenkkarton (saisonal) | 1,50–2,50 € | Weihnachten/Ostern |
+| Kraft-Kartonbox + Füllung (Holzwolle/Papier) | 1,80 € (1,20 € Karton + 0,60 € Füllung) | Einstiegs-Geschenkebox Sugo+Nudeln (→ [Konzept](../plans/54-geschenkebox-konzept.md)) |
+| Premium-Geschenkkarton + Bauchbinde + Karte + Schleife | ~4,10 € | Premium-Variante 22,90 € (Weihnachten/Ostern) |
 | Nackter Vakuumbeutel | 0 € | **Niemals** |
 
 ### Wolt/Uber-Lieferung (D-13)
@@ -87,10 +87,10 @@ Bei Plattform-Lieferung gibt es keine Papiertragetasche — der Beutel geht in d
 | Etikett (Eigendruck) | 0,08 € | 0,08 € | 0,08 € |
 | Papiertragetasche | 0,60 € | — | — |
 | Karton-Einlage | — | 0,12 € | — |
-| Kraft-Kartonbox | — | — | 0,80 € |
-| **Gesamt** | **0,88 €** | **0,40 €** | **1,08 €** |
+| Kraft-Kartonbox + Füllung | — | — | 1,80 € |
+| **Gesamt** | **0,88 €** | **0,40 €** | **2,08 €** |
 
-Bei 15 € VK: 6 % Packaging-Kosten (Abholung), 3 % (Lieferung), 7 % (Geschenkebox) — alles im Rahmen für Premium.
+Bei 15 € VK: 6 % Packaging-Kosten (Abholung), 3 % (Lieferung). Geschenkebox 2,08 € bei 19,90 € VK = ~10 % — bewusst hoher Verpackungsanteil, weil die Präsentation Teil des Produkts ist (DB-Rechnung in [Konzept #54](../plans/54-geschenkebox-konzept.md)).
 
 ## Produktpräsentation im Restaurant
 

@@ -43,11 +43,12 @@ Die 5 Produkte sind nicht gleichwertig im Marketing:
 
 | Box | Inhalt | VK (Schätzung) | Besonderheit |
 |---|---|---|---|
-| Sugo + Nudeln | 2× Sugo (350g) + 500g Rummo-Pasta | ~18–20 € | Kein Koch-Aufwand für Nudeln, Cross-Selling, LMIV: separate Etiketten (Nudeln = Handelsware) |
+| Sugo + Nudeln (Einstieg) | 2× Sugo (350g) + 500g Rummo-Pasta + Kraft-Kartonbox mit Bauchbinde | **19,90 €** | DB netto ~8,15 € (43,8 %), ganzjährig, Rummo-Format noch offen (→ SP-20b) |
+| Sugo + Nudeln (Premium) | wie oben + Geschenkkarton + Karte + Schleife | **22,90 €** | DB netto ~8,65 € (40,4 %), Weihnachten/Ostern/besondere Anlässe |
 | Natale-Box | Lasagne + Sugo + Parmigiana | ~28–30 € | Saisonal (Weihnachten), Geschenkkarton |
 | Stagionale | 3 Produkte nach Saison | ~25–28 € | Rotierend, erzeugt Wiederholungskauf |
 
-**LMIV-Hinweis:** Trockennudeln als Handelsware (nicht Eigenproduktion) haben ein anderes Haftungsprofil — Goldoni ist Händler, nicht Hersteller. Separate Etiketten pro Komponente sind einfacher als ein Gesamt-Etikett. Cross-Ref: inconsistency #16.
+**LMIV-Hinweis:** Trockennudeln als Handelsware (nicht Eigenproduktion) haben ein anderes Haftungsprofil — Goldoni ist Händler, nicht Hersteller. Separate Etiketten pro Komponente (Warenzusammenstellung, keine konsolidierte Kennzeichnung). Vollständige Ausarbeitung in [Geschenkebox-Konzept](../plans/54-geschenkebox-konzept.md) (Backlog #54 done, Inconsistency #16 aufgelöst). Launch ab Monat 4 des Retail-Rollouts.
 
 ## Phase 2: Erweiterung (nach 6–12 Monaten stabilem Phase-1-Betrieb)
 

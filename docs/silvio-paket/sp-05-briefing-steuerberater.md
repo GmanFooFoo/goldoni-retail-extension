@@ -2,7 +2,7 @@
 
 **SP-Eintrag:** [SP-05 in `offene-fragen.md`](offene-fragen.md#block-2--steuerberater--kasse)
 **Gespeist aus:** [Doc-15-Findings](../findings/15-findings.md) F1, F5, F8, F10, F11
-**Stand Rework:** 2026-04-12 (Session 9, kalibriert auf Silvio-Voice, peer-to-peer, keine Paragraphen)
+**Stand Rework:** 2026-04-12 (Session 9, kalibriert auf Silvio-Voice, peer-to-peer, keine Paragraphen); 2026-04-14 (Session 17, Punkt 5 Geschenkebox-USt ergänzt aus Backlog #54)
 **Form:** Slide-Vorstufe plus Mail-Vorlage zum Kopieren.
 
 > **Hinweis interne Ebene:** Dieser Zettel liegt im Silvio-Paket, ist aber Rohstoff für die Slide-Session. Die Mail-Vorlage ist in Silvios Tonlage geschrieben, nicht als deutscher Geschäftsbrief. Quelle: Findings 1 aus `docs/findings/session-8-persona-deep-dive-findings.md` (Silvio im Chance-Modus) und Persona 99 Ton-Regeln. Die Steuerberater-Beziehung (Name, Sprache, Duzen/Siezen, Nähe) ist im Repo offen — siehe offene Punkte am Ende.
@@ -11,24 +11,25 @@
 
 ## Slide 1 — Worum es geht
 
-Dein Steuerberater muss vier Punkte kurz bestätigen, bevor du loslegst. Zwei Sätze pro Punkt reichen ihm. Danach ist der Steuer-Teil des Projekts geklärt.
+Dein Steuerberater muss fünf Punkte kurz bestätigen, bevor du loslegst. Zwei Sätze pro Punkt reichen ihm. Danach ist der Steuer-Teil des Projekts geklärt.
 
 Ich habe dir einen kurzen Mail-Text vorbereitet. Du kopierst, setzt den Namen ein, schickst, fertig.
 
 ---
 
-## Slide 2 — Die vier Punkte (kurze Version für dich)
+## Slide 2 — Die fünf Punkte (kurze Version für dich)
 
 1. **7 % auf Vakuum-Ware bestätigen.** Die 7 % stehen seit Januar 2026 im Gesetz, auch für das, was der Gast mitnimmt. Dein Steuerberater sagt dir nur noch, ob es für dich in der Form auch gilt.
 2. **Neuer Vakuumierer, wie abschreiben?** Er sagt dir, über wie viele Jahre das Gerät steuerlich verteilt wird und ob du die Mehrwertsteuer aus der Rechnung direkt zurückholen kannst.
 3. **Zweite Umsatz-Linie sauber trennen.** Damit in der Buchhaltung klar ist, was Restaurant-Umsatz und was Vakuum-Umsatz ist. Er sagt dir, wie das in deinem System angelegt wird.
 4. **Chargen, die entsorgt werden, wie buchen?** Bei den Haltbarkeits-Tests und später im Betrieb wird mal eine Charge nicht verkauft. Dafür gibt es eine saubere Buchung, er kennt die.
+5. **Geschenkebox mit Nudeln drin — welcher Steuersatz?** In der Box ist dein Sugo (Eigenproduktion) plus eine fertige Rummo-Nudelpackung, die du einkaufst und weiterverkaufst. Beides sind Lebensmittel mit 7 %. Du willst nur sichergestellt haben, dass die Box als Ganzes auch mit 7 % abgerechnet wird — und dass du die Vorsteuer auf die eingekauften Nudeln ziehen kannst. Hintergrund-Konzept liegt in Backlog #54, falls er's sehen will.
 
 ---
 
 ## Slide 3 — Die Mail zum Kopieren
 
-Die Mail ist kurz. Vier Fragen, vier Antworten zurück. Kein Termin nötig, kein Formular.
+Die Mail ist kurz. Fünf Fragen, fünf Antworten zurück. Kein Termin nötig, kein Formular.
 
 **Variante A — Du duzt deinen Steuerberater:**
 
@@ -38,12 +39,13 @@ Die Mail ist kurz. Vier Fragen, vier Antworten zurück. Kein Termin nötig, kein
 >
 > ich mache im Goldoni eine kleine Neuerung: zusätzlich zum Restaurant will ich vier Gerichte — Lasagne, Sugo, Ragù, Parmigiana — vakuumiert über die Theke verkaufen. Kleine Mengen, nur Abholung, kein Versand. Start voraussichtlich Herbst 2026.
 >
-> Vier Dinge will ich mit dir kurz klären, bevor ich loslege:
+> Fünf Dinge will ich mit dir kurz klären, bevor ich loslege:
 >
 > 1. 7 % Mehrwertsteuer auf die Vakuum-Ware — passt das so, wie das neue Gesetz es seit Januar sagt?
 > 2. Profi-Vakuumierer um die [Gerätepreis] € netto — wie schreibst du das ab, und ziehe ich die Vorsteuer direkt?
 > 3. Retail-Umsatz in der Buchhaltung getrennt vom Restaurant-Umsatz — wie legen wir das sauber an?
 > 4. Wenn mal eine Charge nicht verkauft wird und weg muss — wie buche ich den Verderb sauber?
+> 5. Geschenkebox mit meinem Sugo plus eingekaufter Rummo-Nudelpackung — Box wird mit 7 % verkauft, Vorsteuer auf die Nudeln ziehbar? Passt das so?
 >
 > Kurze Antwort per Mail reicht mir. Falls einer der Punkte nach einem Termin aussieht, sag Bescheid.
 >
@@ -58,12 +60,13 @@ Die Mail ist kurz. Vier Fragen, vier Antworten zurück. Kein Termin nötig, kein
 >
 > ich plane eine kleine Erweiterung im Goldoni: zusätzlich zum Restaurant will ich vakuumierte Gerichte (Lasagne, Sugo, Ragù, Parmigiana) über die Theke anbieten. Kleine Stückzahlen, nur Abholung, kein Versand. Start voraussichtlich Herbst 2026.
 >
-> Vier Punkte will ich mit Ihnen kurz klären:
+> Fünf Punkte will ich mit Ihnen kurz klären:
 >
 > 1. 7 % Mehrwertsteuer auf die Vakuum-Ware — passt das so, wie das neue Gesetz es seit Januar vorsieht?
 > 2. Profi-Vakuumierer um die [Gerätepreis] € netto — welche Abschreibungsdauer setzen Sie an, und kann ich die Vorsteuer direkt ziehen?
 > 3. Retail-Umsatz in der Buchhaltung getrennt vom Restaurant-Umsatz — wie legen wir das sauber an?
 > 4. Wenn eine Charge nicht verkauft wird und entsorgt werden muss — wie buche ich den Verderb korrekt?
+> 5. Geschenkebox mit meinem Sugo plus eingekaufter Rummo-Nudelpackung — Box mit 7 % verkauft, Vorsteuer auf die Nudeln ziehbar? Passt die Einordnung so?
 >
 > Eine kurze Antwort per Mail reicht mir. Falls einer der Punkte einen Termin braucht, sagen Sie einfach Bescheid.
 >
