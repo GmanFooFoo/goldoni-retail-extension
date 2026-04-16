@@ -114,6 +114,38 @@ Hypothetisch bei Start Mai 2026: Invest ~6.200 €, Ende 2026 kumuliert −3.100
 | 12.8.2026 | PPWR (Verpackung) | Konformitätserklärung Pflicht |
 | 9.12.2026 | ProdHaftG-Novelle | 25-Jahre-Haftung, Chargen-Doku als Beweismittel |
 
+## Visuelle Artefakte
+
+### Etikett-Mockups (Platzhalter, Session 18)
+
+Pillow-gerenderte PNGs, 80 × 120 mm bei 300 DPI, Goldoni-Farbschema. `[TBD-SP-XX]`-Marker zeigen, was noch auf Silvio-Input wartet.
+
+[![Etikett-Übersicht](docs/silvio-derivatives/labels/uebersicht.png)](docs/silvio-derivatives/labels/uebersicht.png)
+
+Einzel-Etiketten:
+
+- [Lasagne Classica](docs/silvio-derivatives/labels/lasagne-classica.png)
+- [Lasagne Verdure](docs/silvio-derivatives/labels/lasagne-verdure.png)
+- [Ragù alla Bolognese](docs/silvio-derivatives/labels/ragu-bolognese.png)
+- [Sugo al pomodoro](docs/silvio-derivatives/labels/sugo-pomodoro.png)
+- [Parmigiana di melanzane](docs/silvio-derivatives/labels/parmigiana.png)
+
+Generator: [`scripts/create-label-mockup.py`](scripts/create-label-mockup.py). Nach Änderungen an Inhalten: `python3 scripts/create-label-mockup.py`.
+
+### Silvio-Präsentation
+
+Silvio-facing Vorstellung des Retail-Konzepts. Authoritative Fassung mit manuellen Edits (Session 18):
+
+- [`goldoni-retail-ueberblick.pptx`](docs/silvio-derivatives/goldoni-retail-ueberblick.pptx) — 13-Slides-Überblick (Titel, Idee, Steuer/Förderung, Sortiment, Kosten, Szenarien, Rollout, Aktionen, Risiken, Closing)
+- [`goldoni-retail-pitch.pptx`](docs/silvio-derivatives/goldoni-retail-pitch.pptx) — knappere Pitch-Variante
+
+Content-Quellen (YAML, Single-Source-of-Truth):
+
+- [`slides-content.yaml`](docs/silvio-derivatives/slides-content.yaml) — Überblicks-Deck (neu Session 18: Geschenkebox-Slide 19,90 / 22,90 €)
+- [`pitch-content.yaml`](docs/silvio-derivatives/pitch-content.yaml) — Pitch-Variante
+
+Generator: [`scripts/create-slides.py`](scripts/create-slides.py). **Vorsicht:** überschreibt standardmäßig die authoritative PPTX. Für Preview-Läufe `--output …-preview.pptx` nutzen (`*-preview.pptx` ist in `.gitignore`).
+
 ## Working Rules
 
 Siehe [`CLAUDE.md`](CLAUDE.md) für das vollständige Projekt-Regelwerk (Review-Format, Session-Disziplin, Commit-Rhythmus, Pushback-Erwartung, MASCHIN-Tabellenformat). Kernpunkte:
