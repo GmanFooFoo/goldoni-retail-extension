@@ -78,6 +78,26 @@ slides:
     footer: "Keine Tiefkühl-Ware. Alles frisch vakuumiert, eine Woche haltbar im Kühlschrank.\nWie beim Metzger um die Ecke — nur aus deiner Küche."
 
   # ----------------------------------------------------------
+  - type: table-and-text
+    headline: "Und eine Extra-Idee"
+    subtitle: "Geschenkebox: dein Sugo + italienische Nudeln"
+    table:
+      - ["Variante", "Inhalt", "Preis", "Verdienst netto"]
+      - ["Einstieg", "Sugo 500g + Rummo 500g", "19,90 €", "ca. 7,40 € (40 %)"]
+      - ["Premium", "Sugo 500g + Rummo 500g + Kraft-Kartonbox", "22,90 €", "ca. 10,50 € (49 %)"]
+    lines:
+      - text: "Keine neue Produktion — nur eine zweite Art,"
+      - text: "deinen Sugo zu verkaufen. Rummo-Nudeln kommen zugekauft"
+      - text: "in Originalverpackung, mit eigenem Etikett."
+      - text: ""
+      - text: "Zielgruppe: Stammgäste, die etwas verschenken wollen,"
+        bold: true
+      - text: "Büros, Geburtstage, Weihnachten."
+        bold: true
+      - text: ""
+      - text: "Launch frühestens ab Monat 4, nach dem Testlauf mit den Einzelprodukten."
+
+  # ----------------------------------------------------------
   - type: table-and-sidebar
     headline: "Was es kostet"
     subtitle: "Gesamt-Investition: rund 6.000 €"
