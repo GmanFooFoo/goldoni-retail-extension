@@ -24,14 +24,13 @@ Zielkanal: **Abholung im Restaurant + Plattform-Lieferung** (Wolt/Uber Eats) inn
 | `docs/personas/` | 12 rollenbasierte Review-Personas als Analyse-Linsen (00 Silvio Übersetzungs-Schicht, 01 CFO, 02 Lebensmittelrecht, 03 Steuer, 04 Behördenkontrolleur, 05 Logistiker, 06 Gastronom, 07 Küchenchef, 08 Brand/Marketing, 09 Stammkundin, 10 Dr. Maldini Regulatorik-Scout, 11 Personal-Markt & Arbeitsrecht Retail). |
 | `docs/personas/assignments.md` | Matrix: welche Persona reviewt welches Doc. |
 | `docs/findings/decisions.md` | Entscheidungs-Log D-01 bis D-13. Grundlegend für Scope- und Ton-Fragen. Neu Session 11: D-11 (BAFA), D-12 (Vorbestellungen Phase 1), D-13 (Vertriebskanal Abholung + Wolt/Uber). |
-| `docs/findings/inconsistencies.md` | 17 Widersprüche, davon **14 aufgelöst** (Session 15: systematische Prüfung gegen v2-Rewrites + Doc 06 v2 + Namensbestätigung). **3 offen:** #2 (Launch-Mengen, Präzisierung), #16 (Geschenkebox LMIV), #17 (Öffnungszeiten). |
+| `docs/findings/inconsistencies.md` | 17 Widersprüche, davon **16 aufgelöst**. **1 offen:** #2 (Launch-Mengen, Präzisierung). #16 aufgelöst in Session 16 durch Geschenkebox-Konzept, #17 aufgelöst in Session 18 (Öffnungszeiten in Doc 01 v2 und Doc 10 v2 bereits auf 17–22). |
 | `docs/reviews/` | Persona-Reviews im Standard-Format. **Alle 20 Docs lead-reviewt.** Gate-Docs (03/04/05/14/15): Lead + Co fertig. Doc 02: Lead + 2 Co fertig. Session 13: 8 Lead-Reviews + 14 Tier-1-Co-Reviews. **45 Reviews gesamt.** |
 | `docs/findings/` | Konsolidierte Findings pro Doc. **20 Findings-Dateien:** 01 Übersicht (10), 02 Wirtschaftlichkeit (22), 03 Vetamt (16), 04 LMIV (23), 05 HACCP (28), 06 Mockups (12), 07 Preisgestaltung (17), 08 Verpackung (14), 09 Verkaufsstrategie (12), 10 Operative Umsetzung (24), 11 Lieferanten (11), 12 Investitionsplan (9), 13 Rollout (17), 14 Recht (25), 15 Steuer (16), 16 Risiken (17), 17 Wettbewerb (7), 18 Finanzierungsplan (8), 19 Sortiment (11), 20 Personal-Setup (9). Gesamt: **308 Findings**. |
-| `docs/silvio-paket/offene-fragen.md` | **Zentrales Artefakt für Silvio-Aktionen.** 24 Einträge SP-01 bis SP-24 in acht Blöcken. Neu Session 11: SP-22 (Metro-Preise), SP-23 (Nachfrage-Schätzung), SP-24 (Kartenpreise). SP-19 (Béchamel) bei Silvio seit 2026-04-12. |
-| `docs/plans/02-v2-plan.md` | v2-Plan Doc 02 — 10 Kapitel, Finding-zu-Kapitel-Matrix, 19 von 22 Findings im v2 auflösbar. |
-| `docs/plans/02-cashflow-projektion-2026.md` | Monats-P&L Mai–Dez 2026 (hypothetisch bei Start Mai). Invest ~6.200 €, operativ ab August positiv, Cashflow-Break-Even Mai/Juni 2027. |
-| `docs/plans/03-v2-plan.md` | v2-Plan-Skizze Doc 03. |
-| `docs/plans/rollout-plan.md` | Phase-1-Scope und Rollout-Reihenfolge. Wird in dieser Session ebenfalls auf Germans Arbeits-Level gezogen (Stufe 6 / 2b). |
+| `docs/silvio-paket/offene-fragen.md` | **Zentrales Artefakt für Silvio-Aktionen.** 26 Einträge SP-01 bis SP-26 in acht Blöcken. Neu Session 16: SP-25 (DEHOGA-BW-Mitgliedschaft), SP-26 (Produkthaftpflicht Handelsware Rummo). SP-19 (Béchamel) bei Silvio seit 2026-04-12. |
+| `docs/plans/` | v2-Pläne und Themen-Analysen. Doc-bezogen: `02-v2-plan.md`, `02-cashflow-projektion-2026.md`, `03-v2-plan.md`, `20-personal-setup-retail.md`, `21-foerdermittel.md`, `22-q4me-evaluation.md`, `22-software-tools.md`. Themen: `52-sensitivity-analyse.md` (Break-Even-Matrix 15–70 Stk/W, Go/No-Go-Checkpoints), `54-geschenkebox-konzept.md` (LMIV + Kalkulation, VK 19,90/22,90 €). Rollout-Plan: `rollout-plan.md`. |
+| `docs/silvio-derivatives/` | Silvio-facing Ableitungen. Persona-00-Gesamtüberblick (`gesamt-ueberblick.md`), Silvio-Paket-Hand-Outs (`silvio-paket-1-anrufe-und-termine.md`), YAML-getriebener PPTX-Generator (`slides-content.yaml`, `goldoni-retail-ueberblick.pptx`), Pitch-Variante (`pitch-content.yaml`, `goldoni-retail-pitch.pptx`). |
+| `scripts/` | Hilfs-Skripte. `create-slides.py` rendert PPTX aus YAML-Content (13 Slides, Goldoni-Farbschema). `create-label-mockup.py` rendert Etikett-Platzhalter-Mockups (80×120 mm, 300 DPI) für alle 5 Phase-1-Produkte als PNG nach `docs/silvio-derivatives/labels/`. |
 | `docs/glossary.md` | Fachbegriffe (HACCP, LMIV, CCP, Vakuum vs. Schutzgas, Schockfroster, Vetamt). Primär als Silvio-Hilfe gedacht, auch für Germans Cross-Reference nützlich. |
 | `docs/backlog/repo-backlog.md` | Status-Tabelle aller Arbeitspakete im MASCHIN-Format. |
 | `docs/session-handoff.md` | Wie Sessions gestartet und geschlossen werden, Feedback-Workflow über GitHub-Issues. |
@@ -67,7 +66,7 @@ Pipeline: **v1** (Original) → **Lead-Review** → **Co-Reviews** → **Finding
 | 03 | Veterinäramt Stuttgart | ✅ Lebensmittelrecht | ✅ Behörde + R9 | 16 (14 gelöst) | ✅ | — |
 | 04 | LMIV-Kennzeichnung | ✅ Lebensmittelrecht + R9 | ✅ Behörde, Küche | 23 (19 gelöst) | ✅ | SP-10 (Herkunftsdaten) |
 | 05 | HACCP-Erweiterung | ✅ Lebensmittelrecht | ✅ Behörde, Küche, Logistik + R9 | 28 (24 gelöst) | ✅ | — |
-| 06 | Etikett-Spezifikation (ex Mockups) | ✅ Jana | ✅ Lebensmittelrecht | 12 (11 gelöst) | ✅ | Visueller Entwurf wartet auf SP-09/11/19 |
+| 06 | Etikett-Spezifikation (ex Mockups) | ✅ Jana | ✅ Lebensmittelrecht | 12 (11 gelöst) | ✅ | Platzhalter-Mockup (5 PNG) in `docs/silvio-derivatives/labels/`. Druckfertiger Entwurf wartet weiter auf SP-09/10/11/19 |
 | 07 | Preisgestaltung | ✅ CFO | 🔲 | 17 | ✅ | Margen-Tabelle + 2 Preisschienen |
 | 08 | Verpackungsstrategie | ✅ Jana | ✅ Pietro, Bruno | 14 (14 gelöst) | ✅ | — |
 | 09 | Verkaufsstrategie | ✅ Jana | 🔲 | 12 | ✅ | 3-Stufen-Kanal-Modell |
@@ -85,20 +84,23 @@ Pipeline: **v1** (Original) → **Lead-Review** → **Co-Reviews** → **Finding
 
 **Legende:** ✅ erledigt, 🔲 offen, R9 = Rule-9-Regulatorik-Nachtrag
 
-**Aggregate:** **20/20 Docs lead-reviewt, 20/20 auf v2.** 308 Findings, davon ~260 in v2-Rewrites adressiert. 45 Reviews (31 Lead + 14 Tier-1-Co). 14/17 Inconsistencies aufgelöst, 3 offen.
+**Aggregate:** **20/20 Docs lead-reviewt, 20/20 auf v2.** 308 Findings, davon ~260 in v2-Rewrites adressiert. 45 Reviews (31 Lead + 14 Tier-1-Co). 16/17 Inconsistencies aufgelöst, 1 offen (#2).
 
 ### Silvio-Paket
 
-24 Einträge (SP-01 bis SP-24) in acht Blöcken. Gate-kritisch offen:
+26 Einträge (SP-01 bis SP-26) in acht Blöcken. Gate-kritisch offen:
 
 | SP | Thema | Status | Blockiert |
 |---|---|---|---|
 | SP-09 | Vollständige Anschrift (Hausnr. + PLZ) | Offen | Doc 06 Etikett druckfertig |
 | SP-11 | Labor-Nährwertanalyse (400–750 €) | Offen | Doc 06 Nährwerttabelle |
 | SP-19 | Rezeptur (ohne Béchamel, Gramm-Angaben) | Bei Silvio (WhatsApp 12.04.) | Doc 02/04/05/06 |
+| SP-20 | Geschenkebox OK + Rummo-Sorte | Offen (Konzept bereit) | Doc 07/19, Launch-Plan |
 | SP-22 | Metro-/Lieferanten-Preise | Offen | Doc 02/07/11 [E]-Marker |
 | SP-23 | Nachfrage-Schätzung | Offen | Doc 02 Absatz-Szenarien |
 | SP-24 | Aktuelle Kartenpreise | Offen | Doc 07 Preisanker |
+| SP-25 | DEHOGA-BW-Mitgliedschaft | Offen | Q4Me-Preis in Doc 22, Cashflow |
+| SP-26 | Produkthaftpflicht Handelsware Rummo | Offen | Geschenkebox-Launch |
 
 ### Cashflow-Projektion
 

@@ -129,13 +129,18 @@ Die echte Nummer kommt vom Vetamt Stuttgart nach der Betriebsregistrierung (Roll
 
 ## Visuelles Mockup
 
-**Kein visueller Etikett-Entwurf in diesem Dokument.** Ein druckfähiges Design braucht:
+**Platzhalter-Mockup vorhanden** (Session 18, 2026-04-17). Rendering aus `scripts/create-label-mockup.py` (Pillow), Format 80 × 120 mm bei 300 DPI. Alle noch offenen Werte sind als `[TBD-SP-XX]` im Bild markiert, damit sofort sichtbar ist, was auf Silvio-Input oder Labor/Vetamt wartet.
+
+- Einzel-Etiketten: [`docs/silvio-derivatives/labels/lasagne-classica.png`](../silvio-derivatives/labels/lasagne-classica.png), [`lasagne-verdure.png`](../silvio-derivatives/labels/lasagne-verdure.png), [`ragu-bolognese.png`](../silvio-derivatives/labels/ragu-bolognese.png), [`sugo-pomodoro.png`](../silvio-derivatives/labels/sugo-pomodoro.png), [`parmigiana.png`](../silvio-derivatives/labels/parmigiana.png)
+- Übersicht aller fünf: [`uebersicht.png`](../silvio-derivatives/labels/uebersicht.png)
+
+**Zweck:** Briefing für Grafiker, Referenz fürs Vetamt-Gespräch (dokumentiert LMIV-Compliance-Planung), visuelle Grundlage für Silvio-Feedback zum Design. **Nicht druckfertig.** Für den Druck weiterhin nötig:
 
 1. Silvios bestätigte Adresse (SP-09)
 2. Fixierte Rezepturen in Gramm (SP-19)
 3. Labor-Nährwerte (SP-11)
 4. Vetamt-Registrierungsnummer
-5. Design-Tool oder Grafiker
+5. Finales Design durch Grafiker (Fotos, Logo-Feinarbeit, Druckvorstufe)
 
 Dieses Dokument liefert die **vollständige inhaltliche Spezifikation** — alle Texte, Pflichtangaben und Layout-Zonen, die ein Grafiker oder Silvio selbst als Briefing für den Etikett-Entwurf verwenden kann.
 
