@@ -84,6 +84,12 @@ Die Silvio-Aktionen sind nach Kontext gruppiert, damit ein Gespräch/Telefonat m
 |---|---|---|---|---|---|
 | SP-21 | **BAFA-Antrag vor nächstem Beratertermin stellen:** Vor dem Steuerberater-Termin (SP-05) oder dem Anwalts-Termin (SP-15) den BAFA-Förderantrag online stellen. Reihenfolge zwingend: erst Antrag, dann Beratung. Prüfen, ob Silvios Steuerberater/Anwalt BAFA-registriert ist. Zuschuss: bis 50 % der Beratungskosten, max. 1.750 €. Programm läuft bis 31.12.2026. | Doc 21 Fördermittel | P1 | In Vorbereitung (German recherchiert BAFA-Berater-Status) | — |
 
+### Block 9 — Plattform-Verträge (Wolt Storefront)
+
+| # | Frage/Aktion | Quelle | Prio | Status | Ergebnis |
+|---|---|---|---|---|---|
+| SP-27 | **Vor Unterschrift des Wolt-Storefront-Vertrags zwei Dinge schriftlich klären:** (a) Wie hoch ist die **Servicegebühr**? Sie kommt *zusätzlich* zu den 3,5 % (Abholung) / 16 % (Wolt-Lieferung) und steht nicht im Vertrag — sie entscheidet die echte Marge. (b) Läuft die Storefront auf dem **bestehenden Tablet**, oder verlangt Wolt ein zweites Gerät? Falls zweites Gerät → kostenloser Ausstieg in der Testphase. Der Vertrag ist noch ungezeichnet — jetzt ist der Hebel. **Hand-Out:** [`sp-27-wolt-storefront-vertrag.md`](sp-27-wolt-storefront-vertrag.md). | findings/wolt-storefront-vertrag.md | P1 | Offen | — |
+
 ## Workflow
 
 **Eingang (Silvio → German → Repo):**
